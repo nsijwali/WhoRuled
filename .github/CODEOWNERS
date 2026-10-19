@@ -1,0 +1,12 @@
+# Protected paths (ADR-019): the owner must look at changes here.
+# The enforcement is the ruleset on main and the signed-review check, not this file alone.
+* @nsijwali
+/CLAUDE.md @nsijwali
+/.claude/ @nsijwali
+/.github/ @nsijwali
+/package.json @nsijwali
+/package-lock.json @nsijwali
+/pipeline/ @nsijwali
+/src/data/ @nsijwali
+/data/years.json @nsijwali
+/data/borders-gpl/ @nsijwali
