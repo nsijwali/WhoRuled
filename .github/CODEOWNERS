@@ -1,0 +1,9 @@
+# Protected paths (ADR-019): changes here need the owner's review.
+# With branch protection's "Require review from Code Owners" on, the agent cannot merge them.
+* @nsijwali
+/CLAUDE.md @nsijwali
+/.claude/ @nsijwali
+/.github/ @nsijwali
+/data/years.json @nsijwali
+/data/borders-gpl/ @nsijwali
+/pipeline/ @nsijwali
