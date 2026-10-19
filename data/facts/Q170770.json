@@ -1,0 +1,28 @@
+{
+  "qid": "Q170770",
+  "name": "Grand Duchy of Moscow",
+  "summary": "Grand Duchy of Moscow as drawn in the 1492 border data.",
+  "rulers": [
+    {
+      "name": "Ivan III",
+      "title": "grand prince",
+      "from": 1462,
+      "to": 1505,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Ivan_III_of_Russia",
+        "quote": "was Grand Prince of Moscow and all Russia from 1462 until his death in 1505"
+      }
+    }
+  ],
+  "events": [
+    {
+      "year": 1480,
+      "kind": "other",
+      "summary": "Standoff on the Ugra River, traditionally marked as the end of Tatar rule over Russia.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Ivan_III_of_Russia",
+        "quote": "it is marked as the end of the \"Tatar yoke\" over Russia"
+      }
+    }
+  ]
+}

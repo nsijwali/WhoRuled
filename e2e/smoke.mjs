@@ -33,6 +33,7 @@ await page.locator('.map-side input').fill('france');
 await page.locator('.state-list button').first().click();
 await page.waitForTimeout(300);
 const name = await page.locator('.detail h2').textContent();
+await page.locator('.detail', { hasText: 'Charles VIII' }).waitFor({ timeout: 3000 }).catch(() => problems.push('curated facts for France (Charles VIII) did not appear'));
 if (process.argv[3]) await page.screenshot({ path: process.argv[3] });
 // year slider: move to the last snapshot and expect a different map and label
 await page.locator('#year-range').fill('3');

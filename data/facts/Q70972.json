@@ -1,0 +1,28 @@
+{
+  "qid": "Q70972",
+  "name": "France",
+  "summary": "Kingdom of France as drawn in the 1492 border data.",
+  "rulers": [
+    {
+      "name": "Charles VIII",
+      "title": "king",
+      "from": 1483,
+      "to": 1498,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Charles_VIII_of_France",
+        "quote": "was King of France from 1483 to his death in 1498"
+      }
+    }
+  ],
+  "events": [
+    {
+      "year": 1494,
+      "kind": "invasion",
+      "summary": "Charles VIII's invasion of Italy in September 1494.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Charles_VIII_of_France",
+        "quote": "Charles invaded Italy with 25,000 men (including 8,000 Swiss mercenaries) in September 1494"
+      }
+    }
+  ]
+}

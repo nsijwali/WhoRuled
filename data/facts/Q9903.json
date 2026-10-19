@@ -1,0 +1,28 @@
+{
+  "qid": "Q9903",
+  "name": "Ming Empire",
+  "summary": "Ming Empire as drawn in the 1492 border data.",
+  "rulers": [
+    {
+      "name": "Hongzhi Emperor",
+      "title": "emperor",
+      "from": 1487,
+      "to": 1505,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Hongzhi_Emperor",
+        "quote": "was the tenth emperor of the Ming dynasty of China, reigning from 1487 to 1505"
+      }
+    }
+  ],
+  "events": [
+    {
+      "year": 1495,
+      "kind": "other",
+      "summary": "Expedition to Hami, the only major military campaign of the Hongzhi reign per the cited article.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Hongzhi_Emperor",
+        "quote": "the only major military campaign during his reign being the expedition to Hami in 1495"
+      }
+    }
+  ]
+}

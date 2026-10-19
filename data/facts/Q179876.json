@@ -1,0 +1,28 @@
+{
+  "qid": "Q179876",
+  "name": "England",
+  "summary": "Kingdom of England as drawn in the 1492 border data.",
+  "rulers": [
+    {
+      "name": "Henry VII",
+      "title": "king",
+      "from": 1485,
+      "to": 1509,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Henry_VII_of_England",
+        "quote": "Henry reigned for nearly 24 years and was peacefully succeeded by his son, Henry VIII"
+      }
+    }
+  ],
+  "events": [
+    {
+      "year": 1485,
+      "kind": "other",
+      "summary": "Battle of Bosworth Field: Henry's Lancastrian forces defeated Richard III's Yorkist army.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Henry_VII_of_England",
+        "quote": "Henry's Lancastrian forces decisively defeated Richard's Yorkist army at the Battle of Bosworth Field on 22 August 1485"
+      }
+    }
+  ]
+}

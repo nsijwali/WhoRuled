@@ -1,0 +1,28 @@
+{
+  "qid": "Q12560",
+  "name": "Ottoman Empire",
+  "summary": "Ottoman Empire as drawn in the 1492 border data.",
+  "rulers": [
+    {
+      "name": "Bayezid II",
+      "title": "sultan",
+      "from": 1481,
+      "to": 1512,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Bayezid_II",
+        "quote": "the sultan of the Ottoman Empire from 1481 to 1512"
+      }
+    }
+  ],
+  "events": [
+    {
+      "year": 1497,
+      "kind": "attack",
+      "summary": "War with Poland; the cited article reports a decisive Ottoman victory in 1497.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Bayezid_II",
+        "quote": "In 1497, he went to war with Poland and decisively defeated the 80,000 strong Polish army"
+      }
+    }
+  ]
+}

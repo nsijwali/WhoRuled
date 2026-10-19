@@ -9,7 +9,8 @@
     "exactOptionalPropertyTypes": true,
     "skipLibCheck": true,
     "noEmit": true,
+    "allowImportingTsExtensions": true,
     "types": ["node"]
   },
-  "include": ["./**/*.ts", "../tests/**/*.ts"]
+  "include": ["./**/*.ts", "../tests/**/*.ts", "../src/data/schema.ts"]
 }
