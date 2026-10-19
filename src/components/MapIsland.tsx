@@ -4,7 +4,9 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { CanvasMap } from '../map/CanvasMap';
 import { HALF_WORLD, baseScale, viewForBbox } from '../map/geometry';
 import { formatYear } from '../map/format';
+import { loadFactsIndex, loadPolity, type FactsIndex } from '../map/loadFacts';
 import { loadBorders, loadYears } from '../map/loadGeo';
+import type { Polity } from '../data/schema';
 import type { BorderFeature, ViewTransform } from '../map/types';
 
 const MAX_ZOOM = 64;
@@ -21,6 +23,14 @@ export default function MapIsland({ dataBase = '/data/' }: { dataBase?: string }
   const [years, setYears] = useState<number[]>([]);
   const [year, setYear] = useState<number | null>(null);
   const [state, setState] = useState<LoadState>({ status: 'loading' });
+  const [factsIndex, setFactsIndex] = useState<FactsIndex>({});
+
+  useEffect(() => {
+    // Facts are optional: the map works without them.
+    loadFactsIndex(dataBase)
+      .then(setFactsIndex)
+      .catch(() => setFactsIndex({}));
+  }, [dataBase]);
 
   useEffect(() => {
     let cancelled = false;
@@ -56,7 +66,7 @@ export default function MapIsland({ dataBase = '/data/' }: { dataBase?: string }
   return (
     <div className="map-shell">
       <YearSlider years={years} year={year} onChange={setYear} />
-      <MapView features={state.features} year={year} />
+      <MapView features={state.features} year={year} factsIndex={factsIndex} dataBase={dataBase} />
     </div>
   );
 }
@@ -84,7 +94,17 @@ function YearSlider({ years, year, onChange }: { years: number[]; year: number; 
   );
 }
 
-function MapView({ features, year }: { features: BorderFeature[]; year: number }) {
+function MapView({
+  features,
+  year,
+  factsIndex,
+  dataBase,
+}: {
+  features: BorderFeature[];
+  year: number;
+  factsIndex: FactsIndex;
+  dataBase: string;
+}) {
   const containerRef = useRef<HTMLDivElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const rendererRef = useRef<CanvasMap | null>(null);
@@ -94,6 +114,20 @@ function MapView({ features, year }: { features: BorderFeature[]; year: number }
   const frameRef = useRef(0);
   const [selected, setSelected] = useState<BorderFeature | null>(null);
   const [query, setQuery] = useState('');
+  const [polity, setPolity] = useState<Polity | null>(null);
+
+  const qid = selected?.name ? factsIndex[String(year)]?.[selected.name] : undefined;
+  useEffect(() => {
+    setPolity(null);
+    if (!qid) return;
+    let cancelled = false;
+    loadPolity(qid, dataBase)
+      .then((p) => !cancelled && setPolity(p))
+      .catch(() => undefined); // fall back to the plain description
+    return () => {
+      cancelled = true;
+    };
+  }, [qid, dataBase]);
 
   const schedule = useCallback(() => {
     if (frameRef.current) return;
@@ -223,11 +257,15 @@ function MapView({ features, year }: { features: BorderFeature[]; year: number }
           {selected ? (
             <>
               <h2>{selected.name ?? 'Unnamed territory'}</h2>
-              <p>
-                {selected.name
-                  ? `Shown as it appeared in ${formatYear(year)}. Ruler, army and events have not been curated yet.`
-                  : 'The source data gives no name for this area (unclaimed or unattributed land).'}
-              </p>
+              {polity ? (
+                <PolityFacts polity={polity} year={year} />
+              ) : (
+                <p>
+                  {selected.name
+                    ? `Shown as it appeared in ${formatYear(year)}. Ruler, army and events have not been curated yet.`
+                    : 'The source data gives no name for this area (unclaimed or unattributed land).'}
+                </p>
+              )}
             </>
           ) : (
             <p>Select a state on the map or from the list.</p>
@@ -235,5 +273,54 @@ function MapView({ features, year }: { features: BorderFeature[]; year: number }
         </section>
       </aside>
     </div>
+  );
+}
+
+function PolityFacts({ polity, year }: { polity: Polity; year: number }) {
+  const rulers = polity.rulers.filter((r) => r.from <= year && (r.to === null || r.to >= year));
+  return (
+    <>
+      <p>{polity.summary}</p>
+      {rulers.length > 0 && (
+        <>
+          <h3>Ruler in {formatYear(year)}</h3>
+          <ul>
+            {rulers.map((r) => (
+              <li key={`${r.name}-${r.from}`}>
+                {r.name}, {r.title} ({formatYear(r.from)}–{r.to === null ? 'present' : formatYear(r.to)}){' '}
+                <a href={r.source.url} target="_blank" rel="noopener noreferrer">
+                  source
+                </a>
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
+      {polity.armySize && (
+        <p>
+          Army: about {polity.armySize.value.toLocaleString('en')} ({formatYear(polity.armySize.year)}, {polity.armySize.confidence}{' '}
+          confidence){' '}
+          <a href={polity.armySize.source.url} target="_blank" rel="noopener noreferrer">
+            source
+          </a>
+        </p>
+      )}
+      {polity.events.length > 0 && (
+        <>
+          <h3>Events</h3>
+          <ul>
+            {polity.events.map((e) => (
+              <li key={`${e.year}-${e.summary}`}>
+                {formatYear(e.year)}: {e.summary}{' '}
+                <a href={e.source.url} target="_blank" rel="noopener noreferrer">
+                  source
+                </a>
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
+      {polity.review === undefined && <p className="unreviewed">Not yet reviewed by a human.</p>}
+    </>
   );
 }
