@@ -146,11 +146,21 @@ export function writeGeo(outDir: string, year: number, result: GeoResult): strin
   return file;
 }
 
+/** Source file name for a snapshot year; BC years use the upstream `bc<N>` spelling. */
+export function snapshotFile(year: number): string {
+  return `data/borders-gpl/world_${year < 0 ? `bc${-year}` : year}.geojson`;
+}
+
 if (process.argv[1] && import.meta.url === new URL(`file://${process.argv[1]}`).href) {
-  const year = Number(process.argv[2] ?? 1492);
   const percent = Number(process.argv[3] ?? DEFAULT_OPTIONS.simplifyPercent);
-  const raw: unknown = JSON.parse(readFileSync(`data/borders-gpl/world_${year}.geojson`, 'utf8'));
-  const result = await buildGeo(raw, { ...DEFAULT_OPTIONS, simplifyPercent: percent });
-  const file = writeGeo('public/data', year, result);
-  console.log(JSON.stringify({ year, percent, file, ...result.stats }));
+  const years: number[] =
+    process.argv[2] !== undefined
+      ? [Number(process.argv[2])]
+      : (JSON.parse(readFileSync('data/years.json', 'utf8')) as number[]);
+  for (const year of years) {
+    const raw: unknown = JSON.parse(readFileSync(snapshotFile(year), 'utf8'));
+    const result = await buildGeo(raw, { ...DEFAULT_OPTIONS, simplifyPercent: percent });
+    const file = writeGeo('public/data', year, result);
+    console.log(JSON.stringify({ year, percent, file, ...result.stats }));
+  }
 }

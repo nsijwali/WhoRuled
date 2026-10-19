@@ -34,6 +34,10 @@ await page.locator('.state-list button').first().click();
 await page.waitForTimeout(300);
 const name = await page.locator('.detail h2').textContent();
 if (process.argv[3]) await page.screenshot({ path: process.argv[3] });
-console.log(JSON.stringify({ problems, mapClickSelected: heading > 0, listSelected: name }));
+// year slider: move to the last snapshot and expect a different map and label
+await page.locator('#year-range').fill('3');
+await page.waitForTimeout(500);
+const yearLabel = await page.locator('.year-slider output').textContent();
+console.log(JSON.stringify({ problems, yearLabel, mapClickSelected: heading > 0, listSelected: name }));
 await browser.close(); srv.close();
 if (problems.length) process.exit(1);

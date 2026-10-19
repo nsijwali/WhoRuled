@@ -1,0 +1,45 @@
+<title>WhoRuled</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* Layout: full-height app, map left, state list and detail panel right; stacks on phones. */
+:root {
+  --bg: #f6f4ef; --fg: #1d1a14; --muted: #6a6354; --line: #d8d2c4;
+  --panel: #fbfaf6; --accent: #b4472a; --sea: #cfe3ee;
+  --font: "Source Serif 4", Georgia, serif; --ui: "IBM Plex Sans", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #16140f; --fg: #ece7da; --muted: #a39b88; --line: #3a352a; --panel: #1d1a13; --accent: #e07a55; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #16140f; --fg: #ece7da; --muted: #a39b88; --line: #3a352a; --panel: #1d1a13; --accent: #e07a55; color-scheme: dark; }
+html, body { height: 100%; }
+body { background: var(--bg); color: var(--fg); font-family: var(--ui); font-size: 14px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 12px; box-sizing: border-box; display: flex; flex-direction: column; gap: 10px; }
+header { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+h1 { margin: 0; font-family: var(--font); font-size: 1.5rem; letter-spacing: 0.01em; }
+header p { margin: 0; color: var(--muted); }
+#root { flex: 1; min-height: 0; }
+.map-shell { display: flex; flex-direction: column; height: 100%; min-height: 0; }
+.year-slider { display: flex; align-items: center; gap: 12px; padding: 8px 12px; border-bottom: 1px solid #8884; }
+.year-slider input { flex: 1; min-width: 0; }
+.year-slider output { min-width: 5ch; font-variant-numeric: tabular-nums; font-weight: 700; text-align: right; }
+.map-layout { display: grid; grid-template-columns: minmax(0, 1fr) 19rem; flex: 1; min-height: 0; border: 1px solid var(--line); }
+.map-main { position: relative; min-width: 0; min-height: 0; background: var(--sea); }
+.map-main canvas { position: absolute; inset: 0; width: 100%; height: 100%; touch-action: none; cursor: grab; }
+.map-side { display: flex; flex-direction: column; gap: 8px; padding: 12px; min-height: 0; min-width: 0; background: var(--panel); border-left: 1px solid var(--line); }
+.map-side label { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; }
+.map-side input { display: block; width: 100%; box-sizing: border-box; margin-top: 4px; padding: 8px; font: inherit; color: var(--fg); background: var(--bg); border: 1px solid var(--line); }
+.state-list { flex: 1; min-height: 0; margin: 0; padding: 0; overflow: auto; list-style: none; }
+.state-list button { width: 100%; padding: 7px 4px; text-align: left; font: inherit; color: inherit; background: none; border: 0; border-bottom: 1px solid var(--line); cursor: pointer; }
+.state-list button:hover { background: var(--bg); }
+.state-list button[aria-pressed="true"] { font-weight: 700; color: var(--accent); }
+.detail { border-top: 2px solid var(--accent); padding-top: 8px; }
+.detail h2 { margin: 0 0 4px; font-family: var(--font); font-size: 1.15rem; }
+.detail p { margin: 0; color: var(--muted); line-height: 1.45; }
+button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+@media (max-width: 700px) { .map-layout { grid-template-columns: minmax(0, 1fr); grid-template-rows: 55% 45%; } .map-side { border-left: 0; border-top: 1px solid var(--line); } }
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&family=Source+Serif+4:wght@600&display=swap">
+<header><h1>WhoRuled</h1><p>Drag the year slider, pan, zoom and click a state.</p></header>
+<div id="root"></div>
+<script src="map.js"></script>
