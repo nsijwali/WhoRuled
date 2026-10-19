@@ -1,7 +1,7 @@
 import tseslint from 'typescript-eslint';
 
 export default tseslint.config(
-  { ignores: ['dist', '.astro', 'node_modules', 'public/data', 'spike', 'data'] },
+  { ignores: ['dist', '.astro', 'node_modules', 'public/data', 'spike', 'data', 'preview/out'] },
   ...tseslint.configs.recommended,
   {
     rules: {
