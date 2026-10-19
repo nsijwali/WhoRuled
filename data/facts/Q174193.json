@@ -1,0 +1,28 @@
+{
+  "qid": "Q174193",
+  "name": "United Kingdom of Great Britain and Ireland",
+  "summary": "United Kingdom of Great Britain and Ireland as drawn in the 1914 border data.",
+  "rulers": [
+    {
+      "name": "George V",
+      "title": "king",
+      "from": 1910,
+      "to": 1936,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/George_V",
+        "quote": "was King of the United Kingdom and the British Dominions"
+      }
+    }
+  ],
+  "events": [
+    {
+      "year": 1914,
+      "kind": "other",
+      "summary": "George V holds a council to declare war with Germany, 4 August 1914, per his diary.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/George_V",
+        "quote": "I held a council at 10:45 to declare war with Germany."
+      }
+    }
+  ]
+}

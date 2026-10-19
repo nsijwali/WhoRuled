@@ -1,0 +1,28 @@
+{
+  "qid": "Q282428",
+  "name": "Mamluke Sultanate",
+  "summary": "Mamluk Sultanate as drawn in the 1492 border data.",
+  "rulers": [
+    {
+      "name": "Qaitbay",
+      "title": "sultan",
+      "from": 1468,
+      "to": 1496,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Qaitbay",
+        "quote": "He was made Sultan on 31 January."
+      }
+    }
+  ],
+  "events": [
+    {
+      "year": 1485,
+      "kind": "attack",
+      "summary": "Ottoman armies begin campaigning on the Mamluk frontier (Ottoman-Mamluk War).",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Qaitbay",
+        "quote": "In 1485, Ottoman armies began to campaign on the Mamluk frontier"
+      }
+    }
+  ]
+}

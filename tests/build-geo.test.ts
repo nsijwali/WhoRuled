@@ -62,6 +62,13 @@ describe('buildGeo (1492)', () => {
     expect(maxY).toBeLessThanOrEqual(HALF_WORLD * 1.001);
   });
 
+  it('records the overlord only when it differs from the state itself', () => {
+    const khanate = fc.features.find((f) => f.properties.name === 'Crimean Khanate');
+    expect(khanate?.properties.overlord).toBe('Ottoman Empire');
+    const ottoman = fc.features.find((f) => f.properties.name === 'Ottoman Empire');
+    expect(ottoman?.properties.overlord).toBeNull();
+  });
+
   it('has y pointing down: Europe is above (smaller y than) South Africa', () => {
     const centroidY = (name: string): number => {
       const f = fc.features.find((x) => x.properties.name === name);

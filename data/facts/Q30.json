@@ -1,0 +1,28 @@
+{
+  "qid": "Q30",
+  "name": "United States",
+  "summary": "United States as drawn in the 1914 border data.",
+  "rulers": [
+    {
+      "name": "Woodrow Wilson",
+      "title": "president",
+      "from": 1913,
+      "to": 1921,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Woodrow_Wilson",
+        "quote": "was the 28th president of the United States, serving from 1913 to 1921"
+      }
+    }
+  ],
+  "events": [
+    {
+      "year": 1914,
+      "kind": "other",
+      "summary": "The United States declares neutrality at the outbreak of World War I.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Woodrow_Wilson",
+        "quote": "At the outbreak of World War I in 1914, the U.S. declared neutrality."
+      }
+    }
+  ]
+}

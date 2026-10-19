@@ -1,0 +1,18 @@
+{
+  "qid": "Q45670",
+  "name": "Portugal",
+  "summary": "Kingdom of Portugal as drawn in the 1492 border data.",
+  "rulers": [
+    {
+      "name": "John II",
+      "title": "king",
+      "from": 1481,
+      "to": 1495,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/John_II_of_Portugal",
+        "quote": "John was proclaimed King of Portugal and crowned at Sintra on 31 August."
+      }
+    }
+  ],
+  "events": []
+}

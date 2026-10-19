@@ -1,0 +1,28 @@
+{
+  "qid": "Q70802",
+  "name": "France",
+  "summary": "French Third Republic as drawn in the 1914 border data.",
+  "rulers": [
+    {
+      "name": "Raymond Poincaré",
+      "title": "president",
+      "from": 1913,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Raymond_Poincar%C3%A9",
+        "quote": "Poincaré won election as President of the Republic in 1913, in succession to Armand Fallières."
+      }
+    }
+  ],
+  "events": [
+    {
+      "year": 1914,
+      "kind": "other",
+      "summary": "A visit by Poincaré to St Petersburg to meet Tsar Nicholas II was planned for July 1914.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Raymond_Poincar%C3%A9",
+        "quote": "it had been announced that Poincaré would visit St. Petersburg in July 1914 to meet Tsar Nicholas II"
+      }
+    }
+  ]
+}

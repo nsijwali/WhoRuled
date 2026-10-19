@@ -6,6 +6,8 @@ export interface BorderFeature {
   readonly name: string | null;
   /** Source border precision (1-3) or null when the source has none. */
   readonly precision: number | null;
+  /** Sovereign from the border dataset's SUBJECTO field; null when the state is its own sovereign. */
+  readonly overlord: string | null;
   /** [minX, minY, maxX, maxY] in projected metres. */
   readonly bbox: readonly [number, number, number, number];
   readonly path: Path2D;

@@ -266,6 +266,7 @@ function MapView({
                     : 'The source data gives no name for this area (unclaimed or unattributed land).'}
                 </p>
               )}
+              <Hierarchy selected={selected} features={features} onChoose={chooseFromList} />
             </>
           ) : (
             <p>Select a state on the map or from the list.</p>
@@ -321,6 +322,60 @@ function PolityFacts({ polity, year }: { polity: Polity; year: number }) {
         </>
       )}
       {polity.review === undefined && <p className="unreviewed">Not yet reviewed by a human.</p>}
+    </>
+  );
+}
+
+const MAX_SUBJECTS = 12;
+
+/** Who this state answered to, and who answered to it, as recorded in the border dataset's SUBJECTO field. */
+function Hierarchy({
+  selected,
+  features,
+  onChoose,
+}: {
+  selected: BorderFeature;
+  features: BorderFeature[];
+  onChoose: (feature: BorderFeature) => void;
+}) {
+  const overlord = selected.overlord ? features.find((f) => f.name === selected.overlord) : undefined;
+  const subjects = selected.name
+    ? features.filter((f) => f.overlord === selected.name && f.fid !== selected.fid)
+    : [];
+  if (!selected.overlord && subjects.length === 0) return null;
+  const shown = subjects.slice(0, MAX_SUBJECTS);
+  return (
+    <>
+      <h3>Rule hierarchy</h3>
+      <ul>
+        {selected.overlord && (
+          <li>
+            Under the sovereignty of{' '}
+            {overlord ? (
+              <button type="button" className="link" onClick={() => onChoose(overlord)}>
+                {selected.overlord}
+              </button>
+            ) : (
+              selected.overlord
+            )}
+          </li>
+        )}
+        {shown.length > 0 && (
+          <li>
+            Sovereign over:{' '}
+            {shown.map((f, i) => (
+              <span key={f.fid}>
+                {i > 0 && ', '}
+                <button type="button" className="link" onClick={() => onChoose(f)}>
+                  {f.name}
+                </button>
+              </span>
+            ))}
+            {subjects.length > shown.length && ` and ${subjects.length - shown.length} more`}
+          </li>
+        )}
+      </ul>
+      <p className="unreviewed">From the border dataset, not yet curated or sourced.</p>
     </>
   );
 }

@@ -17,6 +17,7 @@ export const HALF_WORLD = 20037508.342789244;
 const SourceProperties = z.object({
   NAME: z.string().nullable(),
   BORDERPRECISION: z.number().nullable().optional(),
+  SUBJECTO: z.string().nullable().optional(),
 });
 
 const SourceCollection = z.object({
@@ -36,6 +37,8 @@ export interface GeoProperties {
   name: string | null;
   /** Source BORDERPRECISION (1 = approximate); null when absent. */
   precision: number | null;
+  /** Sovereign named by the source SUBJECTO field when it differs from the feature's own name; otherwise null. */
+  overlord: string | null;
 }
 
 export interface BuildOptions {
@@ -96,7 +99,12 @@ export async function buildGeo(
     const props = SourceProperties.passthrough().parse(f.properties);
     return {
       type: 'Feature',
-      properties: { fid, name: props.NAME, precision: props.BORDERPRECISION ?? null },
+      properties: {
+        fid,
+        name: props.NAME,
+        precision: props.BORDERPRECISION ?? null,
+        overlord: props.SUBJECTO && props.SUBJECTO !== props.NAME ? props.SUBJECTO : null,
+      },
       geometry: {
         type: 'MultiPolygon',
         // mapshaper writes single-part shapes as Polygon; normalise to MultiPolygon.

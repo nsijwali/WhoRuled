@@ -1,0 +1,28 @@
+{
+  "qid": "Q172579",
+  "name": "Kingdom of Italy",
+  "summary": "Kingdom of Italy as drawn in the 1914 border data.",
+  "rulers": [
+    {
+      "name": "Victor Emmanuel III",
+      "title": "king",
+      "from": 1900,
+      "to": 1946,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Victor_Emmanuel_III_of_Italy",
+        "quote": "was King of Italy from 29 July 1900 until his abdication on 9 May 1946"
+      }
+    }
+  ],
+  "events": [
+    {
+      "year": 1915,
+      "kind": "treaty",
+      "summary": "Italy signs the secret Treaty of London, committing to enter the war.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Victor_Emmanuel_III_of_Italy",
+        "quote": "In April 1915, Italy signed the secret Treaty of London committing itself to enter the war."
+      }
+    }
+  ]
+}

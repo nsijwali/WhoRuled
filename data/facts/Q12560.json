@@ -1,7 +1,7 @@
 {
   "qid": "Q12560",
   "name": "Ottoman Empire",
-  "summary": "Ottoman Empire as drawn in the 1492 border data.",
+  "summary": "Ottoman Empire as drawn in the border data.",
   "rulers": [
     {
       "name": "Bayezid II",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Bayezid_II",
         "quote": "the sultan of the Ottoman Empire from 1481 to 1512"
+      }
+    },
+    {
+      "name": "Mehmed V",
+      "title": "sultan",
+      "from": 1909,
+      "to": 1918,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Mehmed_V",
+        "quote": "was the penultimate sultan of the Ottoman Empire from 1909 to 1918"
       }
     }
   ],
@@ -22,6 +32,15 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Bayezid_II",
         "quote": "In 1497, he went to war with Poland and decisively defeated the 80,000 strong Polish army"
+      }
+    },
+    {
+      "year": 1914,
+      "kind": "other",
+      "summary": "The Ottoman Empire enters World War I in November; Mehmed V declares a jihad against the Allies.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Mehmed_V",
+        "quote": "Turkey entered World War I in November 1914, upon which Mehmed declared a jihad against the Allies"
       }
     }
   ]

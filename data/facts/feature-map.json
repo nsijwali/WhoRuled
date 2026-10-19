@@ -4,6 +4,21 @@
     "Grand Duchy of Moscow": "Q170770",
     "Ming Empire": "Q9903",
     "France": "Q70972",
-    "England": "Q179876"
+    "England": "Q179876",
+    "Portugal": "Q45670",
+    "Holy Roman Empire": "Q12548",
+    "Mamluke Sultanate": "Q282428",
+    "Venice": "Q4948"
+  },
+  "1914": {
+    "United Kingdom of Great Britain and Ireland": "Q174193",
+    "German Empire": "Q43287",
+    "Russian Empire": "Q34266",
+    "Austro-Hungarian Empire": "Q28513",
+    "Ottoman Empire": "Q12560",
+    "Empire of Japan": "Q188712",
+    "United States": "Q30",
+    "Kingdom of Italy": "Q172579",
+    "France": "Q70802"
   }
 }
