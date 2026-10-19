@@ -10,7 +10,10 @@
     "typecheck": "astro check && tsc --noEmit -p pipeline/tsconfig.json",
     "lint": "eslint .",
     "test": "vitest run",
-    "pipeline:geo": "tsx pipeline/build-geo.ts"
+    "pipeline:geo": "tsx pipeline/build-geo.ts",
+    "predev": "node scripts/clean-data.mjs && npm run pipeline:geo",
+    "prebuild": "node scripts/clean-data.mjs && npm run pipeline:geo",
+    "e2e": "node e2e/smoke.mjs"
   },
   "dependencies": {
     "@astrojs/check": "0.9.11",

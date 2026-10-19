@@ -36,6 +36,14 @@ describe('buildGeo (1492)', () => {
     expect(count).toBeGreaterThan(50_000);
   });
 
+  it('keeps unnamed features with a null name (consumers must handle them)', () => {
+    const unnamed = fc.features.filter((f) => f.properties.name === null);
+    expect(unnamed.length).toBeGreaterThan(0);
+    for (const f of fc.features) {
+      expect(f.properties.name === null || typeof f.properties.name === 'string').toBe(true);
+    }
+  });
+
   it('assigns unique numeric fids', () => {
     const fids = fc.features.map((f) => f.properties.fid);
     expect(new Set(fids).size).toBe(fids.length);
