@@ -38,6 +38,14 @@ function bboxOf(multi: MultiPolygon): [number, number, number, number] {
   return [minX, minY, maxX, maxY];
 }
 
+/** The snapshot years available in the manifest, ascending. */
+export async function loadYears(baseUrl = '/data/'): Promise<number[]> {
+  const manifest = Manifest.parse(await fetchJson(`${baseUrl}manifest.json`));
+  return Object.keys(manifest.geo)
+    .map(Number)
+    .sort((a, b) => a - b);
+}
+
 /** Loads the border snapshot for `year` and builds one cached Path2D per feature. */
 export async function loadBorders(year: number, baseUrl = '/data/'): Promise<BorderFeature[]> {
   const manifest = Manifest.parse(await fetchJson(`${baseUrl}manifest.json`));

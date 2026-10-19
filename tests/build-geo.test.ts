@@ -2,7 +2,7 @@ import { readFileSync } from 'node:fs';
 import { beforeAll, describe, expect, it } from 'vitest';
 import { feature } from 'topojson-client';
 import type { FeatureCollection, MultiPolygon, Position } from 'geojson';
-import { HALF_WORLD, buildGeo, type GeoProperties, type GeoResult } from '../pipeline/build-geo.js';
+import { HALF_WORLD, buildGeo, snapshotFile, type GeoProperties, type GeoResult } from '../pipeline/build-geo.js';
 
 let result: GeoResult;
 let fc: FeatureCollection<MultiPolygon, GeoProperties>;
@@ -83,5 +83,12 @@ describe('buildGeo (1492)', () => {
 
   it('rejects input that is not a FeatureCollection', async () => {
     await expect(buildGeo({ type: 'Point' })).rejects.toThrow();
+  });
+});
+
+describe('snapshotFile', () => {
+  it('uses the upstream bc spelling for BC years', () => {
+    expect(snapshotFile(-500)).toBe('data/borders-gpl/world_bc500.geojson');
+    expect(snapshotFile(1914)).toBe('data/borders-gpl/world_1914.geojson');
   });
 });

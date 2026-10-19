@@ -5,5 +5,6 @@ cd "$(dirname "$0")/.."
 npm run pipeline:geo >/dev/null
 mkdir -p preview/out/data
 cp -r public/data/. preview/out/data/
+cp preview/index.html preview/out/index.html
 node_modules/.bin/esbuild preview/entry.tsx --bundle --minify --format=iife --target=es2022 \
   --jsx=automatic --define:process.env.NODE_ENV=\"production\" --outfile=preview/out/map.js

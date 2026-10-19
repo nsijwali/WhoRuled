@@ -3,10 +3,10 @@ import { zoom, zoomIdentity, type ZoomBehavior } from 'd3-zoom';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { CanvasMap } from '../map/CanvasMap';
 import { HALF_WORLD, baseScale, viewForBbox } from '../map/geometry';
-import { loadBorders } from '../map/loadGeo';
+import { formatYear } from '../map/format';
+import { loadBorders, loadYears } from '../map/loadGeo';
 import type { BorderFeature, ViewTransform } from '../map/types';
 
-const YEAR = 1492;
 const MAX_ZOOM = 64;
 const MAX_LIST = 50;
 
@@ -15,12 +15,21 @@ type LoadState =
   | { status: 'error'; message: string }
   | { status: 'ready'; features: BorderFeature[] };
 
+const DEFAULT_YEAR = 1492;
+
 export default function MapIsland({ dataBase = '/data/' }: { dataBase?: string }) {
+  const [years, setYears] = useState<number[]>([]);
+  const [year, setYear] = useState<number | null>(null);
   const [state, setState] = useState<LoadState>({ status: 'loading' });
+
   useEffect(() => {
     let cancelled = false;
-    loadBorders(YEAR, dataBase)
-      .then((features) => !cancelled && setState({ status: 'ready', features }))
+    loadYears(dataBase)
+      .then((list) => {
+        if (cancelled) return;
+        setYears(list);
+        setYear(list.includes(DEFAULT_YEAR) ? DEFAULT_YEAR : (list[0] ?? null));
+      })
       .catch((e: unknown) => {
         if (!cancelled) setState({ status: 'error', message: e instanceof Error ? e.message : 'Unknown error' });
       });
@@ -29,12 +38,53 @@ export default function MapIsland({ dataBase = '/data/' }: { dataBase?: string }
     };
   }, [dataBase]);
 
-  if (state.status === 'loading') return <p role="status">Loading map…</p>;
+  useEffect(() => {
+    if (year === null) return;
+    let cancelled = false;
+    loadBorders(year, dataBase)
+      .then((features) => !cancelled && setState({ status: 'ready', features }))
+      .catch((e: unknown) => {
+        if (!cancelled) setState({ status: 'error', message: e instanceof Error ? e.message : 'Unknown error' });
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [year, dataBase]);
+
   if (state.status === 'error') return <p role="alert">Could not load the map: {state.message}</p>;
-  return <MapView features={state.features} />;
+  if (state.status === 'loading' || year === null) return <p role="status">Loading map…</p>;
+  return (
+    <div className="map-shell">
+      <YearSlider years={years} year={year} onChange={setYear} />
+      <MapView features={state.features} year={year} />
+    </div>
+  );
 }
 
-function MapView({ features }: { features: BorderFeature[] }) {
+function YearSlider({ years, year, onChange }: { years: number[]; year: number; onChange: (y: number) => void }) {
+  const index = Math.max(0, years.indexOf(year));
+  return (
+    <div className="year-slider">
+      <label htmlFor="year-range">Year</label>
+      <input
+        id="year-range"
+        type="range"
+        min={0}
+        max={years.length - 1}
+        step={1}
+        value={index}
+        aria-valuetext={formatYear(year)}
+        onChange={(e) => {
+          const next = years[Number(e.target.value)];
+          if (next !== undefined) onChange(next);
+        }}
+      />
+      <output htmlFor="year-range">{formatYear(year)}</output>
+    </div>
+  );
+}
+
+function MapView({ features, year }: { features: BorderFeature[]; year: number }) {
   const containerRef = useRef<HTMLDivElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const rendererRef = useRef<CanvasMap | null>(null);
@@ -124,6 +174,10 @@ function MapView({ features }: { features: BorderFeature[] }) {
     };
   }, [features, schedule, select_]);
 
+  useEffect(() => {
+    select_(null); // feature ids are only stable within one snapshot
+  }, [features, select_]);
+
   const matches = useMemo(() => {
     const q = query.trim().toLowerCase();
     const named = features.filter((f): f is BorderFeature & { name: string } => f.name !== null);
@@ -148,7 +202,7 @@ function MapView({ features }: { features: BorderFeature[] }) {
         <canvas
           ref={canvasRef}
           role="img"
-          aria-label={`Political map of the world in ${YEAR}. Use the list to choose a state.`}
+          aria-label={`Political map of the world in ${formatYear(year)}. Use the list to choose a state.`}
         />
       </div>
       <aside className="map-side">
@@ -171,7 +225,7 @@ function MapView({ features }: { features: BorderFeature[] }) {
               <h2>{selected.name ?? 'Unnamed territory'}</h2>
               <p>
                 {selected.name
-                  ? `Shown as it appeared in ${YEAR}. Ruler, army and events have not been curated yet.`
+                  ? `Shown as it appeared in ${formatYear(year)}. Ruler, army and events have not been curated yet.`
                   : 'The source data gives no name for this area (unclaimed or unattributed land).'}
               </p>
             </>
