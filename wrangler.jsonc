@@ -1,6 +1,7 @@
 {
   "name": "whoruled",
   "compatibility_date": "2026-10-20",
+  "previews": {},
   "assets": {
     "directory": "./dist"
   }
