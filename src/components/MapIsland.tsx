@@ -15,11 +15,11 @@ type LoadState =
   | { status: 'error'; message: string }
   | { status: 'ready'; features: BorderFeature[] };
 
-export default function MapIsland() {
+export default function MapIsland({ dataBase = '/data/' }: { dataBase?: string }) {
   const [state, setState] = useState<LoadState>({ status: 'loading' });
   useEffect(() => {
     let cancelled = false;
-    loadBorders(YEAR)
+    loadBorders(YEAR, dataBase)
       .then((features) => !cancelled && setState({ status: 'ready', features }))
       .catch((e: unknown) => {
         if (!cancelled) setState({ status: 'error', message: e instanceof Error ? e.message : 'Unknown error' });
@@ -27,7 +27,7 @@ export default function MapIsland() {
     return () => {
       cancelled = true;
     };
-  }, []);
+  }, [dataBase]);
 
   if (state.status === 'loading') return <p role="status">Loading map…</p>;
   if (state.status === 'error') return <p role="alert">Could not load the map: {state.message}</p>;

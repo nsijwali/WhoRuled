@@ -7,3 +7,4 @@ spike/out
 spike/data
 *.log
 .env*
+preview/out

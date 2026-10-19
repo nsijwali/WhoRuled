@@ -1,0 +1,17 @@
+import { chromium } from 'playwright-core';
+import http from 'node:http';
+import { readFileSync, existsSync, statSync } from 'node:fs';
+import path from 'node:path';
+const root = path.resolve('preview/out');
+const types = { '.html': 'text/html', '.js': 'text/javascript', '.json': 'application/json', '.topojson': 'application/json' };
+const srv = http.createServer((q, r) => { let f = path.join(root, q.url.split('?')[0]); if (existsSync(f) && statSync(f).isDirectory()) f = path.join(f, 'index.html'); if (!existsSync(f)) { r.statusCode = 404; return r.end(); } r.setHeader('content-type', types[path.extname(f)] ?? 'application/octet-stream'); r.end(readFileSync(f)); }).listen(0);
+const b = await chromium.launch({ executablePath: process.env.CHROMIUM_PATH ?? '/opt/pw-browsers/chromium' });
+const p = await b.newPage({ viewport: { width: 400, height: 800 } });
+const errs = [];
+p.on('pageerror', (e) => errs.push(e.message));
+await p.goto(`http://localhost:${srv.address().port}/`);
+await p.waitForSelector('.state-list li', { timeout: 15000 });
+const overflow = await p.evaluate('document.documentElement.scrollWidth > document.documentElement.clientWidth');
+console.log(JSON.stringify({ errs, overflow }));
+await b.close(); srv.close();
+if (errs.length || overflow) process.exit(1);
