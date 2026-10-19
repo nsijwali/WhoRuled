@@ -1,0 +1,9 @@
+node_modules
+dist
+.astro
+public/data
+spike/node_modules
+spike/out
+spike/data
+*.log
+.env*
