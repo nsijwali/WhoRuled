@@ -1,0 +1,28 @@
+{
+  "qid": "Q4948",
+  "name": "Venice",
+  "summary": "Republic of Venice as drawn in the 1492 border data.",
+  "rulers": [
+    {
+      "name": "Agostino Barbarigo",
+      "title": "doge",
+      "from": 1486,
+      "to": 1501,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Agostino_Barbarigo",
+        "quote": "was Doge of Venice from 1486 until his death in 1501"
+      }
+    }
+  ],
+  "events": [
+    {
+      "year": 1495,
+      "kind": "other",
+      "summary": "Venice forms an Italian coalition to push Charles VIII of France out of Italy.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Agostino_Barbarigo",
+        "quote": "In 1495 he created an Italian coalition to push back Charles VIII of France from Italy"
+      }
+    }
+  ]
+}

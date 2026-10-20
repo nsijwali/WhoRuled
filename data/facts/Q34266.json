@@ -1,0 +1,18 @@
+{
+  "qid": "Q34266",
+  "name": "Russian Empire",
+  "summary": "Russian Empire as drawn in the 1914 border data.",
+  "rulers": [
+    {
+      "name": "Nicholas II",
+      "title": "emperor",
+      "from": 1894,
+      "to": 1917,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Nicholas_II",
+        "quote": "was Emperor of Russia from 1 November 1894 until his abdication in 1917"
+      }
+    }
+  ],
+  "events": []
+}

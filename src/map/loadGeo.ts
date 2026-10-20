@@ -13,6 +13,7 @@ const FeatureProps = z.object({
   fid: z.number().int(),
   name: z.string().nullable(),
   precision: z.number().nullable(),
+  overlord: z.string().nullable().default(null),
 });
 
 async function fetchJson(url: string): Promise<unknown> {
@@ -62,7 +63,7 @@ export async function loadBorders(year: number, baseUrl = '/data/'): Promise<Bor
     const props = FeatureProps.parse(f.properties);
     const path = new Path2D();
     geoPath(null, path as unknown as CanvasRenderingContext2D)(f.geometry);
-    out.push({ fid: props.fid, name: props.name, precision: props.precision, bbox: bboxOf(f.geometry), path });
+    out.push({ fid: props.fid, name: props.name, precision: props.precision, overlord: props.overlord, bbox: bboxOf(f.geometry), path });
   }
   return out;
 }

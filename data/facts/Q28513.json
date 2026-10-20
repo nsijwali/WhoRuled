@@ -1,0 +1,28 @@
+{
+  "qid": "Q28513",
+  "name": "Austro-Hungarian Empire",
+  "summary": "Austria-Hungary as drawn in the 1914 border data.",
+  "rulers": [
+    {
+      "name": "Franz Joseph I",
+      "title": "emperor",
+      "from": 1848,
+      "to": 1916,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Franz_Joseph_I_of_Austria",
+        "quote": "Emperor of Austria, King of Hungary, and the ruler of the other states of the Habsburg monarchy"
+      }
+    }
+  ],
+  "events": [
+    {
+      "year": 1914,
+      "kind": "attack",
+      "summary": "Austria-Hungary declares war on Serbia on 28 July, a week after its ultimatum.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Franz_Joseph_I_of_Austria",
+        "quote": "A week after delivery of the Austro-Hungarian ultimatum to Serbia; on 28 July, war was declared."
+      }
+    }
+  ]
+}

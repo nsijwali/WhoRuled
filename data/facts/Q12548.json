@@ -1,0 +1,28 @@
+{
+  "qid": "Q12548",
+  "name": "Holy Roman Empire",
+  "summary": "Holy Roman Empire as drawn in the 1492 border data.",
+  "rulers": [
+    {
+      "name": "Frederick III",
+      "title": "emperor",
+      "from": 1452,
+      "to": 1493,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Frederick_III,_Holy_Roman_Emperor",
+        "quote": "was the Holy Roman emperor from 1452 until his death in 1493"
+      }
+    }
+  ],
+  "events": [
+    {
+      "year": 1486,
+      "kind": "other",
+      "summary": "Maximilian elected Roman-German king at the Frankfurt Reichstag.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Frederick_III,_Holy_Roman_Emperor",
+        "quote": "Maximilian was unanimously elected Roman-German king at the Frankfurt Reichstag by the six electors present"
+      }
+    }
+  ]
+}

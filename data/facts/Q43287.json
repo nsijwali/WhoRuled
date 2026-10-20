@@ -1,0 +1,28 @@
+{
+  "qid": "Q43287",
+  "name": "German Empire",
+  "summary": "German Empire as drawn in the 1914 border data.",
+  "rulers": [
+    {
+      "name": "Wilhelm II",
+      "title": "emperor",
+      "from": 1888,
+      "to": 1918,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Wilhelm_II",
+        "quote": "was the last German Emperor from 1888 until his abdication in 1918"
+      }
+    }
+  ],
+  "events": [
+    {
+      "year": 1914,
+      "kind": "other",
+      "summary": "Germany guarantees military support to Austria-Hungary.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Wilhelm_II",
+        "quote": "his diplomatic brinksmanship culminated in the guarantee of his country's military support to Austria-Hungary"
+      }
+    }
+  ]
+}
