@@ -1,0 +1,18 @@
+{
+  "qid": "Q389688",
+  "name": "Achaemenid Empire",
+  "summary": "Achaemenid Persian Empire.",
+  "rulers": [
+    {
+      "name": "Darius I",
+      "title": "king of kings",
+      "from": -522,
+      "to": -486,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Darius_the_Great",
+        "quote": "was the third King of Kings of the Achaemenid Empire, reigning from 522 BCE until his death in 486 BCE"
+      }
+    }
+  ],
+  "events": []
+}

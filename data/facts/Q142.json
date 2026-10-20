@@ -1,0 +1,28 @@
+{
+  "qid": "Q142",
+  "name": "France",
+  "summary": "French Republic.",
+  "rulers": [
+    {
+      "name": "Nicolas Sarkozy",
+      "title": "president",
+      "from": 2007,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Nicolas_Sarkozy",
+        "quote": "served as the president of France from 2007 to 2012"
+      }
+    }
+  ],
+  "events": [
+    {
+      "year": 2010,
+      "kind": "other",
+      "summary": "Pension reform initiated under Sarkozy.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Nicolas_Sarkozy",
+        "quote": "He initiated the reform of French universities (2007) and the pension reform (2010)."
+      }
+    }
+  ]
+}

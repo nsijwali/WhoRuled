@@ -1,0 +1,28 @@
+{
+  "qid": "Q851",
+  "name": "Saudi Arabia",
+  "summary": "Saudi Arabia.",
+  "rulers": [
+    {
+      "name": "Abdullah",
+      "title": "king",
+      "from": 2005,
+      "to": 2015,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Abdullah_of_Saudi_Arabia",
+        "quote": "was King and Prime Minister of Saudi Arabia from 1 August 2005 until his death in 2015"
+      }
+    }
+  ],
+  "events": [
+    {
+      "year": 2011,
+      "kind": "other",
+      "summary": "The king announces women's right to vote in the 2015 municipal council elections.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Abdullah_of_Saudi_Arabia",
+        "quote": "the King announced women's right to vote in the 2015 municipal council elections"
+      }
+    }
+  ]
+}
