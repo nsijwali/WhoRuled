@@ -1,0 +1,30 @@
+{
+  "qid": "Q26988",
+  "name": "Cook Islands",
+  "summary": "Cook Islands: office-holders in 2026, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Charles III",
+      "title": "king",
+      "from": 2022,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Charles III, king (since 8 September 2022)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Mark Brown",
+      "title": "prime minister",
+      "from": 2020,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Mark Brown, prime minister (since 1 October 2020)"
+      }
+    }
+  ],
+  "events": []
+}

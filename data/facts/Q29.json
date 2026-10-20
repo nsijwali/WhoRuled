@@ -1,7 +1,7 @@
 {
   "qid": "Q29",
   "name": "Spain",
-  "summary": "Spain: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Spain: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Juan Carlos I",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Juan Carlos I, King (1975–2014)"
+      }
+    },
+    {
+      "name": "Felipe VI",
+      "title": "king",
+      "from": 2014,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Felipe VI, king (since 19 June 2014)"
       }
     }
   ],
@@ -23,6 +33,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "José Luis Rodríguez Zapatero, Prime minister (2004–2011)"
+      }
+    },
+    {
+      "name": "Pedro Sánchez",
+      "title": "prime minister",
+      "from": 2018,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Pedro Sánchez, prime minister (since 2 June 2018)"
       }
     }
   ],

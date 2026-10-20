@@ -1,0 +1,30 @@
+{
+  "qid": "Q398",
+  "name": "Bahrain",
+  "summary": "Bahrain: office-holders in 2026, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Hamad bin Isa Al Khalifa",
+      "title": "king",
+      "from": 2002,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Hamad bin Isa Al Khalifa, king (since 14 February 2002)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Salman bin Hamad Al Khalifa",
+      "title": "prime minister",
+      "from": 2020,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Salman bin Hamad Al Khalifa, prime minister (since 11 November 2020)"
+      }
+    }
+  ],
+  "events": []
+}

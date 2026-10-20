@@ -1,7 +1,7 @@
 {
   "qid": "Q974",
   "name": "Democratic Republic of the Congo",
-  "summary": "Democratic Republic of the Congo: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Democratic Republic of the Congo: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Joseph Kabila",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Joseph Kabila, President (2001–2019)"
+      }
+    },
+    {
+      "name": "Félix Tshisekedi",
+      "title": "president",
+      "from": 2019,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Félix Tshisekedi, president (since 24 January 2019)"
       }
     }
   ],
@@ -23,6 +33,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Adolphe Muzito, Prime minister (2008–2012)"
+      }
+    },
+    {
+      "name": "Judith Suminwa",
+      "title": "prime minister",
+      "from": 2024,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Judith Suminwa, prime minister (since 12 June 2024)"
       }
     }
   ],

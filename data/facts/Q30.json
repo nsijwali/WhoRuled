@@ -22,6 +22,16 @@
         "url": "https://en.wikipedia.org/wiki/Barack_Obama",
         "quote": "44th president of the United States"
       }
+    },
+    {
+      "name": "Donald Trump",
+      "title": "president",
+      "from": 2025,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Donald Trump, president (20 January 2017 – 20 January 2021, since 20 January 2025)"
+      }
     }
   ],
   "offices": [],

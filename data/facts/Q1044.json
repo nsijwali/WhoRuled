@@ -1,7 +1,7 @@
 {
   "qid": "Q1044",
   "name": "Sierra Leone",
-  "summary": "Sierra Leone: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Sierra Leone: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Ernest Bai Koroma",
@@ -12,8 +12,29 @@
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Ernest Bai Koroma, President (2007–2018)"
       }
+    },
+    {
+      "name": "Julius Maada Bio",
+      "title": "president",
+      "from": 2018,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Julius Maada Bio, president (since 4 April 2018)"
+      }
     }
   ],
-  "offices": [],
+  "offices": [
+    {
+      "name": "David Moinina Sengeh",
+      "title": "chief minister",
+      "from": 2023,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "David Moinina Sengeh, chief minister (since 10 July 2023)"
+      }
+    }
+  ],
   "events": []
 }

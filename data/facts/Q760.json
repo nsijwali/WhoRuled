@@ -1,7 +1,7 @@
 {
   "qid": "Q760",
   "name": "Saint Lucia",
-  "summary": "Saint Lucia: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Saint Lucia: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Elizabeth II",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Elizabeth II, Queen (1979–2022)"
+      }
+    },
+    {
+      "name": "Charles III",
+      "title": "king",
+      "from": 2022,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Charles III, king (since 8 September 2022)"
       }
     }
   ],
@@ -23,6 +33,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Stephenson King, Prime minister (2007–2011)"
+      }
+    },
+    {
+      "name": "Philip J. Pierre",
+      "title": "prime minister",
+      "from": 2021,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Philip J. Pierre, prime minister (since 28 July 2021)"
       }
     }
   ],

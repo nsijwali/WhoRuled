@@ -1,7 +1,7 @@
 {
   "qid": "Q191",
   "name": "Estonia",
-  "summary": "Estonia: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Estonia: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Toomas Hendrik Ilves",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Toomas Hendrik Ilves, President (2006–2016)"
+      }
+    },
+    {
+      "name": "Ülle Madise",
+      "title": "president",
+      "from": 2026,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Ülle Madise, president (since 12 October 2026)"
       }
     }
   ],
@@ -23,6 +33,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Andrus Ansip, Prime minister (2005–2014)"
+      }
+    },
+    {
+      "name": "Kristen Michal",
+      "title": "prime minister",
+      "from": 2024,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Kristen Michal, prime minister (since 23 July 2024)"
       }
     }
   ],

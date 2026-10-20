@@ -1,7 +1,7 @@
 {
   "qid": "Q117",
   "name": "Ghana",
-  "summary": "Ghana: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Ghana: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "John Atta Mills",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "John Atta Mills, President (2009–2012)"
+      }
+    },
+    {
+      "name": "John Mahama",
+      "title": "president",
+      "from": 2025,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "John Mahama, president (since 7 January 2025)"
       }
     }
   ],

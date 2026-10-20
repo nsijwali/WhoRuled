@@ -1,7 +1,7 @@
 {
   "qid": "Q953",
   "name": "Zambia",
-  "summary": "Zambia: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Zambia: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Rupiah Banda",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Rupiah Banda, President (2008–2011)"
+      }
+    },
+    {
+      "name": "Hakainde Hichilema",
+      "title": "president",
+      "from": 2021,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Hakainde Hichilema, president (since 24 August 2021)"
       }
     }
   ],

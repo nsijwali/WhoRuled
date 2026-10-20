@@ -1,7 +1,7 @@
 {
   "qid": "Q878",
   "name": "United Arab Emirates",
-  "summary": "United Arab Emirates: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "United Arab Emirates: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Khalifa bin Zayed Al Nahyan",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Khalifa bin Zayed Al Nahyan, President (2004–2022)"
+      }
+    },
+    {
+      "name": "Mohamed bin Zayed Al Nahyan",
+      "title": "president",
+      "from": 2022,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Mohamed bin Zayed Al Nahyan, president (since 14 May 2022)"
       }
     }
   ],
@@ -23,6 +33,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Mohammed bin Rashid Al Maktoum, Prime minister (2006–present)"
+      }
+    },
+    {
+      "name": "Mohammed bin Rashid Al Maktoum",
+      "title": "prime minister",
+      "from": 2006,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Mohammed bin Rashid Al Maktoum, prime minister (since 11 February 2006)"
       }
     }
   ],

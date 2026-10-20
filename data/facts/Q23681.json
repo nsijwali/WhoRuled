@@ -1,7 +1,7 @@
 {
   "qid": "Q23681",
   "name": "Northern Cyprus",
-  "summary": "Northern Cyprus: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Northern Cyprus: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Mehmet Ali Talat",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Mehmet Ali Talat, President (2005–2010)"
+      }
+    },
+    {
+      "name": "Tufan Erhürman",
+      "title": "president",
+      "from": 2025,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Tufan Erhürman, president (since 23 October 2025)"
       }
     }
   ],
@@ -33,6 +43,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "İrsen Küçük, Prime minister (2010–2013)"
+      }
+    },
+    {
+      "name": "Ünal Üstel",
+      "title": "prime minister",
+      "from": 2022,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Ünal Üstel, prime minister (since 12 May 2022)"
       }
     }
   ],

@@ -1,7 +1,7 @@
 {
   "qid": "Q858",
   "name": "Syria",
-  "summary": "Syria: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Syria: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Bashar al-Assad",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Bashar al-Assad, President (2000–2024)"
+      }
+    },
+    {
+      "name": "Ahmed al-Sharaa",
+      "title": "president",
+      "from": 2025,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Ahmed al-Sharaa, de facto leader (8 December 2024 – 29 January 2025); president (since 29 January 2025)"
       }
     }
   ],

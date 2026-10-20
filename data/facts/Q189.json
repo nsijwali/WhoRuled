@@ -1,7 +1,7 @@
 {
   "qid": "Q189",
   "name": "Iceland",
-  "summary": "Iceland: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Iceland: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Ólafur Ragnar Grímsson",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Ólafur Ragnar Grímsson, President (1996–2016)"
+      }
+    },
+    {
+      "name": "Halla Tómasdóttir",
+      "title": "president",
+      "from": 2024,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Halla Tómasdóttir, president (since 1 August 2024)"
       }
     }
   ],
@@ -23,6 +33,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Jóhanna Sigurðardóttir, Prime minister (2009–2013)"
+      }
+    },
+    {
+      "name": "Kristrún Frostadóttir",
+      "title": "prime minister",
+      "from": 2024,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Kristrún Frostadóttir, prime minister (since 21 December 2024)"
       }
     }
   ],

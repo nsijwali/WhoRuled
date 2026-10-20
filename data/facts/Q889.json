@@ -1,7 +1,7 @@
 {
   "qid": "Q889",
   "name": "Afghanistan",
-  "summary": "Afghanistan: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Afghanistan: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Hamid Karzai",
@@ -12,8 +12,29 @@
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Hamid Karzai, President (2004–2014)"
       }
+    },
+    {
+      "name": "Hibatullah Akhundzada",
+      "title": "supreme leader",
+      "from": 2021,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Hibatullah Akhundzada, supreme leader (since 15 August 2021)"
+      }
     }
   ],
-  "offices": [],
+  "offices": [
+    {
+      "name": "Hasan Akhund",
+      "title": "prime minister",
+      "from": 2025,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Hasan Akhund, acting prime minister (7 September 2021 – 19 August 2025); prime minister (since 19 August 2025)"
+      }
+    }
+  ],
   "events": []
 }

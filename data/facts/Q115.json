@@ -1,7 +1,7 @@
 {
   "qid": "Q115",
   "name": "Ethiopia",
-  "summary": "Ethiopia: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Ethiopia: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Girma Wolde-Giorgis",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Girma Wolde-Giorgis, President (2001–2013)"
+      }
+    },
+    {
+      "name": "Taye Atske Selassie",
+      "title": "president",
+      "from": 2024,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Taye Atske Selassie, president (since 7 October 2024)"
       }
     }
   ],
@@ -23,6 +33,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Meles Zenawi, Prime minister (1995–2012)"
+      }
+    },
+    {
+      "name": "Abiy Ahmed",
+      "title": "prime minister",
+      "from": 2018,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Abiy Ahmed, prime minister (since 2 April 2018)"
       }
     }
   ],

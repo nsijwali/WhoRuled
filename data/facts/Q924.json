@@ -1,7 +1,7 @@
 {
   "qid": "Q924",
   "name": "Tanzania",
-  "summary": "Tanzania: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Tanzania: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Jakaya Kikwete",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Jakaya Kikwete, President (2005–2015)"
+      }
+    },
+    {
+      "name": "Samia Suluhu Hassan",
+      "title": "president",
+      "from": 2021,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Samia Suluhu Hassan, president (since 19 March 2021)"
       }
     }
   ],
@@ -23,6 +33,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Mizengo Pinda, Prime minister (2008–2015)"
+      }
+    },
+    {
+      "name": "Mwigulu Nchemba",
+      "title": "prime minister",
+      "from": 2025,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Mwigulu Nchemba, prime minister (since 13 November 2025)"
       }
     }
   ],

@@ -1,0 +1,19 @@
+{
+  "qid": "Q34754",
+  "name": "Somaliland",
+  "summary": "Somaliland: office-holders in 2026, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Abdirahman Mohamed Abdullahi",
+      "title": "president",
+      "from": 2024,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Abdirahman Mohamed Abdullahi, president (since 12 December 2024)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

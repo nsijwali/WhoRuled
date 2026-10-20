@@ -1,7 +1,7 @@
 {
   "qid": "Q813",
   "name": "Kyrgyzstan",
-  "summary": "Kyrgyzstan: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Kyrgyzstan: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Kurmanbek Bakiyev",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Kurmanbek Bakiyev, President (2005–2010)"
+      }
+    },
+    {
+      "name": "Sadyr Japarov",
+      "title": "president",
+      "from": 2021,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Sadyr Japarov, acting president (15 October 2020 – 14 November 2020); president (since 28 January 2021)"
       }
     }
   ],
@@ -43,6 +53,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Almazbek Atambayev, Prime minister (2010–2011)"
+      }
+    },
+    {
+      "name": "Adylbek Kasymaliev",
+      "title": "chairman of the Cabinet of Ministers",
+      "from": 2024,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Adylbek Kasymaliev, acting chairman of the Cabinet of Ministers (16 December 2024 – 18 December 2024); chairman of the Cabinet of Ministers (since 18 December 2024)"
       }
     }
   ],

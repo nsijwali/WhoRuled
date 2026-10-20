@@ -12,6 +12,16 @@
         "url": "https://en.wikipedia.org/wiki/Elizabeth_II",
         "quote": "Queen of the United Kingdom and other Commonwealth realms from 6 February 1952 until her death in 2022"
       }
+    },
+    {
+      "name": "Charles III",
+      "title": "king",
+      "from": 2022,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Charles III, king (since 8 September 2022)"
+      }
     }
   ],
   "offices": [

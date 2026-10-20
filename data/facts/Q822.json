@@ -1,7 +1,7 @@
 {
   "qid": "Q822",
   "name": "Lebanon",
-  "summary": "Lebanon: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Lebanon: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Michel Suleiman",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Michel Suleiman, President (2008–2014)"
+      }
+    },
+    {
+      "name": "Joseph Aoun",
+      "title": "president",
+      "from": 2025,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Joseph Aoun, president (since 9 January 2025)"
       }
     }
   ],
@@ -23,6 +33,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Saad Hariri, Prime minister (2009–2011)"
+      }
+    },
+    {
+      "name": "Nawaf Salam",
+      "title": "prime minister",
+      "from": 2025,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Nawaf Salam, prime minister (since 8 February 2025)"
       }
     }
   ],

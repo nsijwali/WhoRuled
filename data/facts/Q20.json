@@ -1,7 +1,7 @@
 {
   "qid": "Q20",
   "name": "Norway",
-  "summary": "Norway: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Norway: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Harald V",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Harald V, King (1991–2026)"
+      }
+    },
+    {
+      "name": "Haakon VIII",
+      "title": "king",
+      "from": 2026,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Haakon VIII, king (since 28 August 2026)"
       }
     }
   ],
@@ -23,6 +33,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Jens Stoltenberg, Prime minister (2005–2013)"
+      }
+    },
+    {
+      "name": "Jonas Gahr Støre",
+      "title": "prime minister",
+      "from": 2021,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Jonas Gahr Støre, prime minister (since 14 October 2021)"
       }
     }
   ],

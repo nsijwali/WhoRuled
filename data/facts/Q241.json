@@ -1,7 +1,7 @@
 {
   "qid": "Q241",
   "name": "Cuba",
-  "summary": "Cuba: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Cuba: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Raúl Castro",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Raúl Castro, President of the State Council (2008–2018)"
+      }
+    },
+    {
+      "name": "Miguel Díaz-Canel",
+      "title": "president",
+      "from": 2019,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Miguel Díaz-Canel, president (since 10 October 2019)"
       }
     }
   ],
@@ -23,6 +33,26 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Fidel Castro, First secretary (1965–2011)"
+      }
+    },
+    {
+      "name": "Miguel Díaz-Canel",
+      "title": "first secretary",
+      "from": 2021,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Miguel Díaz-Canel, first secretary (since 19 April 2021)"
+      }
+    },
+    {
+      "name": "Manuel Marrero Cruz",
+      "title": "prime minister",
+      "from": 2019,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Manuel Marrero Cruz, prime minister (since 21 December 2019)"
       }
     }
   ],

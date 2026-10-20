@@ -1,0 +1,19 @@
+{
+  "qid": "Q958",
+  "name": "South Sudan",
+  "summary": "South Sudan: office-holders in 2026, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Salva Kiir Mayardit",
+      "title": "president",
+      "from": 2011,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Salva Kiir Mayardit, president (since 9 July 2011)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

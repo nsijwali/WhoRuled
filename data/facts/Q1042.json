@@ -1,0 +1,19 @@
+{
+  "qid": "Q1042",
+  "name": "Seychelles",
+  "summary": "Seychelles: office-holders in 2026, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Patrick Herminie",
+      "title": "president",
+      "from": 2025,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Patrick Herminie, president (since 26 October 2025)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

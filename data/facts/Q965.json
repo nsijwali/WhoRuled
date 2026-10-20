@@ -1,7 +1,7 @@
 {
   "qid": "Q965",
   "name": "Burkina Faso",
-  "summary": "Burkina Faso: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Burkina Faso: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Blaise Compaoré",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Blaise Compaoré, President (1987–2014)"
+      }
+    },
+    {
+      "name": "Ibrahim Traoré",
+      "title": "president of the Patriotic Movement for Safeguard and Restoration",
+      "from": 2022,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Ibrahim Traoré, president of the Patriotic Movement for Safeguard and Restoration (since 30 September 2022), interim president (since 6 October 2022)"
       }
     }
   ],
@@ -23,6 +33,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Tertius Zongo, Prime minister (2007–2011)"
+      }
+    },
+    {
+      "name": "Jean Emmanuel Ouédraogo",
+      "title": "interim prime minister",
+      "from": 2024,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Jean Emmanuel Ouédraogo, interim prime minister (since 7 December 2024)"
       }
     }
   ],

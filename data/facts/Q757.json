@@ -1,7 +1,7 @@
 {
   "qid": "Q757",
   "name": "Saint Vincent and the Grenadines",
-  "summary": "Saint Vincent and the Grenadines: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Saint Vincent and the Grenadines: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Elizabeth II",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Elizabeth II, Queen (1979–2022)"
+      }
+    },
+    {
+      "name": "Charles III",
+      "title": "king",
+      "from": 2022,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Charles III, king (since 8 September 2022)"
       }
     }
   ],
@@ -23,6 +33,26 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Ralph Gonsalves, Prime minister (2001–2025)"
+      }
+    },
+    {
+      "name": "Stanley John",
+      "title": "governor-general",
+      "from": 2026,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Stanley John, governor-general (since 6 January 2026)"
+      }
+    },
+    {
+      "name": "Godwin Friday",
+      "title": "prime minister",
+      "from": 2025,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Godwin Friday, prime minister (since 28 November 2025)"
       }
     }
   ],

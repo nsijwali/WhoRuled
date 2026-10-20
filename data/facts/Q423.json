@@ -1,7 +1,7 @@
 {
   "qid": "Q423",
   "name": "North Korea",
-  "summary": "North Korea: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "North Korea: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Kim Jong-il",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Kim Jong-il, General Secretary (1997–2011)"
+      }
+    },
+    {
+      "name": "Kim Jong Un",
+      "title": "general secretary",
+      "from": 2021,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Kim Jong Un, chairman (9 May 2016 – 10 January 2021); general secretary (since 10 January 2021)"
       }
     }
   ],
@@ -43,6 +53,26 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Choe Yong-rim, Premier (2010–2013)"
+      }
+    },
+    {
+      "name": "Kim Jong Un",
+      "title": "president of the State Affairs Commission",
+      "from": 2016,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Kim Jong Un, president of the State Affairs Commission (since 29 June 2016)"
+      }
+    },
+    {
+      "name": "Pak Thae-song",
+      "title": "premier",
+      "from": 2024,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Pak Thae-song, premier (since 29 December 2024)"
       }
     }
   ],

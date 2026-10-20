@@ -1,7 +1,7 @@
 {
   "qid": "Q218",
   "name": "Romania",
-  "summary": "Romania: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Romania: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Traian Băsescu",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Traian Băsescu, President (2007–2012)"
+      }
+    },
+    {
+      "name": "Nicușor Dan",
+      "title": "president",
+      "from": 2025,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Nicușor Dan, president (since 26 May 2025)"
       }
     }
   ],

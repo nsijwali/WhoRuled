@@ -1,7 +1,7 @@
 {
   "qid": "Q863",
   "name": "Tajikistan",
-  "summary": "Tajikistan: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Tajikistan: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Emomali Rahmon",
@@ -23,6 +23,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Oqil Oqilov, Prime minister (1999–2013)"
+      }
+    },
+    {
+      "name": "Kokhir Rasulzoda",
+      "title": "prime minister",
+      "from": 2013,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Kokhir Rasulzoda, prime minister (since 23 November 2013)"
       }
     }
   ],

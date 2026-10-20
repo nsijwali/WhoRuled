@@ -1,7 +1,7 @@
 {
   "qid": "Q40",
   "name": "Austria",
-  "summary": "Austria: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Austria: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Heinz Fischer",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Heinz Fischer, President (2004–2016)"
+      }
+    },
+    {
+      "name": "Alexander Van der Bellen",
+      "title": "president",
+      "from": 2017,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Alexander Van der Bellen, president (since 26 January 2017)"
       }
     }
   ],
@@ -23,6 +33,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Werner Faymann, Chancellor (2008–2016)"
+      }
+    },
+    {
+      "name": "Christian Stocker",
+      "title": "chancellor",
+      "from": 2025,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Christian Stocker, chancellor (since 3 March 2025)"
       }
     }
   ],

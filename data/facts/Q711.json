@@ -1,7 +1,7 @@
 {
   "qid": "Q711",
   "name": "Mongolia",
-  "summary": "Mongolia: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Mongolia: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Tsakhiagiin Elbegdorj",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Tsakhiagiin Elbegdorj, President (2009–2017)"
+      }
+    },
+    {
+      "name": "Ukhnaagiin Khürelsükh",
+      "title": "president",
+      "from": 2021,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Ukhnaagiin Khürelsükh, president (since 25 June 2021)"
       }
     }
   ],
@@ -23,6 +33,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Sükhbaataryn Batbold, Prime minister (2009–2012)"
+      }
+    },
+    {
+      "name": "Nyam-Osoryn Uchral",
+      "title": "prime minister",
+      "from": 2026,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Nyam-Osoryn Uchral, prime minister (since 30 March 2026)"
       }
     }
   ],

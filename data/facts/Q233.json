@@ -1,7 +1,7 @@
 {
   "qid": "Q233",
   "name": "Malta",
-  "summary": "Malta: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Malta: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "George Abela",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "George Abela, President (2009–2014)"
+      }
+    },
+    {
+      "name": "Myriam Spiteri Debono",
+      "title": "president",
+      "from": 2024,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Myriam Spiteri Debono, president (since 4 April 2024)"
       }
     }
   ],
@@ -23,6 +33,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Lawrence Gonzi, Prime minister (2004–2013)"
+      }
+    },
+    {
+      "name": "Robert Abela",
+      "title": "prime minister",
+      "from": 2020,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Robert Abela, prime minister (since 13 January 2020)"
       }
     }
   ],

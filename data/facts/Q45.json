@@ -1,7 +1,7 @@
 {
   "qid": "Q45",
   "name": "Portugal",
-  "summary": "Portugal: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Portugal: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Aníbal Cavaco Silva",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Aníbal Cavaco Silva, President (2006–2016)"
+      }
+    },
+    {
+      "name": "António José Seguro",
+      "title": "president",
+      "from": 2026,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "António José Seguro, president (since 9 March 2026)"
       }
     }
   ],
@@ -23,6 +33,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "José Sócrates, Prime minister (2005–2011)"
+      }
+    },
+    {
+      "name": "Luís Montenegro",
+      "title": "prime minister",
+      "from": 2024,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Luís Montenegro, prime minister (since 2 April 2024)"
       }
     }
   ],

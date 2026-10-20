@@ -1,7 +1,7 @@
 {
   "qid": "Q228",
   "name": "Andorra",
-  "summary": "Andorra: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Andorra: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Joan Enric Vives Sicília",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Joan Enric Vives Sicília, Episcopal Co-Prince (2003–2025)"
+      }
+    },
+    {
+      "name": "Josep-Lluís Serrano Pentinat",
+      "title": "episcopal co-prince",
+      "from": 2025,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Josep-Lluís Serrano Pentinat, episcopal co-prince (since 31 May 2025)"
       }
     }
   ],
@@ -33,6 +43,36 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Jaume Bartumeu, Prime minister (2009–2011)"
+      }
+    },
+    {
+      "name": "Emmanuel Macron",
+      "title": "French co-prince",
+      "from": 2017,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Emmanuel Macron, French co-prince (since 14 May 2017)"
+      }
+    },
+    {
+      "name": "Eduard Ibáñez",
+      "title": "representative of the episcopal co-prince",
+      "from": 2023,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Eduard Ibáñez, representative of the episcopal co-prince (since 27 November 2023)"
+      }
+    },
+    {
+      "name": "Xavier Espot Zamora",
+      "title": "prime minister",
+      "from": 2019,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Xavier Espot Zamora, prime minister (since 16 May 2019)"
       }
     }
   ],

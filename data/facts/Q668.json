@@ -12,6 +12,16 @@
         "url": "https://en.wikipedia.org/wiki/Pratibha_Patil",
         "quote": "took oath as India's 12th President, the first woman to hold the position."
       }
+    },
+    {
+      "name": "Droupadi Murmu",
+      "title": "president",
+      "from": 2022,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Droupadi Murmu, president (since 25 July 2022)"
+      }
     }
   ],
   "offices": [
@@ -23,6 +33,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Manmohan Singh, Prime minister (2004–2014)"
+      }
+    },
+    {
+      "name": "Narendra Modi",
+      "title": "prime minister",
+      "from": 2014,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Narendra Modi, prime minister (since 26 May 2014)"
       }
     }
   ],

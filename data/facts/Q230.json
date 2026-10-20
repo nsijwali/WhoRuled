@@ -1,7 +1,7 @@
 {
   "qid": "Q230",
   "name": "Georgia",
-  "summary": "Georgia: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Georgia: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Mikheil Saakashvili",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Mikheil Saakashvili, President (2008–2013)"
+      }
+    },
+    {
+      "name": "Mikheil Kavelashvili",
+      "title": "president",
+      "from": 2024,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Mikheil Kavelashvili, president (since 29 December 2024, disputed with Salome Zourabichvili)"
       }
     }
   ],
@@ -23,6 +33,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Nika Gilauri, Prime minister (2009–2012)"
+      }
+    },
+    {
+      "name": "Irakli Kobakhidze",
+      "title": "prime minister",
+      "from": 2024,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Irakli Kobakhidze, prime minister (since 8 February 2024)"
       }
     }
   ],
