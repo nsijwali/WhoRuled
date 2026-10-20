@@ -1,0 +1,19 @@
+{
+  "qid": "Q39",
+  "name": "Switzerland",
+  "summary": "Switzerland: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Doris Leuthard",
+      "title": "President of the Confederation",
+      "from": 2010,
+      "to": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Doris Leuthard, President of the Confederation (2010)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

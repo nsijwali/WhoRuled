@@ -1,0 +1,30 @@
+{
+  "qid": "Q796",
+  "name": "Iraq",
+  "summary": "Iraq: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Jalal Talabani",
+      "title": "President",
+      "from": 2005,
+      "to": 2014,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Jalal Talabani, President (2005–2014)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Nouri al-Maliki",
+      "title": "Prime minister",
+      "from": 2006,
+      "to": 2014,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Nouri al-Maliki, Prime minister (2006–2014)"
+      }
+    }
+  ],
+  "events": []
+}

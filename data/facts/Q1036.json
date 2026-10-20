@@ -1,0 +1,30 @@
+{
+  "qid": "Q1036",
+  "name": "Uganda",
+  "summary": "Uganda: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Yoweri Museveni",
+      "title": "President",
+      "from": 1986,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Yoweri Museveni, President (1986–present)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Apolo Nsibambi",
+      "title": "Prime minister",
+      "from": 1999,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Apolo Nsibambi, Prime minister (1999–2011)"
+      }
+    }
+  ],
+  "events": []
+}

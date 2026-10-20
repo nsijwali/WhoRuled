@@ -1,0 +1,30 @@
+{
+  "qid": "Q757",
+  "name": "Saint Vincent and the Grenadines",
+  "summary": "Saint Vincent and the Grenadines: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Elizabeth II",
+      "title": "Queen",
+      "from": 1979,
+      "to": 2022,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Elizabeth II, Queen (1979–2022)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Ralph Gonsalves",
+      "title": "Prime minister",
+      "from": 2001,
+      "to": 2025,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Ralph Gonsalves, Prime minister (2001–2025)"
+      }
+    }
+  ],
+  "events": []
+}

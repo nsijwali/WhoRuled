@@ -1,0 +1,19 @@
+{
+  "qid": "Q971",
+  "name": "Republic of the Congo",
+  "summary": "Republic of the Congo: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Denis Sassou Nguesso",
+      "title": "President",
+      "from": 1997,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Denis Sassou Nguesso, President (1997–present)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

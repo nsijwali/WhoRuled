@@ -1,0 +1,40 @@
+{
+  "qid": "Q419",
+  "name": "Peru",
+  "summary": "Peru: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Alan García Pérez",
+      "title": "Constitutional President",
+      "from": 2006,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Alan García Pérez, Constitutional President (2006–2011)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Javier Velásquez",
+      "title": "Prime Minister",
+      "from": 2009,
+      "to": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Javier Velásquez, Prime Minister (2009–2010)"
+      }
+    },
+    {
+      "name": "José Antonio Chang",
+      "title": "Prime Minister",
+      "from": 2010,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "José Antonio Chang, Prime Minister (2010–2011)"
+      }
+    }
+  ],
+  "events": []
+}

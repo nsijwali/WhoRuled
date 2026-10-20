@@ -1,0 +1,30 @@
+{
+  "qid": "Q37",
+  "name": "Lithuania",
+  "summary": "Lithuania: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Dalia Grybauskaitė",
+      "title": "President",
+      "from": 2009,
+      "to": 2019,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Dalia Grybauskaitė, President (2009–2019)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Andrius Kubilius",
+      "title": "Prime minister",
+      "from": 2008,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Andrius Kubilius, Prime minister (2008–2012)"
+      }
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,19 @@
+{
+  "qid": "Q889",
+  "name": "Afghanistan",
+  "summary": "Afghanistan: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Hamid Karzai",
+      "title": "President",
+      "from": 2004,
+      "to": 2014,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Hamid Karzai, President (2004–2014)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "qid": "Q863",
+  "name": "Tajikistan",
+  "summary": "Tajikistan: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Emomali Rahmon",
+      "title": "President",
+      "from": 1994,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Emomali Rahmon, President (1994–present)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Oqil Oqilov",
+      "title": "Prime minister",
+      "from": 1999,
+      "to": 2013,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Oqil Oqilov, Prime minister (1999–2013)"
+      }
+    }
+  ],
+  "events": []
+}

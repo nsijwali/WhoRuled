@@ -1,0 +1,30 @@
+{
+  "qid": "Q424",
+  "name": "Cambodia",
+  "summary": "Cambodia: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Norodom Sihamoni",
+      "title": "King",
+      "from": 2004,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Norodom Sihamoni, King (2004–present)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Hun Sen",
+      "title": "Prime minister",
+      "from": 1998,
+      "to": 2023,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Hun Sen, Prime minister (1998–2023)"
+      }
+    }
+  ],
+  "events": []
+}

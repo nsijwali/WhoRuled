@@ -1,0 +1,30 @@
+{
+  "qid": "Q34",
+  "name": "Sweden",
+  "summary": "Sweden: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Carl XVI Gustaf",
+      "title": "King",
+      "from": 1973,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Carl XVI Gustaf, King (1973–present)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Fredrik Reinfeldt",
+      "title": "Prime minister",
+      "from": 2006,
+      "to": 2014,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Fredrik Reinfeldt, Prime minister (2006–2014)"
+      }
+    }
+  ],
+  "events": []
+}

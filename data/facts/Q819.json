@@ -1,0 +1,50 @@
+{
+  "qid": "Q819",
+  "name": "Laos",
+  "summary": "Laos: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Choummaly Sayasone",
+      "title": "General Secretary",
+      "from": 2006,
+      "to": 2016,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Choummaly Sayasone, General Secretary (2006–2016)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Choummaly Sayasone",
+      "title": "President",
+      "from": 2006,
+      "to": 2016,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Choummaly Sayasone, President (2006–2016)"
+      }
+    },
+    {
+      "name": "Bouasone Bouphavanh",
+      "title": "Prime minister",
+      "from": 2006,
+      "to": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Bouasone Bouphavanh, Prime minister (2006–2010)"
+      }
+    },
+    {
+      "name": "Thongsing Thammavong",
+      "title": "Prime minister",
+      "from": 2010,
+      "to": 2016,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Thongsing Thammavong, Prime minister (2010–2016)"
+      }
+    }
+  ],
+  "events": []
+}

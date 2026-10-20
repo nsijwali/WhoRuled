@@ -1,0 +1,30 @@
+{
+  "qid": "Q822",
+  "name": "Lebanon",
+  "summary": "Lebanon: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Michel Suleiman",
+      "title": "President",
+      "from": 2008,
+      "to": 2014,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Michel Suleiman, President (2008–2014)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Saad Hariri",
+      "title": "Prime minister",
+      "from": 2009,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Saad Hariri, Prime minister (2009–2011)"
+      }
+    }
+  ],
+  "events": []
+}

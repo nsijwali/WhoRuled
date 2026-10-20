@@ -1,0 +1,30 @@
+{
+  "qid": "Q45",
+  "name": "Portugal",
+  "summary": "Portugal: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Aníbal Cavaco Silva",
+      "title": "President",
+      "from": 2006,
+      "to": 2016,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Aníbal Cavaco Silva, President (2006–2016)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "José Sócrates",
+      "title": "Prime minister",
+      "from": 2005,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "José Sócrates, Prime minister (2005–2011)"
+      }
+    }
+  ],
+  "events": []
+}

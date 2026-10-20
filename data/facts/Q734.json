@@ -1,0 +1,30 @@
+{
+  "qid": "Q734",
+  "name": "Guyana",
+  "summary": "Guyana: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Bharrat Jagdeo",
+      "title": "President",
+      "from": 1999,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Bharrat Jagdeo, President (1999–2011)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Sam Hinds",
+      "title": "Prime minister",
+      "from": 1999,
+      "to": 2015,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Sam Hinds, Prime minister (1999–2015)"
+      }
+    }
+  ],
+  "events": []
+}

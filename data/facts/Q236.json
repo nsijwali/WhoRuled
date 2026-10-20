@@ -1,0 +1,40 @@
+{
+  "qid": "Q236",
+  "name": "Montenegro",
+  "summary": "Montenegro: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Filip Vujanović",
+      "title": "President",
+      "from": 2006,
+      "to": 2018,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Filip Vujanović, President (2006–2018)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Milo Đukanović",
+      "title": "Prime minister",
+      "from": 2008,
+      "to": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Milo Đukanović, Prime minister (2008–2010)"
+      }
+    },
+    {
+      "name": "Igor Lukšić",
+      "title": "Prime minister",
+      "from": 2010,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Igor Lukšić, Prime minister (2010–2012)"
+      }
+    }
+  ],
+  "events": []
+}

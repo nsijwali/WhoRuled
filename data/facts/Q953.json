@@ -1,0 +1,19 @@
+{
+  "qid": "Q953",
+  "name": "Zambia",
+  "summary": "Zambia: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Rupiah Banda",
+      "title": "President",
+      "from": 2008,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Rupiah Banda, President (2008–2011)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

@@ -1,0 +1,19 @@
+{
+  "qid": "Q1020",
+  "name": "Malawi",
+  "summary": "Malawi: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Bingu wa Mutharika",
+      "title": "President",
+      "from": 2004,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Bingu wa Mutharika, President (2004–2012)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "qid": "Q945",
+  "name": "Togo",
+  "summary": "Togo: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Faure Gnassingbé",
+      "title": "President",
+      "from": 2005,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Faure Gnassingbé, President (2005–present)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Gilbert Houngbo",
+      "title": "Prime minister",
+      "from": 2008,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Gilbert Houngbo, Prime minister (2008–2012)"
+      }
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "qid": "Q794",
+  "name": "Iran",
+  "summary": "Iran: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Ali Khamenei",
+      "title": "Supreme Leader",
+      "from": 1989,
+      "to": 2026,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Ali Khamenei, Supreme Leader (1989–2026)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Mahmoud Ahmadinejad",
+      "title": "President",
+      "from": 2005,
+      "to": 2013,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Mahmoud Ahmadinejad, President (2005–2013)"
+      }
+    }
+  ],
+  "events": []
+}

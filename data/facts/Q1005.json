@@ -1,0 +1,19 @@
+{
+  "qid": "Q1005",
+  "name": "Gambia",
+  "summary": "Gambia: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Yahya Jammeh",
+      "title": "President",
+      "from": 1996,
+      "to": 2017,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Yahya Jammeh, President (1996–2017)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

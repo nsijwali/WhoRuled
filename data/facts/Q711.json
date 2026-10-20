@@ -1,0 +1,30 @@
+{
+  "qid": "Q711",
+  "name": "Mongolia",
+  "summary": "Mongolia: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Tsakhiagiin Elbegdorj",
+      "title": "President",
+      "from": 2009,
+      "to": 2017,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Tsakhiagiin Elbegdorj, President (2009–2017)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Sükhbaataryn Batbold",
+      "title": "Prime minister",
+      "from": 2009,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Sükhbaataryn Batbold, Prime minister (2009–2012)"
+      }
+    }
+  ],
+  "events": []
+}

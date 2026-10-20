@@ -1,0 +1,30 @@
+{
+  "qid": "Q1050",
+  "name": "Eswatini",
+  "summary": "Eswatini: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Mswati III",
+      "title": "King",
+      "from": 1986,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Mswati III, King (1986–present)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Barnabas Sibusiso Dlamini",
+      "title": "Prime minister",
+      "from": 2008,
+      "to": 2018,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Barnabas Sibusiso Dlamini, Prime minister (2008–2018)"
+      }
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "qid": "Q241",
+  "name": "Cuba",
+  "summary": "Cuba: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Raúl Castro",
+      "title": "President of the State Council",
+      "from": 2008,
+      "to": 2018,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Raúl Castro, President of the State Council (2008–2018)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Fidel Castro",
+      "title": "First secretary",
+      "from": 1965,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Fidel Castro, First secretary (1965–2011)"
+      }
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,19 @@
+{
+  "qid": "Q733",
+  "name": "Paraguay",
+  "summary": "Paraguay: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Fernando Lugo",
+      "title": "President",
+      "from": 2008,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Fernando Lugo, President (2008–2012)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

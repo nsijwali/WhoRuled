@@ -1,0 +1,40 @@
+{
+  "qid": "Q854",
+  "name": "Sri Lanka",
+  "summary": "Sri Lanka: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Mahinda Rajapaksa",
+      "title": "President",
+      "from": 2005,
+      "to": 2015,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Mahinda Rajapaksa, President (2005–2015)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Ratnasiri Wickremanayake",
+      "title": "Prime minister",
+      "from": 2005,
+      "to": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Ratnasiri Wickremanayake, Prime minister (2005–2010)"
+      }
+    },
+    {
+      "name": "D. M. Jayaratne",
+      "title": "Prime minister",
+      "from": 2010,
+      "to": 2015,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "D. M. Jayaratne, Prime minister (2010–2015)"
+      }
+    }
+  ],
+  "events": []
+}

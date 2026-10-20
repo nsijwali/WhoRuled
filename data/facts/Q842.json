@@ -1,0 +1,19 @@
+{
+  "qid": "Q842",
+  "name": "Oman",
+  "summary": "Oman: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Qaboos bin Said",
+      "title": "Sultan",
+      "from": 1970,
+      "to": 2020,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Qaboos bin Said, Sultan (1970–2020)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

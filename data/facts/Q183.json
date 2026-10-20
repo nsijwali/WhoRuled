@@ -1,0 +1,40 @@
+{
+  "qid": "Q183",
+  "name": "Germany",
+  "summary": "Germany: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Horst Köhler",
+      "title": "President",
+      "from": 2004,
+      "to": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Horst Köhler, President (2004–2010)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Christian Wulff",
+      "title": "President",
+      "from": 2010,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Christian Wulff, President (2010–2012)"
+      }
+    },
+    {
+      "name": "Angela Merkel",
+      "title": "Chancellor",
+      "from": 2005,
+      "to": 2021,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Angela Merkel, Chancellor (2005–2021)"
+      }
+    }
+  ],
+  "events": []
+}

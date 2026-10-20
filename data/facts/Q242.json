@@ -1,0 +1,30 @@
+{
+  "qid": "Q242",
+  "name": "Belize",
+  "summary": "Belize: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Elizabeth II",
+      "title": "Queen",
+      "from": 1981,
+      "to": 2022,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Elizabeth II, Queen (1981–2022)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Dean Barrow",
+      "title": "Prime minister",
+      "from": 2008,
+      "to": 2020,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Dean Barrow, Prime minister (2008–2020)"
+      }
+    }
+  ],
+  "events": []
+}

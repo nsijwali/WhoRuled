@@ -1,0 +1,30 @@
+{
+  "qid": "Q869",
+  "name": "Thailand",
+  "summary": "Thailand: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Bhumibol Adulyadej",
+      "title": "King",
+      "from": 1946,
+      "to": 2016,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Bhumibol Adulyadej, King (1946–2016)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Abhisit Vejjajiva",
+      "title": "Prime minister",
+      "from": 2008,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Abhisit Vejjajiva, Prime minister (2008–2011)"
+      }
+    }
+  ],
+  "events": []
+}

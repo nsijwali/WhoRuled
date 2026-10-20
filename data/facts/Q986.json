@@ -1,0 +1,19 @@
+{
+  "qid": "Q986",
+  "name": "Eritrea",
+  "summary": "Eritrea: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Isaias Afwerki",
+      "title": "President",
+      "from": 1993,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Isaias Afwerki, President (1993–present)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

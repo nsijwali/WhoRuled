@@ -1,0 +1,19 @@
+{
+  "qid": "Q155",
+  "name": "Brazil",
+  "summary": "Brazil: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Luiz Inácio Lula da Silva",
+      "title": "President",
+      "from": 2003,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Luiz Inácio Lula da Silva, President (2003–2011)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

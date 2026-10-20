@@ -1,0 +1,19 @@
+{
+  "qid": "Q774",
+  "name": "Guatemala",
+  "summary": "Guatemala: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Álvaro Colom",
+      "title": "President",
+      "from": 2008,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Álvaro Colom, President (2008–2012)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

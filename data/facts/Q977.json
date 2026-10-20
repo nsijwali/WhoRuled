@@ -1,0 +1,30 @@
+{
+  "qid": "Q977",
+  "name": "Djibouti",
+  "summary": "Djibouti: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Ismaïl Omar Guelleh",
+      "title": "President",
+      "from": 1999,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Ismaïl Omar Guelleh, President (1999–present)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Dileita Mohamed Dileita",
+      "title": "Prime minister",
+      "from": 2001,
+      "to": 2013,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Dileita Mohamed Dileita, Prime minister (2001–2013)"
+      }
+    }
+  ],
+  "events": []
+}

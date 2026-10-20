@@ -1,0 +1,30 @@
+{
+  "qid": "Q983",
+  "name": "Equatorial Guinea",
+  "summary": "Equatorial Guinea: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Teodoro Obiang Nguema Mbasogo",
+      "title": "President",
+      "from": 1979,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Teodoro Obiang Nguema Mbasogo, President (1979–present)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Ignacio Milam Tang",
+      "title": "Prime minister",
+      "from": 2008,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Ignacio Milam Tang, Prime minister (2008–2012)"
+      }
+    }
+  ],
+  "events": []
+}

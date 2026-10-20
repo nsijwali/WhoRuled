@@ -1,0 +1,40 @@
+{
+  "qid": "Q1029",
+  "name": "Mozambique",
+  "summary": "Mozambique: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Armando Guebuza",
+      "title": "President",
+      "from": 2005,
+      "to": 2015,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Armando Guebuza, President (2005–2015)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Luísa Diogo",
+      "title": "Prime minister",
+      "from": 2004,
+      "to": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Luísa Diogo, Prime minister (2004–2010)"
+      }
+    },
+    {
+      "name": "Aires Ali",
+      "title": "Prime minister",
+      "from": 2010,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Aires Ali, Prime minister (2010–2012)"
+      }
+    }
+  ],
+  "events": []
+}

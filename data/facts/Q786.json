@@ -1,0 +1,19 @@
+{
+  "qid": "Q786",
+  "name": "Dominican Republic",
+  "summary": "Dominican Republic: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Leonel Fernández",
+      "title": "President",
+      "from": 2004,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Leonel Fernández, President (2004–2012)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

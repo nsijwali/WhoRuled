@@ -1,0 +1,30 @@
+{
+  "qid": "Q232",
+  "name": "Kazakhstan",
+  "summary": "Kazakhstan: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Nursultan Nazarbayev",
+      "title": "President",
+      "from": 1991,
+      "to": 2019,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Nursultan Nazarbayev, President (1991–2019)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Karim Massimov",
+      "title": "Prime minister",
+      "from": 2007,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Karim Massimov, Prime minister (2007–2012)"
+      }
+    }
+  ],
+  "events": []
+}

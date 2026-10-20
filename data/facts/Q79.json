@@ -14,6 +14,18 @@
       }
     }
   ],
+  "offices": [
+    {
+      "name": "Ahmed Nazif",
+      "title": "Prime minister",
+      "from": 2004,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Ahmed Nazif, Prime minister (2004–2011)"
+      }
+    }
+  ],
   "events": [
     {
       "year": 2011,

@@ -1,0 +1,40 @@
+{
+  "qid": "Q184",
+  "name": "Belarus",
+  "summary": "Belarus: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Alexander Lukashenko",
+      "title": "President",
+      "from": 1994,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Alexander Lukashenko, President (1994–present)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Sergei Sidorsky",
+      "title": "Prime minister",
+      "from": 2003,
+      "to": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Sergei Sidorsky, Prime minister (2003–2010)"
+      }
+    },
+    {
+      "name": "Mikhail Myasnikovich",
+      "title": "Prime minister",
+      "from": 2010,
+      "to": 2014,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Mikhail Myasnikovich, Prime minister (2010–2014)"
+      }
+    }
+  ],
+  "events": []
+}

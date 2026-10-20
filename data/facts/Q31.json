@@ -1,0 +1,30 @@
+{
+  "qid": "Q31",
+  "name": "Belgium",
+  "summary": "Belgium: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Albert II",
+      "title": "King",
+      "from": 1993,
+      "to": 2013,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Albert II, King (1993–2013)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Yves Leterme",
+      "title": "Prime minister",
+      "from": 2009,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Yves Leterme, Prime minister (2009–2011)"
+      }
+    }
+  ],
+  "events": []
+}

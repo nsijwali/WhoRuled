@@ -1,0 +1,40 @@
+{
+  "qid": "Q217",
+  "name": "Moldova",
+  "summary": "Moldova: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Mihai Ghimpu",
+      "title": "Acting President",
+      "from": 2009,
+      "to": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Mihai Ghimpu, Acting President (2009–2010)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Marian Lupu",
+      "title": "Acting President",
+      "from": 2010,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Marian Lupu, Acting President (2010–2012)"
+      }
+    },
+    {
+      "name": "Vlad Filat",
+      "title": "Prime minister",
+      "from": 2009,
+      "to": 2013,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Vlad Filat, Prime minister (2009–2013)"
+      }
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "qid": "Q800",
+  "name": "Costa Rica",
+  "summary": "Costa Rica: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Óscar Arias",
+      "title": "President",
+      "from": 2006,
+      "to": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Óscar Arias, President (2006–2010)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Laura Chinchilla",
+      "title": "President",
+      "from": 2010,
+      "to": 2014,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Laura Chinchilla, President (2010–2014)"
+      }
+    }
+  ],
+  "events": []
+}

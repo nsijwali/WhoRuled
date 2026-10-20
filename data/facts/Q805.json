@@ -1,0 +1,30 @@
+{
+  "qid": "Q805",
+  "name": "Yemen",
+  "summary": "Yemen: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Ali Abdullah Saleh",
+      "title": "President",
+      "from": 1994,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Ali Abdullah Saleh, President (1994–2012)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Ali Muhammad Mujawar",
+      "title": "Prime minister",
+      "from": 2007,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Ali Muhammad Mujawar, Prime minister (2007–2011)"
+      }
+    }
+  ],
+  "events": []
+}

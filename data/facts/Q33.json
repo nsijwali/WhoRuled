@@ -1,0 +1,40 @@
+{
+  "qid": "Q33",
+  "name": "Finland",
+  "summary": "Finland: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Tarja Halonen",
+      "title": "President",
+      "from": 2000,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Tarja Halonen, President (2000–2012)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Matti Vanhanen",
+      "title": "Prime minister",
+      "from": 2003,
+      "to": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Matti Vanhanen, Prime minister (2003–2010)"
+      }
+    },
+    {
+      "name": "Mari Kiviniemi",
+      "title": "Prime minister",
+      "from": 2010,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Mari Kiviniemi, Prime minister (2010–2011)"
+      }
+    }
+  ],
+  "events": []
+}

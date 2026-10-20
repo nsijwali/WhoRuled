@@ -12,6 +12,7 @@
     "test": "vitest run",
     "pipeline:geo": "tsx pipeline/build-geo.ts",
     "pipeline:facts": "tsx pipeline/build-facts.ts",
+    "import:leaders": "tsx pipeline/import-leaders.ts",
     "predev": "node scripts/clean-data.mjs && npm run pipeline:geo && npm run pipeline:facts",
     "prebuild": "node scripts/clean-data.mjs && npm run pipeline:geo && npm run pipeline:facts",
     "e2e": "node e2e/smoke.mjs"

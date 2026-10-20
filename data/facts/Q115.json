@@ -1,0 +1,30 @@
+{
+  "qid": "Q115",
+  "name": "Ethiopia",
+  "summary": "Ethiopia: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Girma Wolde-Giorgis",
+      "title": "President",
+      "from": 2001,
+      "to": 2013,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Girma Wolde-Giorgis, President (2001–2013)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Meles Zenawi",
+      "title": "Prime minister",
+      "from": 1995,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Meles Zenawi, Prime minister (1995–2012)"
+      }
+    }
+  ],
+  "events": []
+}

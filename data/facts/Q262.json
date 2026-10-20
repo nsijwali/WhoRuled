@@ -1,0 +1,30 @@
+{
+  "qid": "Q262",
+  "name": "Algeria",
+  "summary": "Algeria: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Abdelaziz Bouteflika",
+      "title": "President",
+      "from": 1999,
+      "to": 2019,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Abdelaziz Bouteflika, President (1999–2019)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Ahmed Ouyahia",
+      "title": "Prime Minister",
+      "from": 2008,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Ahmed Ouyahia, Prime Minister (2008–2012)"
+      }
+    }
+  ],
+  "events": []
+}

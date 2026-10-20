@@ -1,0 +1,30 @@
+{
+  "qid": "Q1025",
+  "name": "Mauritania",
+  "summary": "Mauritania: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Mohamed Ould Abdel Aziz",
+      "title": "President",
+      "from": 2009,
+      "to": 2019,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Mohamed Ould Abdel Aziz, President (2009–2019)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Moulaye Ould Mohamed Laghdaf",
+      "title": "Prime minister",
+      "from": 2008,
+      "to": 2014,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Moulaye Ould Mohamed Laghdaf, Prime minister (2008–2014)"
+      }
+    }
+  ],
+  "events": []
+}

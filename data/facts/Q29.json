@@ -1,0 +1,30 @@
+{
+  "qid": "Q29",
+  "name": "Spain",
+  "summary": "Spain: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Juan Carlos I",
+      "title": "King",
+      "from": 1975,
+      "to": 2014,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Juan Carlos I, King (1975–2014)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "José Luis Rodríguez Zapatero",
+      "title": "Prime minister",
+      "from": 2004,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "José Luis Rodríguez Zapatero, Prime minister (2004–2011)"
+      }
+    }
+  ],
+  "events": []
+}
