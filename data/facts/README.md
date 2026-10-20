@@ -4,6 +4,7 @@ One JSON file per polity, named by Wikidata QID (for example `Q142.json`), valid
 
 - Every ruler, army size and event needs a source URL and a quoted passage.
 - Never add a `review` field by hand or from an automated run. Only the owner records a review.
+- Rows imported from Wikipedia lists stay under CC BY-SA 4.0 (see `LICENSING.md`); hand-written entries are CC0.
 - This folder holds facts only. Border geometry lives in `data/borders-gpl/` under its own licence.
 
 ## Offices below the ruler
@@ -12,4 +13,4 @@ One JSON file per polity, named by Wikidata QID (for example `Q142.json`), valid
 
 ## Bulk import (2010)
 
-`npm run import:leaders` regenerates 2010 rulers/offices for 175 states from `pipeline/import/leaders-2010.txt`, rows copied from Wikipedia's "List of state leaders in the 2010s". Each row's source quote is the list line itself. Curated rulers already in a file are kept. Army sizes are never imported.
+`npm run import:leaders` regenerates 2010 rulers/offices for 176 states from `pipeline/import/leaders-2010.txt`, rows copied from Wikipedia's "List of state leaders in the 2010s". Each row's source quote is the list line itself. Curated rulers already in a file are kept. Army sizes are never imported.

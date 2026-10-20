@@ -36,7 +36,7 @@ export const HistoricalEvent = z.object({
   source: Citation,
 });
 
-/** Present only after a human review; the agent never writes it (ADR-019). */
+/** Present only after a human review; the agent never writes it (ADR-019). Shown as a badge. */
 export const Review = z.object({
   by: z.string().min(1),
   date: z.iso.date(),
@@ -57,7 +57,11 @@ export const Polity = z.object({
 
 export type Polity = z.infer<typeof Polity>;
 
-/** Unreviewed polities must stay out of the search index. */
+/**
+ * A page is indexable when it says something and every claim carries a source. The schema already
+ * requires a citation on every ruler, office, army size and event, so a human review is an optional
+ * badge, not a gate (ADR-019, revised).
+ */
 export function isIndexable(polity: Polity): boolean {
-  return polity.review !== undefined;
+  return polity.rulers.length + polity.offices.length > 0;
 }

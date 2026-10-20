@@ -173,3 +173,4 @@ Fiji|Q712|Epeli Nailatikau, President (2009–2015);Frank Bainimarama, Acting Pr
 New Zealand|Q664|Elizabeth II, Queen (1952–2022);John Key, Prime minister (2008–2016)
 Samoa|Q683|Tui Ātua Tupua Tamasese Efi, O le Ao o le Malo (2007–2017);Tuila'epa Sa'ilele Malielegaoi, Prime minister (1998–2021)
 Tonga|Q678|George Tupou V, King (2006–2012);Feleti Sevele, Prime minister (2006–2010);Sialeʻataongo Tuʻivakanō, Prime minister (2010–2014)
+Venezuela|Q717|Hugo Chávez, President (2002–2013)
