@@ -1,36 +1,40 @@
-import { existsSync, readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { Polity } from '../src/data/schema.ts';
 
 /**
- * One-off, repeatable import of "who held office in <year>" rows copied from Wikipedia's
- * "List of state leaders in the 2010s" (pipeline/import/leaders-2010.txt, one country per line:
- * `Wikipedia name|QID|Name, Title (from–to);...`). Rows become rulers/offices with the list as source.
- * Existing curated rulers are never replaced; unreviewed output carries no `review` field (ADR-019).
+ * Repeatable import of "who held office in <year>" rows copied from Wikipedia's "List of state leaders"
+ * pages. One raw file per snapshot year: pipeline/import/leaders-<year>.txt (`leaders-bc500.txt` for
+ * 500 BC). A file starts with `# source: <url of the list page used>`; every other non-comment line is
+ * `Wikipedia name|QID|Name, Title (from–to);...`, keeping only the list lines that cover that year.
+ * Rows become rulers/offices with the list line as the quoted source. Curated (non-imported) rulers and
+ * offices are never replaced; output never carries a `review` field (ADR-019).
  */
-const SOURCE_URL = 'https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s';
-const YEAR = 2010;
+const IMPORT_DIR = 'pipeline/import';
+const IMPORTED_URL = /^https:\/\/en\.wikipedia\.org\/wiki\/List_of_state_leaders/;
 
-/** Wikipedia country name -> border dataset feature NAME (only where they differ). */
-const BORDER_NAME: Record<string, string> = {
-  'Democratic Republic of the Congo': 'Zaire',
-  'Republic of the Congo': 'Congo',
-  Eswatini: 'Swaziland',
-  Gambia: 'Gambia, The',
-  Tanzania: 'Tanzania, United Republic of',
-  'Trinidad and Tobago': 'Trinidad',
-  'North Korea': "Korea, Democratic People's Republic of",
-  'South Korea': 'Korea, Republic of',
-  'North Macedonia': 'Macedonia',
-  'Republic of Ireland': 'Ireland',
-  'The Netherlands': 'Netherlands',
-  Belarus: 'Byelarus',
-  'Northern Cyprus': 'Turkish Cypriot-administered area',
+/** Per snapshot year: Wikipedia country name -> border dataset feature NAME (only where they differ). */
+export const BORDER_NAME: Record<number, Record<string, string>> = {
+  2010: {
+    'Democratic Republic of the Congo': 'Zaire',
+    'Republic of the Congo': 'Congo',
+    Eswatini: 'Swaziland',
+    Gambia: 'Gambia, The',
+    Tanzania: 'Tanzania, United Republic of',
+    'Trinidad and Tobago': 'Trinidad',
+    'North Korea': "Korea, Democratic People's Republic of",
+    'South Korea': 'Korea, Republic of',
+    'North Macedonia': 'Macedonia',
+    'Republic of Ireland': 'Ireland',
+    'The Netherlands': 'Netherlands',
+    Belarus: 'Byelarus',
+    'Northern Cyprus': 'Turkish Cypriot-administered area',
+  },
 };
 
-const RULER_TITLE = /president|king|queen|emperor|emir|sultan|prince|grand duke|supreme leader|general secretary|chairman|druk|yang di|ao o le/i;
+const RULER_TITLE = /president|king|queen|emperor|empress|emir|sultan|shah|tsar|prince|grand duke|duke|supreme leader|general secretary|chairman|druk|yang di|ao o le|führer|regent|caudillo|head of state/i;
 
-interface Entry {
+export interface Entry {
   name: string;
   title: string;
   from: number;
@@ -38,45 +42,99 @@ interface Entry {
   quote: string;
 }
 
-export function parseEntry(text: string): Entry | null {
+export interface Row {
+  year: number;
+  wikiName: string;
+  url: string;
+  lines: string[];
+}
+
+/** `leaders-1914.txt` -> 1914, `leaders-bc500.txt` -> -500; null for other files. */
+export function yearFromFileName(file: string): number | null {
+  const m = /^leaders-(bc)?(\d+)\.txt$/.exec(file);
+  if (!m) return null;
+  return m[1] ? -Number(m[2]) : Number(m[2]);
+}
+
+/** Parses a raw file into rows. Throws on a malformed row or a missing `# source:` header. */
+export function parseRawFile(text: string, year: number): (Row & { qid: string })[] {
+  const url = /^# source: (\S+)$/m.exec(text)?.[1];
+  if (!url || !IMPORTED_URL.test(url)) throw new Error(`leaders-${year}: missing or foreign "# source:" header`);
+  return text
+    .split('\n')
+    .filter((l) => l.trim() !== '' && !l.startsWith('#'))
+    .map((row) => {
+      const [wikiName, qid, rest, extra] = row.split('|');
+      if (!wikiName || !qid || !rest || extra !== undefined || !/^Q[1-9]\d*$/.test(qid)) throw new Error(`Bad row: ${row}`);
+      return { year, wikiName, url, lines: rest.split(';'), qid };
+    });
+}
+
+/** First period in a list line (`Title (1903–1905, 1906–1907)`, `(c.1905)`, `(1982–present)`) that covers `year`. */
+export function parseEntry(text: string, year: number): Entry | null {
   const comma = text.indexOf(', ');
   if (comma < 0) return null;
   const name = text.slice(0, comma).trim();
-  for (const m of text.slice(comma + 2).matchAll(/([^()]+?)\s*\((\d{4})(?:–(\d{4}|present))?\)/g)) {
-    const from = Number(m[2]);
-    const to = m[3] === undefined ? from : m[3] === 'present' ? null : Number(m[3]);
-    if (from <= YEAR && (to === null || to >= YEAR))
-      return { name, title: (m[1] ?? '').replace(/^,\s*/, '').trim(), from, to, quote: text };
+  for (const m of text.slice(comma + 2).matchAll(/([^()]*?)\s*\(([^()]*\d[^()]*)\)/g)) {
+    for (const part of (m[2] ?? '').split(/,\s*/)) {
+      const p = /^(?:c\.\s*)?(\d{3,4})(?:\s*–\s*(?:c\.\s*)?(\d{3,4}|present))?$/.exec(part.trim());
+      if (!p) continue;
+      const from = Number(p[1]);
+      const to = p[2] === undefined ? from : p[2] === 'present' ? null : Number(p[2]);
+      const title = (m[1] ?? '').replace(/^[,\s]+/, '').trim();
+      if (title && from <= year && (to === null || to >= year)) return { name, title, from, to, quote: text };
+    }
   }
   return null;
 }
 
-const toRecord = (e: Entry) => ({
+type Office = Polity['rulers'][number];
+const isImported = (r: Office) => IMPORTED_URL.test(r.source.url);
+const covers = (r: Office, year: number) => r.from <= year && (r.to === null || r.to >= year);
+const key = (r: Office) => `${r.name}|${r.title}|${r.from}|${r.to}`;
+const IMPORTED_SUMMARY = /: office-holders in [-\d, ]+, from Wikipedia's lists? of state leaders\.$/;
+
+const toRecord = (e: Entry, row: Row): Office => ({
   name: e.name,
   title: e.title,
   from: e.from,
   to: e.to,
-  source: { url: SOURCE_URL, quote: e.quote.length >= 10 ? e.quote : `${e.quote} (${YEAR})` },
+  source: { url: row.url, quote: e.quote.length >= 10 ? e.quote : `${e.quote} (${row.year})` },
 });
 
-export function buildPolity(wikiName: string, qid: string, lines: string[], existing: Polity | null): Polity {
-  const entries = lines.map(parseEntry).filter((e): e is Entry => e !== null);
-  const seen = new Set<string>();
-  const unique = entries.filter((e) => !seen.has(`${e.name}|${e.title}`) && seen.add(`${e.name}|${e.title}`));
-  const rulerIdx = Math.max(0, unique.findIndex((e) => RULER_TITLE.test(e.title)));
-  const heldNames = new Set((existing?.rulers ?? []).map((r) => r.name));
-  const rulers = existing ? existing.rulers : unique.slice(rulerIdx, rulerIdx + 1).map(toRecord);
-  const offices = unique
-    .filter((e, i) => (existing ? !heldNames.has(e.name) : i !== rulerIdx))
-    .map(toRecord);
+/**
+ * Builds one polity from all its rows (any number of snapshot years). Imported entries already in
+ * `existing` are regenerated; curated ones are kept. Per year, the first ruler-like title becomes the
+ * ruler unless a ruler already covers that year; everything else becomes an office.
+ */
+export function buildPolity(qid: string, rows: Row[], existing: Polity | null): Polity {
+  const rulers = (existing?.rulers ?? []).filter((r) => !isImported(r));
+  const offices = (existing?.offices ?? []).filter((r) => !isImported(r));
+  const seen = new Set([...rulers, ...offices].map(key));
+  const sorted = [...rows].sort((a, b) => a.year - b.year);
+  for (const row of sorted) {
+    const entries = row.lines.map((l) => parseEntry(l, row.year)).filter((e): e is Entry => e !== null);
+    const held = new Set(rulers.filter((r) => covers(r, row.year)).map((r) => r.name));
+    const fresh = entries.map((e) => toRecord(e, row)).filter((r) => !held.has(r.name) && !seen.has(key(r)) && seen.add(key(r)));
+    const rulerIdx = held.size > 0 ? -1 : Math.max(0, fresh.findIndex((r) => RULER_TITLE.test(r.title)));
+    fresh.forEach((r, i) => (i === rulerIdx ? rulers : offices).push(r));
+  }
+  rulers.sort((a, b) => a.from - b.from);
+  const curated = existing !== null && !IMPORTED_SUMMARY.test(existing.summary);
+  const name = curated ? existing.name : (sorted.at(-1)?.wikiName ?? existing?.name ?? qid);
+  const years = [...new Set(sorted.map((r) => r.year))].map((y) => (y < 0 ? `${-y} BC` : String(y)));
+  const summary = curated
+    ? existing.summary
+    : `${name}: office-holders in ${years.join(', ')}, from Wikipedia's ${years.length > 1 ? 'lists' : 'list'} of state leaders.`;
   return Polity.parse({
     qid,
-    name: existing?.name ?? wikiName,
-    summary: existing?.summary ?? `${wikiName}: office-holders in ${YEAR}, from Wikipedia's list of state leaders.`,
+    name,
+    summary,
     rulers,
     offices,
     ...(existing?.armySize ? { armySize: existing.armySize } : {}),
     events: existing?.events ?? [],
+    ...(existing?.review ? { review: existing.review } : {}),
   });
 }
 
@@ -84,18 +142,25 @@ if (process.argv[1] && import.meta.url === new URL(`file://${process.argv[1]}`).
   const factsDir = 'data/facts';
   const mapPath = join(factsDir, 'feature-map.json');
   const featureMap = JSON.parse(readFileSync(mapPath, 'utf8')) as Record<string, Record<string, string>>;
-  const year = (featureMap[String(YEAR)] ??= {});
-  let count = 0;
-  for (const row of readFileSync('pipeline/import/leaders-2010.txt', 'utf8').split('\n').filter(Boolean)) {
-    const [wikiName, qid, rest] = row.split('|');
-    if (!wikiName || !qid || !rest) throw new Error(`Bad row: ${row}`);
+  const byQid = new Map<string, Row[]>();
+  const perYear: Record<string, number> = {};
+  for (const file of readdirSync(IMPORT_DIR).sort()) {
+    const year = yearFromFileName(file);
+    if (year === null) continue;
+    const yearMap = (featureMap[String(year)] ??= {});
+    for (const { qid, ...row } of parseRawFile(readFileSync(join(IMPORT_DIR, file), 'utf8'), year)) {
+      const border = BORDER_NAME[year]?.[row.wikiName] ?? row.wikiName;
+      if (yearMap[border] && yearMap[border] !== qid) throw new Error(`${file}: "${border}" is already mapped to ${yearMap[border]}`);
+      yearMap[border] = qid;
+      byQid.set(qid, [...(byQid.get(qid) ?? []), row]);
+      perYear[year] = (perYear[year] ?? 0) + 1;
+    }
+  }
+  for (const [qid, rows] of byQid) {
     const file = join(factsDir, `${qid}.json`);
     const existing = existsSync(file) ? Polity.parse(JSON.parse(readFileSync(file, 'utf8'))) : null;
-    const polity = buildPolity(wikiName, qid, rest.split(';'), existing);
-    writeFileSync(file, `${JSON.stringify(polity, null, 2)}\n`);
-    year[BORDER_NAME[wikiName] ?? wikiName] = qid;
-    count += 1;
+    writeFileSync(file, `${JSON.stringify(buildPolity(qid, rows, existing), null, 2)}\n`);
   }
   writeFileSync(mapPath, `${JSON.stringify(featureMap, null, 2)}\n`);
-  console.log(JSON.stringify({ imported: count }));
+  console.log(JSON.stringify({ polities: byQid.size, rowsPerYear: perYear }));
 }
