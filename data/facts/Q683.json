@@ -1,0 +1,30 @@
+{
+  "qid": "Q683",
+  "name": "Samoa",
+  "summary": "Samoa: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Tui Ātua Tupua Tamasese Efi",
+      "title": "O le Ao o le Malo",
+      "from": 2007,
+      "to": 2017,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Tui Ātua Tupua Tamasese Efi, O le Ao o le Malo (2007–2017)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Tuila'epa Sa'ilele Malielegaoi",
+      "title": "Prime minister",
+      "from": 1998,
+      "to": 2021,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Tuila'epa Sa'ilele Malielegaoi, Prime minister (1998–2021)"
+      }
+    }
+  ],
+  "events": []
+}

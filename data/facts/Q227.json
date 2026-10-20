@@ -1,0 +1,30 @@
+{
+  "qid": "Q227",
+  "name": "Azerbaijan",
+  "summary": "Azerbaijan: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Ilham Aliyev",
+      "title": "President",
+      "from": 2003,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Ilham Aliyev, President (2003–present)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Artur Rasizade",
+      "title": "Prime minister",
+      "from": 2003,
+      "to": 2018,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Artur Rasizade, Prime minister (2003–2018)"
+      }
+    }
+  ],
+  "events": []
+}

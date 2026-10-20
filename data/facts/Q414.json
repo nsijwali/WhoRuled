@@ -1,0 +1,19 @@
+{
+  "qid": "Q414",
+  "name": "Argentina",
+  "summary": "Argentina: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Cristina Fernández de Kirchner",
+      "title": "President",
+      "from": 2007,
+      "to": 2015,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Cristina Fernández de Kirchner, President (2007–2015)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

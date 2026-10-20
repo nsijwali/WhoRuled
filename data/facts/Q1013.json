@@ -1,0 +1,19 @@
+{
+  "qid": "Q1013",
+  "name": "Lesotho",
+  "summary": "Lesotho: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Pakalitha Mosisili",
+      "title": "Prime minister",
+      "from": 1998,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Pakalitha Mosisili, Prime minister (1998–2012)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "qid": "Q763",
+  "name": "Saint Kitts and Nevis",
+  "summary": "Saint Kitts and Nevis: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Elizabeth II",
+      "title": "Queen",
+      "from": 1983,
+      "to": 2022,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Elizabeth II, Queen (1983–2022)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Denzil Douglas",
+      "title": "Prime minister",
+      "from": 1995,
+      "to": 2015,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Denzil Douglas, Prime minister (1995–2015)"
+      }
+    }
+  ],
+  "events": []
+}

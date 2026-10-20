@@ -1,0 +1,60 @@
+{
+  "qid": "Q225",
+  "name": "Bosnia and Herzegovina",
+  "summary": "Bosnia and Herzegovina: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Željko Komšić",
+      "title": "Chairman",
+      "from": 2009,
+      "to": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Željko Komšić, Chairman (2009–2010)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Valentin Inzko",
+      "title": "High Representative",
+      "from": 2009,
+      "to": 2021,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Valentin Inzko, High Representative (2009–2021)"
+      }
+    },
+    {
+      "name": "Haris Silajdžić",
+      "title": "Chairman",
+      "from": 2010,
+      "to": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Haris Silajdžić, Chairman (2010)"
+      }
+    },
+    {
+      "name": "Nebojša Radmanović",
+      "title": "Chairman",
+      "from": 2010,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Nebojša Radmanović, Chairman (2010–2011)"
+      }
+    },
+    {
+      "name": "Nikola Špirić",
+      "title": "Chairman of the Council of Ministers",
+      "from": 2007,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Nikola Špirić, Chairman of the Council of Ministers (2007–2012)"
+      }
+    }
+  ],
+  "events": []
+}

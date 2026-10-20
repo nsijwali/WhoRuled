@@ -1,0 +1,19 @@
+{
+  "qid": "Q252",
+  "name": "Indonesia",
+  "summary": "Indonesia: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Susilo Bambang Yudhoyono",
+      "title": "President",
+      "from": 2004,
+      "to": 2014,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Susilo Bambang Yudhoyono, President (2004–2014)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

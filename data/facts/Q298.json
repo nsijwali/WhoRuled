@@ -1,0 +1,30 @@
+{
+  "qid": "Q298",
+  "name": "Chile",
+  "summary": "Chile: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Michelle Bachelet",
+      "title": "President",
+      "from": 2006,
+      "to": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Michelle Bachelet, President (2006–2010)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Sebastián Piñera",
+      "title": "President",
+      "from": 2010,
+      "to": 2014,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Sebastián Piñera, President (2010–2014)"
+      }
+    }
+  ],
+  "events": []
+}

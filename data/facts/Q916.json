@@ -1,0 +1,30 @@
+{
+  "qid": "Q916",
+  "name": "Angola",
+  "summary": "Angola: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "José Eduardo dos Santos",
+      "title": "President",
+      "from": 1979,
+      "to": 2017,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "José Eduardo dos Santos, President (1979–2017)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Paulo Kassoma",
+      "title": "Prime minister",
+      "from": 2008,
+      "to": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Paulo Kassoma, Prime minister (2008–2010)"
+      }
+    }
+  ],
+  "events": []
+}

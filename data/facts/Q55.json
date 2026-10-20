@@ -1,0 +1,40 @@
+{
+  "qid": "Q55",
+  "name": "The Netherlands",
+  "summary": "The Netherlands: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Beatrix",
+      "title": "Queen",
+      "from": 1980,
+      "to": 2013,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Beatrix, Queen (1980–2013)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Jan Peter Balkenende",
+      "title": "Prime minister",
+      "from": 2002,
+      "to": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Jan Peter Balkenende, Prime minister (2002–2010)"
+      }
+    },
+    {
+      "name": "Mark Rutte",
+      "title": "Prime minister",
+      "from": 2010,
+      "to": 2024,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Mark Rutte, Prime minister (2010–2024)"
+      }
+    }
+  ],
+  "events": []
+}

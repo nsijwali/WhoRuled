@@ -1,0 +1,30 @@
+{
+  "qid": "Q784",
+  "name": "Dominica",
+  "summary": "Dominica: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Nicholas Liverpool",
+      "title": "President",
+      "from": 2003,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Nicholas Liverpool, President (2003–2012)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Roosevelt Skerrit",
+      "title": "Prime minister",
+      "from": 2004,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Roosevelt Skerrit, Prime minister (2004–present)"
+      }
+    }
+  ],
+  "events": []
+}

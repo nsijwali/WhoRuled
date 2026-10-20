@@ -1,0 +1,30 @@
+{
+  "qid": "Q40",
+  "name": "Austria",
+  "summary": "Austria: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Heinz Fischer",
+      "title": "President",
+      "from": 2004,
+      "to": 2016,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Heinz Fischer, President (2004–2016)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Werner Faymann",
+      "title": "Chancellor",
+      "from": 2008,
+      "to": 2016,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Werner Faymann, Chancellor (2008–2016)"
+      }
+    }
+  ],
+  "events": []
+}

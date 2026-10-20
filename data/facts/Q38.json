@@ -1,0 +1,30 @@
+{
+  "qid": "Q38",
+  "name": "Italy",
+  "summary": "Italy: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Giorgio Napolitano",
+      "title": "President",
+      "from": 2006,
+      "to": 2015,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Giorgio Napolitano, President (2006–2015)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Silvio Berlusconi",
+      "title": "Prime minister",
+      "from": 2008,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Silvio Berlusconi, Prime minister (2008–2011)"
+      }
+    }
+  ],
+  "events": []
+}

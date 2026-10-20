@@ -48,6 +48,8 @@ export const Polity = z.object({
   name: z.string().min(1),
   summary: z.string().min(1).max(500),
   rulers: z.array(Ruler),
+  /** Offices below the ruler (head of government, ministers, ...), same shape as a ruler entry. */
+  offices: z.array(Ruler).default([]),
   armySize: ArmySize.optional(),
   events: z.array(HistoricalEvent),
   review: Review.optional(),

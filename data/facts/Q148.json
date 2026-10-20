@@ -14,6 +14,18 @@
       }
     }
   ],
+  "offices": [
+    {
+      "name": "Wen Jiabao",
+      "title": "Premier",
+      "from": 2003,
+      "to": 2013,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Wen Jiabao, Premier (2003–2013)"
+      }
+    }
+  ],
   "events": [
     {
       "year": 2010,

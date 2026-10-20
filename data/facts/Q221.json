@@ -1,0 +1,30 @@
+{
+  "qid": "Q221",
+  "name": "North Macedonia",
+  "summary": "North Macedonia: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Gjorge Ivanov",
+      "title": "President",
+      "from": 2009,
+      "to": 2019,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Gjorge Ivanov, President (2009–2019)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Nikola Gruevski",
+      "title": "Prime minister",
+      "from": 2006,
+      "to": 2016,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Nikola Gruevski, Prime minister (2006–2016)"
+      }
+    }
+  ],
+  "events": []
+}

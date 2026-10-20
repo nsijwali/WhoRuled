@@ -1,0 +1,19 @@
+{
+  "qid": "Q258",
+  "name": "South Africa",
+  "summary": "South Africa: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Jacob Zuma",
+      "title": "President",
+      "from": 2009,
+      "to": 2018,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Jacob Zuma, President (2009–2018)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

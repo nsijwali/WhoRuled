@@ -1,0 +1,30 @@
+{
+  "qid": "Q32",
+  "name": "Luxembourg",
+  "summary": "Luxembourg: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Henri",
+      "title": "Grand Duke",
+      "from": 2000,
+      "to": 2025,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Henri, Grand Duke (2000–2025)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Jean-Claude Juncker",
+      "title": "Prime minister",
+      "from": 1995,
+      "to": 2013,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Jean-Claude Juncker, Prime minister (1995–2013)"
+      }
+    }
+  ],
+  "events": []
+}

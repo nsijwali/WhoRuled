@@ -1,0 +1,19 @@
+{
+  "qid": "Q811",
+  "name": "Nicaragua",
+  "summary": "Nicaragua: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Daniel Ortega",
+      "title": "President",
+      "from": 2007,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Daniel Ortega, President (2007–present)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

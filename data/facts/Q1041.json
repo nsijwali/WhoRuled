@@ -1,0 +1,30 @@
+{
+  "qid": "Q1041",
+  "name": "Senegal",
+  "summary": "Senegal: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Abdoulaye Wade",
+      "title": "President",
+      "from": 2000,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Abdoulaye Wade, President (2000–2012)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Souleymane Ndéné Ndiaye",
+      "title": "Prime minister",
+      "from": 2009,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Souleymane Ndéné Ndiaye, Prime minister (2009–2012)"
+      }
+    }
+  ],
+  "events": []
+}

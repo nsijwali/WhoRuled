@@ -1,0 +1,30 @@
+{
+  "qid": "Q40362",
+  "name": "Western Sahara",
+  "summary": "Western Sahara: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Mohamed Abdelaziz",
+      "title": "President",
+      "from": 1976,
+      "to": 2016,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Mohamed Abdelaziz, President (1976–2016)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Abdelkader Taleb Omar",
+      "title": "Prime Minister",
+      "from": 2003,
+      "to": 2018,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Abdelkader Taleb Omar, Prime Minister (2003–2018)"
+      }
+    }
+  ],
+  "events": []
+}

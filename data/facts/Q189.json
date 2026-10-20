@@ -1,0 +1,30 @@
+{
+  "qid": "Q189",
+  "name": "Iceland",
+  "summary": "Iceland: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Ólafur Ragnar Grímsson",
+      "title": "President",
+      "from": 1996,
+      "to": 2016,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Ólafur Ragnar Grímsson, President (1996–2016)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Jóhanna Sigurðardóttir",
+      "title": "Prime minister",
+      "from": 2009,
+      "to": 2013,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Jóhanna Sigurðardóttir, Prime minister (2009–2013)"
+      }
+    }
+  ],
+  "events": []
+}

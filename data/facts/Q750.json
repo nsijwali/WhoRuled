@@ -1,0 +1,19 @@
+{
+  "qid": "Q750",
+  "name": "Bolivia",
+  "summary": "Bolivia: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Evo Morales",
+      "title": "President",
+      "from": 2006,
+      "to": 2019,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Evo Morales, President (2006–2019)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

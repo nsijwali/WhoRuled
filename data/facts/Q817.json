@@ -1,0 +1,30 @@
+{
+  "qid": "Q817",
+  "name": "Kuwait",
+  "summary": "Kuwait: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Sabah IV",
+      "title": "Emir",
+      "from": 2006,
+      "to": 2020,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Sabah IV, Emir (2006–2020)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Nasser Al-Mohammed",
+      "title": "Prime minister",
+      "from": 2006,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Nasser Al-Mohammed, Prime minister (2006–2011)"
+      }
+    }
+  ],
+  "events": []
+}

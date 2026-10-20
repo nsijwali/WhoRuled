@@ -1,0 +1,19 @@
+{
+  "qid": "Q921",
+  "name": "Brunei",
+  "summary": "Brunei: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Hassanal Bolkiah",
+      "title": "Sultan",
+      "from": 1967,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Hassanal Bolkiah, Sultan (1967–present)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

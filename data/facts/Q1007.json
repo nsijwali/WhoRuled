@@ -1,0 +1,30 @@
+{
+  "qid": "Q1007",
+  "name": "Guinea-Bissau",
+  "summary": "Guinea-Bissau: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Malam Bacai Sanhá",
+      "title": "President",
+      "from": 2009,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Malam Bacai Sanhá, President (2009–2012)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Carlos Gomes Júnior",
+      "title": "Prime minister",
+      "from": 2009,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Carlos Gomes Júnior, Prime minister (2009–2012)"
+      }
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "qid": "Q902",
+  "name": "Bangladesh",
+  "summary": "Bangladesh: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Zillur Rahman",
+      "title": "President",
+      "from": 2009,
+      "to": 2013,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Zillur Rahman, President (2009–2013)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Sheikh Hasina",
+      "title": "Prime minister",
+      "from": 2009,
+      "to": 2024,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Sheikh Hasina, Prime minister (2009–2024)"
+      }
+    }
+  ],
+  "events": []
+}

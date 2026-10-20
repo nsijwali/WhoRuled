@@ -1,0 +1,50 @@
+{
+  "qid": "Q28",
+  "name": "Hungary",
+  "summary": "Hungary: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "László Sólyom",
+      "title": "President",
+      "from": 2005,
+      "to": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "László Sólyom, President (2005–2010)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Pál Schmitt",
+      "title": "President",
+      "from": 2010,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Pál Schmitt, President (2010–2012)"
+      }
+    },
+    {
+      "name": "Gordon Bajnai",
+      "title": "Prime minister",
+      "from": 2009,
+      "to": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Gordon Bajnai, Prime minister (2009–2010)"
+      }
+    },
+    {
+      "name": "Viktor Orbán",
+      "title": "Prime minister",
+      "from": 2010,
+      "to": 2026,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Viktor Orbán, Prime minister (2010–2026)"
+      }
+    }
+  ],
+  "events": []
+}

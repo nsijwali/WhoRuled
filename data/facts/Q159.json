@@ -14,6 +14,18 @@
       }
     }
   ],
+  "offices": [
+    {
+      "name": "Vladimir Putin",
+      "title": "Prime minister",
+      "from": 2008,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Vladimir Putin, Prime minister (2008–2012)"
+      }
+    }
+  ],
   "events": [
     {
       "year": 2008,

@@ -277,8 +277,13 @@ function MapView({
   );
 }
 
+function inYear(r: { from: number; to: number | null }, year: number): boolean {
+  return r.from <= year && (r.to === null || r.to >= year);
+}
+
 function PolityFacts({ polity, year }: { polity: Polity; year: number }) {
-  const rulers = polity.rulers.filter((r) => r.from <= year && (r.to === null || r.to >= year));
+  const rulers = polity.rulers.filter((r) => inYear(r, year));
+  const offices = polity.offices.filter((o) => inYear(o, year));
   return (
     <>
       <p>{polity.summary}</p>
@@ -290,6 +295,21 @@ function PolityFacts({ polity, year }: { polity: Polity; year: number }) {
               <li key={`${r.name}-${r.from}`}>
                 {r.name}, {r.title} ({formatYear(r.from)}–{r.to === null ? 'present' : formatYear(r.to)}){' '}
                 <a href={r.source.url} target="_blank" rel="noopener noreferrer">
+                  source
+                </a>
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
+      {offices.length > 0 && (
+        <>
+          <h3>Government below the ruler</h3>
+          <ul>
+            {offices.map((o) => (
+              <li key={`${o.name}-${o.title}-${o.from}`}>
+                {o.name}, {o.title} ({formatYear(o.from)}–{o.to === null ? 'present' : formatYear(o.to)}){' '}
+                <a href={o.source.url} target="_blank" rel="noopener noreferrer">
                   source
                 </a>
               </li>

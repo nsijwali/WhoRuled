@@ -1,0 +1,30 @@
+{
+  "qid": "Q218",
+  "name": "Romania",
+  "summary": "Romania: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Traian Băsescu",
+      "title": "President",
+      "from": 2007,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Traian Băsescu, President (2007–2012)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Emil Boc",
+      "title": "Prime minister",
+      "from": 2008,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Emil Boc, Prime minister (2008–2012)"
+      }
+    }
+  ],
+  "events": []
+}

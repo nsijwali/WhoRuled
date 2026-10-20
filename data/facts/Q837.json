@@ -1,0 +1,30 @@
+{
+  "qid": "Q837",
+  "name": "Nepal",
+  "summary": "Nepal: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Ram Baran Yadav",
+      "title": "President",
+      "from": 2008,
+      "to": 2015,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Ram Baran Yadav, President (2008–2015)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Madhav Kumar Nepal",
+      "title": "Prime minister",
+      "from": 2009,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Madhav Kumar Nepal, Prime minister (2009–2011)"
+      }
+    }
+  ],
+  "events": []
+}

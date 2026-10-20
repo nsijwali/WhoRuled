@@ -14,6 +14,28 @@
       }
     }
   ],
+  "offices": [
+    {
+      "name": "Yukio Hatoyama",
+      "title": "Prime minister",
+      "from": 2009,
+      "to": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Yukio Hatoyama, Prime minister (2009–2010)"
+      }
+    },
+    {
+      "name": "Naoto Kan",
+      "title": "Prime minister",
+      "from": 2010,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Naoto Kan, Prime minister (2010–2011)"
+      }
+    }
+  ],
   "events": [
     {
       "year": 2011,

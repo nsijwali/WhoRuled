@@ -1,0 +1,30 @@
+{
+  "qid": "Q833",
+  "name": "Malaysia",
+  "summary": "Malaysia: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Mizan Zainal Abidin of Terengganu",
+      "title": "Yang di-Pertuan Agong",
+      "from": 2006,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Mizan Zainal Abidin of Terengganu, Yang di-Pertuan Agong (2006–2011)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Najib Razak",
+      "title": "Prime minister",
+      "from": 2009,
+      "to": 2018,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Najib Razak, Prime minister (2009–2018)"
+      }
+    }
+  ],
+  "events": []
+}

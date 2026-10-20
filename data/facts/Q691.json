@@ -1,0 +1,40 @@
+{
+  "qid": "Q691",
+  "name": "Papua New Guinea",
+  "summary": "Papua New Guinea: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Elizabeth II",
+      "title": "Queen",
+      "from": 1975,
+      "to": 2022,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Elizabeth II, Queen (1975–2022)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Michael Somare",
+      "title": "Prime minister",
+      "from": 2002,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Michael Somare, Prime minister (2002–2012)"
+      }
+    },
+    {
+      "name": "Sam Abal",
+      "title": "Acting Prime minister",
+      "from": 2010,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Sam Abal, Acting Prime minister (2010–2011)"
+      }
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "qid": "Q230",
+  "name": "Georgia",
+  "summary": "Georgia: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Mikheil Saakashvili",
+      "title": "President",
+      "from": 2008,
+      "to": 2013,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Mikheil Saakashvili, President (2008–2013)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Nika Gilauri",
+      "title": "Prime minister",
+      "from": 2009,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Nika Gilauri, Prime minister (2009–2012)"
+      }
+    }
+  ],
+  "events": []
+}

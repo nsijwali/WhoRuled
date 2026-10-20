@@ -1,0 +1,40 @@
+{
+  "qid": "Q23681",
+  "name": "Northern Cyprus",
+  "summary": "Northern Cyprus: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Mehmet Ali Talat",
+      "title": "President",
+      "from": 2005,
+      "to": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Mehmet Ali Talat, President (2005–2010)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Derviş Eroğlu",
+      "title": "President",
+      "from": 2010,
+      "to": 2015,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Derviş Eroğlu, President (2010–2015)"
+      }
+    },
+    {
+      "name": "İrsen Küçük",
+      "title": "Prime minister",
+      "from": 2010,
+      "to": 2013,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "İrsen Küçük, Prime minister (2010–2013)"
+      }
+    }
+  ],
+  "events": []
+}

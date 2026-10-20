@@ -1,0 +1,30 @@
+{
+  "qid": "Q16",
+  "name": "Canada",
+  "summary": "Canada: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Elizabeth II",
+      "title": "Queen",
+      "from": 1952,
+      "to": 2022,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Elizabeth II, Queen (1952–2022)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Stephen Harper",
+      "title": "Prime minister",
+      "from": 2006,
+      "to": 2015,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Stephen Harper, Prime minister (2006–2015)"
+      }
+    }
+  ],
+  "events": []
+}

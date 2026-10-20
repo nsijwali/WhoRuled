@@ -1,0 +1,30 @@
+{
+  "qid": "Q924",
+  "name": "Tanzania",
+  "summary": "Tanzania: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Jakaya Kikwete",
+      "title": "President",
+      "from": 2005,
+      "to": 2015,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Jakaya Kikwete, President (2005–2015)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Mizengo Pinda",
+      "title": "Prime minister",
+      "from": 2008,
+      "to": 2015,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Mizengo Pinda, Prime minister (2008–2015)"
+      }
+    }
+  ],
+  "events": []
+}

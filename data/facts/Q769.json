@@ -1,0 +1,30 @@
+{
+  "qid": "Q769",
+  "name": "Grenada",
+  "summary": "Grenada: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Elizabeth II",
+      "title": "Queen",
+      "from": 1974,
+      "to": 2022,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Elizabeth II, Queen (1974–2022)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Tillman Thomas",
+      "title": "Prime minister",
+      "from": 2008,
+      "to": 2013,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Tillman Thomas, Prime minister (2008–2013)"
+      }
+    }
+  ],
+  "events": []
+}

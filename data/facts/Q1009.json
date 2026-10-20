@@ -1,0 +1,30 @@
+{
+  "qid": "Q1009",
+  "name": "Cameroon",
+  "summary": "Cameroon: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Paul Biya",
+      "title": "President",
+      "from": 1982,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Paul Biya, President (1982–present)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Philémon Yang",
+      "title": "Prime minister",
+      "from": 2009,
+      "to": 2019,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Philémon Yang, Prime minister (2009–2019)"
+      }
+    }
+  ],
+  "events": []
+}

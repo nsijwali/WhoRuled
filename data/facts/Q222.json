@@ -1,0 +1,30 @@
+{
+  "qid": "Q222",
+  "name": "Albania",
+  "summary": "Albania: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Bamir Topi",
+      "title": "President",
+      "from": 2007,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Bamir Topi, President (2007–2012)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Sali Berisha",
+      "title": "Prime minister",
+      "from": 2005,
+      "to": 2013,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Sali Berisha, Prime minister (2005–2013)"
+      }
+    }
+  ],
+  "events": []
+}

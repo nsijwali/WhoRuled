@@ -1,0 +1,30 @@
+{
+  "qid": "Q1037",
+  "name": "Rwanda",
+  "summary": "Rwanda: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Paul Kagame",
+      "title": "President",
+      "from": 2000,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Paul Kagame, President (2000–present)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Bernard Makuza",
+      "title": "Prime minister",
+      "from": 2000,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Bernard Makuza, Prime minister (2000–2011)"
+      }
+    }
+  ],
+  "events": []
+}

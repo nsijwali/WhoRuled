@@ -1,0 +1,19 @@
+{
+  "qid": "Q1014",
+  "name": "Liberia",
+  "summary": "Liberia: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Ellen Johnson Sirleaf",
+      "title": "President",
+      "from": 2006,
+      "to": 2018,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Ellen Johnson Sirleaf, President (2006–2018)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

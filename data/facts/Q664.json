@@ -1,0 +1,30 @@
+{
+  "qid": "Q664",
+  "name": "New Zealand",
+  "summary": "New Zealand: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Elizabeth II",
+      "title": "Queen",
+      "from": 1952,
+      "to": 2022,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Elizabeth II, Queen (1952–2022)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "John Key",
+      "title": "Prime minister",
+      "from": 2008,
+      "to": 2016,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "John Key, Prime minister (2008–2016)"
+      }
+    }
+  ],
+  "events": []
+}

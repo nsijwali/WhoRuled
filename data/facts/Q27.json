@@ -1,0 +1,30 @@
+{
+  "qid": "Q27",
+  "name": "Republic of Ireland",
+  "summary": "Republic of Ireland: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Mary McAleese",
+      "title": "President",
+      "from": 1997,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Mary McAleese, President (1997–2011)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Brian Cowen",
+      "title": "Taoiseach",
+      "from": 2008,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Brian Cowen, Taoiseach (2008–2011)"
+      }
+    }
+  ],
+  "events": []
+}

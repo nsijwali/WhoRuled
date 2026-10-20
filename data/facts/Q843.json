@@ -1,0 +1,30 @@
+{
+  "qid": "Q843",
+  "name": "Pakistan",
+  "summary": "Pakistan: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Asif Ali Zardari",
+      "title": "President",
+      "from": 2008,
+      "to": 2013,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Asif Ali Zardari, President (2008–2013)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Yousaf Raza Gillani",
+      "title": "Prime minister",
+      "from": 2008,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Yousaf Raza Gillani, Prime minister (2008–2012)"
+      }
+    }
+  ],
+  "events": []
+}

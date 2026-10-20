@@ -1,0 +1,30 @@
+{
+  "qid": "Q865",
+  "name": "Taiwan",
+  "summary": "Taiwan: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Ma Ying-jeou",
+      "title": "President",
+      "from": 2008,
+      "to": 2016,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Ma Ying-jeou, President (2008–2016)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Wu Den-yih",
+      "title": "Premier",
+      "from": 2009,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Wu Den-yih, Premier (2009–2012)"
+      }
+    }
+  ],
+  "events": []
+}

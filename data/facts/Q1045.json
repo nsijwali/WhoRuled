@@ -1,0 +1,50 @@
+{
+  "qid": "Q1045",
+  "name": "Somalia",
+  "summary": "Somalia: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Sharif Sheikh Ahmed",
+      "title": "President",
+      "from": 2009,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Sharif Sheikh Ahmed, President (2009–2012)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Omar Abdirashid Ali Sharmarke",
+      "title": "Prime minister",
+      "from": 2009,
+      "to": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Omar Abdirashid Ali Sharmarke, Prime minister (2009–2010)"
+      }
+    },
+    {
+      "name": "Abdiwahid Elmi Gonjeh",
+      "title": "Acting Prime minister",
+      "from": 2010,
+      "to": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Abdiwahid Elmi Gonjeh, Acting Prime minister (2010)"
+      }
+    },
+    {
+      "name": "Mohamed Abdullahi Mohamed",
+      "title": "Prime minister",
+      "from": 2010,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Mohamed Abdullahi Mohamed, Prime minister (2010–2011)"
+      }
+    }
+  ],
+  "events": []
+}

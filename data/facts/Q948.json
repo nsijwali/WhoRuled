@@ -1,0 +1,30 @@
+{
+  "qid": "Q948",
+  "name": "Tunisia",
+  "summary": "Tunisia: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Zine El Abidine Ben Ali",
+      "title": "President",
+      "from": 1987,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Zine El Abidine Ben Ali, President (1987–2011)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Mohamed Ghannouchi",
+      "title": "Prime minister",
+      "from": 1999,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Mohamed Ghannouchi, Prime minister (1999–2011)"
+      }
+    }
+  ],
+  "events": []
+}

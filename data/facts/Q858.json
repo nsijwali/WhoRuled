@@ -1,0 +1,30 @@
+{
+  "qid": "Q858",
+  "name": "Syria",
+  "summary": "Syria: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Bashar al-Assad",
+      "title": "President",
+      "from": 2000,
+      "to": 2024,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Bashar al-Assad, President (2000–2024)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Muhammad Naji al-Otari",
+      "title": "Prime minister",
+      "from": 2003,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Muhammad Naji al-Otari, Prime minister (2003–2011)"
+      }
+    }
+  ],
+  "events": []
+}

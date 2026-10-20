@@ -1,0 +1,40 @@
+{
+  "qid": "Q881",
+  "name": "Vietnam",
+  "summary": "Vietnam: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Nông Đức Mạnh",
+      "title": "General Secretary",
+      "from": 2001,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Nông Đức Mạnh, General Secretary (2001–2011)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Nguyễn Minh Triết",
+      "title": "President",
+      "from": 2006,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Nguyễn Minh Triết, President (2006–2011)"
+      }
+    },
+    {
+      "name": "Nguyễn Tấn Dũng",
+      "title": "Prime minister",
+      "from": 2006,
+      "to": 2016,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Nguyễn Tấn Dũng, Prime minister (2006–2016)"
+      }
+    }
+  ],
+  "events": []
+}

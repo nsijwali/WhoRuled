@@ -1,0 +1,30 @@
+{
+  "qid": "Q20",
+  "name": "Norway",
+  "summary": "Norway: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Harald V",
+      "title": "King",
+      "from": 1991,
+      "to": 2026,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Harald V, King (1991–2026)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Jens Stoltenberg",
+      "title": "Prime minister",
+      "from": 2005,
+      "to": 2013,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Jens Stoltenberg, Prime minister (2005–2013)"
+      }
+    }
+  ],
+  "events": []
+}

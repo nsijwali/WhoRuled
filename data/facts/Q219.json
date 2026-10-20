@@ -1,0 +1,30 @@
+{
+  "qid": "Q219",
+  "name": "Bulgaria",
+  "summary": "Bulgaria: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Georgi Parvanov",
+      "title": "President",
+      "from": 2002,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Georgi Parvanov, President (2002–2012)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Boyko Borisov",
+      "title": "Prime minister",
+      "from": 2009,
+      "to": 2013,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Boyko Borisov, Prime minister (2009–2013)"
+      }
+    }
+  ],
+  "events": []
+}

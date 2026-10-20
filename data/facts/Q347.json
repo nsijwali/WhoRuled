@@ -1,0 +1,30 @@
+{
+  "qid": "Q347",
+  "name": "Liechtenstein",
+  "summary": "Liechtenstein: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Hans-Adam II",
+      "title": "Prince",
+      "from": 1989,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Hans-Adam II, Prince (1989–present)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Klaus Tschütscher",
+      "title": "Prime minister",
+      "from": 2009,
+      "to": 2013,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Klaus Tschütscher, Prime minister (2009–2013)"
+      }
+    }
+  ],
+  "events": []
+}

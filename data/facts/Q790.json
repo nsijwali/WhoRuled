@@ -1,0 +1,30 @@
+{
+  "qid": "Q790",
+  "name": "Haiti",
+  "summary": "Haiti: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "René Préval",
+      "title": "President",
+      "from": 2006,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "René Préval, President (2006–2011)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Jean-Max Bellerive",
+      "title": "Prime minister",
+      "from": 2009,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Jean-Max Bellerive, Prime minister (2009–2011)"
+      }
+    }
+  ],
+  "events": []
+}

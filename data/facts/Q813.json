@@ -1,0 +1,50 @@
+{
+  "qid": "Q813",
+  "name": "Kyrgyzstan",
+  "summary": "Kyrgyzstan: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Kurmanbek Bakiyev",
+      "title": "President",
+      "from": 2005,
+      "to": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Kurmanbek Bakiyev, President (2005–2010)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Roza Otunbayeva",
+      "title": "President",
+      "from": 2010,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Roza Otunbayeva, President (2010–2011)"
+      }
+    },
+    {
+      "name": "Daniar Usenov",
+      "title": "Prime minister",
+      "from": 2009,
+      "to": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Daniar Usenov, Prime minister (2009–2010)"
+      }
+    },
+    {
+      "name": "Almazbek Atambayev",
+      "title": "Prime minister",
+      "from": 2010,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Almazbek Atambayev, Prime minister (2010–2011)"
+      }
+    }
+  ],
+  "events": []
+}

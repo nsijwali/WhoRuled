@@ -1,0 +1,30 @@
+{
+  "qid": "Q974",
+  "name": "Democratic Republic of the Congo",
+  "summary": "Democratic Republic of the Congo: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Joseph Kabila",
+      "title": "President",
+      "from": 2001,
+      "to": 2019,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Joseph Kabila, President (2001–2019)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Adolphe Muzito",
+      "title": "Prime minister",
+      "from": 2008,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Adolphe Muzito, Prime minister (2008–2012)"
+      }
+    }
+  ],
+  "events": []
+}

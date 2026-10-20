@@ -1,0 +1,40 @@
+{
+  "qid": "Q214",
+  "name": "Slovakia",
+  "summary": "Slovakia: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Ivan Gašparovič",
+      "title": "President",
+      "from": 2004,
+      "to": 2014,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Ivan Gašparovič, President (2004–2014)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Robert Fico",
+      "title": "Prime minister",
+      "from": 2006,
+      "to": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Robert Fico, Prime minister (2006–2010)"
+      }
+    },
+    {
+      "name": "Iveta Radičová",
+      "title": "Prime minister",
+      "from": 2010,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Iveta Radičová, Prime minister (2010–2012)"
+      }
+    }
+  ],
+  "events": []
+}

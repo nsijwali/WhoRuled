@@ -14,5 +14,17 @@
       }
     }
   ],
+  "offices": [
+    {
+      "name": "Manmohan Singh",
+      "title": "Prime minister",
+      "from": 2004,
+      "to": 2014,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Manmohan Singh, Prime minister (2004–2014)"
+      }
+    }
+  ],
   "events": []
 }

@@ -1,0 +1,40 @@
+{
+  "qid": "Q754",
+  "name": "Trinidad and Tobago",
+  "summary": "Trinidad and Tobago: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "George Maxwell Richards",
+      "title": "President",
+      "from": 2003,
+      "to": 2013,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "George Maxwell Richards, President (2003–2013)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Patrick Manning",
+      "title": "Prime minister",
+      "from": 2001,
+      "to": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Patrick Manning, Prime minister (2001–2010)"
+      }
+    },
+    {
+      "name": "Kamla Persad-Bissessar",
+      "title": "Prime minister",
+      "from": 2010,
+      "to": 2015,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Kamla Persad-Bissessar, Prime minister (2010–2015)"
+      }
+    }
+  ],
+  "events": []
+}

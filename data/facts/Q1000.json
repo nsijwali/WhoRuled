@@ -1,0 +1,30 @@
+{
+  "qid": "Q1000",
+  "name": "Gabon",
+  "summary": "Gabon: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Ali Bongo Ondimba",
+      "title": "President",
+      "from": 2009,
+      "to": 2023,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Ali Bongo Ondimba, President (2009–2023)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Paul Biyoghé Mba",
+      "title": "Prime minister",
+      "from": 2009,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Paul Biyoghé Mba, Prime minister (2009–2012)"
+      }
+    }
+  ],
+  "events": []
+}

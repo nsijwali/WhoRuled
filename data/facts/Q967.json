@@ -1,0 +1,19 @@
+{
+  "qid": "Q967",
+  "name": "Burundi",
+  "summary": "Burundi: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Pierre Nkurunziza",
+      "title": "President",
+      "from": 2005,
+      "to": 2020,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Pierre Nkurunziza, President (2005–2020)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

@@ -1,0 +1,50 @@
+{
+  "qid": "Q36",
+  "name": "Poland",
+  "summary": "Poland: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Lech Kaczyński",
+      "title": "President",
+      "from": 2005,
+      "to": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Lech Kaczyński, President (2005–2010)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Bronisław Komorowski",
+      "title": "Acting President",
+      "from": 2010,
+      "to": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Bronisław Komorowski, Acting President (2010)"
+      }
+    },
+    {
+      "name": "Bronisław Komorowski",
+      "title": "President",
+      "from": 2010,
+      "to": 2015,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Bronisław Komorowski, President (2010–2015)"
+      }
+    },
+    {
+      "name": "Donald Tusk",
+      "title": "Prime minister",
+      "from": 2007,
+      "to": 2014,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Donald Tusk, Prime minister (2007–2014)"
+      }
+    }
+  ],
+  "events": []
+}

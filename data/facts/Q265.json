@@ -1,0 +1,30 @@
+{
+  "qid": "Q265",
+  "name": "Uzbekistan",
+  "summary": "Uzbekistan: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Islam Karimov",
+      "title": "President",
+      "from": 1991,
+      "to": 2016,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Islam Karimov, President (1991–2016)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Shavkat Mirziyoyev",
+      "title": "Prime minister",
+      "from": 2003,
+      "to": 2016,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Shavkat Mirziyoyev, Prime minister (2003–2016)"
+      }
+    }
+  ],
+  "events": []
+}

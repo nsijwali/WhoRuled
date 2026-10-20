@@ -1,0 +1,19 @@
+{
+  "qid": "Q229",
+  "name": "Cyprus",
+  "summary": "Cyprus: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Demetris Christofias",
+      "title": "President",
+      "from": 2008,
+      "to": 2013,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Demetris Christofias, President (2008–2013)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

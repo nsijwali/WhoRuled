@@ -1,0 +1,50 @@
+{
+  "qid": "Q884",
+  "name": "South Korea",
+  "summary": "South Korea: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Lee Myung-bak",
+      "title": "President",
+      "from": 2008,
+      "to": 2013,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Lee Myung-bak, President (2008–2013)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Chung Un-chan",
+      "title": "Prime minister",
+      "from": 2009,
+      "to": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Chung Un-chan, Prime minister (2009–2010)"
+      }
+    },
+    {
+      "name": "Yoon Jeung-hyun",
+      "title": "Acting Prime minister",
+      "from": 2010,
+      "to": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Yoon Jeung-hyun, Acting Prime minister (2010)"
+      }
+    },
+    {
+      "name": "Kim Hwang-sik",
+      "title": "Prime minister",
+      "from": 2010,
+      "to": 2013,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Kim Hwang-sik, Prime minister (2010–2013)"
+      }
+    }
+  ],
+  "events": []
+}

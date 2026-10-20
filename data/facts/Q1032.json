@@ -1,0 +1,50 @@
+{
+  "qid": "Q1032",
+  "name": "Niger",
+  "summary": "Niger: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Mamadou Tandja",
+      "title": "President",
+      "from": 1999,
+      "to": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Mamadou Tandja, President (1999–2010)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Salou Djibo",
+      "title": "Chairman of the Supreme Council for the Restoration of Democracy",
+      "from": 2010,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Salou Djibo, Chairman of the Supreme Council for the Restoration of Democracy (2010–2011)"
+      }
+    },
+    {
+      "name": "Ali Badjo Gamatié",
+      "title": "Prime minister",
+      "from": 2009,
+      "to": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Ali Badjo Gamatié, Prime minister (2009–2010)"
+      }
+    },
+    {
+      "name": "Mahamadou Danda",
+      "title": "Prime minister",
+      "from": 2010,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Mahamadou Danda, Prime minister (2010–2011)"
+      }
+    }
+  ],
+  "events": []
+}

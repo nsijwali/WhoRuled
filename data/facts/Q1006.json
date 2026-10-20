@@ -1,0 +1,60 @@
+{
+  "qid": "Q1006",
+  "name": "Guinea",
+  "summary": "Guinea: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Sékouba Konaté",
+      "title": "Acting President",
+      "from": 2009,
+      "to": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Sékouba Konaté, Acting President (2009–2010)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Alpha Condé",
+      "title": "President",
+      "from": 2010,
+      "to": 2021,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Alpha Condé, President (2010–2021)"
+      }
+    },
+    {
+      "name": "Kabiné Komara",
+      "title": "Prime minister",
+      "from": 2008,
+      "to": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Kabiné Komara, Prime minister (2008–2010)"
+      }
+    },
+    {
+      "name": "Jean-Marie Doré",
+      "title": "Prime minister",
+      "from": 2010,
+      "to": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Jean-Marie Doré, Prime minister (2010)"
+      }
+    },
+    {
+      "name": "Mohamed Said Fofana",
+      "title": "Prime minister",
+      "from": 2010,
+      "to": 2015,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Mohamed Said Fofana, Prime minister (2010–2015)"
+      }
+    }
+  ],
+  "events": []
+}

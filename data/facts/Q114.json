@@ -1,0 +1,30 @@
+{
+  "qid": "Q114",
+  "name": "Kenya",
+  "summary": "Kenya: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Mwai Kibaki",
+      "title": "President",
+      "from": 2002,
+      "to": 2013,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Mwai Kibaki, President (2002–2013)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Raila Odinga",
+      "title": "Prime minister",
+      "from": 2008,
+      "to": 2013,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Raila Odinga, Prime minister (2008–2013)"
+      }
+    }
+  ],
+  "events": []
+}

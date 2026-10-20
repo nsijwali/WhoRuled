@@ -1,0 +1,30 @@
+{
+  "qid": "Q1030",
+  "name": "Namibia",
+  "summary": "Namibia: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Hifikepunye Pohamba",
+      "title": "President",
+      "from": 2005,
+      "to": 2015,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Hifikepunye Pohamba, President (2005–2015)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Nahas Angula",
+      "title": "Prime minister",
+      "from": 2005,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Nahas Angula, Prime minister (2005–2012)"
+      }
+    }
+  ],
+  "events": []
+}

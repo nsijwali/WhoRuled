@@ -1,0 +1,30 @@
+{
+  "qid": "Q783",
+  "name": "Honduras",
+  "summary": "Honduras: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Roberto Micheletti",
+      "title": "Acting President",
+      "from": 2009,
+      "to": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Roberto Micheletti, Acting President (2009–2010)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Porfirio Lobo Sosa",
+      "title": "President",
+      "from": 2010,
+      "to": 2014,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Porfirio Lobo Sosa, President (2010–2014)"
+      }
+    }
+  ],
+  "events": []
+}

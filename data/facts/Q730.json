@@ -1,0 +1,30 @@
+{
+  "qid": "Q730",
+  "name": "Suriname",
+  "summary": "Suriname: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Ronald Venetiaan",
+      "title": "President",
+      "from": 2000,
+      "to": 2010,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Ronald Venetiaan, President (2000–2010)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Dési Bouterse",
+      "title": "President",
+      "from": 2010,
+      "to": 2021,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "Dési Bouterse, President (2010–2021)"
+      }
+    }
+  ],
+  "events": []
+}

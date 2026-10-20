@@ -14,6 +14,18 @@
       }
     }
   ],
+  "offices": [
+    {
+      "name": "François Fillon",
+      "title": "Prime minister",
+      "from": 2007,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "quote": "François Fillon, Prime minister (2007–2012)"
+      }
+    }
+  ],
   "events": [
     {
       "year": 2010,
