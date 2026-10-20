@@ -93,18 +93,18 @@ const NaturalEarthCollection = z.object({
  * (surveyed modern borders), and SUBJECTO = SOVEREIGNT only for dependencies. Disputed and
  * indeterminate areas get no overlord, so the map takes no side. All other columns are dropped.
  */
-export function fromNaturalEarth(raw: unknown): FeatureCollection {
+export function fromNaturalEarth(raw: unknown): z.infer<typeof SourceCollection> {
   const source = NaturalEarthCollection.parse(raw);
   return {
-    type: 'FeatureCollection',
+    type: 'FeatureCollection' as const,
     features: source.features.map((f) => ({
-      type: 'Feature',
+      type: 'Feature' as const,
       properties: {
         NAME: f.properties.ADMIN,
         BORDERPRECISION: 3,
         SUBJECTO: f.properties.TYPE === 'Dependency' ? f.properties.SOVEREIGNT : f.properties.ADMIN,
       },
-      geometry: f.geometry as Feature['geometry'],
+      geometry: f.geometry,
     })),
   };
 }

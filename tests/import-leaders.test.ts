@@ -39,6 +39,9 @@ describe('parseEntry', () => {
       parseEntry('Abdoulaye Maïga, interim prime minister (21 August 2022 – 5 December 2022, since 21 November 2024)', 2026),
     ).toMatchObject({ title: 'interim prime minister', from: 2024, to: null });
   });
+  it('reads US-style dates', () => {
+    expect(parseEntry('A B, supreme leader (since March 8, 2026)', 2026)).toMatchObject({ title: 'supreme leader', from: 2026, to: null });
+  });
   it('takes the role that covers the year when one line holds several roles', () => {
     const line =
       'Sifi Ghrieb, acting prime minister (28 August 2025 – 14 September 2025); prime minister (since 14 September 2025)';

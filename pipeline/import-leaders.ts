@@ -71,8 +71,8 @@ export function parseRawFile(text: string, year: number): (Row & { qid: string }
     });
 }
 
-/** Optional day and month, then a year: `2017`, `September 2017`, `26 September 2017`. */
-const DATE = String.raw`(?:\d{1,2}\s+)?(?:[A-Z][a-z]+\s+)?(\d{4})`;
+/** A year with optional day and month: `2017`, `September 2017`, `26 September 2017`, `March 8, 2026`. */
+const DATE = String.raw`(?:\d{1,2}\s+)?(?:[A-Z][a-z]+\s+(?:\d{1,2},\s+)?)?(\d{4})`;
 /** Full-date periods used by the 2020s list: `since 26 September 2017`, `25 April 2024 – 7 October 2024`. */
 const DATED_PERIOD = new RegExp(String.raw`^(?:(since)\s+${DATE}|${DATE}(?:\s*[–—]\s*${DATE})?)$`);
 
@@ -96,7 +96,8 @@ export function parseEntry(text: string, year: number): Entry | null {
   if (comma < 0) return null;
   const name = text.slice(0, comma).trim();
   for (const m of text.slice(comma + 2).matchAll(/([^()]*?)\s*\(([^()]*\d[^()]*)\)/g)) {
-    for (const part of (m[2] ?? '').split(/,\s*/)) {
+    // Split terms on commas, but not the comma inside a US-style date (`March 8, 2026`).
+    for (const part of (m[2] ?? '').split(/(?<![A-Z][a-z]+ \d{1,2}),\s*/)) {
       const period = parsePeriod(part.trim());
       if (!period) continue;
       const [from, to] = period;
