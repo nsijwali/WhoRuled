@@ -1,0 +1,92 @@
+---
+import Consent from '../components/Consent.astro';
+import { ADS_CLIENT, ANALYTICS_TOKEN, SITE_NAME, SITE_URL, SUPPORT_URL } from '../config/site';
+
+interface Props {
+  title: string;
+  description: string;
+  path: string;
+  index?: boolean;
+  fullHeight?: boolean;
+}
+const { title, description, path, index = true, fullHeight = false } = Astro.props;
+const canonical = new URL(path, SITE_URL).href;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="robots" content={index ? 'index,follow' : 'noindex'} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+    <link rel="icon" href="data:," />
+    <style is:global>
+      :root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+      body { margin: 0; }
+      header { padding: 0.75rem 1rem; border-bottom: 1px solid #8884; }
+      h1 { margin: 0; font-size: 1.25rem; }
+      .map-shell { display: flex; flex-direction: column; flex: 1; min-height: 0; }
+      body { display: flex; flex-direction: column; min-height: 100vh; min-height: 100dvh; }
+      body.full { height: 100vh; height: 100dvh; min-height: 0; }
+      .page { flex: 1; }
+      .year-slider { display: flex; align-items: center; gap: 0.75rem; padding: 0.5rem 0.75rem; border-bottom: 1px solid #8884; }
+      .year-slider input { flex: 1; min-width: 0; }
+      .year-slider output { min-width: 5ch; font-variant-numeric: tabular-nums; font-weight: 700; text-align: right; }
+      .map-layout { display: grid; grid-template-columns: 1fr 20rem; flex: 1; min-height: 0; }
+      .map-main { position: relative; min-width: 0; background: #cfe3ee; }
+      .map-main canvas { position: absolute; inset: 0; width: 100%; height: 100%; touch-action: none; cursor: grab; }
+      .map-side { display: flex; flex-direction: column; gap: 0.5rem; padding: 0.75rem; overflow: hidden; border-left: 1px solid #8884; }
+      .map-side input { display: block; width: 100%; box-sizing: border-box; margin-top: 0.25rem; padding: 0.4rem; }
+      .state-list { flex: 1; margin: 0; padding: 0; overflow: auto; list-style: none; }
+      .state-list button { width: 100%; padding: 0.35rem 0.25rem; text-align: left; background: none; border: 0; border-bottom: 1px solid #8882; color: inherit; cursor: pointer; }
+      .state-list button[aria-pressed='true'] { font-weight: 700; }
+      .detail h2 { margin: 0 0 0.25rem; font-size: 1.1rem; }
+      .detail h3 { margin: 0.75rem 0 0.25rem; font-size: 0.95rem; }
+      .detail ul { margin: 0; padding-left: 1.1rem; }
+      .detail a { color: #8ab4f8; }
+      .detail button.link { background: none; border: 0; padding: 0; color: #8ab4f8; text-decoration: underline; cursor: pointer; font: inherit; }
+      .unreviewed { opacity: 0.7; font-size: 0.85rem; }
+      @media (max-width: 700px) {
+        .map-layout { grid-template-columns: 1fr; grid-template-rows: 55% 45%; }
+        .map-side { border-left: 0; border-top: 1px solid #8884; }
+      }
+    
+      .site-header { display: flex; align-items: baseline; gap: 1rem; flex-wrap: wrap; }
+      .site-header nav { display: flex; gap: 0.75rem; font-size: 0.9rem; }
+      .site-header a, .site-footer a { color: #8ab4f8; }
+      .site-header .brand { color: inherit; text-decoration: none; }
+      .site-footer { padding: 0.5rem 1rem; border-top: 1px solid #8884; font-size: 0.75rem; opacity: 0.8; }
+      .page { max-width: 46rem; margin: 0 auto; padding: 1rem; line-height: 1.5; }
+      .page a { color: #8ab4f8; }
+      .page h2 { margin-top: 1.5rem; font-size: 1.1rem; }
+      .page table { width: 100%; border-collapse: collapse; }
+      .page th, .page td { padding: 0.3rem 0.4rem; text-align: left; border-bottom: 1px solid #8884; vertical-align: top; }
+      .note { padding: 0.5rem 0.75rem; border: 1px solid #8886; border-radius: 0.25rem; font-size: 0.9rem; }
+    </style>
+    {ANALYTICS_TOKEN && <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon={JSON.stringify({ token: ANALYTICS_TOKEN })}></script>}
+  </head>
+  <body class={fullHeight ? 'full' : ''} data-ads={ADS_CLIENT ? 'on' : 'off'}>
+    <header class="site-header">
+      <h1><a class="brand" href="/">{SITE_NAME}</a></h1>
+      <nav>
+        <a href="/">Map</a>
+        <a href="/about/">About</a>
+        <a href="/privacy/">Privacy</a>
+        {SUPPORT_URL && <a href={SUPPORT_URL} rel="noopener noreferrer">Support this project</a>}
+      </nav>
+    </header>
+    <slot />
+    <footer class="site-footer">
+      Borders: <a href="https://github.com/aourednik/historical-basemaps">historical-basemaps</a> (GPL-3.0).
+      Office-holders: <a href="https://en.wikipedia.org/wiki/Lists_of_state_leaders">Wikipedia</a> lists (CC BY-SA 4.0) and Wikidata (CC0).
+      Facts are sourced but not all are human-reviewed. <a href="/about/">About &amp; licences</a>
+    </footer>
+    <Consent />
+  </body>
+</html>

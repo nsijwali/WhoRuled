@@ -1,6 +1,6 @@
 # Recording a review (ADR-019)
 
-A page is indexable only after the owner records a `review` on its polity file. The agent never writes one.
+A page is indexable when every claim on it has a source (the schema enforces this). A recorded `review` adds a "Reviewed by" badge but is not required to publish. The agent never writes one.
 
 ## Guard check
 

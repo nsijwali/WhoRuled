@@ -34,10 +34,14 @@ describe('Polity schema', () => {
     expect(Polity.safeParse({ ...valid, qid: '142' }).success).toBe(false);
   });
 
-  it('keeps unreviewed polities out of the index', () => {
+  it('indexes a sourced polity with or without a human review', () => {
     const parsed = Polity.parse(valid);
-    expect(isIndexable(parsed)).toBe(false);
+    expect(isIndexable(parsed)).toBe(parsed.rulers.length + parsed.offices.length > 0);
     const reviewed = Polity.parse({ ...valid, review: { by: 'nsijwali', date: '2026-10-19', contentHash: 'a'.repeat(64) } });
-    expect(isIndexable(reviewed)).toBe(true);
+    expect(isIndexable(reviewed)).toBe(isIndexable(parsed));
+  });
+
+  it('does not index a polity with nothing to say', () => {
+    expect(isIndexable(Polity.parse({ ...valid, rulers: [], offices: [] }))).toBe(false);
   });
 });

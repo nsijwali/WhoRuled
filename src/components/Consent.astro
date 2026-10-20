@@ -1,0 +1,31 @@
+---
+import { ADS_CLIENT } from '../config/site';
+---
+{ADS_CLIENT && (
+  <div id="consent" class="note" role="dialog" aria-label="Advertising consent" hidden style="position:fixed;left:0.5rem;right:0.5rem;bottom:0.5rem;background:Canvas;z-index:10">
+    <p style="margin:0 0 0.5rem">We show ads to keep WhoRuled free. Ads may use cookies. Accept to load them; decline and no ads or ad cookies load. <a href="/privacy/">Privacy</a></p>
+    <button id="consent-accept" type="button">Accept ads</button>
+    <button id="consent-decline" type="button">Decline</button>
+  </div>
+  <script is:inline define:vars={{ client: ADS_CLIENT }}>
+    (function () {
+      var KEY = 'whoruled-ads-consent';
+      function read() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
+      function write(v) { try { localStorage.setItem(KEY, v); } catch (e) { /* private mode: ask again next visit */ } }
+      function loadAds() {
+        var s = document.createElement('script');
+        s.async = true;
+        s.crossOrigin = 'anonymous';
+        s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + encodeURIComponent(client);
+        document.head.appendChild(s);
+        document.querySelectorAll('ins.adsbygoogle').forEach(function () { (window.adsbygoogle = window.adsbygoogle || []).push({}); });
+      }
+      var box = document.getElementById('consent');
+      var saved = read();
+      if (saved === 'yes') loadAds();
+      else if (saved !== 'no' && box) box.hidden = false;
+      document.getElementById('consent-accept')?.addEventListener('click', function () { write('yes'); if (box) box.hidden = true; loadAds(); });
+      document.getElementById('consent-decline')?.addEventListener('click', function () { write('no'); if (box) box.hidden = true; });
+    })();
+  </script>
+)}

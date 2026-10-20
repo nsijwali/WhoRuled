@@ -1,0 +1,87 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { readFacts } from '../../../pipeline/build-facts.ts';
+import { formatYear } from '../../map/format';
+import { isIndexable, type Polity } from '../../data/schema';
+import AdSlot from '../../components/AdSlot.astro';
+import Base from '../../layouts/Base.astro';
+
+export const getStaticPaths = (() => {
+  const { polities } = readFacts('data/facts');
+  return polities.map((polity) => ({ params: { qid: polity.qid }, props: { polity } }));
+}) satisfies GetStaticPaths;
+
+interface Props {
+  polity: Polity;
+}
+const { polity } = Astro.props;
+const span = (r: { from: number; to: number | null }) =>
+  `${formatYear(r.from)}–${r.to === null ? 'present' : formatYear(r.to)}`;
+const lead = polity.rulers[0];
+const description = (
+  lead
+    ? `Who ruled ${polity.name}: ${lead.name} (${lead.title}, ${span(lead)})${polity.rulers.length > 1 ? ' and others' : ''}. Sourced rulers, government and events.`
+    : `Rulers, government and events for ${polity.name}, with sources.`
+).slice(0, 300);
+---
+<Base
+  title={`${polity.name} – rulers and government | WhoRuled`}
+  description={description}
+  path={`/state/${polity.qid}/`}
+  index={isIndexable(polity)}
+>
+  <main class="page">
+    <h2 style="margin-top:0">{polity.name}</h2>
+    <p>{polity.summary}</p>
+    {polity.rulers.length > 0 && (
+      <>
+        <h2>Rulers</h2>
+        <table>
+          <thead><tr><th>Name</th><th>Title</th><th>Years</th><th>Source</th></tr></thead>
+          <tbody>
+            {polity.rulers.map((r) => (
+              <tr><td>{r.name}</td><td>{r.title}</td><td>{span(r)}</td><td><a href={r.source.url} rel="noopener noreferrer">source</a></td></tr>
+            ))}
+          </tbody>
+        </table>
+      </>
+    )}
+    {polity.offices.length > 0 && (
+      <>
+        <h2>Government below the ruler</h2>
+        <table>
+          <thead><tr><th>Name</th><th>Office</th><th>Years</th><th>Source</th></tr></thead>
+          <tbody>
+            {polity.offices.map((o) => (
+              <tr><td>{o.name}</td><td>{o.title}</td><td>{span(o)}</td><td><a href={o.source.url} rel="noopener noreferrer">source</a></td></tr>
+            ))}
+          </tbody>
+        </table>
+      </>
+    )}
+    {polity.armySize && (
+      <p>
+        Army: about {polity.armySize.value.toLocaleString('en')} ({formatYear(polity.armySize.year)}, {polity.armySize.confidence} confidence)
+        <a href={polity.armySize.source.url} rel="noopener noreferrer"> source</a>
+      </p>
+    )}
+    {polity.events.length > 0 && (
+      <>
+        <h2>Events</h2>
+        <ul>
+          {polity.events.map((e) => (
+            <li>{formatYear(e.year)}: {e.summary} <a href={e.source.url} rel="noopener noreferrer">source</a></li>
+          ))}
+        </ul>
+      </>
+    )}
+    <p class="note">
+      {polity.review === undefined
+        ? 'Every entry above links to its source, but this page has not been reviewed by a human.'
+        : `Reviewed by ${polity.review.by} on ${polity.review.date}.`}
+      {' '}Spot an error? <a href="https://github.com/nsijwali/WhoRuled/issues/new">Report it</a>.
+    </p>
+    <AdSlot />
+    <p><a href="/">← Back to the map</a></p>
+  </main>
+</Base>
