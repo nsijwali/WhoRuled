@@ -66,22 +66,41 @@ export function parseRawFile(text: string, year: number): (Row & { qid: string }
     .map((row) => {
       const [wikiName, qid, rest, extra] = row.split('|');
       if (!wikiName || !qid || !rest || extra !== undefined || !/^Q[1-9]\d*$/.test(qid)) throw new Error(`Bad row: ${row}`);
-      return { year, wikiName, url, lines: rest.split(';'), qid };
+      // Entries are joined with a bare `;`. A `; ` inside one list line (one person, several roles) is kept.
+      return { year, wikiName, url, lines: rest.split(/;(?! )/), qid };
     });
 }
 
-/** First period in a list line (`Title (1903–1905, 1906–1907)`, `(c.1905)`, `(1982–present)`) that covers `year`. */
+/** Optional day and month, then a year: `2017`, `September 2017`, `26 September 2017`. */
+const DATE = String.raw`(?:\d{1,2}\s+)?(?:[A-Z][a-z]+\s+)?(\d{4})`;
+/** Full-date periods used by the 2020s list: `since 26 September 2017`, `25 April 2024 – 7 October 2024`. */
+const DATED_PERIOD = new RegExp(String.raw`^(?:(since)\s+${DATE}|${DATE}(?:\s*[–—]\s*${DATE})?)$`);
+
+/** A period as [from, to]; `to` is null while still in office. Null when the text is not a period. */
+function parsePeriod(text: string): [number, number | null] | null {
+  const p = /^(?:c\.\s*)?(\d{3,4})(?:\s*–\s*(?:c\.\s*)?(\d{3,4}|present))?$/.exec(text);
+  if (p) return [Number(p[1]), p[2] === undefined ? Number(p[1]) : p[2] === 'present' ? null : Number(p[2])];
+  const d = DATED_PERIOD.exec(text);
+  if (!d) return null;
+  if (d[1]) return [Number(d[2]), null];
+  return [Number(d[3]), d[4] === undefined ? Number(d[3]) : Number(d[4])];
+}
+
+/**
+ * First period in a list line that covers `year`: `Title (1903–1905, 1906–1907)`, `(c.1905)`,
+ * `(1982–present)`, or the 2020s list's `title (since 26 September 2017)` and
+ * `title (1 May 2020 – 2 June 2021); other title (since 2 June 2021)`.
+ */
 export function parseEntry(text: string, year: number): Entry | null {
   const comma = text.indexOf(', ');
   if (comma < 0) return null;
   const name = text.slice(0, comma).trim();
   for (const m of text.slice(comma + 2).matchAll(/([^()]*?)\s*\(([^()]*\d[^()]*)\)/g)) {
     for (const part of (m[2] ?? '').split(/,\s*/)) {
-      const p = /^(?:c\.\s*)?(\d{3,4})(?:\s*–\s*(?:c\.\s*)?(\d{3,4}|present))?$/.exec(part.trim());
-      if (!p) continue;
-      const from = Number(p[1]);
-      const to = p[2] === undefined ? from : p[2] === 'present' ? null : Number(p[2]);
-      const title = (m[1] ?? '').replace(/^[,\s]+/, '').trim();
+      const period = parsePeriod(part.trim());
+      if (!period) continue;
+      const [from, to] = period;
+      const title = (m[1] ?? '').replace(/^[,;\s]+/, '').trim();
       if (title && from <= year && (to === null || to >= year)) return { name, title, from, to, quote: text };
     }
   }

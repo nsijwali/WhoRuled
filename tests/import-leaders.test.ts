@@ -26,6 +26,27 @@ describe('parseEntry', () => {
       to: 1913,
     });
   });
+  it('reads the full-date periods of the 2020s list', () => {
+    expect(parseEntry('João Lourenço, president (since 26 September 2017)', 2026)).toMatchObject({
+      name: 'João Lourenço',
+      title: 'president',
+      from: 2017,
+      to: null,
+    });
+    expect(parseEntry('Saadeddine Othmani, prime minister (17 March 2017 – 7 October 2021)', 2026)).toBeNull();
+    expect(parseEntry('Saadeddine Othmani, prime minister (17 March 2017 – 7 October 2021)', 2020)).toMatchObject({ from: 2017, to: 2021 });
+    expect(
+      parseEntry('Abdoulaye Maïga, interim prime minister (21 August 2022 – 5 December 2022, since 21 November 2024)', 2026),
+    ).toMatchObject({ title: 'interim prime minister', from: 2024, to: null });
+  });
+  it('takes the role that covers the year when one line holds several roles', () => {
+    const line =
+      'Sifi Ghrieb, acting prime minister (28 August 2025 – 14 September 2025); prime minister (since 14 September 2025)';
+    expect(parseEntry(line, 2026)).toMatchObject({ title: 'prime minister', from: 2025, to: null, quote: line });
+    const multi =
+      'Assimi Goïta, chairman of the National Committee for the Salvation of the People (18 August 2020 – 25 September 2020), interim president (24 May 2021 – 8 July 2025), president (since 8 July 2025)';
+    expect(parseEntry(multi, 2026)).toMatchObject({ title: 'president', from: 2025, to: null });
+  });
   it('rejects rows outside the year or without a title', () => {
     expect(parseEntry('A B, King (1900–1950)', 2010)).toBeNull();
     expect(parseEntry('Nameless (2000–2020)', 2010)).toBeNull();
@@ -42,6 +63,17 @@ describe('raw files', () => {
   it('reads the source header and rows', () => {
     const rows = parseRawFile(`# source: ${URL_1914}\nGerman Empire|Q43287|Wilhelm II, Emperor (1888–1918)\n`, 1914);
     expect(rows).toEqual([{ year: 1914, wikiName: 'German Empire', qid: 'Q43287', url: URL_1914, lines: ['Wilhelm II, Emperor (1888–1918)'] }]);
+  });
+  it('keeps "; " inside one list line and splits entries on a bare ";"', () => {
+    const URL_2020S = 'https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s';
+    const rows = parseRawFile(
+      `# source: ${URL_2020S}\nAlgeria|Q262|A B, president (since 19 December 2019);C D, acting prime minister (28 August 2025 – 14 September 2025); prime minister (since 14 September 2025)\n`,
+      2026,
+    );
+    expect(rows[0]?.lines).toEqual([
+      'A B, president (since 19 December 2019)',
+      'C D, acting prime minister (28 August 2025 – 14 September 2025); prime minister (since 14 September 2025)',
+    ]);
   });
   it('rejects a missing source header or a malformed row', () => {
     expect(() => parseRawFile('A|Q1|B C, King (1900–1920)', 1914)).toThrow(/source/);
