@@ -30,9 +30,22 @@ export const BORDER_NAME: Record<number, Record<string, string>> = {
     Belarus: 'Byelarus',
     'Northern Cyprus': 'Turkish Cypriot-administered area',
   },
+  /** 2026 borders are Natural Earth (ADMIN column); names joined on the Wikidata QID. */
+  2026: {
+    'São Tomé and Príncipe': 'São Tomé and Principe',
+    Tanzania: 'United Republic of Tanzania',
+    Eswatini: 'eSwatini',
+    'Cape Verde': 'Cabo Verde',
+    'United States': 'United States of America',
+    'Timor-Leste': 'East Timor',
+    'Czech Republic': 'Czechia',
+    Serbia: 'Republic of Serbia',
+    'Vatican City': 'Vatican',
+    'The Netherlands': 'Netherlands',
+  },
 };
 
-const RULER_TITLE = /president|king|queen|emperor|empress|emir|sultan|shah|tsar|prince|grand duke|duke|supreme leader|general secretary|chairman|druk|yang di|ao o le|führer|regent|caudillo|head of state/i;
+export const RULER_TITLE = /president|king|queen|emperor|empress|emir|sultan|shah|tsar|prince|grand duke|duke|supreme leader|general secretary|chairman|druk|yang di|ao o le|führer|regent|caudillo|head of state|pope/i;
 
 export interface Entry {
   name: string;
@@ -92,10 +105,12 @@ function parsePeriod(text: string): [number, number | null] | null {
  * `title (1 May 2020 – 2 June 2021); other title (since 2 June 2021)`.
  */
 export function parseEntry(text: string, year: number): Entry | null {
-  const comma = text.indexOf(', ');
+  // `Name, title (...)`; a few list lines drop the space after the comma (`Name,title (...)`).
+  const spaced = text.indexOf(', ');
+  const comma = spaced >= 0 ? spaced : text.indexOf(',');
   if (comma < 0) return null;
   const name = text.slice(0, comma).trim();
-  for (const m of text.slice(comma + 2).matchAll(/([^()]*?)\s*\(([^()]*\d[^()]*)\)/g)) {
+  for (const m of text.slice(comma + (spaced >= 0 ? 2 : 1)).matchAll(/([^()]*?)\s*\(([^()]*\d[^()]*)\)/g)) {
     // Split terms on commas, but not the comma inside a US-style date (`March 8, 2026`).
     for (const part of (m[2] ?? '').split(/(?<![A-Z][a-z]+ \d{1,2}),\s*/)) {
       const period = parsePeriod(part.trim());
@@ -134,7 +149,11 @@ export function buildPolity(qid: string, rows: Row[], existing: Polity | null): 
   const sorted = [...rows].sort((a, b) => a.year - b.year);
   for (const row of sorted) {
     const entries = row.lines.map((l) => parseEntry(l, row.year)).filter((e): e is Entry => e !== null);
-    const held = new Set(rulers.filter((r) => covers(r, row.year)).map((r) => r.name));
+    // An imported ruler whose term ends during this year does not stop the year's incumbent from
+    // also being a ruler (Harald V to 2026, then Haakon VIII).
+    const held = new Set(
+      rulers.filter((r) => covers(r, row.year) && !(isImported(r) && r.to === row.year)).map((r) => r.name),
+    );
     const fresh = entries.map((e) => toRecord(e, row)).filter((r) => !held.has(r.name) && !seen.has(key(r)) && seen.add(key(r)));
     const rulerIdx = held.size > 0 ? -1 : Math.max(0, fresh.findIndex((r) => RULER_TITLE.test(r.title)));
     fresh.forEach((r, i) => (i === rulerIdx ? rulers : offices).push(r));

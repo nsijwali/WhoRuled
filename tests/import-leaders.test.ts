@@ -39,6 +39,13 @@ describe('parseEntry', () => {
       parseEntry('Abdoulaye Maïga, interim prime minister (21 August 2022 – 5 December 2022, since 21 November 2024)', 2026),
     ).toMatchObject({ title: 'interim prime minister', from: 2024, to: null });
   });
+  it('tolerates a missing space after the name', () => {
+    expect(parseEntry('Sébastien Lecornu,prime minister (since 09 September 2025)', 2026)).toMatchObject({
+      name: 'Sébastien Lecornu',
+      title: 'prime minister',
+      from: 2025,
+    });
+  });
   it('reads US-style dates', () => {
     expect(parseEntry('A B, supreme leader (since March 8, 2026)', 2026)).toMatchObject({ title: 'supreme leader', from: 2026, to: null });
   });
@@ -117,6 +124,22 @@ describe('buildPolity', () => {
     ]);
     expect(p.offices.map((o) => o.name)).toEqual(['H. H. Asquith', 'David Lloyd George']);
     expect(p.summary).toBe("Testland: office-holders in 1914, 1920, 2010, from Wikipedia's lists of state leaders.");
+  });
+  it("lets a later year's incumbent rule when the earlier ruler's term ends that year", () => {
+    const URL_2020S = 'https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s';
+    const p = buildPolity(
+      'Q20',
+      [
+        row(2010, ['Harald V, King (1991–2026)', 'Jens Stoltenberg, Prime minister (2005–2013)']),
+        row(2026, ['Haakon VIII, king (since 28 August 2026)', 'Jonas Gahr Støre, prime minister (since 14 October 2021)'], URL_2020S),
+      ],
+      null,
+    );
+    expect(p.rulers.map((r) => [r.name, r.from, r.to])).toEqual([
+      ['Harald V', 1991, 2026],
+      ['Haakon VIII', 2026, null],
+    ]);
+    expect(p.offices.map((o) => o.name)).toEqual(['Jens Stoltenberg', 'Jonas Gahr Støre']);
   });
   it('regenerates earlier imports instead of piling them up', () => {
     const first = buildPolity('Q1', [row(1914, ['George V, King (1910–1936)', 'H. H. Asquith, Prime minister (1908–1916)'])], null);
