@@ -1,11 +1,20 @@
 import { select } from 'd3-selection';
 import { zoom, zoomIdentity, type ZoomBehavior } from 'd3-zoom';
-import { useCallback, useEffect, useMemo, useRef, useState, type CSSProperties, type ReactNode } from 'react';
-import { CanvasMap } from '../map/CanvasMap';
-import { HALF_WORLD, baseScale, viewForBbox } from '../map/geometry';
+import {
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+  type CSSProperties,
+  type KeyboardEvent as ReactKeyboardEvent,
+  type ReactNode,
+} from 'react';
+import { CanvasMap, LABEL_FONT } from '../map/CanvasMap';
+import { HALF_WORLD, VIEW_NORTH, VIEW_SOUTH, baseScale, homeView, viewForBbox } from '../map/geometry';
 import { eraOf } from '../map/eras';
 import { formatYear } from '../map/format';
-import { realmColour } from '../map/palette';
+import { fillCss, realmFill } from '../map/palette';
 import { loadFactsIndex, loadPolity, type FactsIndex } from '../map/loadFacts';
 import { loadBorders, loadYears } from '../map/loadGeo';
 import type { Polity } from '../data/schema';
@@ -14,6 +23,8 @@ import type { BorderFeature, ViewTransform } from '../map/types';
 const MAX_ZOOM = 64;
 const MAX_LIST = 50;
 const PLAY_INTERVAL_MS = 1100;
+const DISSOLVE_MS = 360;
+const LARGEST_SHOWN = 6;
 
 type LoadState =
   | { status: 'loading' }
@@ -21,6 +32,12 @@ type LoadState =
   | { status: 'ready'; features: BorderFeature[] };
 
 const DEFAULT_YEAR = 1492;
+
+const collator = new Intl.Collator('en', { sensitivity: 'base', ignorePunctuation: true });
+
+function prefersLessMotion(): boolean {
+  return typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+}
 
 export default function MapIsland({ dataBase = '/data/' }: { dataBase?: string }) {
   const [years, setYears] = useState<number[]>([]);
@@ -85,42 +102,48 @@ export default function MapIsland({ dataBase = '/data/' }: { dataBase?: string }
     return () => clearTimeout(timer);
   }, [playing, year, years, step]);
 
+  const togglePlay = useCallback(() => {
+    setPlaying((p) => {
+      // Pressing play on the last snapshot starts the time-lapse again from the first.
+      if (!p && year !== null && years.indexOf(year) === years.length - 1 && years[0] !== undefined) setYear(years[0]);
+      return !p;
+    });
+  }, [year, years]);
+
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       const el = e.target instanceof HTMLElement ? e.target : null;
-      if (el && /^(INPUT|BUTTON|TEXTAREA|SELECT|A)$/.test(el.tagName)) return;
+      if (el && /^(INPUT|BUTTON|TEXTAREA|SELECT|A|SUMMARY)$/.test(el.tagName)) return;
       if (e.key === 'ArrowLeft') step(-1);
       else if (e.key === 'ArrowRight') step(1);
       else if (e.key === ' ') {
         e.preventDefault();
-        setPlaying((p) => !p);
+        togglePlay();
       }
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [step]);
+  }, [step, togglePlay]);
 
   if (state.status === 'error') return <p role="alert" className="boot">Could not load the map: {state.message}</p>;
-  if (state.status === 'loading' || year === null) return <p role="status" className="boot">Loading map…</p>;
+  if (state.status === 'loading' || year === null) return <p role="status" className="boot">Loading the map…</p>;
   return (
-    <div className="map-shell">
-      <MapView
-        features={state.features}
-        year={year}
-        factsIndex={factsIndex}
-        dataBase={dataBase}
-        timeline={
-          <Timeline
-            years={years}
-            year={year}
-            playing={playing}
-            onChange={setYear}
-            onStep={step}
-            onTogglePlay={() => setPlaying((p) => !p)}
-          />
-        }
-      />
-    </div>
+    <MapView
+      features={state.features}
+      year={year}
+      factsIndex={factsIndex}
+      dataBase={dataBase}
+      timeline={
+        <Timeline
+          years={years}
+          year={year}
+          playing={playing}
+          onChange={setYear}
+          onStep={step}
+          onTogglePlay={togglePlay}
+        />
+      }
+    />
   );
 }
 
@@ -141,7 +164,9 @@ function Timeline({
 }) {
   const index = Math.max(0, years.indexOf(year));
   const last = years.length - 1;
-  const labelEvery = Math.max(1, Math.ceil(years.length / 7));
+  const labelEvery = Math.max(1, Math.ceil(years.length / 6));
+  // A label is drawn every `labelEvery` snapshots, plus the last, unless the last would crowd its neighbour.
+  const isMajor = (i: number) => i === last || (i % labelEvery === 0 && last - i >= labelEvery * 0.75);
   return (
     <div className="year-slider">
       <div className="lcd" aria-hidden="true">
@@ -183,11 +208,15 @@ function Timeline({
           }}
         />
         <div className="ticks" aria-hidden="true">
-          {years.map((y, i) => (
-            <span key={y} style={{ '--p': i / Math.max(1, last) } as CSSProperties} className={i % labelEvery === 0 || i === last ? 'major' : undefined}>
-              {i % labelEvery === 0 || i === last ? formatYear(y) : ''}
-            </span>
-          ))}
+          {years.map((y, i) => {
+            const major = isMajor(i);
+            const edge = i === 0 ? ' first' : i === last ? ' last' : '';
+            return (
+              <span key={y} style={{ '--p': i / Math.max(1, last) } as CSSProperties} className={(major ? 'major' : '') + edge}>
+                {major ? formatYear(y) : ''}
+              </span>
+            );
+          })}
         </div>
       </div>
     </div>
@@ -209,13 +238,16 @@ function MapView({
 }) {
   const containerRef = useRef<HTMLDivElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
+  const listRef = useRef<HTMLUListElement>(null);
   const rendererRef = useRef<CanvasMap | null>(null);
   const zoomRef = useRef<ZoomBehavior<HTMLCanvasElement, unknown> | null>(null);
   const viewRef = useRef<ViewTransform>({ k: 1, x: 0, y: 0 });
+  const homedRef = useRef(false);
   const selectedRef = useRef<number | null>(null);
+  const selectedNameRef = useRef<string | null>(null);
   const hoverRef = useRef<number | null>(null);
-  const phaseRef = useRef(0);
   const frameRef = useRef(0);
+  const dissolveStartRef = useRef(0);
   const [selected, setSelected] = useState<BorderFeature | null>(null);
   const [hover, setHover] = useState<{ feature: BorderFeature; x: number; y: number } | null>(null);
   const [zoomLevel, setZoomLevel] = useState(1);
@@ -235,49 +267,58 @@ function MapView({
     };
   }, [qid, dataBase]);
 
+  /**
+   * One animation loop for the whole map. It draws a frame, then keeps going only while something moves:
+   * the dissolve between snapshots, or the marching dashes around the chosen state.
+   */
   const schedule = useCallback(() => {
     if (frameRef.current) return;
-    frameRef.current = requestAnimationFrame(() => {
+    const still = prefersLessMotion();
+    const frame = (t: number) => {
       frameRef.current = 0;
-      rendererRef.current?.draw(viewRef.current, selectedRef.current, hoverRef.current, phaseRef.current);
-    });
+      const renderer = rendererRef.current;
+      if (!renderer) return;
+      let dissolve = 1;
+      if (renderer.dissolving) {
+        dissolve = (t - dissolveStartRef.current) / DISSOLVE_MS;
+        if (dissolve >= 1) renderer.endDissolve();
+      }
+      const ants = selectedRef.current !== null && !still;
+      renderer.draw(viewRef.current, selectedRef.current, hoverRef.current, { phase: ants ? t / 60 : 0, dissolve });
+      if (renderer.dissolving || ants) frameRef.current = requestAnimationFrame(frame);
+    };
+    frameRef.current = requestAnimationFrame(frame);
   }, []);
 
   const select_ = useCallback(
     (feature: BorderFeature | null) => {
       selectedRef.current = feature?.fid ?? null;
+      selectedNameRef.current = feature?.name ?? null;
       setSelected(feature);
       schedule();
     },
     [schedule],
   );
 
-  // Marching dashes around the chosen state, unless the visitor asked for less motion.
+  // Map lettering is drawn on the canvas, so redraw once the pixel font has arrived.
   useEffect(() => {
-    if (selected === null || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-    let raf = 0;
-    const loop = (t: number) => {
-      phaseRef.current = t / 60;
-      rendererRef.current?.draw(viewRef.current, selectedRef.current, hoverRef.current, phaseRef.current);
-      raf = requestAnimationFrame(loop);
-    };
-    raf = requestAnimationFrame(loop);
-    return () => cancelAnimationFrame(raf);
-  }, [selected]);
+    document.fonts.load(LABEL_FONT).then(schedule, () => undefined);
+  }, [schedule]);
 
   useEffect(() => {
     const container = containerRef.current;
     const canvas = canvasRef.current;
     if (!container || !canvas) return;
-    const renderer = new CanvasMap(canvas, features);
+    const renderer = new CanvasMap(canvas, features, rendererRef.current !== null && !prefersLessMotion());
     rendererRef.current = renderer;
+    dissolveStartRef.current = performance.now();
 
     const applyExtent = (behavior: ZoomBehavior<HTMLCanvasElement, unknown>, w: number, h: number) => {
       const base = baseScale(w, h);
       const half = HALF_WORLD * base;
       behavior.translateExtent([
-        [w / 2 - half, h / 2 - half],
-        [w / 2 + half, h / 2 + half],
+        [w / 2 - half, h / 2 + VIEW_NORTH * base],
+        [w / 2 + half, h / 2 + VIEW_SOUTH * base],
       ]);
       behavior.extent([[0, 0], [w, h]]);
     };
@@ -299,6 +340,12 @@ function MapView({
       if (width < 1 || height < 1) return;
       renderer.resize(width, height, window.devicePixelRatio || 1);
       applyExtent(behavior, width, height);
+      if (!homedRef.current) {
+        homedRef.current = true;
+        const home = homeView(width, height);
+        sel.call(behavior.transform, zoomIdentity.translate(home.x, home.y).scale(home.k));
+      }
+      sel.call(behavior.translateBy, 0, 0); // re-apply the pan limits for the new size
       schedule();
     });
     observer.observe(container);
@@ -353,22 +400,27 @@ function MapView({
       cancelAnimationFrame(frameRef.current);
       cancelAnimationFrame(hoverFrame);
       frameRef.current = 0;
-      rendererRef.current = null;
     };
   }, [features, schedule, select_]);
 
+  // Feature ids are only stable within one snapshot, so carry the chosen state over by name.
   useEffect(() => {
-    select_(null); // feature ids are only stable within one snapshot
+    const name = selectedNameRef.current;
+    select_(name === null ? null : (features.find((f) => f.name === name) ?? null));
     hoverRef.current = null;
     setHover(null);
   }, [features, select_]);
 
+  const named = useMemo(
+    () => features.filter((f): f is BorderFeature & { name: string } => f.name !== null),
+    [features],
+  );
+  const largest = useMemo(() => [...named].sort((a, b) => b.area - a.area).slice(0, LARGEST_SHOWN), [named]);
   const matches = useMemo(() => {
     const q = query.trim().toLowerCase();
-    const named = features.filter((f): f is BorderFeature & { name: string } => f.name !== null);
     const list = q ? named.filter((f) => f.name.toLowerCase().includes(q)) : named;
-    return [...list].sort((a, b) => a.name.localeCompare(b.name)).slice(0, MAX_LIST);
-  }, [features, query]);
+    return [...list].sort((a, b) => collator.compare(a.name, b.name)).slice(0, MAX_LIST);
+  }, [named, query]);
 
   const chooseFromList = (feature: BorderFeature) => {
     select_(feature);
@@ -383,8 +435,7 @@ function MapView({
 
   /** Jump to a random state that has curated facts this year, or any named state when none do. */
   const surprise = () => {
-    const named = features.filter((f) => f.name !== null);
-    const curated = named.filter((f) => f.name !== null && factsIndex[String(year)]?.[f.name] !== undefined);
+    const curated = named.filter((f) => factsIndex[String(year)]?.[f.name] !== undefined);
     const pool = curated.length > 0 ? curated : named;
     const pick = pool[Math.floor(Math.random() * pool.length)];
     if (pick) chooseFromList(pick);
@@ -398,85 +449,139 @@ function MapView({
   const resetView = () => {
     const canvas = canvasRef.current;
     const behavior = zoomRef.current;
-    if (canvas && behavior) select(canvas).call(behavior.transform, zoomIdentity);
+    const renderer = rendererRef.current;
+    if (!canvas || !behavior || !renderer) return;
+    const home = homeView(renderer.size.width, renderer.size.height);
+    select(canvas).call(behavior.transform, zoomIdentity.translate(home.x, home.y).scale(home.k)).call(behavior.translateBy, 0, 0);
+  };
+
+  /** Up and down arrows move through the list, Home and End jump to its ends. */
+  const onListKey = (e: ReactKeyboardEvent<HTMLUListElement>) => {
+    const buttons = [...(listRef.current?.querySelectorAll('button') ?? [])];
+    const at = buttons.indexOf(document.activeElement as HTMLButtonElement);
+    const to =
+      e.key === 'ArrowDown' ? at + 1 : e.key === 'ArrowUp' ? at - 1 : e.key === 'Home' ? 0 : e.key === 'End' ? buttons.length - 1 : null;
+    if (to === null) return;
+    e.preventDefault();
+    buttons[Math.max(0, Math.min(buttons.length - 1, to))]?.focus();
   };
 
   const status = hover?.feature ?? selected;
+  const tipLeft = hover && hover.x > (rendererRef.current?.size.width ?? 0) - 220;
   return (
-    <>
-      <div className="map-layout">
-        <div className="map-main" ref={containerRef}>
-          <canvas
-            ref={canvasRef}
-            role="img"
-            aria-label={`Political map of the world in ${formatYear(year)}. Use the list to choose a state.`}
-          />
-          <div className="zoom-controls" role="group" aria-label="Map zoom">
-            <button type="button" onClick={() => zoomBy(1.6)} aria-label="Zoom in">
-              +
-            </button>
-            <button type="button" onClick={() => zoomBy(1 / 1.6)} aria-label="Zoom out">
-              -
-            </button>
-            <button type="button" onClick={resetView} aria-label="Show the whole world">
-              All
-            </button>
-          </div>
-          {hover && (
-            <div className="tooltip" style={{ left: hover.x + 14, top: hover.y + 14 }} aria-hidden="true">
-              {hover.feature.name ?? 'Unnamed land'}
-            </div>
-          )}
+    <div className="map-layout">
+      <div className="map-main" ref={containerRef}>
+        <canvas
+          ref={canvasRef}
+          role="img"
+          aria-label={`Political map of the world in ${formatYear(year)}. Use the list to choose a state.`}
+        />
+        <div className="zoom-controls" role="group" aria-label="Map zoom">
+          <button type="button" onClick={() => zoomBy(1.6)} aria-label="Zoom in">
+            +
+          </button>
+          <button type="button" onClick={() => zoomBy(1 / 1.6)} aria-label="Zoom out">
+            -
+          </button>
+          <button type="button" onClick={resetView} aria-label="Show the whole world">
+            All
+          </button>
         </div>
-        <aside className="map-side">
-          <div className="side-tools">
-            <label>
-              <span className="sr-only">Search states</span>
-              <input type="search" placeholder="Search states" value={query} onChange={(e) => setQuery(e.target.value)} />
-            </label>
-            <button type="button" className="surprise" onClick={surprise}>
-              Surprise me
-            </button>
-          </div>
-          <ul className="state-list">
-            {matches.map((f) => (
-              <li key={f.fid}>
-                <button type="button" onClick={() => chooseFromList(f)} aria-pressed={selected?.fid === f.fid}>
-                  <i className="swatch" style={{ background: realmColour(f.name, f.overlord) ?? '#8c8c8c' }} />
-                  {f.name}
-                </button>
-              </li>
-            ))}
+        <details className="legend">
+          <summary>Map key</summary>
+          <ul>
+            <li>
+              <i className="key-realm" />
+              Same colour: one realm, a state and the lands it rules
+            </li>
+            <li>
+              <i className="key-wild" />
+              No state recorded
+            </li>
+            <li>
+              <i className="key-chosen" />
+              The state you chose
+            </li>
           </ul>
-          <section aria-live="polite" className="detail">
-            {selected ? (
-              <>
-                <h2>{selected.name ?? 'Unnamed territory'}</h2>
-                {polity ? (
-                  <PolityFacts polity={polity} year={year} />
-                ) : (
-                  <p>
-                    {selected.name
-                      ? `Shown as it appeared in ${formatYear(year)}. Ruler, army and events have not been curated yet.`
-                      : 'The source data gives no name for this area (unclaimed or unattributed land).'}
-                  </p>
-                )}
-                <Hierarchy selected={selected} features={features} onChoose={chooseFromList} />
-              </>
-            ) : (
-              <p>Pick a state on the map or in the list, or press Surprise me.</p>
-            )}
-          </section>
-        </aside>
+        </details>
+        {hover && (
+          <div
+            className="tooltip"
+            style={tipLeft ? { right: (rendererRef.current?.size.width ?? 0) - hover.x + 14, top: hover.y + 14 } : { left: hover.x + 14, top: hover.y + 14 }}
+            aria-hidden="true"
+          >
+            {hover.feature.name ?? 'No state recorded'}
+            {hover.feature.overlord && <small>under {hover.feature.overlord}</small>}
+          </div>
+        )}
       </div>
       {timeline}
+      <aside className="map-side" data-view={selected ? 'detail' : 'list'}>
+        <div className="side-tools">
+          <label>
+            <span className="sr-only">Search states</span>
+            <input type="search" placeholder="Search states" value={query} onChange={(e) => setQuery(e.target.value)} />
+          </label>
+          <button type="button" className="surprise" onClick={surprise}>
+            Surprise me
+          </button>
+        </div>
+        <ul className="state-list" ref={listRef} onKeyDown={onListKey} aria-label={`States in ${formatYear(year)}`}>
+          {matches.map((f) => (
+            <li key={f.fid}>
+              <button type="button" onClick={() => chooseFromList(f)} aria-pressed={selected?.fid === f.fid}>
+                <i className="swatch" style={{ background: fillCss(realmFill(f.name, f.overlord)) }} />
+                {f.name}
+              </button>
+            </li>
+          ))}
+          {matches.length === 0 && <li className="empty">No state called “{query.trim()}” in {formatYear(year)}. Try another year or a shorter name.</li>}
+        </ul>
+        <section aria-live="polite" className="detail">
+          {selected ? (
+            <>
+              <button type="button" className="back" onClick={() => select_(null)}>
+                Back to the list
+              </button>
+              <h2>{selected.name ?? 'Unnamed territory'}</h2>
+              {polity ? (
+                <PolityFacts polity={polity} year={year} />
+              ) : (
+                <p>
+                  {selected.name
+                    ? `Shown as it appeared in ${formatYear(year)}. Ruler, army and events have not been curated yet.`
+                    : 'The source data gives no name for this area (unclaimed or unattributed land).'}
+                </p>
+              )}
+              <Hierarchy selected={selected} features={features} onChoose={chooseFromList} />
+            </>
+          ) : (
+            <div className="overview">
+              <p>
+                In {formatYear(year)} the map shows {named.length.toLocaleString('en')} named states. States that share a
+                colour belong to one realm.
+              </p>
+              <h3>Largest in {formatYear(year)}</h3>
+              <ul className="largest">
+                {largest.map((f) => (
+                  <li key={f.fid}>
+                    <i className="swatch" style={{ background: fillCss(realmFill(f.name, f.overlord)) }} />
+                    <button type="button" className="link" onClick={() => chooseFromList(f)}>
+                      {f.name}
+                    </button>
+                  </li>
+                ))}
+              </ul>
+              <p className="hint">Click a state on the map or in the list. Left and right arrow keys change the year; space plays the time-lapse.</p>
+            </div>
+          )}
+        </section>
+      </aside>
       <div className="status-bar" aria-hidden="true">
-        <span>{status ? `${status.name ?? 'Unnamed land'}${status.overlord ? ` (under ${status.overlord})` : ''}` : 'Hover a state'}</span>
-        <span>
-          {eraOf(year).name} · zoom {zoomLevel.toFixed(1)}×
-        </span>
+        <span>{status ? `${status.name ?? 'No state recorded'}${status.overlord ? `, under ${status.overlord}` : ''}` : 'Point at a state to see its name'}</span>
+        <span>Zoom {zoomLevel.toFixed(1)}×</span>
       </div>
-    </>
+    </div>
   );
 }
 
