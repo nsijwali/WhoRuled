@@ -1,9 +1,11 @@
 import { select } from 'd3-selection';
 import { zoom, zoomIdentity, type ZoomBehavior } from 'd3-zoom';
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState, type CSSProperties, type ReactNode } from 'react';
 import { CanvasMap } from '../map/CanvasMap';
 import { HALF_WORLD, baseScale, viewForBbox } from '../map/geometry';
+import { eraOf } from '../map/eras';
 import { formatYear } from '../map/format';
+import { realmColour } from '../map/palette';
 import { loadFactsIndex, loadPolity, type FactsIndex } from '../map/loadFacts';
 import { loadBorders, loadYears } from '../map/loadGeo';
 import type { Polity } from '../data/schema';
@@ -11,6 +13,7 @@ import type { BorderFeature, ViewTransform } from '../map/types';
 
 const MAX_ZOOM = 64;
 const MAX_LIST = 50;
+const PLAY_INTERVAL_MS = 1100;
 
 type LoadState =
   | { status: 'loading' }
@@ -22,6 +25,7 @@ const DEFAULT_YEAR = 1492;
 export default function MapIsland({ dataBase = '/data/' }: { dataBase?: string }) {
   const [years, setYears] = useState<number[]>([]);
   const [year, setYear] = useState<number | null>(null);
+  const [playing, setPlaying] = useState(false);
   const [state, setState] = useState<LoadState>({ status: 'loading' });
   const [factsIndex, setFactsIndex] = useState<FactsIndex>({});
 
@@ -61,35 +65,131 @@ export default function MapIsland({ dataBase = '/data/' }: { dataBase?: string }
     };
   }, [year, dataBase]);
 
-  if (state.status === 'error') return <p role="alert">Could not load the map: {state.message}</p>;
-  if (state.status === 'loading' || year === null) return <p role="status">Loading map…</p>;
+  const step = useCallback(
+    (delta: number) => {
+      if (year === null) return;
+      const next = years[Math.min(years.length - 1, Math.max(0, years.indexOf(year) + delta))];
+      if (next !== undefined) setYear(next);
+    },
+    [year, years],
+  );
+
+  // Time-lapse: advance one snapshot per tick and stop at the last one.
+  useEffect(() => {
+    if (!playing || year === null) return;
+    if (years.indexOf(year) >= years.length - 1) {
+      setPlaying(false);
+      return;
+    }
+    const timer = setTimeout(() => step(1), PLAY_INTERVAL_MS);
+    return () => clearTimeout(timer);
+  }, [playing, year, years, step]);
+
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      const el = e.target instanceof HTMLElement ? e.target : null;
+      if (el && /^(INPUT|BUTTON|TEXTAREA|SELECT|A)$/.test(el.tagName)) return;
+      if (e.key === 'ArrowLeft') step(-1);
+      else if (e.key === 'ArrowRight') step(1);
+      else if (e.key === ' ') {
+        e.preventDefault();
+        setPlaying((p) => !p);
+      }
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [step]);
+
+  if (state.status === 'error') return <p role="alert" className="boot">Could not load the map: {state.message}</p>;
+  if (state.status === 'loading' || year === null) return <p role="status" className="boot">Loading map…</p>;
   return (
     <div className="map-shell">
-      <YearSlider years={years} year={year} onChange={setYear} />
-      <MapView features={state.features} year={year} factsIndex={factsIndex} dataBase={dataBase} />
+      <MapView
+        features={state.features}
+        year={year}
+        factsIndex={factsIndex}
+        dataBase={dataBase}
+        timeline={
+          <Timeline
+            years={years}
+            year={year}
+            playing={playing}
+            onChange={setYear}
+            onStep={step}
+            onTogglePlay={() => setPlaying((p) => !p)}
+          />
+        }
+      />
     </div>
   );
 }
 
-function YearSlider({ years, year, onChange }: { years: number[]; year: number; onChange: (y: number) => void }) {
+function Timeline({
+  years,
+  year,
+  playing,
+  onChange,
+  onStep,
+  onTogglePlay,
+}: {
+  years: number[];
+  year: number;
+  playing: boolean;
+  onChange: (y: number) => void;
+  onStep: (delta: number) => void;
+  onTogglePlay: () => void;
+}) {
   const index = Math.max(0, years.indexOf(year));
+  const last = years.length - 1;
+  const labelEvery = Math.max(1, Math.ceil(years.length / 7));
   return (
     <div className="year-slider">
-      <label htmlFor="year-range">Year</label>
-      <input
-        id="year-range"
-        type="range"
-        min={0}
-        max={years.length - 1}
-        step={1}
-        value={index}
-        aria-valuetext={formatYear(year)}
-        onChange={(e) => {
-          const next = years[Number(e.target.value)];
-          if (next !== undefined) onChange(next);
-        }}
-      />
-      <output htmlFor="year-range">{formatYear(year)}</output>
+      <div className="lcd" aria-hidden="true">
+        <output htmlFor="year-range">{formatYear(year)}</output>
+        <span>{eraOf(year).name}</span>
+      </div>
+      <div className="transport" role="group" aria-label="Time controls">
+        <button type="button" onClick={() => onChange(years[0] ?? year)} disabled={index === 0} aria-label="First snapshot">
+          |&lt;
+        </button>
+        <button type="button" onClick={() => onStep(-1)} disabled={index === 0} aria-label="Earlier snapshot">
+          &lt;
+        </button>
+        <button type="button" className="play" onClick={onTogglePlay} aria-pressed={playing}>
+          {playing ? 'Pause' : 'Play'}
+        </button>
+        <button type="button" onClick={() => onStep(1)} disabled={index === last} aria-label="Later snapshot">
+          &gt;
+        </button>
+        <button type="button" onClick={() => onChange(years[last] ?? year)} disabled={index === last} aria-label="Last snapshot">
+          &gt;|
+        </button>
+      </div>
+      <div className="ruler">
+        <label htmlFor="year-range" className="sr-only">
+          Year
+        </label>
+        <input
+          id="year-range"
+          type="range"
+          min={0}
+          max={last}
+          step={1}
+          value={index}
+          aria-valuetext={`${formatYear(year)}, ${eraOf(year).name}`}
+          onChange={(e) => {
+            const next = years[Number(e.target.value)];
+            if (next !== undefined) onChange(next);
+          }}
+        />
+        <div className="ticks" aria-hidden="true">
+          {years.map((y, i) => (
+            <span key={y} style={{ '--p': i / Math.max(1, last) } as CSSProperties} className={i % labelEvery === 0 || i === last ? 'major' : undefined}>
+              {i % labelEvery === 0 || i === last ? formatYear(y) : ''}
+            </span>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }
@@ -99,11 +199,13 @@ function MapView({
   year,
   factsIndex,
   dataBase,
+  timeline,
 }: {
   features: BorderFeature[];
   year: number;
   factsIndex: FactsIndex;
   dataBase: string;
+  timeline: ReactNode;
 }) {
   const containerRef = useRef<HTMLDivElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -111,8 +213,12 @@ function MapView({
   const zoomRef = useRef<ZoomBehavior<HTMLCanvasElement, unknown> | null>(null);
   const viewRef = useRef<ViewTransform>({ k: 1, x: 0, y: 0 });
   const selectedRef = useRef<number | null>(null);
+  const hoverRef = useRef<number | null>(null);
+  const phaseRef = useRef(0);
   const frameRef = useRef(0);
   const [selected, setSelected] = useState<BorderFeature | null>(null);
+  const [hover, setHover] = useState<{ feature: BorderFeature; x: number; y: number } | null>(null);
+  const [zoomLevel, setZoomLevel] = useState(1);
   const [query, setQuery] = useState('');
   const [polity, setPolity] = useState<Polity | null>(null);
 
@@ -133,7 +239,7 @@ function MapView({
     if (frameRef.current) return;
     frameRef.current = requestAnimationFrame(() => {
       frameRef.current = 0;
-      rendererRef.current?.draw(viewRef.current, selectedRef.current);
+      rendererRef.current?.draw(viewRef.current, selectedRef.current, hoverRef.current, phaseRef.current);
     });
   }, []);
 
@@ -145,6 +251,19 @@ function MapView({
     },
     [schedule],
   );
+
+  // Marching dashes around the chosen state, unless the visitor asked for less motion.
+  useEffect(() => {
+    if (selected === null || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    let raf = 0;
+    const loop = (t: number) => {
+      phaseRef.current = t / 60;
+      rendererRef.current?.draw(viewRef.current, selectedRef.current, hoverRef.current, phaseRef.current);
+      raf = requestAnimationFrame(loop);
+    };
+    raf = requestAnimationFrame(loop);
+    return () => cancelAnimationFrame(raf);
+  }, [selected]);
 
   useEffect(() => {
     const container = containerRef.current;
@@ -168,6 +287,7 @@ function MapView({
       .on('zoom', (event: { transform: ViewTransform }) => {
         const { k, x, y } = event.transform;
         viewRef.current = { k, x, y };
+        setZoomLevel(k);
         schedule();
       });
     zoomRef.current = behavior;
@@ -194,15 +314,44 @@ function MapView({
       const rect = canvas.getBoundingClientRect();
       select_(renderer.hitTest(e.clientX - rect.left, e.clientY - rect.top, viewRef.current) ?? null);
     };
+    let hoverFrame = 0;
+    const onMove = (e: PointerEvent) => {
+      if (e.pointerType !== 'mouse' || e.buttons !== 0 || hoverFrame) return;
+      hoverFrame = requestAnimationFrame(() => {
+        hoverFrame = 0;
+        const rect = canvas.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+        const found = renderer.hitTest(x, y, viewRef.current);
+        const fid = found?.fid ?? null;
+        if (fid !== hoverRef.current) {
+          hoverRef.current = fid;
+          setHover(found ? { feature: found, x, y } : null);
+          schedule();
+        } else if (found) {
+          setHover({ feature: found, x, y });
+        }
+      });
+    };
+    const onLeave = () => {
+      hoverRef.current = null;
+      setHover(null);
+      schedule();
+    };
     canvas.addEventListener('pointerdown', onDown);
     canvas.addEventListener('pointerup', onUp);
+    canvas.addEventListener('pointermove', onMove);
+    canvas.addEventListener('pointerleave', onLeave);
 
     return () => {
       observer.disconnect();
       canvas.removeEventListener('pointerdown', onDown);
       canvas.removeEventListener('pointerup', onUp);
+      canvas.removeEventListener('pointermove', onMove);
+      canvas.removeEventListener('pointerleave', onLeave);
       sel.on('.zoom', null);
       cancelAnimationFrame(frameRef.current);
+      cancelAnimationFrame(hoverFrame);
       frameRef.current = 0;
       rendererRef.current = null;
     };
@@ -210,6 +359,8 @@ function MapView({
 
   useEffect(() => {
     select_(null); // feature ids are only stable within one snapshot
+    hoverRef.current = null;
+    setHover(null);
   }, [features, select_]);
 
   const matches = useMemo(() => {
@@ -230,50 +381,102 @@ function MapView({
     select(canvas).call(behavior.transform, zoomIdentity.translate(v.x, v.y).scale(v.k));
   };
 
+  /** Jump to a random state that has curated facts this year, or any named state when none do. */
+  const surprise = () => {
+    const named = features.filter((f) => f.name !== null);
+    const curated = named.filter((f) => f.name !== null && factsIndex[String(year)]?.[f.name] !== undefined);
+    const pool = curated.length > 0 ? curated : named;
+    const pick = pool[Math.floor(Math.random() * pool.length)];
+    if (pick) chooseFromList(pick);
+  };
+
+  const zoomBy = (factor: number) => {
+    const canvas = canvasRef.current;
+    const behavior = zoomRef.current;
+    if (canvas && behavior) select(canvas).call(behavior.scaleBy, factor);
+  };
+  const resetView = () => {
+    const canvas = canvasRef.current;
+    const behavior = zoomRef.current;
+    if (canvas && behavior) select(canvas).call(behavior.transform, zoomIdentity);
+  };
+
+  const status = hover?.feature ?? selected;
   return (
-    <div className="map-layout">
-      <div className="map-main" ref={containerRef}>
-        <canvas
-          ref={canvasRef}
-          role="img"
-          aria-label={`Political map of the world in ${formatYear(year)}. Use the list to choose a state.`}
-        />
-      </div>
-      <aside className="map-side">
-        <label>
-          Search states
-          <input type="search" value={query} onChange={(e) => setQuery(e.target.value)} />
-        </label>
-        <ul className="state-list">
-          {matches.map((f) => (
-            <li key={f.fid}>
-              <button type="button" onClick={() => chooseFromList(f)} aria-pressed={selected?.fid === f.fid}>
-                {f.name}
-              </button>
-            </li>
-          ))}
-        </ul>
-        <section aria-live="polite" className="detail">
-          {selected ? (
-            <>
-              <h2>{selected.name ?? 'Unnamed territory'}</h2>
-              {polity ? (
-                <PolityFacts polity={polity} year={year} />
-              ) : (
-                <p>
-                  {selected.name
-                    ? `Shown as it appeared in ${formatYear(year)}. Ruler, army and events have not been curated yet.`
-                    : 'The source data gives no name for this area (unclaimed or unattributed land).'}
-                </p>
-              )}
-              <Hierarchy selected={selected} features={features} onChoose={chooseFromList} />
-            </>
-          ) : (
-            <p>Select a state on the map or from the list.</p>
+    <>
+      <div className="map-layout">
+        <div className="map-main" ref={containerRef}>
+          <canvas
+            ref={canvasRef}
+            role="img"
+            aria-label={`Political map of the world in ${formatYear(year)}. Use the list to choose a state.`}
+          />
+          <div className="zoom-controls" role="group" aria-label="Map zoom">
+            <button type="button" onClick={() => zoomBy(1.6)} aria-label="Zoom in">
+              +
+            </button>
+            <button type="button" onClick={() => zoomBy(1 / 1.6)} aria-label="Zoom out">
+              -
+            </button>
+            <button type="button" onClick={resetView} aria-label="Show the whole world">
+              All
+            </button>
+          </div>
+          {hover && (
+            <div className="tooltip" style={{ left: hover.x + 14, top: hover.y + 14 }} aria-hidden="true">
+              {hover.feature.name ?? 'Unnamed land'}
+            </div>
           )}
-        </section>
-      </aside>
-    </div>
+        </div>
+        <aside className="map-side">
+          <div className="side-tools">
+            <label>
+              <span className="sr-only">Search states</span>
+              <input type="search" placeholder="Search states" value={query} onChange={(e) => setQuery(e.target.value)} />
+            </label>
+            <button type="button" className="surprise" onClick={surprise}>
+              Surprise me
+            </button>
+          </div>
+          <ul className="state-list">
+            {matches.map((f) => (
+              <li key={f.fid}>
+                <button type="button" onClick={() => chooseFromList(f)} aria-pressed={selected?.fid === f.fid}>
+                  <i className="swatch" style={{ background: realmColour(f.name, f.overlord) ?? '#8c8c8c' }} />
+                  {f.name}
+                </button>
+              </li>
+            ))}
+          </ul>
+          <section aria-live="polite" className="detail">
+            {selected ? (
+              <>
+                <h2>{selected.name ?? 'Unnamed territory'}</h2>
+                {polity ? (
+                  <PolityFacts polity={polity} year={year} />
+                ) : (
+                  <p>
+                    {selected.name
+                      ? `Shown as it appeared in ${formatYear(year)}. Ruler, army and events have not been curated yet.`
+                      : 'The source data gives no name for this area (unclaimed or unattributed land).'}
+                  </p>
+                )}
+                <Hierarchy selected={selected} features={features} onChoose={chooseFromList} />
+              </>
+            ) : (
+              <p>Pick a state on the map or in the list, or press Surprise me.</p>
+            )}
+          </section>
+        </aside>
+      </div>
+      {timeline}
+      <div className="status-bar" aria-hidden="true">
+        <span>{status ? `${status.name ?? 'Unnamed land'}${status.overlord ? ` (under ${status.overlord})` : ''}` : 'Hover a state'}</span>
+        <span>
+          {eraOf(year).name} · zoom {zoomLevel.toFixed(1)}×
+        </span>
+      </div>
+    </>
   );
 }
 
