@@ -38,7 +38,7 @@ if (process.argv[3]) await page.screenshot({ path: process.argv[3] });
 // year slider: move to the last snapshot and expect a different map and label
 await page.locator('#year-range').fill('3');
 await page.waitForTimeout(500);
-const yearLabel = await page.locator('.year-slider output').textContent();
+const yearLabel = await page.locator('.lcd output').textContent();
 console.log(JSON.stringify({ problems, yearLabel, mapClickSelected: heading > 0, listSelected: name }));
 await browser.close(); srv.close();
 if (problems.length) process.exit(1);

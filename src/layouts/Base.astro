@@ -1,4 +1,6 @@
 ---
+import '@fontsource/silkscreen/400.css';
+import '@fontsource/vt323/400.css';
 import Consent from '../components/Consent.astro';
 import { ADS_CLIENT, ANALYTICS_TOKEN, SITE_NAME, SITE_URL, SUPPORT_URL } from '../config/site';
 
@@ -27,66 +29,181 @@ const canonical = new URL(path, SITE_URL).href;
     <meta property="og:url" content={canonical} />
     <link rel="icon" href="data:," />
     <style is:global>
-      :root { color-scheme: light dark; font-family: system-ui, sans-serif; }
-      body { margin: 0; }
-      header { padding: 0.75rem 1rem; border-bottom: 1px solid #8884; }
-      h1 { margin: 0; font-size: 1.25rem; }
-      .map-shell { display: flex; flex-direction: column; flex: 1; min-height: 0; }
-      body { display: flex; flex-direction: column; min-height: 100vh; min-height: 100dvh; }
-      body.full { height: 100vh; height: 100dvh; min-height: 0; }
-      .page { flex: 1; }
-      .year-slider { display: flex; align-items: center; gap: 0.75rem; padding: 0.5rem 0.75rem; border-bottom: 1px solid #8884; }
-      .year-slider input { flex: 1; min-width: 0; }
-      .year-slider output { min-width: 5ch; font-variant-numeric: tabular-nums; font-weight: 700; text-align: right; }
-      .map-layout { display: grid; grid-template-columns: 1fr 20rem; flex: 1; min-height: 0; }
-      .map-main { position: relative; min-width: 0; background: #cfe3ee; }
-      .map-main canvas { position: absolute; inset: 0; width: 100%; height: 100%; touch-action: none; cursor: grab; }
-      .map-side { display: flex; flex-direction: column; gap: 0.5rem; padding: 0.75rem; overflow: hidden; border-left: 1px solid #8884; }
-      .map-side input { display: block; width: 100%; box-sizing: border-box; margin-top: 0.25rem; padding: 0.4rem; }
-      .state-list { flex: 1; margin: 0; padding: 0; overflow: auto; list-style: none; }
-      .state-list button { width: 100%; padding: 0.35rem 0.25rem; text-align: left; background: none; border: 0; border-bottom: 1px solid #8882; color: inherit; cursor: pointer; }
-      .state-list button[aria-pressed='true'] { font-weight: 700; }
-      .detail h2 { margin: 0 0 0.25rem; font-size: 1.1rem; }
-      .detail h3 { margin: 0.75rem 0 0.25rem; font-size: 0.95rem; }
-      .detail ul { margin: 0; padding-left: 1.1rem; }
-      .detail a { color: #8ab4f8; }
-      .detail button.link { background: none; border: 0; padding: 0; color: #8ab4f8; text-decoration: underline; cursor: pointer; font: inherit; }
-      .unreviewed { opacity: 0.7; font-size: 0.85rem; }
-      @media (max-width: 700px) {
-        .map-layout { grid-template-columns: 1fr; grid-template-rows: 55% 45%; }
-        .map-side { border-left: 0; border-top: 1px solid #8884; }
+      /* An EGA map room: sixteen colours, bevelled grey windows, DOS-blue panels. */
+      :root {
+        --black: #000000; --blue: #0000aa; --grey: #aaaaaa; --dgrey: #555555; --lblue: #5555ff;
+        --cyan: #00aaaa; --lcyan: #55ffff; --yellow: #ffff55; --white: #ffffff;
+        --hi: var(--white); --lo: var(--dgrey);
+        --pixel: 'Silkscreen', 'Courier New', monospace; --body: 'VT323', 'Courier New', monospace;
+        color-scheme: dark;
       }
-    
-      .site-header { display: flex; align-items: baseline; gap: 1rem; flex-wrap: wrap; }
-      .site-header nav { display: flex; gap: 0.75rem; font-size: 0.9rem; }
-      .site-header a, .site-footer a { color: #8ab4f8; }
-      .site-header .brand { color: inherit; text-decoration: none; }
-      .site-footer { padding: 0.5rem 1rem; border-top: 1px solid #8884; font-size: 0.75rem; opacity: 0.8; }
-      .page { max-width: 46rem; margin: 0 auto; padding: 1rem; line-height: 1.5; }
-      .page a { color: #8ab4f8; }
-      .page h2 { margin-top: 1.5rem; font-size: 1.1rem; }
+      * { box-sizing: border-box; }
+      html, body { background: var(--black); }
+      body { margin: 0; font: 22px/1.25 var(--body); color: var(--white); display: flex; flex-direction: column; min-height: 100vh; min-height: 100dvh; padding: 6px; }
+      body.full { height: 100vh; height: 100dvh; min-height: 0; }
+      .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+      :focus-visible { outline: 2px solid var(--yellow); outline-offset: 1px; box-shadow: 0 0 0 4px var(--black); }
+
+      /* Window chrome */
+      .window { flex: 1; min-height: 0; display: flex; flex-direction: column; background: var(--grey); color: var(--black); border: 2px solid; border-color: var(--hi) var(--lo) var(--lo) var(--hi); }
+      .titlebar { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 3px 8px; background: var(--blue); color: var(--yellow); }
+      .titlebar h1 { margin: 0; font: 400 16px/1.5 var(--pixel); }
+      .titlebar a { color: inherit; text-decoration: none; }
+      .titlebar .blurb { color: var(--white); font-size: 20px; line-height: 1; }
+      .menubar { display: flex; flex-wrap: wrap; gap: 0 4px; padding: 1px 4px; border-bottom: 2px solid var(--lo); font-size: 22px; line-height: 1.2; }
+      .menubar a { color: var(--black); text-decoration: none; padding: 0 8px; }
+      .menubar a:hover, .menubar a[aria-current='page'] { background: var(--blue); color: var(--white); }
+      .window-body { flex: 1; min-height: 0; display: flex; flex-direction: column; }
+      .site-footer { padding: 2px 8px; border-top: 2px solid var(--lo); font-size: 18px; line-height: 1.15; color: var(--black); }
+      .site-footer a { color: var(--blue); }
+
+      button { font: 22px/1 var(--body); color: var(--black); background: var(--grey); padding: 3px 10px 4px; cursor: pointer; border: 2px solid; border-color: var(--hi) var(--lo) var(--lo) var(--hi); box-shadow: 1px 1px 0 var(--black); }
+      button:active:not(:disabled) { border-color: var(--lo) var(--hi) var(--hi) var(--lo); box-shadow: none; transform: translate(1px, 1px); }
+      button:disabled { color: var(--dgrey); cursor: default; }
+      button[aria-pressed='true'].play { background: var(--yellow); }
+      button.link { background: none; border: 0; box-shadow: none; padding: 0; color: var(--lcyan); font: inherit; text-decoration: underline; text-underline-offset: 3px; }
+      button.link:active:not(:disabled) { transform: none; }
+
+      .boot { margin: 0; padding: 1rem; flex: 1; background: var(--black); color: var(--grey); }
+      .boot::after { content: ''; display: inline-block; width: 0.5em; height: 0.9em; margin-left: 4px; vertical-align: -2px; background: var(--grey); animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 50% { visibility: hidden; } }
+
+      /* Map screen */
+      .map-layout { flex: 1; min-height: 0; display: grid; grid-template-columns: minmax(0, 1fr) 22rem; grid-template-rows: minmax(0, 1fr) auto auto; grid-template-areas: 'map side' 'time side' 'status side'; gap: 6px; padding: 6px; }
+      .map-main { grid-area: map; position: relative; min-width: 0; border: 2px solid; border-color: var(--lo) var(--hi) var(--hi) var(--lo); background: var(--blue); overflow: hidden; }
+      .map-main canvas { position: absolute; inset: 0; width: 100%; height: 100%; touch-action: none; cursor: crosshair; }
+      .zoom-controls { position: absolute; top: 8px; left: 8px; display: flex; flex-direction: column; gap: 4px; }
+      .zoom-controls button { min-width: 2.6rem; }
+      .tooltip { position: absolute; pointer-events: none; padding: 2px 8px; background: var(--white); color: var(--black); border: 2px solid var(--black); box-shadow: 3px 3px 0 var(--black); font-size: 22px; line-height: 1; white-space: nowrap; z-index: 2; }
+      .tooltip small { display: block; font-size: 18px; color: var(--dgrey); }
+
+      .legend { position: absolute; left: 8px; bottom: 8px; max-width: 16rem; background: var(--grey); color: var(--black); border: 2px solid; border-color: var(--hi) var(--lo) var(--lo) var(--hi); box-shadow: 1px 1px 0 var(--black); font-size: 19px; line-height: 1.1; }
+      .legend summary { padding: 2px 8px; cursor: pointer; list-style: none; }
+      .legend summary::-webkit-details-marker { display: none; }
+      .legend summary::before { content: '+ '; }
+      .legend[open] summary { background: var(--blue); color: var(--white); }
+      .legend[open] summary::before { content: '- '; }
+      .legend ul { margin: 0; padding: 6px 8px 8px; list-style: none; display: grid; gap: 5px; }
+      .legend li { display: grid; grid-template-columns: 1.4rem 1fr; gap: 8px; align-items: start; }
+      .legend i { display: block; height: 14px; margin-top: 2px; border: 1px solid var(--black); }
+      .key-realm { background: repeating-conic-gradient(#aa5500 0 25%, #ffff55 0 50%) 0 0 / 2px 2px; }
+      .key-wild { background: radial-gradient(circle at 1px 1px, var(--dgrey) 1px, transparent 1px) 0 0 / 4px 4px, var(--grey); }
+      .key-chosen { background: repeating-conic-gradient(var(--white) 0 25%, #55ff55 0 50%) 0 0 / 2px 2px; outline: 2px dashed var(--yellow); outline-offset: -2px; }
+
+      /* The advisor: a DOS-blue panel */
+      .map-side { grid-area: side; display: flex; flex-direction: column; gap: 6px; min-height: 0; padding: 6px; background: var(--blue); color: var(--white); border: 2px solid; border-color: var(--lo) var(--hi) var(--hi) var(--lo); }
+      .side-tools { display: flex; gap: 6px; }
+      .side-tools label { flex: 1; min-width: 0; }
+      .map-side input { display: block; width: 100%; padding: 2px 6px; font: 22px/1.1 var(--body); color: var(--black); background: var(--white); border: 2px solid; border-color: var(--lo) var(--hi) var(--hi) var(--lo); border-radius: 0; }
+      .map-side input::placeholder { color: var(--dgrey); }
+      .surprise { white-space: nowrap; background: var(--yellow); }
+      .state-list { flex: 1 1 8rem; min-height: 6rem; margin: 0; padding: 2px; overflow: auto; list-style: none; border: 4px double var(--grey); background: var(--black); scrollbar-color: var(--grey) var(--black); }
+      .state-list button { display: flex; align-items: center; gap: 8px; width: 100%; padding: 1px 6px; text-align: left; font-size: 21px; line-height: 1.1; color: var(--white); background: none; border: 0; box-shadow: none; }
+      .state-list button:hover { background: var(--dgrey); }
+      .state-list button[aria-pressed='true'] { background: var(--cyan); color: var(--black); }
+      .state-list button:active:not(:disabled) { transform: none; }
+      .state-list button:focus-visible { outline: 2px solid var(--yellow); outline-offset: -2px; box-shadow: none; }
+      .state-list .empty { padding: 4px 6px; color: var(--grey); font-size: 20px; }
+      .swatch { flex: none; width: 12px; height: 12px; border: 1px solid var(--white); }
+      .detail { flex: 1 1 13rem; min-height: 8rem; overflow: auto; padding: 6px 10px 8px; border: 4px double var(--grey); scrollbar-color: var(--grey) var(--blue); }
+      .detail h2 { margin: 2px 0 6px; font: 400 16px/1.5 var(--pixel); color: var(--yellow); }
+      .detail h3 { margin: 10px 0 2px; font: inherit; color: var(--lcyan); }
+      .detail p { margin: 4px 0; }
+      .detail ul { margin: 0; padding-left: 1.1rem; }
+      .detail li { margin: 2px 0; }
+      .detail a { color: var(--lcyan); text-underline-offset: 3px; }
+      .detail .back { display: none; margin-bottom: 6px; }
+      .overview .largest { padding: 0; list-style: none; }
+      .overview .largest li { display: flex; align-items: center; gap: 8px; }
+      .overview .largest button { text-align: left; }
+      .overview .hint { margin-top: 12px; color: var(--grey); font-size: 20px; }
+      .unreviewed { color: var(--grey); font-size: 19px; }
+
+      /* Timeline */
+      .year-slider { grid-area: time; display: grid; grid-template-columns: auto auto minmax(0, 1fr); align-items: center; gap: 12px; padding: 2px 4px; }
+      .lcd { min-width: 9rem; padding: 2px 10px 4px; background: var(--black); border: 2px solid; border-color: var(--lo) var(--hi) var(--hi) var(--lo); text-align: right; }
+      .lcd output { display: block; font-size: 44px; line-height: 0.95; color: var(--yellow); font-variant-numeric: tabular-nums; }
+      .lcd span { display: block; font-size: 18px; line-height: 1; color: var(--grey); white-space: nowrap; }
+      .transport { display: flex; gap: 4px; }
+      .transport .play { min-width: 4.4rem; }
+      .ruler { position: relative; min-width: 0; padding: 0 10px 22px; }
+      .ruler input[type='range'] { -webkit-appearance: none; appearance: none; display: block; width: 100%; height: 24px; margin: 0; padding: 0; background: transparent; border: 0; }
+      .ruler input[type='range']::-webkit-slider-runnable-track { height: 8px; background: var(--black); border: 2px solid; border-color: var(--lo) var(--hi) var(--hi) var(--lo); }
+      .ruler input[type='range']::-moz-range-track { height: 8px; background: var(--black); border: 2px solid; border-color: var(--lo) var(--hi) var(--hi) var(--lo); }
+      .ruler input[type='range']::-webkit-slider-thumb { -webkit-appearance: none; width: 14px; height: 24px; margin-top: -10px; background: var(--grey); border: 2px solid; border-color: var(--hi) var(--lo) var(--lo) var(--hi); border-radius: 0; box-shadow: 1px 1px 0 var(--black); }
+      .ruler input[type='range']::-moz-range-thumb { width: 10px; height: 20px; background: var(--grey); border: 2px solid; border-color: var(--hi) var(--lo) var(--lo) var(--hi); border-radius: 0; }
+      .ruler input[type='range']:focus-visible { outline-offset: 2px; }
+      .ticks { position: absolute; left: 17px; right: 17px; top: 24px; height: 22px; pointer-events: none; }
+      .ticks span { position: absolute; left: calc(100% * var(--p)); top: 0; transform: translateX(-50%); padding-top: 7px; font-size: 18px; line-height: 1; white-space: nowrap; color: var(--black); }
+      .ticks span::before { content: ''; position: absolute; left: 50%; top: 0; width: 2px; height: 4px; margin-left: -1px; background: var(--dgrey); }
+      .ticks span.major::before { height: 6px; background: var(--black); }
+      .ticks span.first { transform: translateX(-8px); }
+      .ticks span.first::before { left: 8px; }
+      .ticks span.last { transform: translateX(calc(-100% + 8px)); }
+      .ticks span.last::before { left: calc(100% - 8px); }
+      .status-bar { grid-area: status; display: flex; justify-content: space-between; gap: 1rem; padding: 0 8px; border: 2px solid; border-color: var(--lo) var(--hi) var(--hi) var(--lo); font-size: 20px; line-height: 1.2; color: var(--black); white-space: nowrap; overflow: hidden; }
+      .status-bar span:first-child { overflow: hidden; text-overflow: ellipsis; }
+
+      /* Text pages: white paper in a grey window */
+      .page { flex: 1; width: 100%; max-width: 46rem; margin: 6px auto; padding: 12px 20px 20px; line-height: 1.3; background: var(--white); color: var(--black); border: 2px solid; border-color: var(--lo) var(--hi) var(--hi) var(--lo); overflow: auto; }
+      .page h2 { margin: 1.4rem 0 0.4rem; font: 400 16px/1.5 var(--pixel); color: var(--blue); }
+      .page h2:first-child { margin-top: 0; }
+      .page a { color: var(--blue); text-underline-offset: 3px; }
       .page table { width: 100%; border-collapse: collapse; }
-      .page th, .page td { padding: 0.3rem 0.4rem; text-align: left; border-bottom: 1px solid #8884; vertical-align: top; }
-      .note { padding: 0.5rem 0.75rem; border: 1px solid #8886; border-radius: 0.25rem; font-size: 0.9rem; }
+      .page th, .page td { padding: 2px 6px; text-align: left; border: 1px solid var(--dgrey); vertical-align: top; }
+      .page th { background: var(--grey); font-weight: 400; }
+      .note { padding: 6px 10px; border: 2px solid; border-color: var(--lo) var(--hi) var(--hi) var(--lo); background: var(--grey); color: var(--black); }
+      .note a { color: var(--blue); }
+
+      @media (max-width: 760px) {
+        body { padding: 0; }
+        .titlebar .blurb { display: none; }
+        .site-footer { font-size: 18px; }
+        body.full .site-footer .credits { display: none; }
+        .menubar { font-size: 20px; }
+        .map-layout { grid-template-columns: minmax(0, 1fr); grid-template-rows: minmax(12rem, 1fr) auto minmax(9rem, 34%); grid-template-areas: 'map' 'time' 'side'; padding: 4px; gap: 4px; }
+        .status-bar { display: none; }
+        .year-slider { grid-template-columns: auto 1fr; gap: 4px 8px; padding: 0; }
+        .transport { justify-content: flex-end; }
+        .transport button { padding-inline: 8px; }
+        .ruler { grid-column: 1 / -1; }
+        .lcd { min-width: 0; }
+        .lcd output { font-size: 36px; }
+        .legend { max-width: calc(100% - 16px); }
+        .map-side[data-view='detail'] .state-list, .map-side[data-view='detail'] .side-tools { display: none; }
+        .map-side[data-view='list'] .detail { display: none; }
+        .detail .back { display: inline-block; }
+        .page { margin: 0; border: 0; padding: 12px 16px; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        * { scroll-behavior: auto !important; }
+        .boot::after { animation: none; }
+      }
     </style>
     {ANALYTICS_TOKEN && <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon={JSON.stringify({ token: ANALYTICS_TOKEN })}></script>}
   </head>
   <body class={fullHeight ? 'full' : ''} data-ads={ADS_CLIENT ? 'on' : 'off'}>
-    <header class="site-header">
-      <h1><a class="brand" href="/">{SITE_NAME}</a></h1>
-      <nav>
-        <a href="/">Map</a>
-        <a href="/about/">About</a>
-        <a href="/privacy/">Privacy</a>
+    <div class="window">
+      <div class="titlebar">
+        <h1><a href="/">{SITE_NAME}</a></h1>
+        <span class="blurb">Who ruled where, 1000 BC to 2010</span>
+      </div>
+      <nav class="menubar" aria-label="Site">
+        <a href="/" aria-current={path === '/' ? 'page' : undefined}>Map</a>
+        <a href="/about/" aria-current={path === '/about/' ? 'page' : undefined}>About</a>
+        <a href="/privacy/" aria-current={path === '/privacy/' ? 'page' : undefined}>Privacy</a>
         {SUPPORT_URL && <a href={SUPPORT_URL} rel="noopener noreferrer">Support this project</a>}
       </nav>
-    </header>
-    <slot />
-    <footer class="site-footer">
-      Borders: <a href="https://github.com/aourednik/historical-basemaps">historical-basemaps</a> (GPL-3.0).
-      Office-holders: <a href="https://en.wikipedia.org/wiki/Lists_of_state_leaders">Wikipedia</a> lists (CC BY-SA 4.0) and Wikidata (CC0).
-      Facts are sourced but not all are human-reviewed. <a href="/about/">About &amp; licences</a>
-    </footer>
+      <div class="window-body"><slot /></div>
+      <footer class="site-footer">
+        <span class="credits">
+          Borders: <a href="https://github.com/aourednik/historical-basemaps">historical-basemaps</a> (GPL-3.0).
+          Office-holders: <a href="https://en.wikipedia.org/wiki/Lists_of_state_leaders">Wikipedia</a> lists (CC BY-SA 4.0) and Wikidata (CC0).
+          Facts are sourced but not all are human-reviewed.
+        </span>{' '}
+        <a href="/about/">About &amp; licences</a>
+      </footer>
+    </div>
     <Consent />
   </body>
 </html>

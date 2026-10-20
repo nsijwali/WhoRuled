@@ -11,6 +11,10 @@ export interface BorderFeature {
   /** [minX, minY, maxX, maxY] in projected metres. */
   readonly bbox: readonly [number, number, number, number];
   readonly path: Path2D;
+  /** Approximate true area in square metres (Mercator stretch removed), used to rank states by size. */
+  readonly area: number;
+  /** Where a name fits: centroid of the largest polygon and that polygon's projected width. */
+  readonly label: { readonly x: number; readonly y: number; readonly width: number } | null;
 }
 
 export interface ViewTransform {

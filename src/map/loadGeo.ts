@@ -1,5 +1,5 @@
 import { geoPath } from 'd3-geo';
-import type { MultiPolygon } from 'geojson';
+import type { MultiPolygon, Polygon } from 'geojson';
 import { feature } from 'topojson-client';
 import type { GeometryCollection, Topology } from 'topojson-specification';
 import { z } from 'zod';
@@ -39,6 +39,33 @@ function bboxOf(multi: MultiPolygon): [number, number, number, number] {
   return [minX, minY, maxX, maxY];
 }
 
+const planar = geoPath(null);
+const EARTH_RADIUS = 6378137;
+
+/** The label anchor of a state: the centroid of its largest polygon, with that polygon's width. */
+function labelOf(multi: MultiPolygon): { area: number; label: BorderFeature['label'] } {
+  let total = 0;
+  let best: Polygon | null = null;
+  let bestArea = 0;
+  for (const coordinates of multi.coordinates) {
+    const polygon: Polygon = { type: 'Polygon', coordinates };
+    const a = Math.abs(planar.area(polygon));
+    total += a;
+    if (a > bestArea) {
+      bestArea = a;
+      best = polygon;
+    }
+  }
+  const [[, y0], [, y1]] = planar.bounds(multi);
+  const [x, y] = best ? planar.centroid(best) : [NaN, NaN];
+  // Mercator inflates areas by cosh²(northing / R); undo it so Siberia does not outrank China.
+  const stretch = Math.cosh(((y0 + y1) / 2) / EARTH_RADIUS) ** 2;
+  const area = total / stretch;
+  if (!best || !Number.isFinite(x) || !Number.isFinite(y)) return { area, label: null };
+  const [[bx0], [bx1]] = planar.bounds(best);
+  return { area, label: { x, y, width: bx1 - bx0 } };
+}
+
 /** The snapshot years available in the manifest, ascending. */
 export async function loadYears(baseUrl = '/data/'): Promise<number[]> {
   const manifest = Manifest.parse(await fetchJson(`${baseUrl}manifest.json`));
@@ -63,7 +90,7 @@ export async function loadBorders(year: number, baseUrl = '/data/'): Promise<Bor
     const props = FeatureProps.parse(f.properties);
     const path = new Path2D();
     geoPath(null, path as unknown as CanvasRenderingContext2D)(f.geometry);
-    out.push({ fid: props.fid, name: props.name, precision: props.precision, overlord: props.overlord, bbox: bboxOf(f.geometry), path });
+    out.push({ fid: props.fid, name: props.name, precision: props.precision, overlord: props.overlord, bbox: bboxOf(f.geometry), path, ...labelOf(f.geometry) });
   }
   return out;
 }

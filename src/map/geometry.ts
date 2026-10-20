@@ -5,9 +5,24 @@ export const HALF_WORLD = 20037508.342789244;
 
 export type Bbox = readonly [number, number, number, number];
 
-/** Scale that fits the whole projected square into a viewport of the given size (k = 1). */
+/** Projected y (metres, y down) of 83°N and 58°S: the band where states have ever been drawn. */
+export const VIEW_NORTH = -17821912;
+export const VIEW_SOUTH = 7967318;
+
+/** Scale that fits the full width and the inhabited band (not the polar wastes) into the viewport at k = 1. */
 export function baseScale(width: number, height: number): number {
-  return Math.min(width, height) / (2 * HALF_WORLD);
+  return Math.min(width / (2 * HALF_WORLD), height / (VIEW_SOUTH - VIEW_NORTH));
+}
+
+/**
+ * The starting view: the inhabited band centred and filling the height. On tall, narrow screens that means
+ * zooming in a little and cropping the sides rather than showing empty sea and ice above and below.
+ */
+export function homeView(width: number, height: number): ViewTransform {
+  const base = baseScale(width, height);
+  const k = Math.max(1, height / ((VIEW_SOUTH - VIEW_NORTH) * base));
+  const centre = (VIEW_NORTH + VIEW_SOUTH) / 2;
+  return { k, x: width / 2 - k * (width / 2), y: height / 2 - k * (centre * base + height / 2) };
 }
 
 /**
