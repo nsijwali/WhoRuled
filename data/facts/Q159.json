@@ -1,0 +1,28 @@
+{
+  "qid": "Q159",
+  "name": "Russia",
+  "summary": "Russian Federation.",
+  "rulers": [
+    {
+      "name": "Dmitry Medvedev",
+      "title": "president",
+      "from": 2008,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Dmitry_Medvedev",
+        "quote": "On 7 May 2008, Dmitry Medvedev took an oath as the third president of the Russian Federation"
+      }
+    }
+  ],
+  "events": [
+    {
+      "year": 2008,
+      "kind": "other",
+      "summary": "Russia takes part in the 2008 South Ossetia war with Georgia.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Dmitry_Medvedev",
+        "quote": "Russia took part in the 2008 South Ossetia war with Georgia"
+      }
+    }
+  ]
+}

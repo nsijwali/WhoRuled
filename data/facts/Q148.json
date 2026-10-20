@@ -1,0 +1,28 @@
+{
+  "qid": "Q148",
+  "name": "China",
+  "summary": "People's Republic of China.",
+  "rulers": [
+    {
+      "name": "Hu Jintao",
+      "title": "paramount leader",
+      "from": 2002,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Hu_Jintao",
+        "quote": "served as the paramount leader of China from 2002 to 2012"
+      }
+    }
+  ],
+  "events": [
+    {
+      "year": 2010,
+      "kind": "other",
+      "summary": "China hosts the Shanghai Expo, following the 2008 Beijing Olympics.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Hu_Jintao",
+        "quote": "two successful international events: the 2008 Beijing Olympics and the 2010 Shanghai Expo"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "qid": "Q17",
+  "name": "Japan",
+  "summary": "Japan.",
+  "rulers": [
+    {
+      "name": "Akihito",
+      "title": "emperor",
+      "from": 1989,
+      "to": 2019,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Akihito",
+        "quote": "reigned as the 125th emperor of Japan from 7 January 1989 until his abdication on 30 April 2019"
+      }
+    }
+  ],
+  "events": [
+    {
+      "year": 2011,
+      "kind": "other",
+      "summary": "After the Tōhoku earthquake and tsunami, the Emperor makes a televised appeal for hope and mutual help.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Akihito",
+        "quote": "the Emperor made a historic televised appearance urging his people not to give up hope and to help each other."
+      }
+    }
+  ]
+}

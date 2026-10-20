@@ -1,0 +1,28 @@
+{
+  "qid": "Q145",
+  "name": "United Kingdom",
+  "summary": "United Kingdom.",
+  "rulers": [
+    {
+      "name": "Elizabeth II",
+      "title": "queen",
+      "from": 1952,
+      "to": 2022,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Elizabeth_II",
+        "quote": "Queen of the United Kingdom and other Commonwealth realms from 6 February 1952 until her death in 2022"
+      }
+    }
+  ],
+  "events": [
+    {
+      "year": 2011,
+      "kind": "other",
+      "summary": "First state visit to the Republic of Ireland by a British monarch, in May 2011.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Elizabeth_II",
+        "quote": "She made the first state visit to the Republic of Ireland by a British monarch in May 2011."
+      }
+    }
+  ]
+}

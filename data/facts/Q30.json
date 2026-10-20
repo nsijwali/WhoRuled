@@ -1,7 +1,7 @@
 {
   "qid": "Q30",
   "name": "United States",
-  "summary": "United States as drawn in the 1914 border data.",
+  "summary": "United States of America.",
   "rulers": [
     {
       "name": "Woodrow Wilson",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Woodrow_Wilson",
         "quote": "was the 28th president of the United States, serving from 1913 to 1921"
+      }
+    },
+    {
+      "name": "Barack Obama",
+      "title": "president",
+      "from": 2009,
+      "to": 2017,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Barack_Obama",
+        "quote": "44th president of the United States"
       }
     }
   ],

@@ -1,0 +1,28 @@
+{
+  "qid": "Q79",
+  "name": "Egypt",
+  "summary": "Egypt.",
+  "rulers": [
+    {
+      "name": "Hosni Mubarak",
+      "title": "president",
+      "from": 1981,
+      "to": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Hosni_Mubarak",
+        "quote": "served as the fourth president of Egypt from 1981 until his resignation in 2011"
+      }
+    }
+  ],
+  "events": [
+    {
+      "year": 2011,
+      "kind": "other",
+      "summary": "Mubarak steps down during the 2011 revolution after 18 days of demonstrations.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Hosni_Mubarak",
+        "quote": "Mubarak stepped down during the 2011 Egyptian revolution after 18 days of demonstrations."
+      }
+    }
+  ]
+}

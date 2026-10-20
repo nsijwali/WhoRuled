@@ -1,0 +1,18 @@
+{
+  "qid": "Q668",
+  "name": "India",
+  "summary": "Republic of India.",
+  "rulers": [
+    {
+      "name": "Pratibha Patil",
+      "title": "president",
+      "from": 2007,
+      "to": 2012,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Pratibha_Patil",
+        "quote": "took oath as India's 12th President, the first woman to hold the position."
+      }
+    }
+  ],
+  "events": []
+}
