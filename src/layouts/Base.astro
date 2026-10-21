@@ -206,7 +206,7 @@ const canonical = new URL(path, SITE_URL).href;
         <a href="/" aria-current={path === '/' ? 'page' : undefined}>Map</a>
         <a href="/about/" aria-current={path === '/about/' ? 'page' : undefined}>About</a>
         <a href="/privacy/" aria-current={path === '/privacy/' ? 'page' : undefined}>Privacy</a>
-        {SUPPORT_URL && <a href={SUPPORT_URL} rel="noopener noreferrer">Support this project</a>}
+        {SUPPORT_URL && <a href={SUPPORT_URL} rel={SUPPORT_URL.startsWith('/') ? undefined : 'noopener noreferrer'} aria-current={path === '/support/' ? 'page' : undefined}>Support this project</a>}
       </nav>
       <div class="window-body"><slot /></div>
       <footer class="site-footer">
