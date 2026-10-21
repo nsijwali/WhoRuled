@@ -4,7 +4,7 @@ import { PAYPAL_ME, UPI_ID } from '../config/site';
 
 const tip = (amount: number) => `https://www.paypal.me/${PAYPAL_ME}/${amount}USD`;
 const amounts = [1, 3, 5];
-const upiQuery = `pa=${encodeURIComponent(UPI_ID)}&pn=WhoRuled&cu=INR`;
+const upiQuery = `pa=${UPI_ID}&pn=WhoRuled&cu=INR`;
 // Each app's own scheme opens that app directly; the generic upi:// link lets the phone choose
 // (and a phone that remembered one app as the default will keep opening it).
 const upiApps = [
