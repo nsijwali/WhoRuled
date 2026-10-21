@@ -1,8 +1,18 @@
 {
   "qid": "Q28",
   "name": "Hungary",
-  "summary": "Hungary: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Hungary: office-holders in 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Árpád Göncz",
+      "title": "President",
+      "from": 1990,
+      "to": 2000,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Árpád Göncz, President (1990–2000)"
+      }
+    },
     {
       "name": "László Sólyom",
       "title": "President",
@@ -25,6 +35,26 @@
     }
   ],
   "offices": [
+    {
+      "name": "Péter Boross",
+      "title": "Prime minister",
+      "from": 1993,
+      "to": 1994,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Péter Boross, Prime minister (1993–1994)"
+      }
+    },
+    {
+      "name": "Gyula Horn",
+      "title": "Prime minister",
+      "from": 1994,
+      "to": 1998,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Gyula Horn, Prime minister (1994–1998)"
+      }
+    },
     {
       "name": "Pál Schmitt",
       "title": "President",

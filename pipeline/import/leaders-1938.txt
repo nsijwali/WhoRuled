@@ -1,0 +1,143 @@
+# source: https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)
+# 71 states. QIDs come from each state's linked article and were checked against its Wikidata inception/dissolution dates.
+# wikidata-description Q1192936: former kingdom in Central/Eastern Africa up to 1966
+Kingdom of Burundi|Q1192936|Mwambutsa IV, King (1915–1966)|Burundi
+# wikidata-description Q889884: former kingdom in East Africa from the 15th century and up to 1962
+Kingdom of Rwanda|Q889884|Mutara III Rudahigwa, King (1931–1959)|Rwanda (Belgium)
+# wikidata-description Q124943: 20th century North African kingdom
+Kingdom of Egypt|Q124943|Farouk I, King (1936–1952);Mohamed Mahmoud Pasha, Prime minister (1937–1939)|Egypt
+# wikidata-description Q1028: sovereign state in North Africa
+Morocco|Q1028|Mohammed V, Sultan (1927–1953, 1955–1957), King (1957–1961)|Morocco (France)
+Basutoland|Q2340665|Nathaniel Griffith Lerotholi, Paramount Chief (1913–1939)|Lesotho
+# wikidata-description Q193619: state in southern Africa from 1910 to 1961, predecessor to the Republic of South Africa
+Union of South Africa|Q193619|George VI, King (1936–1952);J. B. M. Hertzog, Prime minister (1924–1939)
+# wikidata-description Q1014: sovereign state in West Africa
+Liberia|Q1014|Edwin Barclay, President (1930–1944)
+# wikidata-description Q14905932: historical period in Cuba between 20 May 1902 and 1 January 1959
+Republic of Cuba|Q14905932|Federico Laredo Brú, President (1936–1940)|Cuba
+# wikidata-description Q5864743: historical country
+Republic of Haiti (1859–1957)|Q5864743|Sténio Vincent, President (1930–1941)|Haiti
+# wikidata-description Q60038319: Country of Central America (1848-1949)
+First Costa Rican Republic|Q60038319|León Cortés Castro, President (1936–1940)|Costa Rica
+# wikidata-description Q792: sovereign state in Central America
+El Salvador|Q792|Maximiliano Hernández Martínez, President (1935–1944)
+# wikidata-description Q774: sovereign state in Central America
+Guatemala|Q774|Jorge Ubico, President (1931–1944)
+# wikidata-description Q783: sovereign state in Central America
+Honduras|Q783|Tiburcio Carías Andino, President (1933–1949)
+# wikidata-description Q811: sovereign state in Central America
+Nicaragua|Q811|Anastasio Somoza García, President (1937–1947)
+# wikidata-description Q804: sovereign state in Central America
+Panama|Q804|Juan Demóstenes Arosemena, President (1936–1939)
+# wikidata-description Q16: country in North America
+Canada|Q16|George VI, King (1936–1952);William Lyon Mackenzie King, Prime minister (1935–1948)
+# wikidata-description Q38610: UK possession in North America between 1907 and 1949
+Dominion of Newfoundland|Q38610|George VI, King (1936–1949)
+# wikidata-description Q96: country in North America
+Mexico|Q96|Lázaro Cárdenas, President (1934–1940)
+# wikidata-description Q30: country located primarily in North America
+United States|Q30|Franklin D. Roosevelt, President (1933–1945)
+# wikidata-description Q414: country in South America
+Argentine Republic|Q414|Agustín Pedro Justo, President (1932–1938);Roberto María Ortiz, President (1938–1942)|Argentina
+# wikidata-description Q750: sovereign state in South America
+Bolivia|Q750|Germán Busch, Chairman of the Government Junta (1937–1938), President (1938–1939)
+# wikidata-description Q2897795: period of Chilean history from the Constitution of 1925 to Pinochet's seizure of power in 1973
+Presidential Republic (1925–1973)|Q2897795|Arturo Alessandri, President (1932–1938);Pedro Aguirre Cerda, President (1938–1941)|Chile
+# wikidata-description Q739: country in South America
+Colombia|Q739|Alfonso López Pumarejo, President (1934–1938);Eduardo Santos Montejo, President (1938–1942)
+# wikidata-description Q736: sovereign state in South America
+Ecuador|Q736|Alberto Enríquez Gallo, Jéfe Supremo (1937–1938);Manuel María Borrero, Interim President (1938);Aurelio Mosquera, President (1938–1939)
+# wikidata-description Q419: sovereign state in South America
+Peru|Q419|Óscar Benavides, Constitutional President (1933–1939)
+# wikidata-description Q77: sovereign state in South America
+Uruguay|Q77|Gabriel Terra, President (1931–1939)
+# wikidata-description Q5848651: republic from 1864 to 1953
+United States of Venezuela|Q5848651|Eleazar López Contreras, President (1935–1941)|Venezuela
+# wikidata-description Q188712: empire in the Asia-Pacific region from 1868 to 1947
+Empire of Japan|Q188712|Hirohito, Emperor (1926–1989);Fumimaro Konoe, Prime minister (1937–1939)
+# wikidata-description Q212056: 1924–1992 communist republic in East Asia
+Mongolian People's Republic|Q212056|Dansranbilegiin Dogsom, Chairman (1936–1939);Anandyn Amar, Prime minister (1936–1939)|Mongolia
+# wikidata-description Q921: sovereign country and sultanate on the island of Borneo in south-east Asia, member of the Commonwealth of Nations
+Protectorate of Brunei|Q921|Ahmad Tajuddin, Sultan (1924–1950)|Brunei
+# wikidata-description Q3173090: French protectorate
+French Protectorate of Cambodia|Q3173090|Sisowath Monivong, King (1927–1941)|Cambodia
+# wikidata-description Q928: archipelagic country in Southeast Asia
+Philippines|Q928|Manuel L. Quezon, President (1935–1944)
+# wikidata-description Q869: country in Southeast Asia
+Siam/Thailand|Q869|Ananda Mahidol, King (1935–1946);Phraya Phahon Phonphayuhasena, Prime minister (1933–1938);Plaek Phibunsongkhram, Prime minister (1938–1944)|Siam
+# wikidata-description Q1138904: kingdom in Central Asia between 1926–1973
+Kingdom of Afghanistan|Q1138904|Mohammed Zahir Shah, King (1933–1973);Mohammad Hashim Khan, Prime minister (1929–1946)|Afghanistan
+# wikidata-description Q107258515: former sovereign state (1925–1979)
+Imperial State of Iran|Q107258515|Reza Pahlavi, Shah (1925–1941)|Iran
+# wikidata-description Q149805: independent Iraqi monarchy (1932–1958)
+Kingdom of Iraq|Q149805|Ghazi I, King (1933–1939);Jameel Al-Madfaai, Prime minister (1933–1934, 1935, 1937–1938, 1941, 1953);Nuri al-Said, Prime minister (1930–1932, 1938–1940, 1941–1944, 1946–1947, 1949, 1950–1952, 1954–1957, 1958)|Mesopotamia (GB)
+# wikidata-description Q1121819: former country in the Middle East
+Emirate of Transjordan|Q1121819|Abdullah I, Emir (1921–1946), King (1946–1951);Ibrahim Hashem, Prime minister (1933–1938);Tawfik Abu al-Huda, Prime minister (1938–1944)|Jordan
+# wikidata-description Q3480281: sheikhdom in the Arabian peninsula (1752-1961), precursor of Kuwait
+Sheikhdom of Kuwait|Q3480281|Ahmad I, Sheikh (1921–1950)|Kuwait
+# wikidata-description Q157734: monarchy on the Arab Peninsula between 1820-1970
+Muscat and Oman|Q157734|Said III, Sultan (1932–1970)
+# wikidata-description Q846: country in West Asia
+Qatar|Q846|Abdullah bin Jassim Al Thani, Emir (1913–1949)
+# wikidata-description Q851: country in West Asia
+Saudi Arabia|Q851|Ibn Saud, Emir (1902–1921), Sultan (1921–1927), King (1926–1953)
+# wikidata-description Q43: country in West Asia and Southeast Europe
+Turkey|Q43|Mustafa Kemal Atatürk, President (1923–1938);İsmet İnönü, President (1938–1950);Celâl Bayar, Prime minister (1937–1939)
+# wikidata-description Q580188: historical Arab monarchy
+Mutawakkilite Kingdom of Yemen|Q580188|Yahya Muhammad Hamid ed-Din, King (1918–1948)|Yemen
+# wikidata-description Q1048340: period in 20th century Albanian history
+Albanian Kingdom (1928–1939)|Q1048340|Zogu I (Ahmet Zogu), President (1925–1928), King (1928–1939);Kostaq Kota, Prime minister (1936–1939)|Albania
+# wikidata-description Q147909: state on the Balkan Peninsula between 1908 and 1946
+Kingdom of Bulgaria|Q147909|Boris III, Tsar (1918–1943);Georgi Kyoseivanov, Prime minister (1935–1940)|Bulgaria
+# wikidata-description Q36704: 1918–1992 country in Southeastern Europe
+Yugoslavia|Q36704|Peter II, King (1934–1945)
+# wikidata-description Q191: country in Northern Europe
+Estonia|Q191|Konstantin Päts, President-Regent (1937–1938);Konstantin Päts, President (1938–1940);Kaarel Eenpalu, Prime minister (1938–1939)
+# wikidata-description Q211: sovereign state in northeastern Europe
+Latvia|Q211|Kārlis Ulmanis, President (1936–1940);Kārlis Ulmanis, Prime minister (1934–1940)
+# wikidata-description Q37: country in northeastern Europe
+Lithuania|Q37|Antanas Smetona, President (1926–1940);Juozas Tūbelis, Prime minister (1929–1938);Vladas Mironas, Prime minister (1938–1939)
+# wikidata-description Q27: country in Northwestern Europe
+Republic of Ireland|Q27|Douglas Hyde, President (1938–1945);Éamon de Valera, Taoiseach (1937–1948)|Ireland
+# wikidata-description Q145: island country in north-west Europe
+United Kingdom|Q145|George VI, King (1936–1952);Neville Chamberlain, Prime minister (1937–1940)
+# wikidata-description Q7318: Germany from 1933 to 1945 while under control of the Nazi Party
+Nazi Germany|Q7318|Adolf Hitler, Führer (1934–1945);Adolf Hitler, Chancellor (1933–1945)|Germany
+# wikidata-description Q600018: Central European state between 1920 and 1946
+Kingdom of Hungary (1920–1946)|Q600018|Miklós Horthy, Regent (1920–1944);Kálmán Darányi, Prime minister (1936–1938);Béla Imrédy, Prime minister (1938–1939)|Hungary
+# wikidata-description Q207272: country in Central and Eastern Europe (1918–1945)
+Second Polish Republic|Q207272|Ignacy Mościcki, President (1926–1939);Felicjan Sławoj Składkowski, Prime minister (1936–1939)|Poland
+# wikidata-description Q39: country in Central Europe
+Switzerland|Q39|Johannes Baumann, President of the Confederation (1938)
+# wikidata-description Q203493: kingdom in Southeastern Europe between 1881 and 1947
+Kingdom of Romania|Q203493|Carol II, King (1930–1940);Octavian Goga, Prime minister (1937–1938);Miron Cristea, Prime minister (1938–1939)|Romania
+# wikidata-description Q15180: former country in Eurasia (1922–1991)
+Soviet Union|Q15180|Joseph Stalin, General Secretary (1922–1952);Mikhail Kalinin, Chairman of the Central Executive Committee of the Congress of Soviets (1922–1938), Chairman of the Presidium of the Supreme Soviet (1938–1946);Vyacheslav Molotov, Chairman of the Council of People's Commissars (1930–1941)|USSR
+# wikidata-description Q35: country in Northern Europe
+Denmark|Q35|Christian X, King (1912–1947);Thorvald Stauning, Prime minister (1929–1942)
+# wikidata-description Q33: country in Northern Europe
+Finland|Q33|Kyösti Kallio, President (1937–1940);Aimo Cajander, Prime minister (1937–1939)
+# wikidata-description Q20: country in Northern Europe
+Norway|Q20|Haakon VII, King (1905–1957);Johan Nygaardsvold, Prime minister (1935–1940), Prime Minister in exile (1940–1942)
+# wikidata-description Q34: country in Northern Europe
+Sweden|Q34|Gustaf V, King (1907–1950);Per Albin Hansson, Prime minister (1936–1946)
+# wikidata-description Q172579: kingdom in Southern Europe from 1861 to 1946
+Kingdom of Italy|Q172579|Victor Emmanuel III, King (1900–1946);Benito Mussolini, Prime minister (1922–1943)|Italy
+# wikidata-description Q228: sovereign microstate between France and Spain, in Western Europe
+Andorra|Q228|Justí Guitart i Vilardebó, Episcopal Co-Prince (1920–1940);Albert François Lebrun, French Co-Prince (1932–1940)
+# wikidata-description Q824489: 1933–1974 authoritarian regime in Portugal
+Second Portuguese Republic|Q824489|Óscar Carmona, President (1935–1951);António de Oliveira Salazar, President of the Council of Minister (1933–1968)|Portugal
+# wikidata-description Q31: country in western Europe
+Belgium|Q31|Leopold III, King (1934–1951);Paul-Émile Janson, Prime minister (1937–1938);Paul-Henri Spaak, Prime minister (1938–1939)
+# wikidata-description Q70802: nation of France from 1870 to 1940
+French Third Republic|Q70802|Albert François Lebrun, President (1932–1940);Camille Chautemps, President of the Council of ministers (1937–1938);Léon Blum, President of the Council of ministers (1938);Édouard Daladier, President of the Council of ministers (1938–1940)|France
+# wikidata-description Q32: country in Western Europe
+Luxembourg|Q32|Charlotte, Grand Duchess (1919–1964);Pierre Dupong, Prime minister (1937–1953)
+# wikidata-description Q55: one of the four autonomous countries of the Kingdom of the Netherlands; with territories in the Caribbean
+Netherlands|Q55|Wilhelmina, Queen (1890–1948);Hendrikus Colijn, Prime minister (1933–1939)
+# wikidata-description Q408: country
+Australia|Q408|George VI, King (1936–1952);Joseph Lyons, Prime minister (1932–1939)
+# wikidata-description Q2594990: former dominion of the British Empire
+Dominion of New Zealand|Q2594990|George VI, King (1936–1952);Michael Joseph Savage, Prime minister (1935–1940)|New Zealand
+# wikidata-description Q23022146: protected state of the United Kingdom in Polynesia
+Kingdom of Tonga (1900–70)|Q23022146|Sālote Tupou III, King (1918–1965);Viliami Tungi Mailefihi, Prime minister (1923–1941)|Tonga

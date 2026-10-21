@@ -1,0 +1,40 @@
+{
+  "qid": "Q121932",
+  "name": "People's Republic of Bulgaria",
+  "summary": "People's Republic of Bulgaria: office-holders in 1960, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Todor Zhivkov",
+      "title": "General Secretary",
+      "from": 1954,
+      "to": 1989,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Todor Zhivkov, General Secretary (1954–1989)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Dimitar Ganev",
+      "title": "Chairman of the Presidium of the National Assembly",
+      "from": 1958,
+      "to": 1964,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Dimitar Ganev, Chairman of the Presidium of the National Assembly (1958–1964)"
+      }
+    },
+    {
+      "name": "Anton Yugov",
+      "title": "Prime minister",
+      "from": 1956,
+      "to": 1962,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Anton Yugov, Prime minister (1956–1962)"
+      }
+    }
+  ],
+  "events": []
+}

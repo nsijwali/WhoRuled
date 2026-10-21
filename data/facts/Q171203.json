@@ -1,0 +1,19 @@
+{
+  "qid": "Q171203",
+  "name": "Kingdom of Benin",
+  "summary": "Kingdom of Benin: office-holders in 1880, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Adolo",
+      "title": "Oba",
+      "from": 1848,
+      "to": 1897,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Adolo, Oba (1848–1897)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

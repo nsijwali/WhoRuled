@@ -4,6 +4,26 @@
   "summary": "French Third Republic as drawn in the 1914 border data.",
   "rulers": [
     {
+      "name": "Jules Grévy",
+      "title": "President",
+      "from": 1879,
+      "to": 1887,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Jules Grévy, President (1879–1887)"
+      }
+    },
+    {
+      "name": "Émile Loubet",
+      "title": "President",
+      "from": 1899,
+      "to": 1906,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Émile Loubet, President (1899–1906)"
+      }
+    },
+    {
       "name": "Raymond Poincaré",
       "title": "president",
       "from": 1913,
@@ -11,6 +31,158 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Raymond_Poincar%C3%A9",
         "quote": "Poincaré won election as President of the Republic in 1913, in succession to Armand Fallières."
+      }
+    },
+    {
+      "name": "Albert François Lebrun",
+      "title": "President",
+      "from": 1932,
+      "to": 1940,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Albert François Lebrun, President (1932–1940)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Charles de Freycinet",
+      "title": "President of the Council of ministers",
+      "from": 1879,
+      "to": 1880,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Charles de Freycinet, President of the Council of ministers (1879–1880)"
+      }
+    },
+    {
+      "name": "Jules Ferry",
+      "title": "President of the Council of ministers",
+      "from": 1880,
+      "to": 1881,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Jules Ferry, President of the Council of ministers (1880–1881)"
+      }
+    },
+    {
+      "name": "Pierre Waldeck-Rousseau",
+      "title": "President of the Council of ministers",
+      "from": 1899,
+      "to": 1902,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Pierre Waldeck-Rousseau, President of the Council of ministers (1899–1902)"
+      }
+    },
+    {
+      "name": "Gaston Doumergue",
+      "title": "President of the Council of ministers",
+      "from": 1913,
+      "to": 1914,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Gaston Doumergue, President of the Council of ministers (1913–1914)"
+      }
+    },
+    {
+      "name": "Alexandre Ribot",
+      "title": "President of the Council of ministers",
+      "from": 1914,
+      "to": 1914,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Alexandre Ribot, President of the Council of ministers (1914)"
+      }
+    },
+    {
+      "name": "René Viviani",
+      "title": "President of the Council of ministers",
+      "from": 1914,
+      "to": 1915,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "René Viviani, President of the Council of ministers (1914–1915)"
+      }
+    },
+    {
+      "name": "Paul Deschanel",
+      "title": "President",
+      "from": 1920,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Paul Deschanel, President (1920)"
+      }
+    },
+    {
+      "name": "Alexandre Millerand",
+      "title": "President",
+      "from": 1920,
+      "to": 1924,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Alexandre Millerand, President (1920–1924)"
+      }
+    },
+    {
+      "name": "Georges Clemenceau",
+      "title": "President of the Council of ministers",
+      "from": 1917,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Georges Clemenceau, President of the Council of ministers (1917–1920)"
+      }
+    },
+    {
+      "name": "Alexandre Millerand",
+      "title": "President of the Council of ministers",
+      "from": 1920,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Alexandre Millerand, President of the Council of ministers (1920)"
+      }
+    },
+    {
+      "name": "Georges Leygues",
+      "title": "President of the Council of ministers",
+      "from": 1920,
+      "to": 1921,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Georges Leygues, President of the Council of ministers (1920–1921)"
+      }
+    },
+    {
+      "name": "Camille Chautemps",
+      "title": "President of the Council of ministers",
+      "from": 1937,
+      "to": 1938,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Camille Chautemps, President of the Council of ministers (1937–1938)"
+      }
+    },
+    {
+      "name": "Léon Blum",
+      "title": "President of the Council of ministers",
+      "from": 1938,
+      "to": 1938,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Léon Blum, President of the Council of ministers (1938)"
+      }
+    },
+    {
+      "name": "Édouard Daladier",
+      "title": "President of the Council of ministers",
+      "from": 1938,
+      "to": 1940,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Édouard Daladier, President of the Council of ministers (1938–1940)"
       }
     }
   ],

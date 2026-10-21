@@ -1,8 +1,28 @@
 {
   "qid": "Q1025",
   "name": "Mauritania",
-  "summary": "Mauritania: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Mauritania: office-holders in 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Moktar Ould Daddah",
+      "title": "Acting Head of State",
+      "from": 1960,
+      "to": 1978,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Moktar Ould Daddah, Acting Head of State (1960–1978), President (1960–1978)"
+      }
+    },
+    {
+      "name": "Maaouya Ould Sid'Ahmed Taya",
+      "title": "President",
+      "from": 1992,
+      "to": 2005,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Maaouya Ould Sid'Ahmed Taya, Chairman of the Military Committee for National Salvation (1984–1992), President (1992–2005)"
+      }
+    },
     {
       "name": "Mohamed Ould Abdel Aziz",
       "title": "President",
@@ -25,6 +45,26 @@
     }
   ],
   "offices": [
+    {
+      "name": "Moktar Ould Daddah",
+      "title": "Prime minister",
+      "from": 1960,
+      "to": 1961,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Moktar Ould Daddah, Prime minister (1960–1961)"
+      }
+    },
+    {
+      "name": "Sidi Mohamed Ould Boubacar",
+      "title": "Prime minister",
+      "from": 1992,
+      "to": 1996,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Sidi Mohamed Ould Boubacar, Prime minister (1992–1996)"
+      }
+    },
     {
       "name": "Moulaye Ould Mohamed Laghdaf",
       "title": "Prime minister",

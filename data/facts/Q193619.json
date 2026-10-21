@@ -1,0 +1,70 @@
+{
+  "qid": "Q193619",
+  "name": "Union of South Africa",
+  "summary": "Union of South Africa: office-holders in 1914, 1920, 1938, 1945, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "George V",
+      "title": "King",
+      "from": 1910,
+      "to": 1936,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "George V, King (1910–1936)"
+      }
+    },
+    {
+      "name": "George VI",
+      "title": "King",
+      "from": 1936,
+      "to": 1952,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "George VI, King (1936–1952)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Louis Botha",
+      "title": "Prime minister",
+      "from": 1910,
+      "to": 1919,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Louis Botha, Prime minister (1910–1919)"
+      }
+    },
+    {
+      "name": "Jan Smuts",
+      "title": "Prime minister",
+      "from": 1919,
+      "to": 1924,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Jan Smuts, Prime minister (1919–1924)"
+      }
+    },
+    {
+      "name": "J. B. M. Hertzog",
+      "title": "Prime minister",
+      "from": 1924,
+      "to": 1939,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "J. B. M. Hertzog, Prime minister (1924–1939)"
+      }
+    },
+    {
+      "name": "Jan Smuts",
+      "title": "Prime minister",
+      "from": 1939,
+      "to": 1948,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Jan Smuts, Prime minister (1939–1948)"
+      }
+    }
+  ],
+  "events": []
+}

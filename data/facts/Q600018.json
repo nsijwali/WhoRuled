@@ -1,0 +1,40 @@
+{
+  "qid": "Q600018",
+  "name": "Kingdom of Hungary (1920–1946)",
+  "summary": "Kingdom of Hungary (1920–1946): office-holders in 1938, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Miklós Horthy",
+      "title": "Regent",
+      "from": 1920,
+      "to": 1944,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Miklós Horthy, Regent (1920–1944)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Kálmán Darányi",
+      "title": "Prime minister",
+      "from": 1936,
+      "to": 1938,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Kálmán Darányi, Prime minister (1936–1938)"
+      }
+    },
+    {
+      "name": "Béla Imrédy",
+      "title": "Prime minister",
+      "from": 1938,
+      "to": 1939,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Béla Imrédy, Prime minister (1938–1939)"
+      }
+    }
+  ],
+  "events": []
+}

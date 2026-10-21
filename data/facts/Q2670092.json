@@ -1,0 +1,50 @@
+{
+  "qid": "Q2670092",
+  "name": "Dominion of Ceylon",
+  "summary": "Dominion of Ceylon: office-holders in 1960, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Elizabeth II",
+      "title": "Queen",
+      "from": 1952,
+      "to": 1972,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Elizabeth II, Queen (1952–1972)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Wijeyananda Dahanayake",
+      "title": "Prime minister",
+      "from": 1959,
+      "to": 1960,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Wijeyananda Dahanayake, Prime minister (1959–1960)"
+      }
+    },
+    {
+      "name": "Dudley Senanayake",
+      "title": "Prime minister",
+      "from": 1960,
+      "to": 1960,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Dudley Senanayake, Prime minister (1960)"
+      }
+    },
+    {
+      "name": "Sirimavo Bandaranaike",
+      "title": "Prime minister",
+      "from": 1960,
+      "to": 1965,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Sirimavo Bandaranaike, Prime minister (1960–1965)"
+      }
+    }
+  ],
+  "events": []
+}

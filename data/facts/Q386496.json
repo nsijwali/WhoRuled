@@ -1,0 +1,30 @@
+{
+  "qid": "Q386496",
+  "name": "Kingdom of Montenegro",
+  "summary": "Kingdom of Montenegro: office-holders in 1914, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Nikola I",
+      "title": "King",
+      "from": 1910,
+      "to": 1918,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Nikola I, Sovereign prince (1860–1910), King (1910–1918)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Janko Vukotić",
+      "title": "President",
+      "from": 1913,
+      "to": 1915,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Janko Vukotić, President (1913–1915)"
+      }
+    }
+  ],
+  "events": []
+}

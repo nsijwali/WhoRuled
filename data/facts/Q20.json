@@ -1,15 +1,35 @@
 {
   "qid": "Q20",
   "name": "Norway",
-  "summary": "Norway: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Norway: office-holders in 1914, 1920, 1938, 1945, 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Haakon VII",
+      "title": "King",
+      "from": 1905,
+      "to": 1957,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Haakon VII, King (1905–1957)"
+      }
+    },
+    {
+      "name": "Olav V",
+      "title": "King",
+      "from": 1957,
+      "to": 1991,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Olav V, King (1957–1991)"
+      }
+    },
     {
       "name": "Harald V",
       "title": "King",
       "from": 1991,
       "to": 2026,
       "source": {
-        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
         "quote": "Harald V, King (1991–2026)"
       }
     },
@@ -25,6 +45,86 @@
     }
   ],
   "offices": [
+    {
+      "name": "Gunnar Knudsen",
+      "title": "Prime minister",
+      "from": 1913,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Gunnar Knudsen, Prime minister (1913–1920)"
+      }
+    },
+    {
+      "name": "Otto Bahr Halvorsen",
+      "title": "Prime minister",
+      "from": 1920,
+      "to": 1921,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Otto Bahr Halvorsen, Prime minister (1920–1921)"
+      }
+    },
+    {
+      "name": "Johan Nygaardsvold",
+      "title": "Prime minister",
+      "from": 1935,
+      "to": 1940,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Johan Nygaardsvold, Prime minister (1935–1940), Prime Minister in exile (1940–1942)"
+      }
+    },
+    {
+      "name": "Josef Terboven",
+      "title": "German Commissioner for Norway",
+      "from": 1940,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Josef Terboven, German Commissioner for Norway (1940–1945)"
+      }
+    },
+    {
+      "name": "Vidkun Quisling",
+      "title": "Minister President",
+      "from": 1942,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Vidkun Quisling, Minister President (1942–1945)"
+      }
+    },
+    {
+      "name": "Einar Gerhardsen",
+      "title": "Prime minister",
+      "from": 1945,
+      "to": 1951,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Einar Gerhardsen, Prime minister (1945–1951)"
+      }
+    },
+    {
+      "name": "Einar Gerhardsen",
+      "title": "Prime minister",
+      "from": 1955,
+      "to": 1963,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Einar Gerhardsen, Prime minister (1955–1963)"
+      }
+    },
+    {
+      "name": "Gro Harlem Brundtland",
+      "title": "Prime minister",
+      "from": 1990,
+      "to": 1996,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Gro Harlem Brundtland, Prime minister (1990–1996)"
+      }
+    },
     {
       "name": "Jens Stoltenberg",
       "title": "Prime minister",

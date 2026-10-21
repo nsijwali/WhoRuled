@@ -1,8 +1,28 @@
 {
   "qid": "Q1000",
   "name": "Gabon",
-  "summary": "Gabon: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Gabon: office-holders in 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Léon M'ba",
+      "title": "President",
+      "from": 1960,
+      "to": 1967,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Léon M'ba, President (1960–1967)"
+      }
+    },
+    {
+      "name": "Omar Bongo",
+      "title": "President",
+      "from": 1967,
+      "to": 2009,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Omar Bongo, President (1967–2009)"
+      }
+    },
     {
       "name": "Ali Bongo Ondimba",
       "title": "President",
@@ -25,6 +45,36 @@
     }
   ],
   "offices": [
+    {
+      "name": "Léon M'ba",
+      "title": "Prime minister",
+      "from": 1957,
+      "to": 1961,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Léon M'ba, Prime minister (1957–1961)"
+      }
+    },
+    {
+      "name": "Casimir Oyé-Mba",
+      "title": "Prime minister",
+      "from": 1990,
+      "to": 1994,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Casimir Oyé-Mba, Prime minister (1990–1994)"
+      }
+    },
+    {
+      "name": "Paulin Obame-Nguema",
+      "title": "Prime minister",
+      "from": 1994,
+      "to": 1999,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Paulin Obame-Nguema, Prime minister (1994–1999)"
+      }
+    },
     {
       "name": "Paul Biyoghé Mba",
       "title": "Prime minister",

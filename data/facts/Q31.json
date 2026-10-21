@@ -1,15 +1,45 @@
 {
   "qid": "Q31",
   "name": "Belgium",
-  "summary": "Belgium: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Belgium: office-holders in 1914, 1920, 1938, 1945, 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Albert I",
+      "title": "King",
+      "from": 1909,
+      "to": 1934,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Albert I, King (1909–1934)"
+      }
+    },
+    {
+      "name": "Leopold III",
+      "title": "King",
+      "from": 1934,
+      "to": 1951,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Leopold III, King (1934–1951)"
+      }
+    },
+    {
+      "name": "Baudouin",
+      "title": "King",
+      "from": 1951,
+      "to": 1993,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Baudouin, King (1951–1993)"
+      }
+    },
     {
       "name": "Albert II",
       "title": "King",
       "from": 1993,
       "to": 2013,
       "source": {
-        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
         "quote": "Albert II, King (1993–2013)"
       }
     },
@@ -25,6 +55,96 @@
     }
   ],
   "offices": [
+    {
+      "name": "Charles de Broqueville",
+      "title": "Prime minister",
+      "from": 1911,
+      "to": 1918,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Charles de Broqueville, Prime minister (1911–1918)"
+      }
+    },
+    {
+      "name": "Léon Delacroix",
+      "title": "Prime minister",
+      "from": 1918,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Léon Delacroix, Prime minister (1918–1920)"
+      }
+    },
+    {
+      "name": "Henri Carton de Wiart",
+      "title": "Prime minister",
+      "from": 1920,
+      "to": 1921,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Henri Carton de Wiart, Prime minister (1920–1921)"
+      }
+    },
+    {
+      "name": "Paul-Émile Janson",
+      "title": "Prime minister",
+      "from": 1937,
+      "to": 1938,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Paul-Émile Janson, Prime minister (1937–1938)"
+      }
+    },
+    {
+      "name": "Paul-Henri Spaak",
+      "title": "Prime minister",
+      "from": 1938,
+      "to": 1939,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Paul-Henri Spaak, Prime minister (1938–1939)"
+      }
+    },
+    {
+      "name": "Hubert Pierlot",
+      "title": "Prime minister",
+      "from": 1939,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Hubert Pierlot, Prime minister (1939–1945)"
+      }
+    },
+    {
+      "name": "Achille Van Acker",
+      "title": "Prime minister",
+      "from": 1945,
+      "to": 1946,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Achille Van Acker, Prime minister (1945–1946)"
+      }
+    },
+    {
+      "name": "Gaston Eyskens",
+      "title": "Prime minister",
+      "from": 1958,
+      "to": 1961,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Gaston Eyskens, Prime minister (1958–1961)"
+      }
+    },
+    {
+      "name": "Jean-Luc Dehaene",
+      "title": "Prime minister",
+      "from": 1992,
+      "to": 1999,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Jean-Luc Dehaene, Prime minister (1992–1999)"
+      }
+    },
     {
       "name": "Yves Leterme",
       "title": "Prime minister",

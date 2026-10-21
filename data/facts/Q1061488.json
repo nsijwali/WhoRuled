@@ -1,0 +1,30 @@
+{
+  "qid": "Q1061488",
+  "name": "United States of Colombia",
+  "summary": "United States of Colombia: office-holders in 1880, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Julián Trujillo Largacha",
+      "title": "President",
+      "from": 1878,
+      "to": 1880,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Julián Trujillo Largacha, President (1878–1880)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Rafael Núñez",
+      "title": "President",
+      "from": 1880,
+      "to": 1882,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Rafael Núñez, President (1880–1882, 1884–1886, 1886–1894)"
+      }
+    }
+  ],
+  "events": []
+}

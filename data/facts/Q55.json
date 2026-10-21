@@ -1,8 +1,18 @@
 {
   "qid": "Q55",
   "name": "The Netherlands",
-  "summary": "The Netherlands: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "The Netherlands: office-holders in 1914, 1920, 1938, 1945, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Wilhelmina",
+      "title": "Queen",
+      "from": 1890,
+      "to": 1948,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Wilhelmina, Queen (1890–1948)"
+      }
+    },
     {
       "name": "Beatrix",
       "title": "Queen",
@@ -25,6 +35,56 @@
     }
   ],
   "offices": [
+    {
+      "name": "Pieter Cort van der Linden",
+      "title": "Prime minister",
+      "from": 1913,
+      "to": 1918,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Pieter Cort van der Linden, Prime minister (1913–1918)"
+      }
+    },
+    {
+      "name": "Charles Ruijs de Beerenbrouck",
+      "title": "Prime minister",
+      "from": 1918,
+      "to": 1925,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Charles Ruijs de Beerenbrouck, Prime minister (1918–1925)"
+      }
+    },
+    {
+      "name": "Hendrikus Colijn",
+      "title": "Prime minister",
+      "from": 1933,
+      "to": 1939,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Hendrikus Colijn, Prime minister (1933–1939)"
+      }
+    },
+    {
+      "name": "Pieter Sjoerds Gerbrandy",
+      "title": "Prime minister",
+      "from": 1940,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Pieter Sjoerds Gerbrandy, Prime minister (1940–1945)"
+      }
+    },
+    {
+      "name": "Willem Schermerhorn",
+      "title": "Prime minister",
+      "from": 1945,
+      "to": 1946,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Willem Schermerhorn, Prime minister (1945–1946)"
+      }
+    },
     {
       "name": "Jan Peter Balkenende",
       "title": "Prime minister",

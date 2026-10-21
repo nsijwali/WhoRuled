@@ -1,8 +1,48 @@
 {
   "qid": "Q1028",
   "name": "Morocco",
-  "summary": "Morocco: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Morocco: office-holders in 1914, 1920, 1938, 1945, 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Yusef",
+      "title": "Sultan",
+      "from": 1912,
+      "to": 1927,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Yusef, Sultan (1912–1927)"
+      }
+    },
+    {
+      "name": "Mohammed V",
+      "title": "Sultan",
+      "from": 1927,
+      "to": 1953,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Mohammed V, Sultan (1927–1953, 1955–1957), King (1957–1961)"
+      }
+    },
+    {
+      "name": "Mohammed V",
+      "title": "King",
+      "from": 1957,
+      "to": 1961,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Mohammed V, Sultan (1927–1953, 1955–1957), King (1957–1961)"
+      }
+    },
+    {
+      "name": "Hassan II",
+      "title": "King",
+      "from": 1961,
+      "to": 1999,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Hassan II, King (1961–1999)"
+      }
+    },
     {
       "name": "Mohammed VI",
       "title": "King",
@@ -15,6 +55,36 @@
     }
   ],
   "offices": [
+    {
+      "name": "Abdallah Ibrahim",
+      "title": "Prime minister",
+      "from": 1958,
+      "to": 1960,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Abdallah Ibrahim, Prime minister (1958–1960)"
+      }
+    },
+    {
+      "name": "Mohammed Karim Lamrani",
+      "title": "Prime minister",
+      "from": 1992,
+      "to": 1994,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Mohammed Karim Lamrani, Prime minister (1992–1994)"
+      }
+    },
+    {
+      "name": "Abdellatif Filali",
+      "title": "Prime minister",
+      "from": 1994,
+      "to": 1998,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Abdellatif Filali, Prime minister (1994–1998)"
+      }
+    },
     {
       "name": "Abbas El Fassi",
       "title": "Prime Minister",

@@ -1,8 +1,68 @@
 {
   "qid": "Q419",
   "name": "Peru",
-  "summary": "Peru: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Peru: office-holders in 1914, 1920, 1938, 1945, 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Guillermo Billinghurst",
+      "title": "Constitutional President",
+      "from": 1912,
+      "to": 1914,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Guillermo Billinghurst, Constitutional President (1912–1914)"
+      }
+    },
+    {
+      "name": "Augusto B. Leguía y Salcedo",
+      "title": "Constitutional President",
+      "from": 1919,
+      "to": 1930,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Augusto B. Leguía y Salcedo, Constitutional President (1919–1930)"
+      }
+    },
+    {
+      "name": "Óscar Benavides",
+      "title": "Constitutional President",
+      "from": 1933,
+      "to": 1939,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Óscar Benavides, Constitutional President (1933–1939)"
+      }
+    },
+    {
+      "name": "Manuel Prado y Ugarteche",
+      "title": "Constitutional President",
+      "from": 1939,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Manuel Prado y Ugarteche, Constitutional President (1939–1945)"
+      }
+    },
+    {
+      "name": "Pedro Beltrán Espantoso",
+      "title": "Prime Minister",
+      "from": 1959,
+      "to": 1961,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Pedro Beltrán Espantoso, Prime Minister (1959–1961)"
+      }
+    },
+    {
+      "name": "Alberto Fujimori",
+      "title": "de facto President",
+      "from": 1992,
+      "to": 1995,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Alberto Fujimori, Constitutional President (1990–1992), de facto President (1992–1995), Constitutional President (1995–2000)"
+      }
+    },
     {
       "name": "Alan García Pérez",
       "title": "Constitutional President",
@@ -25,6 +85,46 @@
     }
   ],
   "offices": [
+    {
+      "name": "Óscar R. Benavides",
+      "title": "Interim President",
+      "from": 1914,
+      "to": 1915,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Óscar R. Benavides, Interim President (1914–1915)"
+      }
+    },
+    {
+      "name": "José Bustamante y Rivero",
+      "title": "Constitutional President",
+      "from": 1945,
+      "to": 1948,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "José Bustamante y Rivero, Constitutional President (1945–1948)"
+      }
+    },
+    {
+      "name": "Alfonso Bustamante",
+      "title": "Prime Minister",
+      "from": 1993,
+      "to": 1994,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Alfonso Bustamante, Prime Minister (1993–1994)"
+      }
+    },
+    {
+      "name": "Efrain Goldenberg",
+      "title": "Prime Minister",
+      "from": 1994,
+      "to": 1995,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Efrain Goldenberg, Prime Minister (1994–1995)"
+      }
+    },
     {
       "name": "Javier Velásquez",
       "title": "Prime Minister",

@@ -1,8 +1,48 @@
 {
   "qid": "Q928",
   "name": "Philippines",
-  "summary": "Philippines: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Philippines: office-holders in 1938, 1945, 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Manuel L. Quezon",
+      "title": "President",
+      "from": 1935,
+      "to": 1944,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Manuel L. Quezon, President (1935–1944)"
+      }
+    },
+    {
+      "name": "Sergio Osmeña",
+      "title": "President",
+      "from": 1944,
+      "to": 1946,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Sergio Osmeña, President (1944–1946)"
+      }
+    },
+    {
+      "name": "Carlos P. Garcia",
+      "title": "President",
+      "from": 1957,
+      "to": 1961,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Carlos P. Garcia, President (1957–1961)"
+      }
+    },
+    {
+      "name": "Fidel V. Ramos",
+      "title": "President",
+      "from": 1992,
+      "to": 1998,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Fidel V. Ramos, President (1992–1998)"
+      }
+    },
     {
       "name": "Gloria Macapagal Arroyo",
       "title": "President",
@@ -25,6 +65,16 @@
     }
   ],
   "offices": [
+    {
+      "name": "José P. Laurel",
+      "title": "President",
+      "from": 1943,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "José P. Laurel, President (1943–1945)"
+      }
+    },
     {
       "name": "Benigno Aquino III",
       "title": "President",

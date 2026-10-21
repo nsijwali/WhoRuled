@@ -4,6 +4,16 @@
   "summary": "German Empire as drawn in the 1914 border data.",
   "rulers": [
     {
+      "name": "William I",
+      "title": "Emperor",
+      "from": 1861,
+      "to": 1888,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "William I, Emperor (1861–1888)"
+      }
+    },
+    {
       "name": "Wilhelm II",
       "title": "emperor",
       "from": 1888,
@@ -11,6 +21,48 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Wilhelm_II",
         "quote": "was the last German Emperor from 1888 until his abdication in 1918"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Otto von Bismarck",
+      "title": "Chancellor",
+      "from": 1871,
+      "to": 1890,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Otto von Bismarck, Chancellor (1871–1890)"
+      }
+    },
+    {
+      "name": "Chlodwig zu Hohenlohe-Schillingsfürst",
+      "title": "Chancellor",
+      "from": 1894,
+      "to": 1900,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Chlodwig zu Hohenlohe-Schillingsfürst, Chancellor (1894–1900)"
+      }
+    },
+    {
+      "name": "Bernhard von Bülow",
+      "title": "Chancellor",
+      "from": 1900,
+      "to": 1909,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Bernhard von Bülow, Chancellor (1900–1909)"
+      }
+    },
+    {
+      "name": "Theobald von Bethmann Hollweg",
+      "title": "Chancellor",
+      "from": 1909,
+      "to": 1917,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Theobald von Bethmann Hollweg, Chancellor (1909–1917)"
       }
     }
   ],

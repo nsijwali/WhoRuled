@@ -1,0 +1,151 @@
+# source: https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)
+# 75 states. QIDs come from each state's linked article and were checked against its Wikidata inception/dissolution dates.
+# wikidata-description Q1192936: former kingdom in Central/Eastern Africa up to 1966
+Kingdom of Burundi|Q1192936|Mwambutsa IV, King (1915–1966)|Burundi
+# wikidata-description Q889884: former kingdom in East Africa from the 15th century and up to 1962
+Kingdom of Rwanda|Q889884|Yuhi V Musinga, King (1896–1931)|Rwanda (Belgium)
+# wikidata-description Q207521: 1270–1974 state in the Horn of Africa
+Ethiopian Empire|Q207521|Zewditu I, Empress (1916–1930)|Ethiopia
+# wikidata-description Q370173: 1914-1922 sultanate in Northeastern Africa
+Sultanate of Egypt|Q370173|Fuad I, Sultan (1917–1922), King (1922–1936);Youssef Wahba, Prime minister (1919–1920);Mohamed Tawfik Naseem Pasha, Prime minister (1920–1921)|Egypt
+# wikidata-description Q1028: sovereign state in North Africa
+Morocco|Q1028|Yusef, Sultan (1912–1927)
+Basutoland|Q2340665|Nathaniel Griffith Lerotholi, Paramount Chief (1913–1939)|Lesotho
+# wikidata-description Q193619: state in southern Africa from 1910 to 1961, predecessor to the Republic of South Africa
+Union of South Africa|Q193619|George V, King (1910–1936);Jan Smuts, Prime minister (1919–1924)
+# wikidata-description Q1014: sovereign state in West Africa
+Liberia|Q1014|Daniel Edward Howard, President (1912–1920);Charles D. B. King, President (1920–1930)
+# wikidata-description Q14905932: historical period in Cuba between 20 May 1902 and 1 January 1959
+Republic of Cuba|Q14905932|Mario García Menocal, President (1913–1921)|Cuba
+# wikidata-description Q5864743: historical country
+Republic of Haiti (1859–1957)|Q5864743|Philippe Sudré Dartiguenave, President (1915–1922)|Haiti
+# wikidata-description Q60038319: Country of Central America (1848-1949)
+First Costa Rican Republic|Q60038319|Francisco Aguilar Barquero, President (1919–1920);Julio Acosta García, President (1920–1924)|Costa Rica
+# wikidata-description Q792: sovereign state in Central America
+El Salvador|Q792|Jorge Meléndez, President (1919–1923)
+# wikidata-description Q774: sovereign state in Central America
+Guatemala|Q774|Manuel Estrada Cabrera, President (1898–1920);Carlos Herrera, President (1920–1921)
+# wikidata-description Q783: sovereign state in Central America
+Honduras|Q783|Francisco Bográn, Acting President (1919–1920);Rafael López Gutiérrez, President (1920–1924)
+# wikidata-description Q811: sovereign state in Central America
+Nicaragua|Q811|Emiliano Chamorro Vargas, President (1917–1921)
+# wikidata-description Q804: sovereign state in Central America
+Panama|Q804|Belisario Porras Barahona, President (1918–1920);Ernesto Tisdel Lefevre, Acting President (1920);Belisario Porras Barahona, President (1920–1924)
+# wikidata-description Q16: country in North America
+Canada|Q16|Robert Borden, Prime minister (1911–1920);Arthur Meighen, Prime minister (1920–1921)
+# wikidata-description Q38610: UK possession in North America between 1907 and 1949
+Dominion of Newfoundland|Q38610|George V, King (1910–1936);Richard Squires, Prime minister (1919–1923)
+# wikidata-description Q96: country in North America
+Mexico|Q96|Venustiano Carranza, First Chief of the Constitutional Army (1914–1917), President (1917–1920);Adolfo de la Huerta, President (1920);Álvaro Obregón, President (1920–1924)
+# wikidata-description Q30: country located primarily in North America
+United States|Q30|Woodrow Wilson, President (1913–1921)
+# wikidata-description Q414: country in South America
+Argentine Republic|Q414|Hipólito Yrigoyen, President (1916–1922)|Argentina
+# wikidata-description Q750: sovereign state in South America
+Bolivia|Q750|José Gutiérrez Guerra, President (1917–1920);Government Junta, Members: Bautista Saavedra, José María Escalier, José Manuel Ramírez (1920–1921)
+# wikidata-description Q2414171: 1889–1930 federal republic in South America
+First Brazilian Republic|Q2414171|Epitácio Pessoa, President (1919–1922)|Brazil
+# wikidata-description Q739: country in South America
+Colombia|Q739|Marco Fidel Suárez, President (1918–1921)
+# wikidata-description Q736: sovereign state in South America
+Ecuador|Q736|Alfredo Baquerizo, President (1916–1920);José Luis Tamayo, President (1920–1924)
+# wikidata-description Q419: sovereign state in South America
+Peru|Q419|Augusto B. Leguía y Salcedo, Constitutional President (1919–1930)
+# wikidata-description Q77: sovereign state in South America
+Uruguay|Q77|Baltasar Brum, President (1919–1923)
+# wikidata-description Q5848651: republic from 1864 to 1953
+United States of Venezuela|Q5848651|Victorino Márquez Bustillos, President (1914–1922)|Venezuela
+# wikidata-description Q2444884: former de facto state in East Asia
+Tibet (1912–1951)|Q2444884|Thubten Gyatso, 13th Dalai Lama (1879–1933)|Tibet
+# wikidata-description Q188712: empire in the Asia-Pacific region from 1868 to 1947
+Empire of Japan|Q188712|Taishō, Emperor (1912–1926);Hara Takashi, Prime minister (1918–1921)
+# wikidata-description Q2475921: khanate ruled by bogd khan on Outer Mongolia from 1911 to 1919 and 1921 to 1924
+Bogd Khanate of Mongolia|Q2475921|Bogd Khan, Khagan (1911–1924);Gonchigjalzangiin Badamdorj, Prime minister (1919–1921)|Mongolia
+# wikidata-description Q61292: former country in Asia
+Far Eastern Soviet Republic|Q61292|Alexander Krasnoshchyokov, Chairman of the Government (1920–1921);Alexander Krasnoshchyokov, Prime minister (1920);Boris Shumyatsky, Prime minister (1920–1921)|Far Eastern SSR
+# wikidata-description Q921: sovereign country and sultanate on the island of Borneo in south-east Asia, member of the Commonwealth of Nations
+Protectorate of Brunei|Q921|Muhammad Jamalul Alam II, Sultan (1906–1924)|Brunei
+# wikidata-description Q869: country in Southeast Asia
+Siam/Thailand|Q869|Vajiravudh, King (1910–1925)|Rattanakosin Kingdom
+# wikidata-description Q63158027: country in Western Asia (1789–1925)
+Sublime State of Persia|Q63158027|Ahmad Shah Qajar, Shah (1909–1925)|Iran
+# wikidata-description Q146720: former country
+Mandatory Iraq|Q146720|Abd Al-Rahman Al-Gillani, Prime minister (1920–1922)|Mesopotamia (GB)
+# wikidata-description Q157734: monarchy on the Arab Peninsula between 1820-1970
+Muscat and Oman|Q157734|Taimur, Sultan (1913–1932)
+# wikidata-description Q846: country in West Asia
+Qatar|Q846|Abdullah bin Jassim Al Thani, Emir (1913–1949)
+# wikidata-description Q5362837: 1836–1921 state in northern Arabia
+Emirate of Jabal Shammar|Q5362837|Saud bin Abdulaziz, Emir (1908–1920);ʿAbdullah bin Mutʿib, Emir (1920–1921)|Hail
+# wikidata-description Q956357: former country
+Kingdom of Hejaz|Q956357|Hussein bin Ali, King (1916–1924)|Hejaz
+# wikidata-description Q12560: empire with the monarchs from the Ottoman dynasty (1299–1922)
+Ottoman (Turkish) Empire|Q12560|Mehmed VI, Sultan (1918–1922);Ali Rıza Pasha, Grand Vizier (1919–1920);Salih Hulusi Pasha, Grand Vizier (1920);Damat Ferid Pasha, Grand Vizier (1920);Ahmet Tevfik Pasha, Grand Vizier (1920–1922)|Ottoman Sultanate
+# wikidata-description Q580188: historical Arab monarchy
+Mutawakkilite Kingdom of Yemen|Q580188|Yahya Muhammad Hamid ed-Din, King (1918–1948)|Yemen
+# wikidata-description Q187035: 1914-1925 monarchy in Europe, predecessor of modern Albania
+Principality of Albania|Q187035|Wilhelm, Prince (1914), Prince in exile (1914–1925);Turhan Përmeti, Chairman of the Provisional Government (1918–1920);Sulejman Delvina, Chairman of the Provisional Government (1920);High Council of Regency, Head of State (1920–1925);Turhan Përmeti, Prime minister (1918–1920);Sulejman Delvina, Prime minister (1920);Iliaz Vrioni, Prime minister (1920–1921)|Albania
+# wikidata-description Q147909: state on the Balkan Peninsula between 1908 and 1946
+Kingdom of Bulgaria|Q147909|Boris III, Tsar (1918–1943);Aleksandar Stamboliyski, Prime minister (1919–1923)|Bulgaria
+# wikidata-description Q209065: period of Greek statehood from 1832 to 1924 and 1935 to 1973
+Kingdom of Greece|Q209065|Alexander, King (1917–1920);Pavlos Kountouriotis, Regent (1920);Olga Constantinovna, Regent (1920);Constantine I, King (1920–1922);Eleftherios Venizelos, Prime minister (1917–1920);Dimitrios Rallis, Prime minister (1920–1921)|Greece
+# wikidata-description Q191: country in Northern Europe
+Estonia|Q191|Ants Piip, State Elder (1920–1921);Jaan Tõnisson, Prime minister (1919–1920);Ado Birk, Prime minister (1920);Jaan Tõnisson, Prime minister (1920);Ants Piip, Prime minister (1920)
+# wikidata-description Q211: sovereign state in northeastern Europe
+Latvia|Q211|Jānis Čakste, Acting President (1918–1922), President (1922–1927);Kārlis Ulmanis, Prime minister (1918–1921)
+# wikidata-description Q37: country in northeastern Europe
+Lithuania|Q37|Antanas Smetona, President (1919–1920);Aleksandras Stulginskis, President (1920–1926);Ernestas Galvanauskas, Prime minister (1919–1920);Kazys Grinius, Prime minister (1920–1922)
+# wikidata-description Q174193: historical sovereign state (1801–1922)
+United Kingdom of Great Britain and Ireland|Q174193|George V, King (1910–1936);David Lloyd George, Prime minister (1916–1922)
+# wikidata-description Q518101: sovereign state in Europe (1919–1934)
+First Austrian Republic|Q518101|Karl Seitz, President (1919–1920);Michael Hainisch, President (1920–1928);Karl Renner, Chancellor (1919–1920);Michael Mayr, Chancellor (1920–1921)|Austria
+# wikidata-description Q33946: country in Central Europe (1918–1992)
+Czechoslovakia|Q33946|Tomáš Garrigue Masaryk, President (1918–1935);Vlastimil Tusar, Prime Minister (1919–1920);Jan Černý, Prime Minister (1920–1921)
+# wikidata-description Q41304: Germany in the years 1918/1919–1933
+Weimar Republic|Q41304|Friedrich Ebert, President (1919–1925);Gustav Bauer, Chancellor (1919–1920);Hermann Müller, Chancellor (1920);Constantin Fehrenbach, Chancellor (1920–1921)|Germany
+# wikidata-description Q207272: country in Central and Eastern Europe (1918–1945)
+Second Polish Republic|Q207272|Józef Piłsudski, Chief of State (1918–1922);Leopold Skulski, Prime minister (1919–1920);Władysław Grabski, Prime minister (1920);Wincenty Witos, Prime minister (1920–1921)|Poland
+# wikidata-description Q39: country in Central Europe
+Switzerland|Q39|Giuseppe Motta, President of the Confederation (1920)
+# wikidata-description Q203493: kingdom in Southeastern Europe between 1881 and 1947
+Kingdom of Romania|Q203493|Ferdinand I, King (1914–1927);Alexandru Vaida-Voevod, Prime minister (1919–1920);Alexandru Averescu, Prime minister (1920–1921)|Romania
+# wikidata-description Q2184: constituent republic of the Soviet Union (1922–1991)
+Russian Soviet Federative Socialist Republic|Q2184|Mikhail Kalinin, Chairman (1919–1938);Vladimir Lenin, Premier (1917–1924)|USSR
+# wikidata-description Q4533605: short-lived country that existed from 1919 to 1920 during the Russian Civil War
+South Russia (1919–1920)|Q4533605|Anton Denikin, Commander-in-Chief (1920);Pyotr Wrangel, Commander-in-Chief (1920)|South Russia
+# wikidata-description Q35: country in Northern Europe
+Denmark|Q35|Christian X, King (1912–1947);Carl Theodor Zahle, Council president (1913–1918), Prime minister (1918–1920);Otto Liebe, Prime minister (1920);Michael Pedersen Friis, Prime minister (1920);Niels Neergaard, Prime minister (1920–1924)
+# wikidata-description Q33: country in Northern Europe
+Finland|Q33|Kaarlo Juho Ståhlberg, President (1919–1925);Juho Vennola, Prime minister (1919–1920);Rafael Erich, Prime minister (1920–1921)
+# wikidata-description Q62567: former country
+Kingdom of Iceland|Q62567|Christian X, King (1918–1944);Jón Magnússon, Prime minister (1917–1922)|Iceland
+# wikidata-description Q20: country in Northern Europe
+Norway|Q20|Haakon VII, King (1905–1957);Gunnar Knudsen, Prime minister (1913–1920);Otto Bahr Halvorsen, Prime minister (1920–1921)
+# wikidata-description Q34: country in Northern Europe
+Sweden|Q34|Gustaf V, King (1907–1950);Nils Edén, Prime minister (1917–1920);Hjalmar Branting, Prime minister (1920);Gerhard Louis De Geer, Prime minister (1920–1921)
+# wikidata-description Q172579: kingdom in Southern Europe from 1861 to 1946
+Kingdom of Italy|Q172579|Victor Emmanuel III, King (1900–1946);Francesco Saverio Nitti, Prime minister (1919–1920);Giovanni Giolitti, Prime minister (1920–1921)|Italy
+# wikidata-description Q167360: 1910–1926 republic in Southwestern Europe
+First Portuguese Republic|Q167360|António José de Almeida, President (1919–1923);Alfredo de Sá Cardoso, President of the Ministry (1919–1920);Francisco Fernandes Costa, President of the Ministry designate (1920);Alfredo de Sá Cardoso, President of the Ministry (1920);Domingos Pereira, President of the Ministry (1920);António Maria Baptista, President of the Ministry (1920);José Ramos Preto, Acting President of the Ministry and President of the Ministry (1920);António Maria da Silva, President of the Ministry (1920);António Granjo, President of the Ministry (1920);Álvaro de Castro, President of the Ministry (1920);Liberato Pinto, President of the Ministry (1920–1921)|Portugal
+# wikidata-description Q1044536: name given to a period between 1874 (end of First Spanish Republic) and 1931 (start of the Second Spanish Republic), and the state of Spain during that time
+Bourbon Restoration of Spain|Q1044536|Alfonso XIII, King (1886–1931);Manuel Allendesalazar y Muñoz de Salazar, Prime minister (1919–1920);Eduardo Dato, Prime minister (1920–1921)|Spain
+# wikidata-description Q31: country in western Europe
+Belgium|Q31|Albert I, King (1909–1934);Léon Delacroix, Prime minister (1918–1920);Henri Carton de Wiart, Prime minister (1920–1921)
+# wikidata-description Q70802: nation of France from 1870 to 1940
+French Third Republic|Q70802|Raymond Poincaré, President (1913–1920);Paul Deschanel, President (1920);Alexandre Millerand, President (1920–1924);Georges Clemenceau, President of the Council of ministers (1917–1920);Alexandre Millerand, President of the Council of ministers (1920);Georges Leygues, President of the Council of ministers (1920–1921)|France
+# wikidata-description Q32: country in Western Europe
+Luxembourg|Q32|Charlotte, Grand Duchess (1919–1964);Émile Reuter, Prime minister (1918–1925)
+# wikidata-description Q55: one of the four autonomous countries of the Kingdom of the Netherlands; with territories in the Caribbean
+Netherlands|Q55|Wilhelmina, Queen (1890–1948);Charles Ruijs de Beerenbrouck, Prime minister (1918–1925)
+# wikidata-description Q139670: Armenian state existing from 1918–1920
+First Republic of Armenia|Q139670|Avetis Aharonian, Chairman (1919–1920);Hovhannes Kajaznuni, Chairman (1920);Alexander Khatisian, Prime minister (1919–1920);Hamo Ohanjanyan, Prime minister (1920);Simon Vratsian, Prime minister (1920)|Armenia
+# wikidata-description Q206411: former country in the South Caucasus (1918–1920)
+Azerbaijan Democratic Republic|Q206411|Alimardan Topchubashov, Head of state (1918–1920);Mammad Yusif Jafarov, Acting Head of state (1920);Nasib Yusifbeyli, Prime minister (1919–1920);Mammad Hasan Hajinski, Acting Prime minister (1920)|Azerbaijan
+# wikidata-description Q245160: first modern establishment of Georgia as an independent Country (1918-1921)
+Democratic Republic of Georgia|Q245160|Noe Zhordania, Prime minister (1918–1921)|Georgia
+# wikidata-description Q408: country
+Australia|Q408|George V, King (1910–1936);Billy Hughes, Prime minister (1916–1923)
+# wikidata-description Q2594990: former dominion of the British Empire
+Dominion of New Zealand|Q2594990|George V, King (1910–1936);William Massey, Prime minister (1912–1925)|New Zealand
+# wikidata-description Q23022146: protected state of the United Kingdom in Polynesia
+Kingdom of Tonga (1900–70)|Q23022146|Sālote Tupou III, King (1918–1965);Tevita Tuʻivakano, Prime minister (1912–1923)|Tonga

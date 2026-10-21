@@ -1,0 +1,150 @@
+{
+  "qid": "Q203493",
+  "name": "Kingdom of Romania",
+  "summary": "Kingdom of Romania: office-holders in 1900, 1914, 1920, 1938, 1945, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "Charles I",
+      "title": "King",
+      "from": 1881,
+      "to": 1914,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Charles I, King (1881–1914)"
+      }
+    },
+    {
+      "name": "Ferdinand I",
+      "title": "King",
+      "from": 1914,
+      "to": 1927,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Ferdinand I, King (1914–1927)"
+      }
+    },
+    {
+      "name": "Carol II",
+      "title": "King",
+      "from": 1930,
+      "to": 1940,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Carol II, King (1930–1940)"
+      }
+    },
+    {
+      "name": "Michael I",
+      "title": "King",
+      "from": 1940,
+      "to": 1947,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Michael I, King (1940–1947)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Gheorghe Grigore Cantacuzino",
+      "title": "Prime minister",
+      "from": 1899,
+      "to": 1900,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Gheorghe Grigore Cantacuzino, Prime minister (1899–1900)"
+      }
+    },
+    {
+      "name": "Petre P. Carp",
+      "title": "Prime minister",
+      "from": 1900,
+      "to": 1901,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Petre P. Carp, Prime minister (1900–1901)"
+      }
+    },
+    {
+      "name": "Titu Maiorescu",
+      "title": "Prime minister",
+      "from": 1912,
+      "to": 1914,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Titu Maiorescu, Prime minister (1912–1914)"
+      }
+    },
+    {
+      "name": "Ion I. C. Brătianu",
+      "title": "Prime minister",
+      "from": 1914,
+      "to": 1918,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Ion I. C. Brătianu, Prime minister (1914–1918)"
+      }
+    },
+    {
+      "name": "Alexandru Vaida-Voevod",
+      "title": "Prime minister",
+      "from": 1919,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Alexandru Vaida-Voevod, Prime minister (1919–1920)"
+      }
+    },
+    {
+      "name": "Alexandru Averescu",
+      "title": "Prime minister",
+      "from": 1920,
+      "to": 1921,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Alexandru Averescu, Prime minister (1920–1921)"
+      }
+    },
+    {
+      "name": "Octavian Goga",
+      "title": "Prime minister",
+      "from": 1937,
+      "to": 1938,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Octavian Goga, Prime minister (1937–1938)"
+      }
+    },
+    {
+      "name": "Miron Cristea",
+      "title": "Prime minister",
+      "from": 1938,
+      "to": 1939,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Miron Cristea, Prime minister (1938–1939)"
+      }
+    },
+    {
+      "name": "Nicolae Rădescu",
+      "title": "Prime minister",
+      "from": 1944,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Nicolae Rădescu, Prime minister (1944–1945)"
+      }
+    },
+    {
+      "name": "Petru Groza",
+      "title": "Prime minister",
+      "from": 1945,
+      "to": 1947,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Petru Groza, Prime minister (1945–1947)"
+      }
+    }
+  ],
+  "events": []
+}

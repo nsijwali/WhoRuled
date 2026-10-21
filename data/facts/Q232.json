@@ -1,7 +1,7 @@
 {
   "qid": "Q232",
   "name": "Kazakhstan",
-  "summary": "Kazakhstan: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Kazakhstan: office-holders in 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Nursultan Nazarbayev",
@@ -9,7 +9,7 @@
       "from": 1991,
       "to": 2019,
       "source": {
-        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
         "quote": "Nursultan Nazarbayev, President (1991–2019)"
       }
     },
@@ -25,6 +25,26 @@
     }
   ],
   "offices": [
+    {
+      "name": "Sergey Tereshchenko",
+      "title": "Prime minister",
+      "from": 1991,
+      "to": 1994,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Sergey Tereshchenko, Prime minister (1991–1994)"
+      }
+    },
+    {
+      "name": "Akejan Kajegeldin",
+      "title": "Prime minister",
+      "from": 1994,
+      "to": 1997,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Akejan Kajegeldin, Prime minister (1994–1997)"
+      }
+    },
     {
       "name": "Karim Massimov",
       "title": "Prime minister",

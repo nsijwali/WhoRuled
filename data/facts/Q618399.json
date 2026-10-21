@@ -1,0 +1,60 @@
+{
+  "qid": "Q618399",
+  "name": "Republic of the Congo (Léopoldville)",
+  "summary": "Republic of the Congo (Léopoldville): office-holders in 1960, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Joseph Kasa-Vubu",
+      "title": "President",
+      "from": 1960,
+      "to": 1965,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Joseph Kasa-Vubu, President (1960–1965)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Patrice Lumumba",
+      "title": "Prime minister",
+      "from": 1960,
+      "to": 1960,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Patrice Lumumba, Prime minister (1960)"
+      }
+    },
+    {
+      "name": "Joseph Iléo",
+      "title": "Prime minister",
+      "from": 1960,
+      "to": 1960,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Joseph Iléo, Prime minister (1960)"
+      }
+    },
+    {
+      "name": "Justin Marie Bomboko",
+      "title": "Prime minister",
+      "from": 1960,
+      "to": 1961,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Justin Marie Bomboko, Prime minister (1960–1961)"
+      }
+    },
+    {
+      "name": "Antoine Gizenga",
+      "title": "Rebel, Prime minister",
+      "from": 1960,
+      "to": 1961,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Antoine Gizenga, Rebel, Prime minister (1960–1961)"
+      }
+    }
+  ],
+  "events": []
+}

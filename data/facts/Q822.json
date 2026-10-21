@@ -1,8 +1,38 @@
 {
   "qid": "Q822",
   "name": "Lebanon",
-  "summary": "Lebanon: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Lebanon: office-holders in 1945, 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Bechara El Khoury",
+      "title": "President",
+      "from": 1943,
+      "to": 1952,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Bechara El Khoury, President (1943–1952)"
+      }
+    },
+    {
+      "name": "Fuad Chehab",
+      "title": "President",
+      "from": 1958,
+      "to": 1964,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Fuad Chehab, President (1958–1964)"
+      }
+    },
+    {
+      "name": "Elias Hrawi",
+      "title": "President",
+      "from": 1989,
+      "to": 1998,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Elias Hrawi, President (1989–1998)"
+      }
+    },
     {
       "name": "Michel Suleiman",
       "title": "President",
@@ -25,6 +55,76 @@
     }
   ],
   "offices": [
+    {
+      "name": "Riad Al Solh",
+      "title": "Prime minister",
+      "from": 1943,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Riad Al Solh, Prime minister (1943–1945)"
+      }
+    },
+    {
+      "name": "Abdul Hamid Karami",
+      "title": "Prime minister",
+      "from": 1945,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Abdul Hamid Karami, Prime minister (1945–1945)"
+      }
+    },
+    {
+      "name": "Sami as-Solh",
+      "title": "Prime minister",
+      "from": 1945,
+      "to": 1946,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Sami as-Solh, Prime minister (1945–1946)"
+      }
+    },
+    {
+      "name": "Rashid Karami",
+      "title": "Prime minister",
+      "from": 1958,
+      "to": 1960,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Rashid Karami, Prime minister (1958–1960)"
+      }
+    },
+    {
+      "name": "Ahmad Daouk",
+      "title": "Prime minister",
+      "from": 1960,
+      "to": 1960,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Ahmad Daouk, Prime minister (1960)"
+      }
+    },
+    {
+      "name": "Saeb Salam",
+      "title": "Prime minister",
+      "from": 1960,
+      "to": 1961,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Saeb Salam, Prime minister (1960–1961)"
+      }
+    },
+    {
+      "name": "Rafic Hariri",
+      "title": "Prime minister",
+      "from": 1992,
+      "to": 1998,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Rafic Hariri, Prime minister (1992–1998)"
+      }
+    },
     {
       "name": "Saad Hariri",
       "title": "Prime minister",

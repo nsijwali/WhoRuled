@@ -1,7 +1,7 @@
 {
   "qid": "Q954",
   "name": "Zimbabwe",
-  "summary": "Zimbabwe: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Zimbabwe: office-holders in 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Robert Mugabe",
@@ -9,7 +9,7 @@
       "from": 1987,
       "to": 2017,
       "source": {
-        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
         "quote": "Robert Mugabe, President (1987–2017)"
       }
     },

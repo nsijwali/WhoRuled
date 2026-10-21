@@ -1,0 +1,19 @@
+{
+  "qid": "Q761103",
+  "name": "Dendi Kingdom",
+  "summary": "Dendi Kingdom: office-holders in 1880, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Biyo Birma",
+      "title": "Askiya",
+      "from": 1868,
+      "to": 1882,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Biyo Birma, Askiya (1868–1882)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

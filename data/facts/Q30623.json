@@ -1,0 +1,30 @@
+{
+  "qid": "Q30623",
+  "name": "Manchukuo",
+  "summary": "Manchukuo: office-holders in 1945, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Puyi",
+      "title": "Emperor",
+      "from": 1934,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Puyi, Chief Executive (1932–1934), Emperor (1934–1945)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Zhang Jinghui",
+      "title": "Prime minister",
+      "from": 1935,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Zhang Jinghui, Prime minister (1935–1945)"
+      }
+    }
+  ],
+  "events": []
+}

@@ -1,8 +1,48 @@
 {
   "qid": "Q27",
   "name": "Ireland",
-  "summary": "Ireland: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Ireland: office-holders in 1938, 1945, 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Douglas Hyde",
+      "title": "President",
+      "from": 1938,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Douglas Hyde, President (1938–1945)"
+      }
+    },
+    {
+      "name": "Seán T. O'Kelly",
+      "title": "President",
+      "from": 1945,
+      "to": 1959,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Seán T. O'Kelly, President (1945–1959)"
+      }
+    },
+    {
+      "name": "Éamon de Valera",
+      "title": "President",
+      "from": 1959,
+      "to": 1973,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Éamon de Valera, President (1959–1973)"
+      }
+    },
+    {
+      "name": "Mary Robinson",
+      "title": "President",
+      "from": 1990,
+      "to": 1997,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Mary Robinson, President (1990–1997)"
+      }
+    },
     {
       "name": "Mary McAleese",
       "title": "President",
@@ -25,6 +65,46 @@
     }
   ],
   "offices": [
+    {
+      "name": "Éamon de Valera",
+      "title": "Taoiseach",
+      "from": 1937,
+      "to": 1948,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Éamon de Valera, Taoiseach (1937–1948)"
+      }
+    },
+    {
+      "name": "Seán Lemass",
+      "title": "Taoiseach",
+      "from": 1959,
+      "to": 1966,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Seán Lemass, Taoiseach (1959–1966)"
+      }
+    },
+    {
+      "name": "Albert Reynolds",
+      "title": "Taoiseach",
+      "from": 1992,
+      "to": 1994,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Albert Reynolds, Taoiseach (1992–1994)"
+      }
+    },
+    {
+      "name": "John Bruton",
+      "title": "Taoiseach",
+      "from": 1994,
+      "to": 1997,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "John Bruton, Taoiseach (1994–1997)"
+      }
+    },
     {
       "name": "Brian Cowen",
       "title": "Taoiseach",

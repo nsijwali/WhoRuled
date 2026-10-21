@@ -1,8 +1,28 @@
 {
   "qid": "Q1008",
   "name": "Ivory Coast",
-  "summary": "Ivory Coast: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Ivory Coast: office-holders in 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Félix Houphouët-Boigny",
+      "title": "President",
+      "from": 1960,
+      "to": 1993,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Félix Houphouët-Boigny, President (1960–1993)"
+      }
+    },
+    {
+      "name": "Henri Konan Bédié",
+      "title": "President",
+      "from": 1993,
+      "to": 1999,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Henri Konan Bédié, President (1993–1999)"
+      }
+    },
     {
       "name": "Laurent Gbagbo",
       "title": "President",
@@ -25,6 +45,26 @@
     }
   ],
   "offices": [
+    {
+      "name": "Félix Houphouët-Boigny",
+      "title": "Prime minister",
+      "from": 1960,
+      "to": 1960,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Félix Houphouët-Boigny, Prime minister (1960)"
+      }
+    },
+    {
+      "name": "Daniel Kablan Duncan",
+      "title": "Prime minister",
+      "from": 1993,
+      "to": 1999,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Daniel Kablan Duncan, Prime minister (1993–1999)"
+      }
+    },
     {
       "name": "Alassane Ouattara",
       "title": "President",

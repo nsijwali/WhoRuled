@@ -1,0 +1,19 @@
+{
+  "qid": "Q746558",
+  "name": "Emirate of Bukhara",
+  "summary": "Emirate of Bukhara: office-holders in 1880, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Muzaffar al-Din bin Nasr-Allah",
+      "title": "Amir",
+      "from": 1860,
+      "to": 1885,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Muzaffar al-Din bin Nasr-Allah, Amir (1860–1885)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

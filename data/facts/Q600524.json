@@ -1,0 +1,30 @@
+{
+  "qid": "Q600524",
+  "name": "Sokoto Caliphate",
+  "summary": "Sokoto Caliphate: office-holders in 1900, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Abdur Rahman Atiku",
+      "title": "Sultan",
+      "from": 1891,
+      "to": 1902,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Abdur Rahman Atiku, Sultan (1891–1902)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Muhammadu al-Bukhari",
+      "title": "Grand Vizier",
+      "from": 1890,
+      "to": 1903,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Muhammadu al-Bukhari, Grand Vizier (1890–1903)"
+      }
+    }
+  ],
+  "events": []
+}

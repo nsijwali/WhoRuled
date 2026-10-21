@@ -1,8 +1,18 @@
 {
   "qid": "Q683",
   "name": "Samoa",
-  "summary": "Samoa: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Samoa: office-holders in 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Malietoa Tanumafili II",
+      "title": "O le Ao o le Malo",
+      "from": 1962,
+      "to": 2007,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Malietoa Tanumafili II, O le Ao o le Malo (1962–2007)"
+      }
+    },
     {
       "name": "Tui Ātua Tupua Tamasese Efi",
       "title": "O le Ao o le Malo",
@@ -25,6 +35,16 @@
     }
   ],
   "offices": [
+    {
+      "name": "Tofilau Eti Alesana",
+      "title": "Prime minister",
+      "from": 1988,
+      "to": 1998,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Tofilau Eti Alesana, Prime minister (1988–1998)"
+      }
+    },
     {
       "name": "Tuila'epa Sa'ilele Malielegaoi",
       "title": "Prime minister",

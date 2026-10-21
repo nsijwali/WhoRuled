@@ -1,0 +1,80 @@
+{
+  "qid": "Q187035",
+  "name": "Principality of Albania",
+  "summary": "Principality of Albania: office-holders in 1920, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Wilhelm",
+      "title": "Prince in exile",
+      "from": 1914,
+      "to": 1925,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Wilhelm, Prince (1914), Prince in exile (1914–1925)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Turhan Përmeti",
+      "title": "Chairman of the Provisional Government",
+      "from": 1918,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Turhan Përmeti, Chairman of the Provisional Government (1918–1920)"
+      }
+    },
+    {
+      "name": "Sulejman Delvina",
+      "title": "Chairman of the Provisional Government",
+      "from": 1920,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Sulejman Delvina, Chairman of the Provisional Government (1920)"
+      }
+    },
+    {
+      "name": "High Council of Regency",
+      "title": "Head of State",
+      "from": 1920,
+      "to": 1925,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "High Council of Regency, Head of State (1920–1925)"
+      }
+    },
+    {
+      "name": "Turhan Përmeti",
+      "title": "Prime minister",
+      "from": 1918,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Turhan Përmeti, Prime minister (1918–1920)"
+      }
+    },
+    {
+      "name": "Sulejman Delvina",
+      "title": "Prime minister",
+      "from": 1920,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Sulejman Delvina, Prime minister (1920)"
+      }
+    },
+    {
+      "name": "Iliaz Vrioni",
+      "title": "Prime minister",
+      "from": 1920,
+      "to": 1921,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Iliaz Vrioni, Prime minister (1920–1921)"
+      }
+    }
+  ],
+  "events": []
+}

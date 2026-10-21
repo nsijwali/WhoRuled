@@ -1,0 +1,40 @@
+{
+  "qid": "Q1415585",
+  "name": "Islamic State of Afghanistan",
+  "summary": "Islamic State of Afghanistan: office-holders in 1994, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Burhanuddin Rabbani",
+      "title": "President",
+      "from": 1992,
+      "to": 1996,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Burhanuddin Rabbani, President (1992–1996)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Gulbuddin Hekmatyar",
+      "title": "Prime minister",
+      "from": 1993,
+      "to": 1994,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Gulbuddin Hekmatyar, Prime minister (1993–1994)"
+      }
+    },
+    {
+      "name": "Arsala Rahmani Daulat",
+      "title": "Prime minister",
+      "from": 1994,
+      "to": 1995,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Arsala Rahmani Daulat, Prime minister (1994–1995)"
+      }
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,40 @@
+{
+  "qid": "Q13426199",
+  "name": "Republic of China (1916–1949)",
+  "summary": "Republic of China (1916–1949): office-holders in 1945, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Chiang Kai-shek",
+      "title": "Chairmen",
+      "from": 1943,
+      "to": 1948,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Chiang Kai-shek, Chairmen (1943–1948), President (1948–1949)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Chiang Kai-shek",
+      "title": "Premier",
+      "from": 1939,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Chiang Kai-shek, Premier (1939–1945)"
+      }
+    },
+    {
+      "name": "T. V. Soong",
+      "title": "Premier",
+      "from": 1945,
+      "to": 1947,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "T. V. Soong, Premier (1945–1947)"
+      }
+    }
+  ],
+  "events": []
+}

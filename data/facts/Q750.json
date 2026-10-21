@@ -1,8 +1,88 @@
 {
   "qid": "Q750",
   "name": "Bolivia",
-  "summary": "Bolivia: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Bolivia: office-holders in 1880, 1900, 1914, 1920, 1938, 1945, 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Narciso Campero",
+      "title": "President",
+      "from": 1880,
+      "to": 1884,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Narciso Campero, President (1880–1884)"
+      }
+    },
+    {
+      "name": "José Manuel Pando",
+      "title": "President",
+      "from": 1899,
+      "to": 1904,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "José Manuel Pando, President (1899–1904)"
+      }
+    },
+    {
+      "name": "Ismael Montes",
+      "title": "President",
+      "from": 1913,
+      "to": 1917,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Ismael Montes, President (1913–1917)"
+      }
+    },
+    {
+      "name": "José Gutiérrez Guerra",
+      "title": "President",
+      "from": 1917,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "José Gutiérrez Guerra, President (1917–1920)"
+      }
+    },
+    {
+      "name": "Germán Busch",
+      "title": "Chairman of the Government Junta",
+      "from": 1937,
+      "to": 1938,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Germán Busch, Chairman of the Government Junta (1937–1938), President (1938–1939)"
+      }
+    },
+    {
+      "name": "Gualberto Villarroel",
+      "title": "President",
+      "from": 1944,
+      "to": 1946,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Gualberto Villarroel, Chairman of the Government Junta (1943–1944), President (1944–1946)"
+      }
+    },
+    {
+      "name": "Hernán Siles Zuazo",
+      "title": "President",
+      "from": 1956,
+      "to": 1960,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Hernán Siles Zuazo, President (1956–1960)"
+      }
+    },
+    {
+      "name": "Gonzalo Sánchez de Lozada",
+      "title": "President",
+      "from": 1993,
+      "to": 1997,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Gonzalo Sánchez de Lozada, President (1993–1997)"
+      }
+    },
     {
       "name": "Evo Morales",
       "title": "President",
@@ -24,6 +104,27 @@
       }
     }
   ],
-  "offices": [],
+  "offices": [
+    {
+      "name": "Government Junta",
+      "title": "Members: Bautista Saavedra, José María Escalier, José Manuel Ramírez",
+      "from": 1920,
+      "to": 1921,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Government Junta, Members: Bautista Saavedra, José María Escalier, José Manuel Ramírez (1920–1921)"
+      }
+    },
+    {
+      "name": "Víctor Paz Estenssoro",
+      "title": "President",
+      "from": 1960,
+      "to": 1964,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Víctor Paz Estenssoro, President (1960–1964)"
+      }
+    }
+  ],
   "events": []
 }

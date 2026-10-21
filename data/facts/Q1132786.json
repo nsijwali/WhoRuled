@@ -1,0 +1,19 @@
+{
+  "qid": "Q1132786",
+  "name": "Wadai Sultanate",
+  "summary": "Wadai Sultanate: office-holders in 1880, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Yusuf ibn 'Ali",
+      "title": "Kolak",
+      "from": 1874,
+      "to": 1898,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Yusuf ibn 'Ali, Kolak (1874–1898)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

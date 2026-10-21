@@ -1,0 +1,19 @@
+{
+  "qid": "Q217230",
+  "name": "Empire of Brazil",
+  "summary": "Empire of Brazil: office-holders in 1880, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Pedro II",
+      "title": "Emperor",
+      "from": 1831,
+      "to": 1889,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Pedro II, Emperor (1831–1889)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

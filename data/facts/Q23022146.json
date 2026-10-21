@@ -1,0 +1,80 @@
+{
+  "qid": "Q23022146",
+  "name": "Kingdom of Tonga (1900–70)",
+  "summary": "Kingdom of Tonga (1900–70): office-holders in 1900, 1914, 1920, 1938, 1945, 1960, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "George Tupou II",
+      "title": "King",
+      "from": 1893,
+      "to": 1918,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "George Tupou II, King (1893–1918)"
+      }
+    },
+    {
+      "name": "Sālote Tupou III",
+      "title": "King",
+      "from": 1918,
+      "to": 1965,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Sālote Tupou III, King (1918–1965)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Siosateki Veikune",
+      "title": "Prime minister",
+      "from": 1893,
+      "to": 1905,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Siosateki Veikune, Prime minister (1893–1905)"
+      }
+    },
+    {
+      "name": "Tevita Tuʻivakano",
+      "title": "Prime minister",
+      "from": 1912,
+      "to": 1923,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Tevita Tuʻivakano, Prime minister (1912–1923)"
+      }
+    },
+    {
+      "name": "Viliami Tungi Mailefihi",
+      "title": "Prime minister",
+      "from": 1923,
+      "to": 1941,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Viliami Tungi Mailefihi, Prime minister (1923–1941)"
+      }
+    },
+    {
+      "name": "Solomone Ula Ata",
+      "title": "Prime minister",
+      "from": 1941,
+      "to": 1949,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Solomone Ula Ata, Prime minister (1941–1949)"
+      }
+    },
+    {
+      "name": "Tupoutoʻa-Tungi",
+      "title": "Prime minister",
+      "from": 1949,
+      "to": 1965,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Tupoutoʻa-Tungi, Prime minister (1949–1965)"
+      }
+    }
+  ],
+  "events": []
+}

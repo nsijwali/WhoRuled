@@ -1,8 +1,48 @@
 {
   "qid": "Q43",
   "name": "Turkey",
-  "summary": "Turkey: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Turkey: office-holders in 1938, 1945, 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Mustafa Kemal Atatürk",
+      "title": "President",
+      "from": 1923,
+      "to": 1938,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Mustafa Kemal Atatürk, President (1923–1938)"
+      }
+    },
+    {
+      "name": "Şükrü Saracoğlu",
+      "title": "Prime minister",
+      "from": 1942,
+      "to": 1946,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Şükrü Saracoğlu, Prime minister (1942–1946)"
+      }
+    },
+    {
+      "name": "Celâl Bayar",
+      "title": "President",
+      "from": 1950,
+      "to": 1960,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Celâl Bayar, President (1950–1960)"
+      }
+    },
+    {
+      "name": "Süleyman Demirel",
+      "title": "President",
+      "from": 1993,
+      "to": 2000,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Süleyman Demirel, President (1993–2000)"
+      }
+    },
     {
       "name": "Abdullah Gül",
       "title": "President",
@@ -25,6 +65,66 @@
     }
   ],
   "offices": [
+    {
+      "name": "İsmet İnönü",
+      "title": "President",
+      "from": 1938,
+      "to": 1950,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "İsmet İnönü, President (1938–1950)"
+      }
+    },
+    {
+      "name": "Celâl Bayar",
+      "title": "Prime minister",
+      "from": 1937,
+      "to": 1939,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Celâl Bayar, Prime minister (1937–1939)"
+      }
+    },
+    {
+      "name": "Cemal Gürsel",
+      "title": "Chairman",
+      "from": 1960,
+      "to": 1961,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Cemal Gürsel, Chairman (1960–1961), President (1961–1966)"
+      }
+    },
+    {
+      "name": "Adnan Menderes",
+      "title": "Prime minister",
+      "from": 1950,
+      "to": 1960,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Adnan Menderes, Prime minister (1950–1960)"
+      }
+    },
+    {
+      "name": "Cemal Gürsel",
+      "title": "Prime minister",
+      "from": 1960,
+      "to": 1961,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Cemal Gürsel, Prime minister (1960–1961)"
+      }
+    },
+    {
+      "name": "Tansu Çiller",
+      "title": "Prime minister",
+      "from": 1993,
+      "to": 1996,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Tansu Çiller, Prime minister (1993–1996)"
+      }
+    },
     {
       "name": "Recep Tayyip Erdoğan",
       "title": "Prime minister",

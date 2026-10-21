@@ -1,8 +1,28 @@
 {
   "qid": "Q801",
   "name": "Israel",
-  "summary": "Israel: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Israel: office-holders in 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Yitzhak Ben-Zvi",
+      "title": "President",
+      "from": 1952,
+      "to": 1963,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Yitzhak Ben-Zvi, President (1952–1963)"
+      }
+    },
+    {
+      "name": "Ezer Weizman",
+      "title": "President",
+      "from": 1993,
+      "to": 2000,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Ezer Weizman, President (1993–2000)"
+      }
+    },
     {
       "name": "Shimon Peres",
       "title": "President",
@@ -25,6 +45,26 @@
     }
   ],
   "offices": [
+    {
+      "name": "David Ben-Gurion",
+      "title": "Prime minister",
+      "from": 1955,
+      "to": 1963,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "David Ben-Gurion, Prime minister (1955–1963)"
+      }
+    },
+    {
+      "name": "Yitzhak Rabin",
+      "title": "Prime minister",
+      "from": 1992,
+      "to": 1995,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Yitzhak Rabin, Prime minister (1992–1995)"
+      }
+    },
     {
       "name": "Benjamin Netanyahu",
       "title": "Prime minister",

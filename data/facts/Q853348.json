@@ -1,0 +1,40 @@
+{
+  "qid": "Q853348",
+  "name": "Czechoslovak Socialist Republic",
+  "summary": "Czechoslovak Socialist Republic: office-holders in 1960, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Antonín Novotný",
+      "title": "General Secretary",
+      "from": 1953,
+      "to": 1968,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Antonín Novotný, General Secretary (1953–1968)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Antonín Novotný",
+      "title": "President",
+      "from": 1957,
+      "to": 1968,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Antonín Novotný, President (1957–1968)"
+      }
+    },
+    {
+      "name": "Viliam Široký",
+      "title": "Prime minister",
+      "from": 1953,
+      "to": 1963,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Viliam Široký, Prime minister (1953–1963)"
+      }
+    }
+  ],
+  "events": []
+}

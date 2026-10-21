@@ -1,0 +1,90 @@
+{
+  "qid": "Q60038319",
+  "name": "First Costa Rican Republic",
+  "summary": "First Costa Rican Republic: office-holders in 1880, 1900, 1914, 1920, 1938, 1945, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "Tomás Guardia Gutiérrez",
+      "title": "President",
+      "from": 1877,
+      "to": 1882,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Tomás Guardia Gutiérrez, President (1877–1882)"
+      }
+    },
+    {
+      "name": "Rafael Yglesias Castro",
+      "title": "President",
+      "from": 1894,
+      "to": 1902,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Rafael Yglesias Castro, President (1894–1902)"
+      }
+    },
+    {
+      "name": "Ricardo Jiménez Oreamuno",
+      "title": "President",
+      "from": 1910,
+      "to": 1914,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Ricardo Jiménez Oreamuno, President (1910–1914)"
+      }
+    },
+    {
+      "name": "Francisco Aguilar Barquero",
+      "title": "President",
+      "from": 1919,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Francisco Aguilar Barquero, President (1919–1920)"
+      }
+    },
+    {
+      "name": "León Cortés Castro",
+      "title": "President",
+      "from": 1936,
+      "to": 1940,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "León Cortés Castro, President (1936–1940)"
+      }
+    },
+    {
+      "name": "Teodoro Picado Michalski",
+      "title": "President",
+      "from": 1944,
+      "to": 1948,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Teodoro Picado Michalski, President (1944–1948)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Alfredo González Flores",
+      "title": "President",
+      "from": 1914,
+      "to": 1917,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Alfredo González Flores, President (1914–1917)"
+      }
+    },
+    {
+      "name": "Julio Acosta García",
+      "title": "President",
+      "from": 1920,
+      "to": 1924,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Julio Acosta García, President (1920–1924)"
+      }
+    }
+  ],
+  "events": []
+}

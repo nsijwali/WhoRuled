@@ -1,0 +1,29 @@
+{
+  "qid": "Q815731",
+  "name": "Principality of Bulgaria",
+  "summary": "Principality of Bulgaria: office-holders in 1880, 1900, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "Alexander I",
+      "title": "Prince",
+      "from": 1878,
+      "to": 1887,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Alexander I, Prince (1878–1887)"
+      }
+    },
+    {
+      "name": "Ferdinand I",
+      "title": "Prince",
+      "from": 1887,
+      "to": 1908,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Ferdinand I, Prince (1887–1908), Tsar (1908–1918)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

@@ -1,8 +1,38 @@
 {
   "qid": "Q228",
   "name": "Andorra",
-  "summary": "Andorra: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Andorra: office-holders in 1938, 1945, 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Justí Guitart i Vilardebó",
+      "title": "Episcopal Co-Prince",
+      "from": 1920,
+      "to": 1940,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Justí Guitart i Vilardebó, Episcopal Co-Prince (1920–1940)"
+      }
+    },
+    {
+      "name": "Ramon Iglesias i Navarri",
+      "title": "Episcopal Co-Prince",
+      "from": 1943,
+      "to": 1969,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Ramon Iglesias i Navarri, Episcopal Co-Prince (1943–1969)"
+      }
+    },
+    {
+      "name": "Joan Martí i Alanis",
+      "title": "Episcopal Co-Prince",
+      "from": 1971,
+      "to": 2003,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Joan Martí i Alanis, Episcopal Co-Prince (1971–2003)"
+      }
+    },
     {
       "name": "Joan Enric Vives Sicília",
       "title": "Episcopal Co-Prince",
@@ -25,6 +55,66 @@
     }
   ],
   "offices": [
+    {
+      "name": "Albert François Lebrun",
+      "title": "French Co-Prince",
+      "from": 1932,
+      "to": 1940,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Albert François Lebrun, French Co-Prince (1932–1940)"
+      }
+    },
+    {
+      "name": "Charles de Gaulle",
+      "title": "French Co-Prince",
+      "from": 1944,
+      "to": 1946,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Charles de Gaulle, French Co-Prince (1944–1946)"
+      }
+    },
+    {
+      "name": "Charles de Gaulle",
+      "title": "French Co-Prince",
+      "from": 1959,
+      "to": 1969,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Charles de Gaulle, French Co-Prince (1959–1969)"
+      }
+    },
+    {
+      "name": "François Mitterrand",
+      "title": "French Co-Prince",
+      "from": 1981,
+      "to": 1995,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "François Mitterrand, French Co-Prince (1981–1995)"
+      }
+    },
+    {
+      "name": "Òscar Ribas Reig",
+      "title": "Prime minister",
+      "from": 1990,
+      "to": 1994,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Òscar Ribas Reig, Prime minister (1990–1994)"
+      }
+    },
+    {
+      "name": "Marc Forné Molné",
+      "title": "Prime minister",
+      "from": 1994,
+      "to": 2005,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Marc Forné Molné, Prime minister (1994–2005)"
+      }
+    },
     {
       "name": "Nicolas Sarkozy",
       "title": "French Co-Prince",

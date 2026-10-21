@@ -1,0 +1,19 @@
+{
+  "qid": "Q28179",
+  "name": "Joseon",
+  "summary": "Joseon: office-holders in 1880, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Gojong",
+      "title": "King",
+      "from": 1863,
+      "to": 1897,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Gojong, King (1863–1897), Emperor (1897–1907)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

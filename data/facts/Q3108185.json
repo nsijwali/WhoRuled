@@ -1,0 +1,40 @@
+{
+  "qid": "Q3108185",
+  "name": "Ba'athist Iraq",
+  "summary": "Ba'athist Iraq: office-holders in 1994, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Saddam Hussein",
+      "title": "President",
+      "from": 1979,
+      "to": 2003,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Saddam Hussein, President (1979–2003)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Ahmad Husayn Khudayir as-Samarrai",
+      "title": "Prime minister",
+      "from": 1993,
+      "to": 1994,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Ahmad Husayn Khudayir as-Samarrai, Prime minister (1993–1994)"
+      }
+    },
+    {
+      "name": "Saddam Hussein",
+      "title": "Prime minister",
+      "from": 1994,
+      "to": 2003,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Saddam Hussein, Prime minister (1994–2003)"
+      }
+    }
+  ],
+  "events": []
+}

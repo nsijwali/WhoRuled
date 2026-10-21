@@ -1,0 +1,100 @@
+{
+  "qid": "Q29999",
+  "name": "Kingdom of the Netherlands",
+  "summary": "Kingdom of the Netherlands: office-holders in 1880, 1900, 1960, 1994, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "William III",
+      "title": "King",
+      "from": 1849,
+      "to": 1890,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "William III, King (1849–1890)"
+      }
+    },
+    {
+      "name": "Wilhelmina",
+      "title": "Queen",
+      "from": 1890,
+      "to": 1948,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Wilhelmina, Queen (1890–1948)"
+      }
+    },
+    {
+      "name": "Juliana",
+      "title": "Queen",
+      "from": 1948,
+      "to": 1980,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Juliana, Queen (1948–1980)"
+      }
+    },
+    {
+      "name": "Beatrix",
+      "title": "Queen",
+      "from": 1980,
+      "to": 2013,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Beatrix, Queen (1980–2013)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Theo van Lynden van Sandenburg",
+      "title": "Prime minister",
+      "from": 1879,
+      "to": 1883,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Theo van Lynden van Sandenburg, Prime minister (1879–1883)"
+      }
+    },
+    {
+      "name": "Nicolaas Pierson",
+      "title": "Prime minister",
+      "from": 1897,
+      "to": 1901,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Nicolaas Pierson, Prime minister (1897–1901)"
+      }
+    },
+    {
+      "name": "Jan de Quay",
+      "title": "Prime minister",
+      "from": 1959,
+      "to": 1963,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Jan de Quay, Prime minister (1959–1963)"
+      }
+    },
+    {
+      "name": "Ruud Lubbers",
+      "title": "Prime minister",
+      "from": 1982,
+      "to": 1994,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Ruud Lubbers, Prime minister (1982–1994)"
+      }
+    },
+    {
+      "name": "Wim Kok",
+      "title": "Prime minister",
+      "from": 1994,
+      "to": 2002,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Wim Kok, Prime minister (1994–2002)"
+      }
+    }
+  ],
+  "events": []
+}

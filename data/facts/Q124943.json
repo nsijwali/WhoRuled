@@ -1,0 +1,50 @@
+{
+  "qid": "Q124943",
+  "name": "Kingdom of Egypt",
+  "summary": "Kingdom of Egypt: office-holders in 1938, 1945, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "Farouk I",
+      "title": "King",
+      "from": 1936,
+      "to": 1952,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Farouk I, King (1936–1952)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Mohamed Mahmoud Pasha",
+      "title": "Prime minister",
+      "from": 1937,
+      "to": 1939,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Mohamed Mahmoud Pasha, Prime minister (1937–1939)"
+      }
+    },
+    {
+      "name": "Ahmad Mahir Pasha",
+      "title": "Prime minister",
+      "from": 1944,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Ahmad Mahir Pasha, Prime minister (1944–1945)"
+      }
+    },
+    {
+      "name": "Mahmoud El Nokrashy Pasha",
+      "title": "Prime minister",
+      "from": 1945,
+      "to": 1946,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Mahmoud El Nokrashy Pasha, Prime minister (1945–1946)"
+      }
+    }
+  ],
+  "events": []
+}

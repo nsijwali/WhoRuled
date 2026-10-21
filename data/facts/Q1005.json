@@ -1,8 +1,18 @@
 {
   "qid": "Q1005",
   "name": "Gambia",
-  "summary": "Gambia: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Gambia: office-holders in 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Dawda Jawara",
+      "title": "President",
+      "from": 1970,
+      "to": 1994,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Dawda Jawara, President (1970–1994)"
+      }
+    },
     {
       "name": "Yahya Jammeh",
       "title": "President",
@@ -24,6 +34,17 @@
       }
     }
   ],
-  "offices": [],
+  "offices": [
+    {
+      "name": "Yahya Jammeh",
+      "title": "Chairman of the Armed Forces Provisional Ruling Council",
+      "from": 1994,
+      "to": 1996,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Yahya Jammeh, Chairman of the Armed Forces Provisional Ruling Council (1994–1996), President (1996–2017)"
+      }
+    }
+  ],
   "events": []
 }

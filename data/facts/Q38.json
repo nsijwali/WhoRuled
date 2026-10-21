@@ -1,8 +1,28 @@
 {
   "qid": "Q38",
   "name": "Italy",
-  "summary": "Italy: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Italy: office-holders in 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Giovanni Gronchi",
+      "title": "President",
+      "from": 1955,
+      "to": 1962,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Giovanni Gronchi, President (1955–1962)"
+      }
+    },
+    {
+      "name": "Oscar Luigi Scalfaro",
+      "title": "President",
+      "from": 1992,
+      "to": 1999,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Oscar Luigi Scalfaro, President (1992–1999)"
+      }
+    },
     {
       "name": "Giorgio Napolitano",
       "title": "President",
@@ -25,6 +45,56 @@
     }
   ],
   "offices": [
+    {
+      "name": "Antonio Segni",
+      "title": "Prime minister",
+      "from": 1959,
+      "to": 1960,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Antonio Segni, Prime minister (1959–1960)"
+      }
+    },
+    {
+      "name": "Fernando Tambroni",
+      "title": "Prime minister",
+      "from": 1960,
+      "to": 1960,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Fernando Tambroni, Prime minister (1960)"
+      }
+    },
+    {
+      "name": "Amintore Fanfani",
+      "title": "Prime minister",
+      "from": 1960,
+      "to": 1963,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Amintore Fanfani, Prime minister (1960–1963)"
+      }
+    },
+    {
+      "name": "Carlo Azeglio Ciampi",
+      "title": "Prime minister",
+      "from": 1993,
+      "to": 1994,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Carlo Azeglio Ciampi, Prime minister (1993–1994)"
+      }
+    },
+    {
+      "name": "Silvio Berlusconi",
+      "title": "Prime minister",
+      "from": 1994,
+      "to": 1995,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Silvio Berlusconi, Prime minister (1994–1995)"
+      }
+    },
     {
       "name": "Silvio Berlusconi",
       "title": "Prime minister",

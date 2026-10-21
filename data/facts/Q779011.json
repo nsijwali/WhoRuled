@@ -1,0 +1,30 @@
+{
+  "qid": "Q779011",
+  "name": "Principality of Montenegro",
+  "summary": "Principality of Montenegro: office-holders in 1880, 1900, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "Nikola I",
+      "title": "Sovereign prince",
+      "from": 1860,
+      "to": 1910,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Nikola I, Sovereign prince (1860–1910), King (1910–1918)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Božo Petrović-Njegoš",
+      "title": "President",
+      "from": 1879,
+      "to": 1905,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Božo Petrović-Njegoš, President (1879–1905)"
+      }
+    }
+  ],
+  "events": []
+}

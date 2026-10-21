@@ -1,0 +1,19 @@
+{
+  "qid": "Q849623",
+  "name": "Oyo Empire",
+  "summary": "Oyo Empire: office-holders in 1880, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Adeyemi I Alowolodu",
+      "title": "Alaafin",
+      "from": 1876,
+      "to": 1888,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Adeyemi I Alowolodu, Alaafin (1876–1888), Oba (1888–1896)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

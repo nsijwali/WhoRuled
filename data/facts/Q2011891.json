@@ -1,0 +1,19 @@
+{
+  "qid": "Q2011891",
+  "name": "Emirate of Nejd and Hasa",
+  "summary": "Emirate of Nejd and Hasa: office-holders in 1914, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Ibn Saud",
+      "title": "Emir",
+      "from": 1902,
+      "to": 1921,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Ibn Saud, Emir (1902–1921), Sultan (1921–1927), King (1926–1953)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

@@ -1,8 +1,88 @@
 {
   "qid": "Q736",
   "name": "Ecuador",
-  "summary": "Ecuador: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Ecuador: office-holders in 1880, 1900, 1914, 1920, 1938, 1945, 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Ignacio de Veintemilla",
+      "title": "President",
+      "from": 1878,
+      "to": 1882,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Ignacio de Veintemilla, Jéfe Supremo (1876–1878), President (1878–1882), Jéfe Supremo (1882–1883)"
+      }
+    },
+    {
+      "name": "Eloy Alfaro",
+      "title": "President",
+      "from": 1897,
+      "to": 1901,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Eloy Alfaro, Jéfe Supremo (1895–1896), Interim President (1896–1897), President (1897–1901)"
+      }
+    },
+    {
+      "name": "Leónidas Plaza",
+      "title": "President",
+      "from": 1912,
+      "to": 1916,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Leónidas Plaza, President (1912–1916)"
+      }
+    },
+    {
+      "name": "Alfredo Baquerizo",
+      "title": "President",
+      "from": 1916,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Alfredo Baquerizo, President (1916–1920)"
+      }
+    },
+    {
+      "name": "Manuel María Borrero",
+      "title": "Interim President",
+      "from": 1938,
+      "to": 1938,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Manuel María Borrero, Interim President (1938)"
+      }
+    },
+    {
+      "name": "José María Velasco Ibarra",
+      "title": "Constitutional President",
+      "from": 1944,
+      "to": 1946,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "José María Velasco Ibarra, President of the Republic (1944), Constitutional President (1944–1946), President of the Republic (1946), Constitutional President (1946–1947)"
+      }
+    },
+    {
+      "name": "Camilo Ponce Enríquez",
+      "title": "President",
+      "from": 1956,
+      "to": 1960,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Camilo Ponce Enríquez, President (1956–1960)"
+      }
+    },
+    {
+      "name": "Sixto Durán Ballén",
+      "title": "President",
+      "from": 1992,
+      "to": 1996,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Sixto Durán Ballén, President (1992–1996)"
+      }
+    },
     {
       "name": "Rafael Correa",
       "title": "President",
@@ -24,6 +104,47 @@
       }
     }
   ],
-  "offices": [],
+  "offices": [
+    {
+      "name": "José Luis Tamayo",
+      "title": "President",
+      "from": 1920,
+      "to": 1924,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "José Luis Tamayo, President (1920–1924)"
+      }
+    },
+    {
+      "name": "Alberto Enríquez Gallo",
+      "title": "Jéfe Supremo",
+      "from": 1937,
+      "to": 1938,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Alberto Enríquez Gallo, Jéfe Supremo (1937–1938)"
+      }
+    },
+    {
+      "name": "Aurelio Mosquera",
+      "title": "President",
+      "from": 1938,
+      "to": 1939,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Aurelio Mosquera, President (1938–1939)"
+      }
+    },
+    {
+      "name": "José María Velasco Ibarra",
+      "title": "President",
+      "from": 1960,
+      "to": 1961,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "José María Velasco Ibarra, President (1960–1961)"
+      }
+    }
+  ],
   "events": []
 }

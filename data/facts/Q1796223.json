@@ -1,0 +1,19 @@
+{
+  "qid": "Q1796223",
+  "name": "Lunda Empire",
+  "summary": "Lunda Empire: office-holders in 1880, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Mbumb I Muteba Kat",
+      "title": "Mwaant Yaav",
+      "from": 1874,
+      "to": 1883,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Mbumb I Muteba Kat, Mwaant Yaav (1874–1883)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

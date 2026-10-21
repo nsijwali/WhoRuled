@@ -1,0 +1,30 @@
+{
+  "qid": "Q7784940",
+  "name": "Madagascar: Third Republic",
+  "summary": "Madagascar: Third Republic: office-holders in 1994, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Albert Zafy",
+      "title": "President",
+      "from": 1993,
+      "to": 1996,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Albert Zafy, President (1993–1996)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Francisque Ravony",
+      "title": "Prime minister",
+      "from": 1993,
+      "to": 1995,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Francisque Ravony, Prime minister (1993–1995)"
+      }
+    }
+  ],
+  "events": []
+}

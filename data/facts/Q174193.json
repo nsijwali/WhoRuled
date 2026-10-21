@@ -4,6 +4,16 @@
   "summary": "United Kingdom of Great Britain and Ireland as drawn in the 1914 border data.",
   "rulers": [
     {
+      "name": "Victoria",
+      "title": "Queen",
+      "from": 1837,
+      "to": 1901,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Victoria, Queen (1837–1901)"
+      }
+    },
+    {
       "name": "George V",
       "title": "king",
       "from": 1910,
@@ -11,6 +21,58 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/George_V",
         "quote": "was King of the United Kingdom and the British Dominions"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Benjamin Disraeli",
+      "title": "Prime minister",
+      "from": 1874,
+      "to": 1880,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Benjamin Disraeli, Prime minister (1874–1880)"
+      }
+    },
+    {
+      "name": "William Ewart Gladstone",
+      "title": "Prime minister",
+      "from": 1880,
+      "to": 1885,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "William Ewart Gladstone, Prime minister (1880–1885)"
+      }
+    },
+    {
+      "name": "Robert Gascoyne-Cecil",
+      "title": "Prime minister",
+      "from": 1895,
+      "to": 1902,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Robert Gascoyne-Cecil, Prime minister (1895–1902)"
+      }
+    },
+    {
+      "name": "H. H. Asquith",
+      "title": "Prime minister",
+      "from": 1908,
+      "to": 1916,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "H. H. Asquith, Prime minister (1908–1916)"
+      }
+    },
+    {
+      "name": "David Lloyd George",
+      "title": "Prime minister",
+      "from": 1916,
+      "to": 1922,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "David Lloyd George, Prime minister (1916–1922)"
       }
     }
   ],

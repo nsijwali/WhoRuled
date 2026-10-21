@@ -1,0 +1,341 @@
+# source: https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)
+# 170 states. QIDs come from each state's linked article and were checked against its Wikidata inception/dissolution dates.
+# wikidata-description Q916: country on the west coast of Southern Africa
+Angola|Q916|José Eduardo dos Santos, President (1979–2017);Marcolino Moco, Prime minister (1992–1996)
+# wikidata-description Q1009: sovereign state in West-Central Africa
+Cameroon|Q1009|Paul Biya, President (1982–present);Simon Achidi Achu, Prime minister (1992–1996)
+# wikidata-description Q929: country in Central Africa
+Central African Republic|Q929|Ange-Félix Patassé, President (1993–2003);Jean-Luc Mandaba, Prime minister (1993–1995)
+# wikidata-description Q657: sovereign state in central Africa
+Chad|Q657|Idriss Déby, President (1990–2021);Delwa Kassiré Koumakoye, Prime minister (1993–1995)
+Zaire|Q6500954|Mobutu Sese Seko, President (1971–1997);Faustin Birindwa, Prime minister (1993–1994);Léon Kengo, First state commissioner (1994–1997)
+# wikidata-description Q971: country in Central Africa, capital Brazzaville
+Republic of the Congo|Q971|Pascal Lissouba, President (1992–1997);Joachim Yhombi-Opango, Prime minister (1993–1996)|Congo
+# wikidata-description Q983: sovereign state in Central Africa
+Equatorial Guinea|Q983|Teodoro Obiang Nguema Mbasogo, President (1979–present);Silvestre Siale Bileka, Prime minister (1992–1996)
+# wikidata-description Q1000: country on the Atlantic coast of Central Africa
+Gabon|Q1000|Omar Bongo, President (1967–2009);Casimir Oyé-Mba, Prime minister (1990–1994);Paulin Obame-Nguema, Prime minister (1994–1999)
+# wikidata-description Q967: sovereign state in Africa
+Burundi|Q967|Sylvie Kinigi, Acting President (1993–1994);Cyprien Ntaryamira, President (1994);Sylvestre Ntibantunganya, President (1994–1996);Sylvie Kinigi, Prime minister (1993–1994);Anatole Kanyenkiko, Prime minister (1994–1995)
+# wikidata-description Q977: sovereign state in Africa
+Djibouti|Q977|Hassan Gouled Aptidon, President (1977–1999);Barkat Gourad Hamadou, Prime minister (1978–2001)
+# wikidata-description Q986: country in the Horn of Africa
+Eritrea|Q986|Isaias Afwerki, President (1993–present)
+# wikidata-description Q332071: transitional government of Ethiopia (1991–1995)
+Transitional Government of Ethiopia|Q332071|Meles Zenawi, Acting President (1991–1995);Tamrat Layne, Acting Prime minister (1991–1995)|Ethiopia
+# wikidata-description Q114: country in Eastern Africa
+Kenya|Q114|Daniel arap Moi, President (1978–2002)
+# wikidata-description Q7784940: country in the Indian Ocean (1992–2010)
+Madagascar: Third Republic|Q7784940|Albert Zafy, President (1993–1996);Francisque Ravony, Prime minister (1993–1995)|Madagascar
+# wikidata-description Q1037: country in East Africa
+Rwanda|Q1037|Juvénal Habyarimana, President (1973–1994);Théodore Sindikubwabo, Interim President (1994);Pasteur Bizimungu, President (1994–2000);Agathe Uwilingiyimana, Prime minister (1993–1994);Jean Kambanda, Prime minister (1994);Faustin Twagiramungu, Prime minister (1994–1995)
+# wikidata-description Q924: country in East Africa
+Tanzania|Q924|Ali Hassan Mwinyi, President (1985–1995);John Malecela, Prime minister (1990–1994);Cleopa Msuya, Prime minister (1994–1995)|Tanzania, United Republic of
+# wikidata-description Q1036: country in East Africa
+Uganda|Q1036|Yoweri Museveni, President (1986–present);George Cosmas Adyebo, Prime minister (1991–1994);Kintu Musoke, Prime minister (1994–1999)
+# wikidata-description Q948: country in North Africa
+Tunisia|Q948|Zine El Abidine Ben Ali, President (1987–2011);Hamed Karoui, Prime minister (1989–1999)
+# wikidata-description Q79: country in Northeast Africa and Southwest Asia
+Egypt|Q79|Hosni Mubarak, President (1981–2011);Atef Sedky, Prime minister (1986–1996)
+# wikidata-description Q1049: country in Northeast Africa
+Sudan|Q1049|Omar al-Bashir, President (1989–2019)
+# wikidata-description Q262: country in North Africa
+Algeria|Q262|Ali Kafi, President (1992–1994);Liamine Zéroual, President (1994–1999);Redha Malek, Prime minister (1993–1994);Mokdad Sifi, Prime minister (1994–1995)
+# wikidata-description Q1028: sovereign state in North Africa
+Morocco|Q1028|Hassan II, King (1961–1999);Mohammed Karim Lamrani, Prime minister (1992–1994);Abdellatif Filali, Prime minister (1994–1998)
+# wikidata-description Q963: sovereign state in Southern Africa
+Botswana|Q963|Quett Masire, President (1980–1998)
+# wikidata-description Q1050: sovereign state in southern Africa
+Eswatini|Q1050|Mswati III, King (1986–present);Ntfombi, Queen Regent (1983–1986), Ndlovukati (1983–present);Jameson Mbilini Dlamini, Prime minister (1993–1996)|Swaziland
+# wikidata-description Q1013: sovereign state in southern Africa
+Lesotho|Q1013|Letsie III, King (1990–1995, 1996–present);Ntsu Mokhehle, Prime minister (1993–1994);Hae Phoofolo, Interim Prime minister (1994);Ntsu Mokhehle, Prime minister (1994–1998)
+# wikidata-description Q1020: sovereign state in Africa
+Malawi|Q1020|Hastings Banda, President (1966–1994);Bakili Muluzi, President (1994–2004)
+# wikidata-description Q1029: country in Southeastern Africa; the current form of Mozambique since 1975
+Mozambique|Q1029|Joaquim Chissano, President (1990–2005);Mário da Graça Machungo, Prime minister (1990–1994);Pascoal Mocumbi, Prime minister (1994–2004)
+# wikidata-description Q1030: country in Southern Africa
+Namibia|Q1030|Sam Nujoma, President (1990–2005);Hage Geingob, Prime minister (1990–2002)
+# wikidata-description Q258: country in southern Africa
+South Africa|Q258|F. W. de Klerk, State President (1989–1994);Nelson Mandela, President (1994–1999)
+# wikidata-description Q953: country at the crossroads of Central and Southern Africa
+Zambia|Q953|Frederick Chiluba, President (1991–2002)
+# wikidata-description Q954: sovereign state in southern Africa
+Zimbabwe|Q954|Robert Mugabe, President (1987–2017)
+# wikidata-description Q962: sovereign state in West Africa
+Benin|Q962|Nicéphore Soglo, President (1991–1996)
+# wikidata-description Q965: sovereign state in Africa
+Burkina Faso|Q965|Blaise Compaoré, President (1987–2014);Youssouf Ouédraogo, Prime minister (1992–1994);Roch Marc Christian Kaboré, Prime minister (1994–1996)
+# wikidata-description Q1005: sovereign state in West Africa
+the Gambia|Q1005|Dawda Jawara, President (1970–1994);Yahya Jammeh, Chairman of the Armed Forces Provisional Ruling Council (1994–1996), President (1996–2017)|Gambia, The
+# wikidata-description Q117: country in West Africa
+Ghana|Q117|Jerry Rawlings, Military Head of State (1981–1993), President of the Fourth Republic (1993–2001)
+# wikidata-description Q1006: sovereign state in West Africa
+Guinea|Q1006|Lansana Conté, President (1984–2008)
+# wikidata-description Q1007: sovereign state in Western Africa
+Guinea-Bissau|Q1007|João Bernardo Vieira, President (1984–1999);Carlos Correia, Prime minister (1991–1994);Manuel Saturnino da Costa, Prime minister (1994–1997)
+# wikidata-description Q1008: sovereign state in West Africa
+Ivory Coast|Q1008|Henri Konan Bédié, President (1993–1999);Daniel Kablan Duncan, Prime minister (1993–1999)
+# wikidata-description Q1014: sovereign state in West Africa
+Liberia|Q1014|Amos Sawyer, President of the Interim Government of National Unity (1990–1994);David D. Kpormakpor, Chairman of the Council of State (1994–1995)
+# wikidata-description Q912: country in West Africa
+Mali|Q912|Alpha Oumar Konaré, President (1992–2002);Abdoulaye Sékou Sow, Prime minister (1993–1994);Ibrahim Boubacar Keïta, Prime minister (1994–2000)
+# wikidata-description Q1025: sovereign state in West Africa and North Africa
+Mauritania|Q1025|Maaouya Ould Sid'Ahmed Taya, Chairman of the Military Committee for National Salvation (1984–1992), President (1992–2005);Sidi Mohamed Ould Boubacar, Prime minister (1992–1996)
+# wikidata-description Q1032: sovereign state in western Africa
+Niger|Q1032|Mahamane Ousmane, President of the Republic (1993–1996);Mahamadou Issoufou, Prime minister (1993–1994);Souley Abdoulaye, Prime minister (1994–1995)
+# wikidata-description Q1033: sovereign state in West Africa
+Nigeria|Q1033|Sani Abacha, Military Head of State (1993–1998)
+# wikidata-description Q1041: country on the coast of West Africa
+Senegal|Q1041|Abdou Diouf, President (1981–2000);Habib Thiam, Prime minister (1991–1998)
+# wikidata-description Q1044: sovereign state in West Africa
+Sierra Leone|Q1044|Valentine Strasser, Military Head of State (1992–1996)
+# wikidata-description Q945: country in West Africa
+Togolese|Q945|Gnassingbé Eyadéma, President (1967–2005);Joseph Kokou Koffigoh, Prime minister (1991–1994);Edem Kodjo, Prime minister (1994–1996)|Togo
+# wikidata-description Q781: island sovereign state in the Caribbean Sea
+Antigua and Barbuda|Q781|Elizabeth II, Queen (1981–2022);Vere Bird, Prime minister (1981–1994);Lester Bird, Prime minister (1994–2004)
+# wikidata-description Q778: island sovereign state in the West Indies
+Bahamas|Q778|Elizabeth II, Queen (1973–2022);Hubert Ingraham, Prime minister (1992–2002)
+# wikidata-description Q244: island nation in the Caribbean
+Barbados|Q244|Elizabeth II, Queen (1966–2021);Lloyd Erskine Sandiford, Prime minister (1987–1994);Owen Arthur, Prime minister (1994–2008)
+# wikidata-description Q241: sovereign state situated on an island in the Caribbean Sea
+Cuba|Q241|Fidel Castro, President of the Council of State (1976–2008);Fidel Castro, Prime minister (1959–1976), President of the Council of Ministers (1976–2008)
+# wikidata-description Q784: island sovereign state in the Caribbean Sea
+Dominica|Q784|Crispin Sorhaindo, President (1993–1998);Eugenia Charles, Prime minister (1980–1995)
+# wikidata-description Q786: island sovereign state in the Caribbean Sea
+Dominican Republic|Q786|Joaquín Balaguer, President (1986–1996)
+# wikidata-description Q769: island sovereign state in the Caribbean Sea
+Grenada|Q769|Elizabeth II, Queen (1974–2022);Nicholas Brathwaite, Prime minister (1990–1995)
+# wikidata-description Q790: country in the Caribbean Sea
+Third Haitian Republic|Q790|Jean-Bertrand Aristide, President (1993–1994);Émile Jonassaint, Provisional President (1994);Jean-Bertrand Aristide, President (1994–1996);Robert Malval, Prime minister (1993–1994);Smarck Michel, Prime minister (1994–1995)|Haiti
+# wikidata-description Q766: island state in the Caribbean Sea
+Jamaica|Q766|Elizabeth II, Queen (1962–2022);P. J. Patterson, Prime minister (1992–2006)
+# wikidata-description Q763: island sovereign state in the Caribbean Sea
+Saint Kitts and Nevis|Q763|Elizabeth II, Queen (1983–2022);Kennedy Simmonds, Prime minister (1983–1995)
+# wikidata-description Q760: island sovereign state in the Caribbean Sea
+Saint Lucia|Q760|Elizabeth II, Queen (1979–2022);John Compton, Prime minister (1982–1996)
+# wikidata-description Q757: island sovereign state in the Caribbean Sea
+Saint Vincent and the Grenadines|Q757|Elizabeth II, Queen (1979–2022);James Fitz-Allen Mitchell, Prime minister (1984–2000)
+# wikidata-description Q754: island sovereign state in the Caribbean
+Trinidad and Tobago|Q754|Noor Hassanali, President (1987–1997);Patrick Manning, Prime minister (1991–1995)|Trinidad
+# wikidata-description Q242: sovereign state in Central America
+Belize|Q242|Elizabeth II, Queen (1981–2022);Manuel Esquivel, Prime minister (1993–1998)
+# wikidata-description Q800: country in Central America
+Costa Rica|Q800|Rafael Calderón Fournier, President (1990–1994);José Figueres Olsen, President (1994–1998)
+# wikidata-description Q792: sovereign state in Central America
+El Salvador|Q792|Alfredo Cristiani, President (1989–1994);Armando Calderón Sol, President (1994–1999)
+# wikidata-description Q774: sovereign state in Central America
+Guatemala|Q774|Ramiro de León Carpio, President (1993–1996)
+# wikidata-description Q783: sovereign state in Central America
+Honduras|Q783|Rafael Leonardo Callejas Romero, President (1990–1994);Carlos Roberto Reina, President (1994–1998)
+# wikidata-description Q811: sovereign state in Central America
+Nicaragua|Q811|Violeta Chamorro, President (1990–1997)
+# wikidata-description Q804: sovereign state in Central America
+Panama|Q804|Guillermo Endara, President (1989–1994);Ernesto Pérez Balladares, President (1994–1999)
+# wikidata-description Q16: country in North America
+Canada|Q16|Elizabeth II, Queen (1952–2022);Jean Chrétien, Prime minister (1993–2003)
+# wikidata-description Q96: country in North America
+Mexico|Q96|Carlos Salinas de Gortari, President (1988–1994);Ernesto Zedillo, President (1994–2000)
+# wikidata-description Q30: country located primarily in North America
+United States|Q30|Bill Clinton, President (1993–2001)
+# wikidata-description Q414: country in South America
+Argentina|Q414|Carlos Menem, President (1989–1999)
+# wikidata-description Q750: sovereign state in South America
+Bolivia|Q750|Gonzalo Sánchez de Lozada, President (1993–1997)
+# wikidata-description Q155: country in South America
+Brazil|Q155|Itamar Franco, President (1992–1995)
+# wikidata-description Q298: country in South America
+Chile|Q298|Patricio Aylwin, President (1990–1994);Eduardo Frei Ruiz-Tagle, President (1994–2000)
+# wikidata-description Q739: country in South America
+Colombia|Q739|César Gaviria Trujillo, President (1990–1994);Ernesto Samper Pizano, President (1994–1998)
+# wikidata-description Q736: sovereign state in South America
+Ecuador|Q736|Sixto Durán Ballén, President (1992–1996)
+# wikidata-description Q734: country in South America
+Guyana|Q734|Cheddi Jagan, President (1992–1997);Sam Hinds, Prime minister (1992–1997)
+# wikidata-description Q733: sovereign state in South America
+Paraguay|Q733|Juan Carlos Wasmosy, President (1993–1998)
+# wikidata-description Q419: sovereign state in South America
+Peru|Q419|Alberto Fujimori, Constitutional President (1990–1992), de facto President (1992–1995), Constitutional President (1995–2000);Alfonso Bustamante, Prime Minister (1993–1994);Efrain Goldenberg, Prime Minister (1994–1995)
+# wikidata-description Q730: country in South America
+Suriname|Q730|Ronald Venetiaan, President (1991–1996)
+# wikidata-description Q77: sovereign state in South America
+Uruguay|Q77|Luis Alberto Lacalle, President (1990–1995)
+# wikidata-description Q21296156: historical period of Venezuela
+Republic of Venezuela|Q21296156|Ramón José Velásquez, Interim President (1993–1994);Rafael Caldera, President (1994–1999)|Venezuela
+# wikidata-description Q232: sovereign state in Eastern Europe and Central Asia
+Kazakhstan|Q232|Nursultan Nazarbayev, President (1991–2019);Sergey Tereshchenko, Prime minister (1991–1994);Akejan Kajegeldin, Prime minister (1994–1997)
+# wikidata-description Q813: sovereign state in Central Asia
+Kyrgyzstan|Q813|Askar Akayev, President (1990–2005);Apas Jumagulov, Prime minister (1993–1998)
+# wikidata-description Q863: sovereign state in Central Asia
+Tajikistan|Q863|Emomali Rahmon, Chairman of the Supreme Assembly (1992–1994), President (1994–present);Abdujalil Samadov, Prime minister (1993–1994);Jamshed Karimov, Prime minister (1994–1996)
+# wikidata-description Q874: country in Central Asia
+Turkmenistan|Q874|Saparmurat Niyazov, President (1990–2006)
+# wikidata-description Q265: sovereign state in Central Asia
+Uzbekistan|Q265|Islam Karimov, President (1991–2016);Abdulhashim Mutalov, Prime minister (1992–1995)
+# wikidata-description Q865: country in East Asia
+Republic of China: Taiwan|Q865|Lee Teng-hui, President (1988–2000);Lien Chan, Premier (1993–1997)|Taiwan
+# wikidata-description Q148: country in East Asia
+China|Q148|Jiang Zemin, General Secretary (1989–2002), Paramount Leader (1989–2002);Jiang Zemin, President (1993–2003);Li Peng, Premier (1988–1998)
+# wikidata-description Q17: island country in East Asia
+Japan|Q17|Akihito, Emperor (1989–2019);Morihiro Hosokawa, Prime minister (1993–1994);Tsutomu Hata, Prime minister (1994);Tomiichi Murayama, Prime minister (1994–1996)
+# wikidata-description Q423: sovereign state in East Asia
+North Korea|Q423|Kim Il Sung, Chairman (1949–1966), General Secretary (1966–1994);Kim Il Sung, President (1972–1994);Kang Song-san, Premier (1992–1997)|Korea, Democratic People's Republic of
+# wikidata-description Q884: country in East Asia
+South Korea|Q884|Kim Young-sam, President (1993–1998);Lee Hoi-chang, Prime minister (1993–1994);Lee Yung-dug, Prime minister (1994);Lee Hong-koo, Prime minister (1994–1995)|Korea, Republic of
+# wikidata-description Q711: country in East Asia
+Mongolia|Q711|Punsalmaagiin Ochirbat, President (1992–1997);Puntsagiin Jasrai, Prime minister (1992–1996)
+# wikidata-description Q921: sovereign country and sultanate on the island of Borneo in south-east Asia, member of the Commonwealth of Nations
+Protectorate of Brunei|Q921|Hassanal Bolkiah, Sultan (1967–present)|Brunei
+# wikidata-description Q424: country in Southeast Asia
+Cambodia|Q424|Norodom Sihanouk, King (1993–2004);Norodom Ranariddh, First Prime minister (1993–1997)
+# wikidata-description Q819: country in Southeast Asia
+Lao People's Democratic Republic|Q819|Khamtai Siphandone, Chairman (1992–2006);Nouhak Phoumsavanh, President (1992–1998);Khamtai Siphandone, Prime minister (1991–1998)|Laos
+# wikidata-description Q833: country in Southeast Asia
+Malaysia|Q833|Azlan Shah of Perak, Yang di-Pertuan Agong (1989–1994);Ja'afar of Negeri Sembilan, Yang di-Pertuan Agong (1994–1999);Mahathir Mohamad, Prime minister (1981–2003)
+# wikidata-description Q836: country in Southeast Asia
+Myanmar|Q836|Than Shwe, Chairmen (1992–2011);Than Shwe, Prime minister (1992–2003)|Burma
+# wikidata-description Q928: archipelagic country in Southeast Asia
+Philippines|Q928|Fidel V. Ramos, President (1992–1998)
+# wikidata-description Q869: country in Southeast Asia
+Thailand|Q869|Bhumibol Adulyadej, King (1946–2016);Chuan Leekpai, Prime minister (1992–1995)
+# wikidata-description Q881: country in Southeast Asia
+Vietnam|Q881|Đỗ Mười, General Secretary (1991–1997);Lê Đức Anh, President (1992–1997);Võ Văn Kiệt, Chairmen of the Council of ministers (1991–1992), Prime minister (1992–1997)
+# wikidata-description Q1415585: 1992–2002 interim state in Central Asia established by the Peshawar Accords
+Islamic State of Afghanistan|Q1415585|Burhanuddin Rabbani, President (1992–1996);Gulbuddin Hekmatyar, Prime minister (1993–1994);Arsala Rahmani Daulat, Prime minister (1994–1995)|Afghanistan
+# wikidata-description Q902: country in South Asia
+Bangladesh|Q902|Abdur Rahman Biswas, President (1991–1996);Khaleda Zia, Prime minister (1991–1996)
+# wikidata-description Q917: sovereign state in South Asia
+Bhutan|Q917|Jigme Singye Wangchuck, Druk Gyalpo (1972–2006)
+# wikidata-description Q668: country in South Asia
+India|Q668|Shankar Dayal Sharma, President (1992–1997);P. V. Narasimha Rao, Prime minister (1991–1996)
+# wikidata-description Q1078602: sovereign monarchy in South Asia, lasting from 1768–2008
+Kingdom of Nepal|Q1078602|Birendra, King (1972–2001);Girija Prasad Koirala, Prime minister (1991–1994);Man Mohan Adhikari, Prime minister (1994–1995)|Nepal
+# wikidata-description Q843: sovereign state in South Asia
+Pakistan|Q843|Farooq Leghari, President (1993–1997);Benazir Bhutto, Prime minister (1993–1996)
+# wikidata-description Q854: island country in South Asia
+Sri Lanka|Q854|Dingiri Banda Wijetunga, President (1993–1994);Chandrika Kumaratunga, President (1994–2005);Ranil Wickremesinghe, Prime minister (1993–1994);Chandrika Kumaratunga, Prime minister (1994);Sirimavo Bandaranaike, Prime minister (1994–2000)
+# wikidata-description Q229: country in the Mediterranean Sea
+Cyprus|Q229|Glafcos Clerides, President (1993–2003)
+# wikidata-description Q23681: de facto state on the island of Cyprus
+Northern Cyprus|Q23681|Rauf Denktaş, President (1983–2005);Derviş Eroğlu, Prime minister (1985–1994, 1996–2004, 2009–2010);Hakkı Atun, Prime minister (1994–1996)|Turkish Cypriot-administered area
+# wikidata-description Q794: country in Western Asia
+Islamic Republic of Iran|Q794|Ali Khamenei, Supreme Leader (1989–2026);Akbar Hashemi Rafsanjani, President (1989–1997)|Iran
+# wikidata-description Q3108185: Republic of Iraq from 1968 to 2003 during the time of Ba'athism
+Ba'athist Iraq|Q3108185|Saddam Hussein, President (1979–2003);Ahmad Husayn Khudayir as-Samarrai, Prime minister (1993–1994);Saddam Hussein, Prime minister (1994–2003)|Iraq
+# wikidata-description Q801: country in West Asia
+Israel|Q801|Ezer Weizman, President (1993–2000);Yitzhak Rabin, Prime minister (1992–1995)
+# wikidata-description Q810: country in West Asia
+Jordan|Q810|Hussein, King (1952–1999);Abdelsalam al-Majali, Prime minister (1993–1995)
+# wikidata-description Q817: sovereign state in Western Asia
+Kuwait|Q817|Jaber III, Emir (1977–2006);Saad Al-Abdullah, Prime minister (1978–2003)
+# wikidata-description Q822: country in West Asia
+Lebanon|Q822|Elias Hrawi, President (1989–1998);Rafic Hariri, Prime minister (1992–1998)
+# wikidata-description Q842: sovereign state in western Asia
+Oman|Q842|Qaboos bin Said, Sultan (1970–2020)
+# wikidata-description Q846: country in West Asia
+Qatar|Q846|Khalifa bin Hamad Al Thani, Emir (1972–1995);Khalifa bin Hamad, Prime minister (1970–1995)
+# wikidata-description Q851: country in West Asia
+Saudi Arabia|Q851|Fahd, King (1982–2005)
+# wikidata-description Q131404661: 1963–2024 Syria
+Syrian Arab Republic|Q131404661|Hafez al-Assad, President (1971–2000);Mahmoud Zuabi, Prime minister (1987–2000)|Syria
+# wikidata-description Q43: country in West Asia and Southeast Europe
+Turkey|Q43|Süleyman Demirel, President (1993–2000);Tansu Çiller, Prime minister (1993–1996)
+# wikidata-description Q878: country in Western Asia
+United Arab Emirates|Q878|Zayed bin Sultan Al Nahyan, President (1971–2004);Maktoum bin Rashid Al Maktoum, Prime minister (1990–2006)
+# wikidata-description Q805: country in West Asia
+Yemen|Q805|Ali Abdullah Saleh, Chairman of the Presidential Council (1990–1994), president (1994–2012);Haidar Abu Bakr al-Attas, Prime minister (1990–1994);Muhammad Said al-Attar, Acting Prime minister (1994);Abdul Aziz Abdul Ghani, Prime minister (1994–1997)
+# wikidata-description Q222: country in southeastern Europe
+Albania|Q222|Berisha, President (1992–1997);Aleksandër Meksi, Prime minister (1992–1997)
+# wikidata-description Q219: country in southeast Europe
+Bulgaria|Q219|Zhelyu Zhelev, Chairman (1990–1992), President (1992–1997);Lyuben Berov, Prime minister (1992–1994);Reneta Indzhova, Interim Prime minister (1994–1995)
+# wikidata-description Q41: country in Southeast Europe
+Greece|Q41|Konstantinos Karamanlis, President (1990–1995);Andreas Papandreou, Prime minister (1993–1996)
+# wikidata-description Q1274468: official-name and constitutional period of Bosnia and Herzegovina from 1992 to 1995
+Republic of Bosnia and Herzegovina|Q1274468|Alija Izetbegović, President (1992–1997);Haris Silajdžić, Prime minister (1993–1996)|Bosnia and Herzegovina
+# wikidata-description Q224: country in Central Europe
+Croatia|Q224|Franjo Tuđman, President (1990–1999);Nikica Valentić, Prime minister (1993–1995)
+# wikidata-description Q221: country in southeastern Europe
+Republic of Macedonia|Q221|Kiro Gligorov, President (1991–1999);Branko Crvenkovski, Prime minister (1992–1998)|Macedonia
+# wikidata-description Q215: country in Central Europe
+Slovenia|Q215|Milan Kučan, President (1991–2002);Janez Drnovšek, Prime minister (1992–2000)
+# wikidata-description Q191: country in Northern Europe
+Estonia|Q191|Lennart Meri, President (1992–2001);Mart Laar, Prime minister (1992–1994);Andres Tarand, Prime minister (1994–1995)
+# wikidata-description Q211: sovereign state in northeastern Europe
+Latvia|Q211|Guntis Ulmanis, President (1993–1999);Valdis Birkavs, Prime minister (1993–1994);Māris Gailis, Prime minister (1994–1995)
+# wikidata-description Q37: country in northeastern Europe
+Lithuania|Q37|Algirdas Brazauskas, President (1992–1998);Adolfas Šleževičius, Prime minister (1993–1996)
+# wikidata-description Q27: country in Northwestern Europe
+Republic of Ireland|Q27|Mary Robinson, President (1990–1997);Albert Reynolds, Taoiseach (1992–1994);John Bruton, Taoiseach (1994–1997)|Ireland
+# wikidata-description Q145: island country in north-west Europe
+United Kingdom of Great Britain and Northern Ireland|Q145|Elizabeth II, Queen (1952–2022);John Major, Prime minister (1990–1997)|United Kingdom
+# wikidata-description Q40: country in Central Europe
+Austria|Q40|Thomas Klestil, President (1992–2004);Franz Vranitzky, Chancellor (1986–1997)
+# wikidata-description Q213: country in Central Europe
+Czech Republic|Q213|Václav Havel, President (1993–2003);Václav Klaus, Prime minister (1992–1998)
+# wikidata-description Q214: country in Central Europe
+Slovakia|Q214|Michal Kováč, President (1993–1999);Vladimír Mečiar, Prime minister (1993–1994);Jozef Moravčík, Prime minister (1994);Vladimír Mečiar, Prime minister (1994–1998)
+# wikidata-description Q183: country in Central Europe
+Germany|Q183|Richard von Weizsäcker, President of West Germany (1984–1990), President of reunified Germany (1990–1994);Roman Herzog, President (1994–1999);Helmut Kohl, Chancellor of West Germany (1982–1990), Chancellor of reunified Germany (1990–1998)
+# wikidata-description Q28: country in Central Europe
+Hungary|Q28|Árpád Göncz, President (1990–2000);Péter Boross, Prime minister (1993–1994);Gyula Horn, Prime minister (1994–1998)
+# wikidata-description Q347: country in Central Europe
+Liechtenstein|Q347|Hans-Adam II, Prince (1989–present);Mario Frick, Prime minister (1993–2001)
+# wikidata-description Q36: country in Central Europe
+Poland|Q36|Lech Wałęsa, President (1990–1995);Waldemar Pawlak, Prime minister (1993–1995)
+# wikidata-description Q39: country in Central Europe
+Switzerland|Q39|Otto Stich, President of the Confederation (1994)
+# wikidata-description Q184: country in Eastern Europe
+Belarus|Q184|Stanislau Shushkevich, Chairman of the Supreme Soviet (1991–1994);Vyacheslav Nikolayevich Kuznetsov, Chairman of the Supreme Soviet (1994);Myechyslaw Hryb, Acting Chairman of the Supreme Soviet (1994);Alexander Lukashenko, President (1994–present);Vyacheslav Kebich, Prime minister (1991–1994);Mikhail Chigir, Prime minister (1994–1996)|Byelarus
+# wikidata-description Q217: country in Eastern Europe
+Moldova|Q217|Mircea Snegur, President (1990–1997);Andrei Sangheli, Prime minister (1992–1997)
+# wikidata-description Q218: country in Southeast Europe
+Romania|Q218|Ion Iliescu, President (1989–1996);Nicolae Văcăroiu, Prime minister (1992–1996)
+# wikidata-description Q159: country in Eastern Europe and Northern Asia, the largest in the world by area
+Russia|Q159|Boris Yeltsin, President (1991–1999);Viktor Chernomyrdin, Prime minister (1992–1998)
+# wikidata-description Q212: country in Eastern Europe
+Ukraine|Q212|Leonid Kravchuk, President (1991–1994);Leonid Kuchma, President (1994–2005);Yukhym Zvyahilsky, Acting Prime minister (1993–1994);Vitaliy Masol, Prime minister (1994–1995)
+# wikidata-description Q35: country in Northern Europe
+Denmark|Q35|Margrethe II, Queen (1972–2024);Poul Nyrup Rasmussen, Prime minister (1993–2001)
+# wikidata-description Q33: country in Northern Europe
+Finland|Q33|Mauno Koivisto, President (1982–1994);Martti Ahtisaari, President (1994–2000);Esko Aho, Prime minister (1991–1995)
+# wikidata-description Q189: Nordic island country in the North Atlantic Ocean
+Iceland|Q189|Vigdís Finnbogadóttir, President (1980–1996);Davíð Oddsson, Prime minister (1991–2004)
+# wikidata-description Q20: country in Northern Europe
+Norway|Q20|Harald V, King (1991–2026);Gro Harlem Brundtland, Prime minister (1990–1996)
+# wikidata-description Q34: country in Northern Europe
+Sweden|Q34|Carl XVI Gustaf, King (1973–present);Carl Bildt, Prime minister (1991–1994);Ingvar Carlsson, Prime minister (1994–1996)
+# wikidata-description Q38: country in southern Europe
+Italy|Q38|Oscar Luigi Scalfaro, President (1992–1999);Carlo Azeglio Ciampi, Prime minister (1993–1994);Silvio Berlusconi, Prime minister (1994–1995)
+# wikidata-description Q233: country in Southern Europe situated on an archipelago in the Mediterranean Sea
+Malta|Q233|Ċensu Tabone, President (1989–1994);Ugo Mifsud Bonnici, President (1994–1999);Eddie Fenech Adami, Prime minister (1987–1996)
+# wikidata-description Q228: sovereign microstate between France and Spain, in Western Europe
+Andorra|Q228|Joan Martí i Alanis, Episcopal Co-Prince (1971–2003);François Mitterrand, French Co-Prince (1981–1995);Òscar Ribas Reig, Prime minister (1990–1994);Marc Forné Molné, Prime minister (1994–2005)
+# wikidata-description Q45: country in Southwestern Europe
+Portugal|Q45|Mário Soares, President (1986–1996);Aníbal Cavaco Silva, Prime minister (1985–1995)
+# wikidata-description Q29: country in southwestern Europe with territories in Africa
+Spain|Q29|Juan Carlos I, King (1975–2014);Felipe González, Prime minister (1982–1996)
+# wikidata-description Q31: country in western Europe
+Belgium|Q31|Albert II, King (1993–2013);Jean-Luc Dehaene, Prime minister (1992–1999)
+# wikidata-description Q142: country in Western Europe and other continents (through its overseas territories in America, Africa and Oceania)
+France|Q142|François Mitterrand, President (1981–1995);Édouard Balladur, Prime minister (1993–1995)
+# wikidata-description Q32: country in Western Europe
+Luxembourg|Q32|Jean, Grand Duke (1964–2000);Jacques Santer, Prime minister (1984–1995)
+# wikidata-description Q29999: transcontinental sovereign state and constitutional monarchy
+Kingdom of the Netherlands|Q29999|Beatrix, Queen (1980–2013);Ruud Lubbers, Prime minister (1982–1994);Wim Kok, Prime minister (1994–2002)|Netherlands
+# wikidata-description Q399: sovereign state in the South Caucasus region of Eurasia
+Armenia|Q399|Levon Ter-Petrosyan, President (1991–1998);Hrant Bagratyan, Prime minister (1993–1996)
+# wikidata-description Q227: country in the Caucasus in Eastern Europe and Western Asia
+Azerbaijan|Q227|Heydar Aliyev, President (1993–2003);Surat Huseynov, Prime minister (1993–1994);Fuad Guliyev, Prime minister (1994–1996)
+# wikidata-description Q230: country in the Caucasus region of Europe and Asia
+Georgia|Q230|Eduard Shevardnadze, President (1992–2003);Otar Patsatsia, Prime minister (1993–1995)
+# wikidata-description Q408: country
+Australia|Q408|Elizabeth II, Queen (1952–2022);Paul Keating, Prime minister (1991–1996)
+# wikidata-description Q691: country in Oceania
+Papua New Guinea|Q691|Elizabeth II, Queen (1975–2022);Paias Wingti, Prime minister (1992–1994);Julius Chan, Prime minister (1994–1997)
+# wikidata-description Q712: island sovereign state in Oceania
+Fiji|Q712|Kamisese Mara, Acting President (1993–1994), President (1994–2000);Sitiveni Rabuka, Prime minister (1992–1999)
+# wikidata-description Q664: island country in the southwest Pacific Ocean
+New Zealand|Q664|Elizabeth II, Queen (1952–2022);Jim Bolger, Prime minister (1990–1997)
+# wikidata-description Q683: sovereign state made up of six islands in the Pacific Ocean
+Western Samoa/ Independent State of Samoa|Q683|Malietoa Tanumafili II, O le Ao o le Malo (1962–2007);Tofilau Eti Alesana, Prime minister (1988–1998)|Samoa
+# wikidata-description Q678: sovereign state in Oceania, situated on an archipelago
+Tonga|Q678|Tāufaʻāhau Tupou IV, King (1965–2006);Baron Vaea, Prime minister (1991–2000)

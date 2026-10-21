@@ -4,6 +4,26 @@
   "summary": "People's Republic of China.",
   "rulers": [
     {
+      "name": "Mao Zedong",
+      "title": "Chairman",
+      "from": 1945,
+      "to": 1976,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Mao Zedong, Chairman (1945–1976), Paramount Leader (1949–1976)"
+      }
+    },
+    {
+      "name": "Jiang Zemin",
+      "title": "General Secretary",
+      "from": 1989,
+      "to": 2002,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Jiang Zemin, General Secretary (1989–2002), Paramount Leader (1989–2002)"
+      }
+    },
+    {
       "name": "Hu Jintao",
       "title": "paramount leader",
       "from": 2002,
@@ -25,6 +45,46 @@
     }
   ],
   "offices": [
+    {
+      "name": "Liu Shaoqi",
+      "title": "President",
+      "from": 1959,
+      "to": 1968,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Liu Shaoqi, President (1959–1968)"
+      }
+    },
+    {
+      "name": "Zhou Enlai",
+      "title": "Premier",
+      "from": 1949,
+      "to": 1976,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Zhou Enlai, Premier (1949–1976)"
+      }
+    },
+    {
+      "name": "Jiang Zemin",
+      "title": "President",
+      "from": 1993,
+      "to": 2003,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Jiang Zemin, President (1993–2003)"
+      }
+    },
+    {
+      "name": "Li Peng",
+      "title": "Premier",
+      "from": 1988,
+      "to": 1998,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Li Peng, Premier (1988–1998)"
+      }
+    },
     {
       "name": "Wen Jiabao",
       "title": "Premier",

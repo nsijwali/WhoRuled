@@ -1,0 +1,103 @@
+# source: https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)
+# 51 states. QIDs come from each state's linked article and were checked against its Wikidata inception/dissolution dates.
+# wikidata-description Q209327: kingdom in Central Africa (1625–1884)
+Kuba Kingdom|Q209327|Mishanga Pelenge, Nyim (1896–1900)|Kuba
+# wikidata-description Q1192936: former kingdom in Central/Eastern Africa up to 1966
+Kingdom of Burundi|Q1192936|Mwezi IV, King (c.1850–1908)|Burundi
+# wikidata-description Q889884: former kingdom in East Africa from the 15th century and up to 1962
+Kingdom of Rwanda|Q889884|Yuhi V Musinga, King (1896–1931)|Rwanda
+# wikidata-description Q157904: 1856–1964 monarchy in the Indian Ocean
+Sultanate of Zanzibar|Q157904|Hamoud, Sultan (1896–1902)
+# wikidata-description Q473748: a Bantu kingdom within Uganda, the kingdom of Baganda people
+Buganda|Q473748|Daudi Cwa II, Kabaka (1897–1939)
+# wikidata-description Q207521: 1270–1974 state in the Horn of Africa
+Ethiopian Empire|Q207521|Menelik II, Emperor (1889–1913)|Ethiopia
+# wikidata-description Q127861: 1867-1914 monarchy in Northeastern Africa
+Khedivate of Egypt|Q127861|Abbas II, Khedive (1892–1914);Mostafa Fahmy Pasha, Prime minister (1895–1908)|Egypt
+Basutoland|Q2340665|Lerotholi, Paramount Chief (1891–1905)
+# wikidata-description Q218023: independent Boer sovereign republic in Southern Africa between 1854–1902
+Orange Free State|Q218023|Martinus Theunis Steyn, State President (1896–1902)
+# wikidata-description Q550374: independent Boer-ruled country in Southern Africa between 1856–1902
+South African Republic|Q550374|Schalk Willem Burger, Acting State President (1900–1902)|Transvaal
+# wikidata-description Q722071: former Akan empire centered around modern day Ghana
+Kingdom of Ashanti|Q722071|Prempeh I, Asantehene (1888–1902)|Asante
+# wikidata-description Q1014: sovereign state in West Africa
+Liberia|Q1014|William D. Coleman, President (1896–1900);Garretson W. Gibson, President (1900–1904)
+# wikidata-description Q600524: independent Islamic Caliphate, in West Africa from 1804 to 1903
+Sokoto Caliphate|Q600524|Abdur Rahman Atiku, Sultan (1891–1902);Muhammadu al-Bukhari, Grand Vizier (1890–1903)
+# wikidata-description Q6123742: state that began with the restoration of the country in 1865 and culminated with the American intervention in 1916
+Second Dominican Republic|Q6123742|Juan Isidro Jimenes Pereyra, President (1899–1902)|Dominican Republic
+# wikidata-description Q5864743: historical country
+Second Haitian Republic|Q5864743|Tirésias Simon Sam, President (1896–1902)|Haiti
+# wikidata-description Q60038319: Country of Central America (1848-1949)
+First Costa Rican Republic|Q60038319|Rafael Yglesias Castro, President (1894–1902)|Costa Rica
+# wikidata-description Q792: sovereign state in Central America
+El Salvador|Q792|Tomás Regalado, President (1898–1903)
+# wikidata-description Q783: sovereign state in Central America
+Honduras|Q783|Terencio Sierra, President (1899–1903)
+# wikidata-description Q811: sovereign state in Central America
+Nicaragua|Q811|José Santos Zelaya, President (1893–1909)
+# wikidata-description Q750: sovereign state in South America
+Bolivia|Q750|José Manuel Pando, President (1899–1904)
+# wikidata-description Q2414171: 1889–1930 federal republic in South America
+First Brazilian Republic|Q2414171|Campos Sales, President (1898–1902)|Kingdom of Brazil
+# wikidata-description Q736: sovereign state in South America
+Ecuador|Q736|Eloy Alfaro, Jéfe Supremo (1895–1896), Interim President (1896–1897), President (1897–1901)
+# wikidata-description Q77: sovereign state in South America
+Uruguay|Q77|Juan Lindolfo Cuestas, President (1899–1903)
+# wikidata-description Q5848651: republic from 1864 to 1953
+United States of Venezuela|Q5848651|Cipriano Castro, President (1899–1908)|Venezuela
+# wikidata-description Q8733: Manchu-led dynasty of China (1644–1912)
+Qing dynasty|Q8733|Guangxu, Emperor (1875–1908)|Manchu Empire
+# wikidata-description Q188712: empire in the Asia-Pacific region from 1868 to 1947
+Empire of Japan|Q188712|Meiji, Emperor (1867–1912);Yamagata Aritomo, Prime minister (1898–1900);Itō Hirobumi, Prime minister (1900–1901)|Imperial Japan
+# wikidata-description Q28233: state of Korea from October 1897 to August 29, 1910
+Korean Empire|Q28233|Gojong, King (1863–1897), Emperor (1897–1907)|Korea
+# wikidata-description Q921: sovereign country and sultanate on the island of Borneo in south-east Asia, member of the Commonwealth of Nations
+Protectorate of Brunei|Q921|Hashim Jalilul Alam Aqamaddin, Sultan (1885–1906)|Brunei
+# wikidata-description Q1155700: fourth traditional centre of power in the history of Thailand (1782 to 24 June 1932)
+Rattanakosin Kingdom|Q1155700|Chulalongkorn, King (1868–1910)
+# wikidata-description Q1335260: monarchy in Central Asia from 1823 to 1926
+Emirate of Afghanistan|Q1335260|Abdur Rahman Khan, Emir (1880–1901)|Afghanistan
+# wikidata-description Q63158027: country in Western Asia (1789–1925)
+Persia|Q63158027|Mozaffar al-Din, Shah (1896–1907)
+# wikidata-description Q157734: monarchy on the Arab Peninsula between 1820-1970
+Muscat and Oman|Q157734|Faisal, Sultan (1888–1913)|Oman
+# wikidata-description Q12560: empire with the monarchs from the Ottoman dynasty (1299–1922)
+Ottoman Empire|Q12560|Abdul Hamid II, Sultan (1876–1909);Halil Rifat Pasha, Grand Vizier (1895–1901)
+# wikidata-description Q815731: principality on the Balkan Peninsula between 1878 and 1908
+Principality of Bulgaria|Q815731|Ferdinand I, Prince (1887–1908), Tsar (1908–1918)|Bulgaria
+# wikidata-description Q209065: period of Greek statehood from 1832 to 1924 and 1935 to 1973
+Kingdom of Greece|Q209065|George I, King (1863–1913);Georgios Theotokis, Prime minister (1899–1901)|Greece
+# wikidata-description Q779011: 1852–1910 principality in Southeastern Europe
+Principality of Montenegro|Q779011|Nikola I, Sovereign prince (1860–1910), King (1910–1918);Božo Petrović-Njegoš, President (1879–1905)|Montenegro
+# wikidata-description Q241748: 1882–1918 kingdom in Southeastern Europe
+Kingdom of Serbia|Q241748|Alexander, King (1889–1918);Vladan Đorđević, President of the ministry (1897–1900);Aleksa Jovanović, President of the ministry (1900–1901)|Serbia
+# wikidata-description Q174193: historical sovereign state (1801–1922)
+United Kingdom of Great Britain and Ireland|Q174193|Victoria, Queen (1837–1901);Robert Gascoyne-Cecil, Prime minister (1895–1902)
+# wikidata-description Q43287: German nation-state in Central Europe from 1871 to 1918
+German Empire|Q43287|Wilhelm II, Emperor (1888–1918);Chlodwig zu Hohenlohe-Schillingsfürst, Chancellor (1894–1900);Bernhard von Bülow, Chancellor (1900–1909)|Germany
+# wikidata-description Q28513: 1867–1918 empire in Central Europe
+Austria-Hungary|Q28513|Franz Joseph I, Emperor and King(1848–1916)|Austria Hungary
+# wikidata-description Q39: country in Central Europe
+Switzerland|Q39|Walter Hauser, President of the Confederation (1900)
+# wikidata-description Q203493: kingdom in Southeastern Europe between 1881 and 1947
+Kingdom of Romania|Q203493|Charles I, King (1881–1914);Gheorghe Grigore Cantacuzino, Prime minister (1899–1900);Petre P. Carp, Prime minister (1900–1901)|Romania
+# wikidata-description Q34266: former empire in Eurasia and North America (1721–1917)
+Russian Empire|Q34266|Nicholas II, Emperor (1894–1917);Ivan Durnovo, Chairman of the committee of ministers (1895–1903)
+# wikidata-description Q62589: personal union between Sweden and Norway 1814–1905
+Sweden–Norway|Q62589|Oscar II, King (1872–1905);Erik Gustaf Boström, Prime minister (1891–1900);Fredrik von Otter, Prime minister (1900–1902);Otto Blehr, Prime minister (1898–1902);Johannes Steen, Prime minister (1898–1902)
+# wikidata-description Q172579: kingdom in Southern Europe from 1861 to 1946
+Kingdom of Italy|Q172579|Umberto I, King (1878–1900);Victor Emmanuel III, King (1900–1946);Luigi Pelloux, Prime minister (1898–1900);Giuseppe Saracco, Prime minister (1900–1901)|Italy
+# wikidata-description Q45670: kingdom in Southwestern Europe (1139–1910)
+Kingdom of Portugal|Q45670|Carlos I, King (1889–1908);José Luciano de Castro, Prime minister (1897–1900);Ernesto Hintze Ribeiro, Prime minister (1900–1904)|Portugal
+# wikidata-description Q1044536: name given to a period between 1874 (end of First Spanish Republic) and 1931 (start of the Second Spanish Republic), and the state of Spain during that time
+Bourbon Restoration of Spain|Q1044536|Alfonso XIII, King (1886–1931);Francisco Silvela, Prime minister (1899–1900);Marcelo Azcárraga Palmero, Prime minister (1900–1901)|Spain
+# wikidata-description Q70802: nation of France from 1870 to 1940
+French Third Republic|Q70802|Émile Loubet, President (1899–1906);Pierre Waldeck-Rousseau, President of the Council of ministers (1899–1902)|France
+# wikidata-description Q32: country in Western Europe
+Luxembourg|Q32|Adolphe, Grand Duke (1890–1905);Paul Eyschen, Prime minister (1888–1915)
+# wikidata-description Q29999: transcontinental sovereign state and constitutional monarchy
+Kingdom of the Netherlands|Q29999|Wilhelmina, Queen (1890–1948);Nicolaas Pierson, Prime minister (1897–1901)|Netherlands
+# wikidata-description Q23022146: protected state of the United Kingdom in Polynesia
+Kingdom of Tonga (1900–1970)|Q23022146|George Tupou II, King (1893–1918);Siosateki Veikune, Prime minister (1893–1905)|Tonga

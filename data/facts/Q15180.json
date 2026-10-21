@@ -1,0 +1,90 @@
+{
+  "qid": "Q15180",
+  "name": "Soviet Union",
+  "summary": "Soviet Union: office-holders in 1938, 1945, 1960, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "Joseph Stalin",
+      "title": "General Secretary",
+      "from": 1922,
+      "to": 1952,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Joseph Stalin, General Secretary (1922–1952)"
+      }
+    },
+    {
+      "name": "Nikita Khrushchev",
+      "title": "General Secretary",
+      "from": 1953,
+      "to": 1964,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Nikita Khrushchev, General Secretary (1953–1964)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Mikhail Kalinin",
+      "title": "Chairman of the Central Executive Committee of the Congress of Soviets",
+      "from": 1922,
+      "to": 1938,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Mikhail Kalinin, Chairman of the Central Executive Committee of the Congress of Soviets (1922–1938), Chairman of the Presidium of the Supreme Soviet (1938–1946)"
+      }
+    },
+    {
+      "name": "Vyacheslav Molotov",
+      "title": "Chairman of the Council of People's Commissars",
+      "from": 1930,
+      "to": 1941,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Vyacheslav Molotov, Chairman of the Council of People's Commissars (1930–1941)"
+      }
+    },
+    {
+      "name": "Mikhail Kalinin",
+      "title": "Chairman of the Presidium of the Supreme Soviet",
+      "from": 1938,
+      "to": 1946,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Mikhail Kalinin, Chairman of the Central Executive Committee of the Congress of Soviets (1922–1938), Chairman of the Presidium of the Supreme Soviet (1938–1946)"
+      }
+    },
+    {
+      "name": "Kliment Voroshilov",
+      "title": "Chairman of the Presidium of the Supreme Soviet",
+      "from": 1953,
+      "to": 1960,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Kliment Voroshilov, Chairman of the Presidium of the Supreme Soviet (1953–1960)"
+      }
+    },
+    {
+      "name": "Leonid Brezhnev",
+      "title": "Chairman of the Presidium of the Supreme Soviet",
+      "from": 1960,
+      "to": 1964,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Leonid Brezhnev, Chairman of the Presidium of the Supreme Soviet (1960–1964)"
+      }
+    },
+    {
+      "name": "Nikita Khrushchev",
+      "title": "Chairman of the Council of Ministers",
+      "from": 1958,
+      "to": 1964,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Nikita Khrushchev, Chairman of the Council of Ministers (1958–1964)"
+      }
+    }
+  ],
+  "events": []
+}

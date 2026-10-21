@@ -1,8 +1,18 @@
 {
   "qid": "Q36",
   "name": "Poland",
-  "summary": "Poland: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Poland: office-holders in 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Lech Wałęsa",
+      "title": "President",
+      "from": 1990,
+      "to": 1995,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Lech Wałęsa, President (1990–1995)"
+      }
+    },
     {
       "name": "Lech Kaczyński",
       "title": "President",
@@ -25,6 +35,16 @@
     }
   ],
   "offices": [
+    {
+      "name": "Waldemar Pawlak",
+      "title": "Prime minister",
+      "from": 1993,
+      "to": 1995,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Waldemar Pawlak, Prime minister (1993–1995)"
+      }
+    },
     {
       "name": "Bronisław Komorowski",
       "title": "Acting President",

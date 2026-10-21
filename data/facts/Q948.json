@@ -1,15 +1,25 @@
 {
   "qid": "Q948",
   "name": "Tunisia",
-  "summary": "Tunisia: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Tunisia: office-holders in 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Habib Bourguiba",
+      "title": "President",
+      "from": 1957,
+      "to": 1987,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Habib Bourguiba, President (1957–1987)"
+      }
+    },
     {
       "name": "Zine El Abidine Ben Ali",
       "title": "President",
       "from": 1987,
       "to": 2011,
       "source": {
-        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
         "quote": "Zine El Abidine Ben Ali, President (1987–2011)"
       }
     },
@@ -25,6 +35,16 @@
     }
   ],
   "offices": [
+    {
+      "name": "Hamed Karoui",
+      "title": "Prime minister",
+      "from": 1989,
+      "to": 1999,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Hamed Karoui, Prime minister (1989–1999)"
+      }
+    },
     {
       "name": "Mohamed Ghannouchi",
       "title": "Prime minister",

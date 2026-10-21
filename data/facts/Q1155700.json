@@ -1,0 +1,19 @@
+{
+  "qid": "Q1155700",
+  "name": "Rattanakosin Kingdom",
+  "summary": "Rattanakosin Kingdom: office-holders in 1880, 1900, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "Chulalongkorn",
+      "title": "King",
+      "from": 1868,
+      "to": 1910,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Chulalongkorn, King (1868–1910)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

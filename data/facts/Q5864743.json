@@ -1,0 +1,90 @@
+{
+  "qid": "Q5864743",
+  "name": "Republic of Haiti (1859–1957)",
+  "summary": "Republic of Haiti (1859–1957): office-holders in 1880, 1900, 1914, 1920, 1938, 1945, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "Lysius Salomon",
+      "title": "President",
+      "from": 1879,
+      "to": 1888,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Lysius Salomon, President (1879–1888)"
+      }
+    },
+    {
+      "name": "Tirésias Simon Sam",
+      "title": "President",
+      "from": 1896,
+      "to": 1902,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Tirésias Simon Sam, President (1896–1902)"
+      }
+    },
+    {
+      "name": "Michel Oreste",
+      "title": "President",
+      "from": 1913,
+      "to": 1914,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Michel Oreste, President (1913–1914)"
+      }
+    },
+    {
+      "name": "Philippe Sudré Dartiguenave",
+      "title": "President",
+      "from": 1915,
+      "to": 1922,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Philippe Sudré Dartiguenave, President (1915–1922)"
+      }
+    },
+    {
+      "name": "Sténio Vincent",
+      "title": "President",
+      "from": 1930,
+      "to": 1941,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Sténio Vincent, President (1930–1941)"
+      }
+    },
+    {
+      "name": "Élie Lescot",
+      "title": "President",
+      "from": 1941,
+      "to": 1946,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Élie Lescot, President (1941–1946)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Oreste Zamor",
+      "title": "President",
+      "from": 1914,
+      "to": 1914,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Oreste Zamor, President (1914)"
+      }
+    },
+    {
+      "name": "Joseph Davilmar Théodore",
+      "title": "President",
+      "from": 1914,
+      "to": 1915,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Joseph Davilmar Théodore, President (1914–1915)"
+      }
+    }
+  ],
+  "events": []
+}

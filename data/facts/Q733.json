@@ -1,8 +1,18 @@
 {
   "qid": "Q733",
   "name": "Paraguay",
-  "summary": "Paraguay: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Paraguay: office-holders in 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Juan Carlos Wasmosy",
+      "title": "President",
+      "from": 1993,
+      "to": 1998,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Juan Carlos Wasmosy, President (1993–1998)"
+      }
+    },
     {
       "name": "Fernando Lugo",
       "title": "President",

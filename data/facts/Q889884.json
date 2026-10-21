@@ -1,0 +1,49 @@
+{
+  "qid": "Q889884",
+  "name": "Kingdom of Rwanda",
+  "summary": "Kingdom of Rwanda: office-holders in 1880, 1900, 1920, 1938, 1960, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "Kigeli IV Rwabugiri",
+      "title": "King",
+      "from": 1853,
+      "to": 1895,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Kigeli IV Rwabugiri, King (1853–1895)"
+      }
+    },
+    {
+      "name": "Yuhi V Musinga",
+      "title": "King",
+      "from": 1896,
+      "to": 1931,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Yuhi V Musinga, King (1896–1931)"
+      }
+    },
+    {
+      "name": "Mutara III Rudahigwa",
+      "title": "King",
+      "from": 1931,
+      "to": 1959,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Mutara III Rudahigwa, King (1931–1959)"
+      }
+    },
+    {
+      "name": "Kigeli V Ndahindurwa",
+      "title": "King",
+      "from": 1959,
+      "to": 1961,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Kigeli V Ndahindurwa, King (1959–1961)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

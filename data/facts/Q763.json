@@ -1,7 +1,7 @@
 {
   "qid": "Q763",
   "name": "Saint Kitts and Nevis",
-  "summary": "Saint Kitts and Nevis: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Saint Kitts and Nevis: office-holders in 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Elizabeth II",
@@ -9,7 +9,7 @@
       "from": 1983,
       "to": 2022,
       "source": {
-        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
         "quote": "Elizabeth II, Queen (1983–2022)"
       }
     },
@@ -25,6 +25,16 @@
     }
   ],
   "offices": [
+    {
+      "name": "Kennedy Simmonds",
+      "title": "Prime minister",
+      "from": 1983,
+      "to": 1995,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Kennedy Simmonds, Prime minister (1983–1995)"
+      }
+    },
     {
       "name": "Denzil Douglas",
       "title": "Prime minister",

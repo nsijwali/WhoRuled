@@ -1,20 +1,60 @@
 {
   "qid": "Q1009",
   "name": "Cameroon",
-  "summary": "Cameroon: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Cameroon: office-holders in 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Ahmadou Ahidjo",
+      "title": "President",
+      "from": 1960,
+      "to": 1982,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Ahmadou Ahidjo, President (1960–1982)"
+      }
+    },
     {
       "name": "Paul Biya",
       "title": "President",
       "from": 1982,
       "to": null,
       "source": {
-        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
         "quote": "Paul Biya, President (1982–present)"
       }
     }
   ],
   "offices": [
+    {
+      "name": "Ahmadou Ahidjo",
+      "title": "Prime minister",
+      "from": 1958,
+      "to": 1960,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Ahmadou Ahidjo, Prime minister (1958–1960)"
+      }
+    },
+    {
+      "name": "Charles Assalé",
+      "title": "Prime minister",
+      "from": 1960,
+      "to": 1961,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Charles Assalé, Prime minister (1960–1961)"
+      }
+    },
+    {
+      "name": "Simon Achidi Achu",
+      "title": "Prime minister",
+      "from": 1992,
+      "to": 1996,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Simon Achidi Achu, Prime minister (1992–1996)"
+      }
+    },
     {
       "name": "Philémon Yang",
       "title": "Prime minister",

@@ -1,0 +1,40 @@
+{
+  "qid": "Q16410",
+  "name": "Hungarian People's Republic",
+  "summary": "Hungarian People's Republic: office-holders in 1960, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "János Kádár",
+      "title": "General Secretary",
+      "from": 1956,
+      "to": 1988,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "János Kádár, General Secretary (1956–1988)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "István Dobi",
+      "title": "Chairman",
+      "from": 1952,
+      "to": 1967,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "István Dobi, Chairman (1952–1967)"
+      }
+    },
+    {
+      "name": "Ferenc Münnich",
+      "title": "Prime minister",
+      "from": 1958,
+      "to": 1961,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Ferenc Münnich, Prime minister (1958–1961)"
+      }
+    }
+  ],
+  "events": []
+}

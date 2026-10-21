@@ -1,8 +1,38 @@
 {
   "qid": "Q846",
   "name": "Qatar",
-  "summary": "Qatar: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Qatar: office-holders in 1914, 1920, 1938, 1945, 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Abdullah bin Jassim Al Thani",
+      "title": "Emir",
+      "from": 1913,
+      "to": 1949,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Abdullah bin Jassim Al Thani, Emir (1913–1949)"
+      }
+    },
+    {
+      "name": "Ali bin Abdullah Al Thani",
+      "title": "Emir",
+      "from": 1949,
+      "to": 1960,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Ali bin Abdullah Al Thani, Emir (1949–1960)"
+      }
+    },
+    {
+      "name": "Khalifa bin Hamad Al Thani",
+      "title": "Emir",
+      "from": 1972,
+      "to": 1995,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Khalifa bin Hamad Al Thani, Emir (1972–1995)"
+      }
+    },
     {
       "name": "Hamad bin Khalifa Al Thani",
       "title": "Emir",
@@ -25,6 +55,26 @@
     }
   ],
   "offices": [
+    {
+      "name": "Ahmad bin Ali Al Thani",
+      "title": "Emir",
+      "from": 1960,
+      "to": 1972,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Ahmad bin Ali Al Thani, Emir (1960–1972)"
+      }
+    },
+    {
+      "name": "Khalifa bin Hamad",
+      "title": "Prime minister",
+      "from": 1970,
+      "to": 1995,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Khalifa bin Hamad, Prime minister (1970–1995)"
+      }
+    },
     {
       "name": "Hamad bin Jassim",
       "title": "Prime minister",

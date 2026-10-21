@@ -1,0 +1,240 @@
+{
+  "qid": "Q209065",
+  "name": "Kingdom of Greece",
+  "summary": "Kingdom of Greece: office-holders in 1880, 1900, 1914, 1920, 1945, 1960, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "George I",
+      "title": "King",
+      "from": 1863,
+      "to": 1913,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "George I, King (1863–1913)"
+      }
+    },
+    {
+      "name": "Constantine I",
+      "title": "King",
+      "from": 1913,
+      "to": 1917,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Constantine I, King (1913–1917)"
+      }
+    },
+    {
+      "name": "Alexander",
+      "title": "King",
+      "from": 1917,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Alexander, King (1917–1920)"
+      }
+    },
+    {
+      "name": "George II",
+      "title": "King",
+      "from": 1935,
+      "to": 1947,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "George II, King (1935–1947)"
+      }
+    },
+    {
+      "name": "Paul",
+      "title": "King",
+      "from": 1947,
+      "to": 1964,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Paul, King (1947–1964)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Alexandros Koumoundouros",
+      "title": "Prime minister",
+      "from": 1878,
+      "to": 1880,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Alexandros Koumoundouros, Prime minister (1878–1880)"
+      }
+    },
+    {
+      "name": "Charilaos Trikoupis",
+      "title": "Prime minister",
+      "from": 1880,
+      "to": 1880,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Charilaos Trikoupis, Prime minister (1880)"
+      }
+    },
+    {
+      "name": "Alexandros Koumoundouros",
+      "title": "Prime minister",
+      "from": 1880,
+      "to": 1882,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Alexandros Koumoundouros, Prime minister (1880–1882)"
+      }
+    },
+    {
+      "name": "Georgios Theotokis",
+      "title": "Prime minister",
+      "from": 1899,
+      "to": 1901,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Georgios Theotokis, Prime minister (1899–1901)"
+      }
+    },
+    {
+      "name": "Eleftherios Venizelos",
+      "title": "Prime minister",
+      "from": 1910,
+      "to": 1915,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Eleftherios Venizelos, Prime minister (1910–1915)"
+      }
+    },
+    {
+      "name": "Pavlos Kountouriotis",
+      "title": "Regent",
+      "from": 1920,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Pavlos Kountouriotis, Regent (1920)"
+      }
+    },
+    {
+      "name": "Olga Constantinovna",
+      "title": "Regent",
+      "from": 1920,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Olga Constantinovna, Regent (1920)"
+      }
+    },
+    {
+      "name": "Constantine I",
+      "title": "King",
+      "from": 1920,
+      "to": 1922,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Constantine I, King (1920–1922)"
+      }
+    },
+    {
+      "name": "Eleftherios Venizelos",
+      "title": "Prime minister",
+      "from": 1917,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Eleftherios Venizelos, Prime minister (1917–1920)"
+      }
+    },
+    {
+      "name": "Dimitrios Rallis",
+      "title": "Prime minister",
+      "from": 1920,
+      "to": 1921,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Dimitrios Rallis, Prime minister (1920–1921)"
+      }
+    },
+    {
+      "name": "Damaskinos",
+      "title": "Regent",
+      "from": 1944,
+      "to": 1946,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Damaskinos, Regent (1944–1946)"
+      }
+    },
+    {
+      "name": "Georgios Papandreou",
+      "title": "Prime minister",
+      "from": 1944,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Georgios Papandreou, Prime minister (1944–1945)"
+      }
+    },
+    {
+      "name": "Nikolaos Plastiras",
+      "title": "Prime minister",
+      "from": 1945,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Nikolaos Plastiras, Prime minister (1945)"
+      }
+    },
+    {
+      "name": "Petros Voulgaris",
+      "title": "Prime minister",
+      "from": 1945,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Petros Voulgaris, Prime minister (1945)"
+      }
+    },
+    {
+      "name": "Damaskinos of Athens",
+      "title": "Prime minister",
+      "from": 1945,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Damaskinos of Athens, Prime minister (1945)"
+      }
+    },
+    {
+      "name": "Panagiotis Kanellopoulos",
+      "title": "Prime minister",
+      "from": 1945,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Panagiotis Kanellopoulos, Prime minister (1945)"
+      }
+    },
+    {
+      "name": "Themistoklis Sofoulis",
+      "title": "Prime minister",
+      "from": 1945,
+      "to": 1946,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Themistoklis Sofoulis, Prime minister (1945–1946)"
+      }
+    },
+    {
+      "name": "Konstantinos Karamanlis",
+      "title": "Prime minister",
+      "from": 1958,
+      "to": 1961,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Konstantinos Karamanlis, Prime minister (1958–1961)"
+      }
+    }
+  ],
+  "events": []
+}

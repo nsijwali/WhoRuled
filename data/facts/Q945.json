@@ -1,8 +1,28 @@
 {
   "qid": "Q945",
   "name": "Togo",
-  "summary": "Togo: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Togo: office-holders in 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Sylvanus Olympio",
+      "title": "President",
+      "from": 1960,
+      "to": 1963,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Sylvanus Olympio, President (1960–1963)"
+      }
+    },
+    {
+      "name": "Gnassingbé Eyadéma",
+      "title": "President",
+      "from": 1967,
+      "to": 2005,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Gnassingbé Eyadéma, President (1967–2005)"
+      }
+    },
     {
       "name": "Faure Gnassingbé",
       "title": "President",
@@ -15,6 +35,36 @@
     }
   ],
   "offices": [
+    {
+      "name": "Sylvanus Olympio",
+      "title": "Prime minister",
+      "from": 1960,
+      "to": 1961,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Sylvanus Olympio, Prime minister (1960–1961)"
+      }
+    },
+    {
+      "name": "Joseph Kokou Koffigoh",
+      "title": "Prime minister",
+      "from": 1991,
+      "to": 1994,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Joseph Kokou Koffigoh, Prime minister (1991–1994)"
+      }
+    },
+    {
+      "name": "Edem Kodjo",
+      "title": "Prime minister",
+      "from": 1994,
+      "to": 1996,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Edem Kodjo, Prime minister (1994–1996)"
+      }
+    },
     {
       "name": "Gilbert Houngbo",
       "title": "Prime minister",

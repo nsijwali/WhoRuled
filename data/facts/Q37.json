@@ -1,8 +1,38 @@
 {
   "qid": "Q37",
   "name": "Lithuania",
-  "summary": "Lithuania: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Lithuania: office-holders in 1920, 1938, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Antanas Smetona",
+      "title": "President",
+      "from": 1919,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Antanas Smetona, President (1919–1920)"
+      }
+    },
+    {
+      "name": "Antanas Smetona",
+      "title": "President",
+      "from": 1926,
+      "to": 1940,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Antanas Smetona, President (1926–1940)"
+      }
+    },
+    {
+      "name": "Algirdas Brazauskas",
+      "title": "President",
+      "from": 1992,
+      "to": 1998,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Algirdas Brazauskas, President (1992–1998)"
+      }
+    },
     {
       "name": "Dalia Grybauskaitė",
       "title": "President",
@@ -25,6 +55,66 @@
     }
   ],
   "offices": [
+    {
+      "name": "Aleksandras Stulginskis",
+      "title": "President",
+      "from": 1920,
+      "to": 1926,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Aleksandras Stulginskis, President (1920–1926)"
+      }
+    },
+    {
+      "name": "Ernestas Galvanauskas",
+      "title": "Prime minister",
+      "from": 1919,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Ernestas Galvanauskas, Prime minister (1919–1920)"
+      }
+    },
+    {
+      "name": "Kazys Grinius",
+      "title": "Prime minister",
+      "from": 1920,
+      "to": 1922,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Kazys Grinius, Prime minister (1920–1922)"
+      }
+    },
+    {
+      "name": "Juozas Tūbelis",
+      "title": "Prime minister",
+      "from": 1929,
+      "to": 1938,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Juozas Tūbelis, Prime minister (1929–1938)"
+      }
+    },
+    {
+      "name": "Vladas Mironas",
+      "title": "Prime minister",
+      "from": 1938,
+      "to": 1939,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Vladas Mironas, Prime minister (1938–1939)"
+      }
+    },
+    {
+      "name": "Adolfas Šleževičius",
+      "title": "Prime minister",
+      "from": 1993,
+      "to": 1996,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Adolfas Šleževičius, Prime minister (1993–1996)"
+      }
+    },
     {
       "name": "Andrius Kubilius",
       "title": "Prime minister",

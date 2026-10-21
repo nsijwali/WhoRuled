@@ -14,6 +14,46 @@
       }
     },
     {
+      "name": "Franklin D. Roosevelt",
+      "title": "President",
+      "from": 1933,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Franklin D. Roosevelt, President (1933–1945)"
+      }
+    },
+    {
+      "name": "Harry S. Truman",
+      "title": "President",
+      "from": 1945,
+      "to": 1953,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Harry S. Truman, President (1945–1953)"
+      }
+    },
+    {
+      "name": "Dwight D. Eisenhower",
+      "title": "President",
+      "from": 1953,
+      "to": 1961,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Dwight D. Eisenhower, President (1953–1961)"
+      }
+    },
+    {
+      "name": "Bill Clinton",
+      "title": "President",
+      "from": 1993,
+      "to": 2001,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Bill Clinton, President (1993–2001)"
+      }
+    },
+    {
       "name": "Barack Obama",
       "title": "president",
       "from": 2009,

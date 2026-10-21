@@ -1,0 +1,19 @@
+{
+  "qid": "Q156418",
+  "name": "Hawaiian Kingdom",
+  "summary": "Hawaiian Kingdom: office-holders in 1880, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Kalākaua",
+      "title": "King",
+      "from": 1874,
+      "to": 1891,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Kalākaua, King (1874–1891)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

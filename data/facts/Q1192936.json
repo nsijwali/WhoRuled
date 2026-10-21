@@ -1,0 +1,40 @@
+{
+  "qid": "Q1192936",
+  "name": "Kingdom of Burundi",
+  "summary": "Kingdom of Burundi: office-holders in 1880, 1900, 1920, 1938, 1960, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "Mwezi IV",
+      "title": "King",
+      "from": 1850,
+      "to": 1908,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Mwezi IV, King (c.1850–1908)"
+      }
+    },
+    {
+      "name": "Mwambutsa IV",
+      "title": "King",
+      "from": 1915,
+      "to": 1966,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Mwambutsa IV, King (1915–1966)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Mwambutsa IV Bangiriceng",
+      "title": "King",
+      "from": 1915,
+      "to": 1966,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Mwambutsa IV Bangiriceng, King (1915–1966)"
+      }
+    }
+  ],
+  "events": []
+}

@@ -4,6 +4,16 @@
   "summary": "Russian Empire as drawn in the 1914 border data.",
   "rulers": [
     {
+      "name": "Alexander II",
+      "title": "Emperor",
+      "from": 1855,
+      "to": 1881,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Alexander II, Emperor (1855–1881)"
+      }
+    },
+    {
       "name": "Nicholas II",
       "title": "emperor",
       "from": 1894,
@@ -11,6 +21,48 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Nicholas_II",
         "quote": "was Emperor of Russia from 1 November 1894 until his abdication in 1917"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Pyotr Valuyev",
+      "title": "Chairman of the committee of ministers",
+      "from": 1879,
+      "to": 1881,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Pyotr Valuyev, Chairman of the committee of ministers (1879–1881)"
+      }
+    },
+    {
+      "name": "Ivan Durnovo",
+      "title": "Chairman of the committee of ministers",
+      "from": 1895,
+      "to": 1903,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Ivan Durnovo, Chairman of the committee of ministers (1895–1903)"
+      }
+    },
+    {
+      "name": "Vladimir Kokovtsov",
+      "title": "Chairman of council of ministers",
+      "from": 1911,
+      "to": 1914,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Vladimir Kokovtsov, Chairman of council of ministers (1911–1914)"
+      }
+    },
+    {
+      "name": "Ivan Goremykin",
+      "title": "Chairman of council of ministers",
+      "from": 1914,
+      "to": 1916,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Ivan Goremykin, Chairman of council of ministers (1914–1916)"
       }
     }
   ],
