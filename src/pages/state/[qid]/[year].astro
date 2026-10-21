@@ -1,0 +1,103 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { browseYears } from '../../../data/browseYears';
+import { stateYears, type StateYear } from '../../../data/stateYears';
+import { SITE_URL } from '../../../config/site';
+import { eraOf } from '../../../map/eras';
+import { correctionUrl, formatYear } from '../../../map/format';
+import Base from '../../../layouts/Base.astro';
+
+export const getStaticPaths = (() =>
+  stateYears().map((entry) => ({ params: { qid: entry.polity.qid, year: String(entry.year) }, props: { entry } }))) satisfies GetStaticPaths;
+
+interface Props {
+  entry: StateYear;
+}
+const { entry } = Astro.props;
+const { polity, year, rulers, offices, indexable } = entry;
+const label = formatYear(year);
+const hasYearPage = browseYears().includes(year);
+const era = eraOf(year).name;
+const span = (r: { from: number; to: number | null }) => `${formatYear(r.from)}–${r.to === null ? 'present' : formatYear(r.to)}`;
+const names = rulers.map((r) => `${r.name} (${r.title})`);
+// Neighbours in the recorded list of rulers, so readers can step back and forward in time.
+const ordered = [...polity.rulers].sort((a, b) => a.from - b.from);
+const first = ordered.findIndex((r) => rulers.includes(r));
+const before = first > 0 ? ordered[first - 1] : undefined;
+const last = ordered.findLastIndex((r) => rulers.includes(r));
+const after = last < ordered.length - 1 ? ordered[last + 1] : undefined;
+const events = polity.events.filter((e) => Math.abs(e.year - year) <= 25);
+const title = `Who ruled ${polity.name} in ${label}? | WhoRuled`;
+const description = `In ${label}, ${polity.name} was ruled by ${names.join(' and ')}. Sourced rulers and government for ${polity.name} in the ${era.toLowerCase()}.`.slice(0, 300);
+---
+<Base
+  title={title}
+  description={description}
+  path={`/state/${polity.qid}/${year}/`}
+  jsonLd={{
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'WhoRuled', item: new URL('/', SITE_URL).href },
+      { '@type': 'ListItem', position: 2, name: polity.name, item: new URL(`/state/${polity.qid}/`, SITE_URL).href },
+      { '@type': 'ListItem', position: 3, name: label, item: new URL(`/state/${polity.qid}/${year}/`, SITE_URL).href },
+    ],
+  }}
+  index={indexable}
+>
+  <main class="page">
+    <h2 style="margin-top:0">Who ruled {polity.name} in {label}?</h2>
+    <p>
+      In {label} ({era.toLowerCase()}), {polity.name} was ruled by {names.join(' and ')}.{' '}
+      {polity.summary}
+    </p>
+    <h2>{rulers.length > 1 ? 'Rulers' : 'Ruler'} in {label}</h2>
+    <table>
+      <thead><tr><th>Name</th><th>Title</th><th>Years</th><th>Source</th></tr></thead>
+      <tbody>
+        {rulers.map((r) => (
+          <tr><td>{r.name}</td><td>{r.title}</td><td>{span(r)}</td><td><a href={r.source.url} target="_blank" rel="noopener noreferrer">source</a></td></tr>
+        ))}
+      </tbody>
+    </table>
+    {offices.length > 0 && (
+      <>
+        <h2>Government below the ruler</h2>
+        <table>
+          <thead><tr><th>Name</th><th>Office</th><th>Years</th><th>Source</th></tr></thead>
+          <tbody>
+            {offices.map((o) => (
+              <tr><td>{o.name}</td><td>{o.title}</td><td>{span(o)}</td><td><a href={o.source.url} target="_blank" rel="noopener noreferrer">source</a></td></tr>
+            ))}
+          </tbody>
+        </table>
+      </>
+    )}
+    {events.length > 0 && (
+      <>
+        <h2>Around {label}</h2>
+        <ul>
+          {events.map((e) => (
+            <li>{formatYear(e.year)}: {e.summary} <a href={e.source.url} target="_blank" rel="noopener noreferrer">source</a></li>
+          ))}
+        </ul>
+      </>
+    )}
+    {(before || after) && (
+      <p>
+        In our records:{' '}
+        {before && <>before, {before.name} ({span(before)})</>}
+        {before && after && '; '}
+        {after && <>after, {after.name} ({span(after)})</>}.
+      </p>
+    )}
+    <p>
+      <a href="/">See {polity.name} on the interactive map</a> (move the slider to {label}) ·{' '}
+      <a href={`/state/${polity.qid}/`}>All rulers of {polity.name}</a>{hasYearPage && ' · '}
+      {hasYearPage && <a href={`/year/${year}/`}>Who ruled the world in {label}</a>}
+    </p>
+    <p class="note">
+      Every entry links to its source. Spot an error? <a href={correctionUrl(polity.name, year)} target="_blank" rel="noopener noreferrer">Report it</a>.
+    </p>
+  </main>
+</Base>
