@@ -14,7 +14,7 @@ Git-connected projects as Workers (static assets); `wrangler.jsonc` tells it to 
 
 ## Rules
 
-- Pages stay `noindex` until a human review is recorded (ADR-019). The `*.workers.dev` host must not be indexed; the canonical host is https://whoruled.nitinsijwali.com.
+- Pages are indexable when every claim has a source; a recorded review only adds a badge (ADR-019). The `*.workers.dev` host must not be indexed; the canonical host is https://whoruled.nitinsijwali.com.
 - Keep the built file count under 12,000 (Cloudflare's limit is 20,000).
 - No secrets in the repo or in build variables used by the browser.
 
