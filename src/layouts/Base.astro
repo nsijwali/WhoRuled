@@ -1,6 +1,9 @@
 ---
 import '@fontsource/silkscreen/400.css';
 import '@fontsource/vt323/400.css';
+import fellUrl from '@fontsource/im-fell-english/files/im-fell-english-latin-400-normal.woff2?url';
+import eliteUrl from '@fontsource/special-elite/files/special-elite-latin-400-normal.woff2?url';
+import { themeCss } from '../map/theme';
 import Consent from '../components/Consent.astro';
 import { ADS_CLIENT, ANALYTICS_TOKEN, SITE_NAME, SITE_URL, SUPPORT_URL } from '../config/site';
 
@@ -15,7 +18,7 @@ const { title, description, path, index = true, fullHeight = false } = Astro.pro
 const canonical = new URL(path, SITE_URL).href;
 ---
 <!doctype html>
-<html lang="en">
+<html lang="en" data-era="modern">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -28,6 +31,14 @@ const canonical = new URL(path, SITE_URL).href;
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonical} />
     <link rel="icon" href="data:," />
+    <style
+      is:inline
+      set:html={`
+      /* Era fonts are scaled so each reads at the size the pixel fonts were tuned for. */
+      @font-face { font-family: 'Fell Fit'; src: url(${fellUrl}) format('woff2'); font-display: swap; size-adjust: 88%; }
+      @font-face { font-family: 'Special Elite Fit'; src: url(${eliteUrl}) format('woff2'); font-display: swap; size-adjust: 72%; }
+      ${themeCss()}`}
+    />
     <style is:global>
       /* An EGA map room: sixteen colours, bevelled grey windows, DOS-blue panels. */
       :root {
@@ -45,9 +56,9 @@ const canonical = new URL(path, SITE_URL).href;
       :focus-visible { outline: 2px solid var(--yellow); outline-offset: 1px; box-shadow: 0 0 0 4px var(--black); }
 
       /* Window chrome */
-      .window { flex: 1; min-height: 0; display: flex; flex-direction: column; background: var(--grey); color: var(--black); border: 2px solid; border-color: var(--hi) var(--lo) var(--lo) var(--hi); }
+      .window { flex: 1; min-height: 0; display: flex; flex-direction: column; background: var(--texture, none), var(--grey); color: var(--black); border: 2px solid; border-color: var(--hi) var(--lo) var(--lo) var(--hi); }
       .titlebar { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 3px 8px; background: var(--blue); color: var(--yellow); }
-      .titlebar h1 { margin: 0; font: 400 16px/1.5 var(--pixel); }
+      .titlebar h1 { margin: 0; font: 400 var(--head-size, 16px)/1.5 var(--pixel); }
       .titlebar a { color: inherit; text-decoration: none; }
       .titlebar .blurb { color: var(--white); font-size: 20px; line-height: 1; }
       .menubar { display: flex; flex-wrap: wrap; gap: 0 4px; padding: 1px 4px; border-bottom: 2px solid var(--lo); font-size: 22px; line-height: 1.2; }
@@ -86,9 +97,9 @@ const canonical = new URL(path, SITE_URL).href;
       .legend ul { margin: 0; padding: 6px 8px 8px; list-style: none; display: grid; gap: 5px; }
       .legend li { display: grid; grid-template-columns: 1.4rem 1fr; gap: 8px; align-items: start; }
       .legend i { display: block; height: 14px; margin-top: 2px; border: 1px solid var(--black); }
-      .key-realm { background: repeating-conic-gradient(#aa5500 0 25%, #ffff55 0 50%) 0 0 / 2px 2px; }
+      .key-realm { background: repeating-conic-gradient(var(--key-a) 0 25%, var(--key-b) 0 50%) 0 0 / 2px 2px; }
       .key-wild { background: radial-gradient(circle at 1px 1px, var(--dgrey) 1px, transparent 1px) 0 0 / 4px 4px, var(--grey); }
-      .key-chosen { background: repeating-conic-gradient(var(--white) 0 25%, #55ff55 0 50%) 0 0 / 2px 2px; outline: 2px dashed var(--yellow); outline-offset: -2px; }
+      .key-chosen { background: repeating-conic-gradient(var(--white) 0 25%, var(--key-c) 0 50%) 0 0 / 2px 2px; outline: 2px dashed var(--yellow); outline-offset: -2px; }
 
       /* The advisor: a DOS-blue panel */
       .map-side { grid-area: side; display: flex; flex-direction: column; gap: 6px; min-height: 0; padding: 6px; background: var(--blue); color: var(--white); border: 2px solid; border-color: var(--lo) var(--hi) var(--hi) var(--lo); }
@@ -106,7 +117,7 @@ const canonical = new URL(path, SITE_URL).href;
       .state-list .empty { padding: 4px 6px; color: var(--grey); font-size: 20px; }
       .swatch { flex: none; width: 12px; height: 12px; border: 1px solid var(--white); }
       .detail { flex: 1 1 13rem; min-height: 8rem; overflow: auto; padding: 6px 10px 8px; border: 4px double var(--grey); scrollbar-color: var(--grey) var(--blue); }
-      .detail h2 { margin: 2px 0 6px; font: 400 16px/1.5 var(--pixel); color: var(--yellow); }
+      .detail h2 { margin: 2px 0 6px; font: 400 var(--head-size, 16px)/1.5 var(--pixel); color: var(--yellow); }
       .detail h3 { margin: 10px 0 2px; font: inherit; color: var(--lcyan); }
       .detail p { margin: 4px 0; }
       .detail ul { margin: 0; padding-left: 1.1rem; }
@@ -146,7 +157,7 @@ const canonical = new URL(path, SITE_URL).href;
 
       /* Text pages: white paper in a grey window */
       .page { flex: 1; width: 100%; max-width: 46rem; margin: 6px auto; padding: 12px 20px 20px; line-height: 1.3; background: var(--white); color: var(--black); border: 2px solid; border-color: var(--lo) var(--hi) var(--hi) var(--lo); overflow: auto; }
-      .page h2 { margin: 1.4rem 0 0.4rem; font: 400 16px/1.5 var(--pixel); color: var(--blue); }
+      .page h2 { margin: 1.4rem 0 0.4rem; font: 400 var(--head-size, 16px)/1.5 var(--pixel); color: var(--blue); }
       .page h2:first-child { margin-top: 0; }
       .page a { color: var(--blue); text-underline-offset: 3px; }
       .page table { width: 100%; border-collapse: collapse; }
@@ -174,6 +185,9 @@ const canonical = new URL(path, SITE_URL).href;
         .map-side[data-view='list'] .detail { display: none; }
         .detail .back { display: inline-block; }
         .page { margin: 0; border: 0; padding: 12px 16px; }
+      }
+      @media (prefers-reduced-motion: no-preference) {
+        .window, .window * { transition: background-color 0.5s ease, color 0.5s ease, border-color 0.5s ease; }
       }
       @media (prefers-reduced-motion: reduce) {
         * { scroll-behavior: auto !important; }

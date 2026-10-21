@@ -48,10 +48,10 @@ function hash(text: string): number {
 }
 
 /** Fill for a realm; territories sharing an overlord share its fill, so empires read as one block. */
-export function realmFill(name: string | null, overlord: string | null): RealmFill | null {
+export function realmFill(name: string | null, overlord: string | null, fills: readonly RealmFill[] = REALM_FILLS): RealmFill | null {
   const key = overlord ?? name;
   if (key === null) return null;
-  return REALM_FILLS[hash(key) % REALM_FILLS.length] ?? null;
+  return fills[hash(key) % fills.length] ?? null;
 }
 
 /** The same fill as a CSS background, a 2px checkerboard for mixed fills. */

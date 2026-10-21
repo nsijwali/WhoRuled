@@ -42,6 +42,14 @@ await page.locator('#year-range').fill('14');
 await page.waitForTimeout(500);
 const pastYear = await page.locator('.year-slider output').textContent();
 if (pastYear !== '1492') problems.push(`expected 1492 at slider index 14, got ${pastYear}`);
+// the whole page changes look with the era: today is EGA, 1492 a manuscript, 1700 an atlas, 1914 newsprint, 500 BC a cave wall
+const era = () => page.evaluate(() => document.documentElement.dataset.era);
+if ((await era()) !== 'manuscript') problems.push(`expected the manuscript look in 1492, got ${await era()}`);
+for (const [index, expected] of [[17, 'atlas'], [22, 'newsprint'], [1, 'cave'], [14, 'manuscript']]) {
+  await page.locator('#year-range').fill(String(index));
+  await page.waitForTimeout(150);
+  if ((await era()) !== expected) problems.push(`expected the ${expected} look at slider index ${index}, got ${await era()}`);
+}
 await page.locator('.map-side input').fill('france');
 await page.locator('.state-list button').first().click();
 await page.waitForTimeout(300);

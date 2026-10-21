@@ -1,9 +1,8 @@
 import { baseScale, bboxContains, screenToWorld } from './geometry';
-import { EGA, realmFill, type RealmFill } from './palette';
+import { realmFill, type RealmFill } from './palette';
+import { mixTile, themeOf, type EraTheme, type TileSpec } from './theme';
 import type { BorderFeature, ViewTransform } from './types';
 
-/** Map lettering. Silkscreen is drawn on an 8px grid, so it stays crisp at exactly 8px multiples. */
-export const LABEL_FONT = '16px Silkscreen';
 const LABEL_MIN_AREA = 900; // true-area CSS px² a state must cover on screen before it gets a name
 const MAX_LABELS = 80;
 
@@ -28,10 +27,6 @@ function tile(rows: readonly string[], colours: Record<string, string>, cell: nu
   return t;
 }
 
-const OCEAN_ROWS = ['oooooooo', 'oowwoooo', 'oooooooo', 'ooooooww'];
-const WILD_ROWS = ['gggg', 'gdgg', 'gggg', 'gggd'];
-const CHECKER = ['ab', 'ba'];
-
 export interface DrawOptions {
   /** Animates the dashes around the selected state; 0 draws them still. */
   phase?: number;
@@ -46,10 +41,10 @@ export class CanvasMap {
   private dpr = 1;
   private readonly ctx: CanvasRenderingContext2D;
   private readonly hitCtx: CanvasRenderingContext2D;
-  private readonly fills: (RealmFill | null)[];
+  private fills: (RealmFill | null)[];
   private readonly patterns = new Map<RealmFill, CanvasPattern | string>();
-  private ocean: CanvasPattern | string = EGA.blue;
-  private wild: CanvasPattern | string = EGA.grey;
+  private ocean: CanvasPattern | string = '#000000';
+  private wild: CanvasPattern | string = '#808080';
   private glint: CanvasPattern | string = 'rgba(255,255,255,0.4)';
   private dissolveSteps: (CanvasPattern | null)[] = [];
   /** Indices of named features that can carry a label, largest first. */
@@ -63,25 +58,44 @@ export class CanvasMap {
     private readonly features: readonly BorderFeature[],
     /** Keep what the canvas shows now, to dissolve from it into this snapshot. */
     keepPrevious = false,
+    private theme: EraTheme = themeOf(Number.POSITIVE_INFINITY),
   ) {
     const ctx = canvas.getContext('2d');
     const hit = document.createElement('canvas').getContext('2d');
     if (!ctx || !hit) throw new Error('Canvas 2D is not available');
     this.ctx = ctx;
     this.hitCtx = hit;
-    this.fills = features.map((f) => realmFill(f.name, f.overlord));
+    this.fills = features.map((f) => realmFill(f.name, f.overlord, theme.map.realms));
     this.labelOrder = features
       .map((f, i) => ({ f, i }))
       .filter(({ f }) => f.name !== null && f.label !== null && hit.isPointInPath(f.path, f.label.x, f.label.y, 'evenodd'))
       .sort((p, q) => q.f.area - p.f.area)
       .map(({ i }) => i);
-    if (keepPrevious && canvas.width > 0 && canvas.height > 0) {
-      const ghost = document.createElement('canvas');
-      ghost.width = canvas.width;
-      ghost.height = canvas.height;
-      ghost.getContext('2d')?.drawImage(canvas, 0, 0);
-      this.ghost = ghost;
-    }
+    if (keepPrevious) this.captureGhost();
+  }
+
+  /** Keeps what the canvas shows now, to dissolve from it into whatever is drawn next. */
+  captureGhost(): void {
+    const { canvas } = this;
+    if (canvas.width === 0 || canvas.height === 0) return;
+    const ghost = document.createElement('canvas');
+    ghost.width = canvas.width;
+    ghost.height = canvas.height;
+    ghost.getContext('2d')?.drawImage(canvas, 0, 0);
+    this.ghost = ghost;
+  }
+
+  get currentTheme(): EraTheme {
+    return this.theme;
+  }
+
+  /** Re-dresses the map in another era's look; call `draw` afterwards. */
+  setTheme(theme: EraTheme): void {
+    if (theme === this.theme) return;
+    this.theme = theme;
+    this.textWidth.clear();
+    this.fills = this.features.map((f) => realmFill(f.name, f.overlord, theme.map.realms));
+    if (this.width > 0) this.buildPatterns();
   }
 
   get size(): { width: number; height: number } {
@@ -105,25 +119,34 @@ export class CanvasMap {
     this.dpr = dpr;
     this.canvas.width = Math.round(width * dpr);
     this.canvas.height = Math.round(height * dpr);
-    const px = Math.max(1, Math.round(dpr)); // one screen pixel of the 16-colour look
+    this.buildPatterns();
+    this.scratch = null;
+  }
+
+  /** Builds the dither patterns for the current theme; they are pinned to screen pixels, so they depend on the DPR. */
+  private buildPatterns(): void {
+    const { map } = this.theme;
+    const px = Math.max(1, Math.round(this.dpr)); // one screen pixel of the pixel-art look
     const make = (t: HTMLCanvasElement) => this.ctx.createPattern(t, 'repeat');
-    this.ocean = make(tile(OCEAN_ROWS, { o: EGA.blue, w: EGA.lightBlue }, px * 2)) ?? EGA.blue;
-    this.wild = make(tile(WILD_ROWS, { g: EGA.grey, d: EGA.darkGrey }, px)) ?? EGA.grey;
-    this.glint = make(tile(CHECKER, { a: EGA.white }, px)) ?? this.glint;
+    const build = (spec: TileSpec) => make(tile(spec.rows, spec.colours, px * spec.cell));
+    const oceanColour = map.ocean.colours['o'] ?? '#000000';
+    const wildColour = map.wild.colours['g'] ?? '#808080';
+    this.ocean = build(map.ocean) ?? oceanColour;
+    this.wild = build(map.wild) ?? wildColour;
+    this.glint = make(tile(['ab', 'ba'], { a: map.glint }, px)) ?? this.glint;
     this.patterns.clear();
     for (const fill of new Set(this.fills)) {
       if (!fill) continue;
-      this.patterns.set(fill, fill.a === fill.b ? fill.a : (make(tile(CHECKER, { a: fill.a, b: fill.b }, px)) ?? fill.a));
+      this.patterns.set(fill, fill.a === fill.b ? fill.a : (build(mixTile(this.theme, fill)) ?? fill.a));
     }
     const cell = px * 2;
     this.dissolveSteps = Array.from({ length: 17 }, (_, level) =>
       make(tile(
         [0, 1, 2, 3].map((r) => [0, 1, 2, 3].map((c) => ((BAYER[r * 4 + c] ?? 0) < level ? 'x' : '.')).join('')),
-        { x: EGA.black },
+        { x: '#000000' },
         cell,
       )),
     );
-    this.scratch = null;
   }
 
   draw(view: ViewTransform, selectedFid: number | null, hoverFid: number | null = null, options: DrawOptions = {}): void {
@@ -142,8 +165,8 @@ export class CanvasMap {
     ctx.fillStyle = this.ocean;
     ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
     ctx.setTransform(a, 0, 0, a, e, f);
-    ctx.lineWidth = 1 / s; // 1 CSS px at any zoom (transform already includes dpr)
-    ctx.strokeStyle = EGA.black;
+    ctx.lineWidth = this.theme.map.outlineWidth / s; // CSS px at any zoom (transform already includes dpr)
+    ctx.strokeStyle = this.theme.map.outline;
     ctx.lineJoin = 'round';
     let selected: BorderFeature | undefined;
     let hovered: BorderFeature | undefined;
@@ -162,10 +185,10 @@ export class CanvasMap {
     if (selected) {
       const unit = 1 / s;
       ctx.lineWidth = 3 * unit;
-      ctx.strokeStyle = EGA.black;
+      ctx.strokeStyle = this.theme.map.outline;
       ctx.stroke(selected.path);
       ctx.lineWidth = 2 * unit;
-      ctx.strokeStyle = EGA.yellow;
+      ctx.strokeStyle = this.theme.map.selection;
       ctx.setLineDash([6 * unit, 4 * unit]);
       ctx.lineDashOffset = -phase * unit;
       ctx.stroke(selected.path);
@@ -178,9 +201,10 @@ export class CanvasMap {
   /** Names the largest states that have room for them, biggest first, never overlapping. */
   private drawLabels(s: number, ox: number, oy: number): void {
     const { ctx, dpr } = this;
-    if (typeof document !== 'undefined' && !document.fonts.check(LABEL_FONT)) return;
+    const { labelFont, labelFill, labelHalo } = this.theme.map;
+    if (typeof document !== 'undefined' && !document.fonts.check(labelFont)) return;
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-    ctx.font = LABEL_FONT;
+    ctx.font = labelFont;
     ctx.textBaseline = 'middle';
     const placed: [number, number, number, number][] = [];
     for (const i of this.labelOrder) {
@@ -199,9 +223,9 @@ export class CanvasMap {
       const box: [number, number, number, number] = [x - 4, y - 10, x + w + 4, y + 10];
       if (placed.some((b) => b[0] < box[2] && box[0] < b[2] && b[1] < box[3] && box[1] < b[3])) continue;
       placed.push(box);
-      ctx.fillStyle = EGA.black;
+      ctx.fillStyle = labelHalo;
       for (const [dx, dy] of [[-1, 0], [1, 0], [0, -1], [0, 1], [2, 2]] as const) ctx.fillText(feature.name, x + dx, y + dy);
-      ctx.fillStyle = EGA.white;
+      ctx.fillStyle = labelFill;
       ctx.fillText(feature.name, x, y);
       if (placed.length >= MAX_LABELS) break;
     }
