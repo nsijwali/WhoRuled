@@ -1,7 +1,7 @@
 {
   "qid": "Q205662",
   "name": "Tokugawa shogunate",
-  "summary": "Tokugawa shogunate: office-holders in 1815, from Wikipedia's list of state leaders.",
+  "summary": "Tokugawa shogunate: office-holders in 1800, 1815, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Kōkaku",
@@ -9,7 +9,7 @@
       "from": 1780,
       "to": 1817,
       "source": {
-        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1801%E2%80%931850)",
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_18th_century",
         "quote": "Kōkaku, Emperor (1780–1817)"
       }
     }
@@ -21,7 +21,7 @@
       "from": 1787,
       "to": 1837,
       "source": {
-        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1801%E2%80%931850)",
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_18th_century",
         "quote": "Tokugawa Ienari, Shōgun (1787–1837)"
       }
     }

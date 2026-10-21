@@ -1,8 +1,18 @@
 {
   "qid": "Q22684779",
   "name": "Omani Empire",
-  "summary": "Omani Empire: office-holders in 1815, from Wikipedia's list of state leaders.",
+  "summary": "Omani Empire: office-holders in 1800, 1815, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Sultan bin Ahmad",
+      "title": "Sultan",
+      "from": 1792,
+      "to": 1804,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_18th_century",
+        "quote": "Sultan bin Ahmad, Sultan (1792–1804)"
+      }
+    },
     {
       "name": "Said bin Sultan",
       "title": "Sultan",

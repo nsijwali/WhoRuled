@@ -1,0 +1,19 @@
+{
+  "qid": "Q791787",
+  "name": "Sultanate of Aussa",
+  "summary": "Sultanate of Aussa: office-holders in 1800, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Aydahis ibn Kadhafo Mahammad",
+      "title": "Sultan",
+      "from": 1779,
+      "to": 1801,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_18th_century",
+        "quote": "Aydahis ibn Kadhafo Mahammad, Sultan (1779–1801)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

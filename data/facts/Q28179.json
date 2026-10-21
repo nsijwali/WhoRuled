@@ -1,16 +1,16 @@
 {
   "qid": "Q28179",
   "name": "Joseon",
-  "summary": "Joseon: office-holders in 1815, 1880, from Wikipedia's lists of state leaders.",
+  "summary": "Joseon: office-holders in 1800, 1815, 1880, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
-      "name": "Sunjo",
+      "name": "Jeongjo",
       "title": "King",
-      "from": 1800,
-      "to": 1834,
+      "from": 1776,
+      "to": 1800,
       "source": {
-        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1801%E2%80%931850)",
-        "quote": "Sunjo, King (1800–1834)"
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_18th_century",
+        "quote": "Jeongjo, King (1776–1800)"
       }
     },
     {
@@ -24,6 +24,17 @@
       }
     }
   ],
-  "offices": [],
+  "offices": [
+    {
+      "name": "Sunjo",
+      "title": "King",
+      "from": 1800,
+      "to": 1834,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_18th_century",
+        "quote": "Sunjo, King (1800–1834)"
+      }
+    }
+  ],
   "events": []
 }

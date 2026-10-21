@@ -1,0 +1,84 @@
+# source: https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_18th_century
+# Read 2026-10-21, revision 1379905301. 40 states. QIDs come from each state's linked article and were checked against its Wikidata inception/dissolution dates.
+# Skipped for 1800: Oyo (the list gives Adebo 1796–1888), Batavian Republic (the line names a council, not a person), Spain (linked items are the monarchy and the Enlightenment),
+# Prussia (linked item is the Duchy of Prussia), Holy Roman Empire and Naples/Sicily (no matching 1800 border), Ottoman Tripolitania (linked item is the 1864 vilayet), and states without a 1800 border feature.
+# wikidata-description Q796583: former African kingdom located in west central Africa
+Kingdom of Kongo|Q796583|Henrique II, Manikongo (1794–1803)|Congo
+# wikidata-description Q1472873: former country
+Sultanate of Bagirmi|Q1472873|‘Abd ar-Rahman Gawrang, Mbangi (1785–1806)|Bagirmi
+# wikidata-description Q1132786: former country
+Wadai Empire|Q1132786|Muhammad Salih Derret ibn Jawda, Kolak (1795–1803)|Wadai
+# wikidata-description Q1768252: pre-colonial (8th century (700s)–1889) Central African state that arose in the Upemba Depression
+Kingdom of Luba|Q1768252|Ilunga Sungu, muLopwe (1780–1809)|Luba
+# wikidata-description Q1796223: pre-colonial African confederation of states in what is now the Democratic Republic of Congo, Angola and Zambia
+Lunda Empire|Q1796223|Cikombe Yaava, Mwaant Yaav (c.1775–c.1800)|Lunda
+# wikidata-description Q207521: 1270–1974 state in the Horn of Africa
+Ethiopian Empire|Q207521|Demetros, Emperor (1799–1800);Tekle Giyorgis I, Emperor (1800);Demetros, Emperor (1800–1801)|Ethiopia
+# wikidata-description Q791787: former country
+Sultanate of Aussa|Q791787|Aydahis ibn Kadhafo Mahammad, Sultan (1779–1801)|Awsa
+# wikidata-description Q1071439: former country
+Merina Kingdom|Q1071439|Andrianampoinimerina, King (1787–1810)
+# wikidata-description Q4899891: monarchy in Tunisia between 1705 and 1881
+Beylik of Tunis|Q4899891|Hammuda ibn Ali, Bey (1782–1814)|Tunis
+# wikidata-description Q28136995: principality in Sudan from 1762 to 1821
+Hamaj Regency of the Funj Sultanate|Q28136995|Ranfi, Sultan (1798–1804);Idris wad Abu Likayik, Regent (1798–1804)|Funj
+# wikidata-description Q1028: sovereign state in North Africa
+Morocco|Q1028|Slimane, Sultan (1792–1822)
+# wikidata-description Q986822: Empire (1660-1880) in present Zimbabwe
+Rozvi Empire|Q986822|Changamire Dhafa, King (c.1790–1824)|Rozwi
+# wikidata-description Q468814: 1600–1904 kingdom in West Africa
+Dahomey|Q468814|Adandozan, King (1797–1818)
+# wikidata-description Q722071: former Akan empire centered around modern day Ghana
+Kingdom of Ashanti|Q722071|Osei Kwame Panyin, Asantehene (1777–1803)|Asante
+# wikidata-description Q762084: former country
+Bamana Empire|Q762084|Mansong Diarra, Faama (1795–1808)|Segu
+# wikidata-description Q1139762: former country in Africa
+Bornu Empire|Q1139762|Ahmad, Mai (1792–1808)|Kanem-Bornu
+# wikidata-description Q30: country located primarily in North America
+United States|Q30|John Adams, President (1797–1801)|United States of America
+# wikidata-description Q8733: Manchu-led dynasty of China (1644–1912)
+Qing dynasty|Q8733|Jiaqing, Emperor (1796–1820)|Qing Empire
+# wikidata-description Q205662: 1603–1868 Japanese military government
+Tokugawa shogunate|Q205662|Kōkaku, Emperor (1780–1817);Tokugawa Ienari, Shōgun (1787–1837)|Japan
+# wikidata-description Q28179: Korean dynasty / kingdom (1392–1897)
+Joseon|Q28179|Jeongjo, King (1776–1800);Sunjo, King (1800–1834)|Korea
+# wikidata-description Q887803: Malay sultanate, centred in Brunei on the northern coast of Borneo island in Southeast Asia from 1368 to 1888
+Bruneian Empire|Q887803|Muhammad Tajuddin, Sultan (1778–1804, 1804–1807)|Brunei
+# wikidata-description Q1062422: Last dynasty of Myanmar, that ruled the Third Empire of Myanmar
+Konbaung dynasty|Q1062422|Bodawpaya, King (1782–1819)|Burma
+# wikidata-description Q1155700: fourth traditional centre of power in the history of Thailand (1782 to 24 June 1932)
+Rattanakosin Kingdom|Q1155700|Rama I, King (1782–1809)
+# wikidata-description Q430309: Name of Vietnamese monarchy (1054 - 1400; 1428 - 1804)
+Đại Việt|Q430309|Nguyễn Quang Toản, Emperor (1792–1802)
+# wikidata-description Q467627: 1747–1823 Afghan empire founded by Ahmad Shah Durrani
+Durrani Empire|Q467627|Zaman Shah Durrani, Emir (1793–1801)|Afghanistan
+# wikidata-description Q63158027: country in Western Asia (1789–1925)
+Qajar Iran|Q63158027|Fath-Ali, Shah (1797–1834)|Persia
+# wikidata-description Q22684779: Omani maritime empire (1696–1856)
+Omani Empire|Q22684779|Sultan bin Ahmad, Sultan (1792–1804)|Oman
+# wikidata-description Q146871: 1727–1818 included most of Arabian Peninsula
+Emirate of Diriyah|Q146871|Abdul-Aziz bin Muhammad, Imam (1765–1803)|Nejd
+# wikidata-description Q12560: empire with the monarchs from the Ottoman dynasty (1299–1922)
+Ottoman Empire|Q12560|Selim III, Sultan (1789–1807);Kör Yusuf Ziyaüddin Pasha, Grand Vizier (1798–1805)
+# wikidata-description Q85816686: 1597–1849 state in southwest Arabia
+Yemeni Zaidi State|Q85816686|al-Mansur Ali I, Imam (1775–1809)|Yemen
+# wikidata-description Q161885: constitutional monarchy in Western Europe (1707–1800)
+Kingdom of Great Britain|Q161885|George III, King (1760–1820);William Pitt the Younger, Prime minister (1783–1801)|United Kingdom
+# wikidata-description Q34266: former empire in Eurasia and North America (1721–1917)
+Russian Empire|Q34266|Paul, Emperor (1796–1801)
+# wikidata-description Q62651: political union (1524–1814)
+Denmark–Norway|Q62651|Christian VII, King (1766–1808)|Denmark-Norway
+# wikidata-description Q34: country in Northern Europe
+Sweden|Q34|Gustav IV Adolf, King (1792–1809)
+# wikidata-description Q165154: state in Southern Europe from 1324 to 1861
+Kingdom of Sardinia|Q165154|Charles Emmanuel IV, King (1796–1802)
+# wikidata-description Q170174: territories mostly in the Appenine Peninsula under the sovereign direct rule of the pope between 756–1870
+Papal States|Q170174|Pius VII, Pope (1800–1823)
+# wikidata-description Q165040: former Italian state (1545–1802; 1814–1859)
+Duchy of Parma|Q165040|Ferdinand, Duke (1765–1802)|Parma
+# wikidata-description Q45670: kingdom in Southwestern Europe (1139–1910)
+Kingdom of Portugal|Q45670|Maria I, Queen (1777–1816)|Portugal
+# wikidata-description Q58296: republic governing France, 1792–1804
+French First Republic|Q58296|Napoleon Bonaparte, First Consul (1799–1804)|France
+# wikidata-description Q842390: former country
+Tuʻi Tonga Empire|Q842390|Tupoumālohi, Tuʻi Kanokupolu (1799–1812)

@@ -1,8 +1,18 @@
 {
   "qid": "Q722071",
   "name": "Kingdom of Ashanti",
-  "summary": "Kingdom of Ashanti: office-holders in 1815, 1880, 1900, from Wikipedia's lists of state leaders.",
+  "summary": "Kingdom of Ashanti: office-holders in 1800, 1815, 1880, 1900, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Osei Kwame Panyin",
+      "title": "Asantehene",
+      "from": 1777,
+      "to": 1803,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_18th_century",
+        "quote": "Osei Kwame Panyin, Asantehene (1777–1803)"
+      }
+    },
     {
       "name": "Osei Bonsu",
       "title": "Asantehene",

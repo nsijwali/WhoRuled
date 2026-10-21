@@ -1,0 +1,19 @@
+{
+  "qid": "Q1472873",
+  "name": "Sultanate of Bagirmi",
+  "summary": "Sultanate of Bagirmi: office-holders in 1800, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "‘Abd ar-Rahman Gawrang",
+      "title": "Mbangi",
+      "from": 1785,
+      "to": 1806,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_18th_century",
+        "quote": "‘Abd ar-Rahman Gawrang, Mbangi (1785–1806)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

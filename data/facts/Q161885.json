@@ -1,0 +1,30 @@
+{
+  "qid": "Q161885",
+  "name": "Kingdom of Great Britain",
+  "summary": "Kingdom of Great Britain: office-holders in 1800, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "George III",
+      "title": "King",
+      "from": 1760,
+      "to": 1820,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_18th_century",
+        "quote": "George III, King (1760–1820)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "William Pitt the Younger",
+      "title": "Prime minister",
+      "from": 1783,
+      "to": 1801,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_18th_century",
+        "quote": "William Pitt the Younger, Prime minister (1783–1801)"
+      }
+    }
+  ],
+  "events": []
+}

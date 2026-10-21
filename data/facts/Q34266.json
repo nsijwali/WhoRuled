@@ -4,6 +4,16 @@
   "summary": "Russian Empire as drawn in the 1914 border data.",
   "rulers": [
     {
+      "name": "Paul",
+      "title": "Emperor",
+      "from": 1796,
+      "to": 1801,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_18th_century",
+        "quote": "Paul, Emperor (1796–1801)"
+      }
+    },
+    {
       "name": "Alexander I",
       "title": "Emperor",
       "from": 1801,

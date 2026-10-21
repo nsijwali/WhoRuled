@@ -1,8 +1,18 @@
 {
   "qid": "Q887803",
   "name": "Bruneian Empire",
-  "summary": "Bruneian Empire: office-holders in 1815, 1880, from Wikipedia's lists of state leaders.",
+  "summary": "Bruneian Empire: office-holders in 1800, 1815, 1880, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Muhammad Tajuddin",
+      "title": "Sultan",
+      "from": 1778,
+      "to": 1804,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_18th_century",
+        "quote": "Muhammad Tajuddin, Sultan (1778–1804, 1804–1807)"
+      }
+    },
     {
       "name": "Muhammad Kanzul Alam",
       "title": "Sultan",

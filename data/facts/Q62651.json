@@ -1,0 +1,19 @@
+{
+  "qid": "Q62651",
+  "name": "Denmark–Norway",
+  "summary": "Denmark–Norway: office-holders in 1800, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Christian VII",
+      "title": "King",
+      "from": 1766,
+      "to": 1808,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_18th_century",
+        "quote": "Christian VII, King (1766–1808)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

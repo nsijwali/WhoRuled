@@ -1,8 +1,18 @@
 {
   "qid": "Q4899891",
   "name": "Beylik of Tunis",
-  "summary": "Beylik of Tunis: office-holders in 1815, from Wikipedia's list of state leaders.",
+  "summary": "Beylik of Tunis: office-holders in 1800, 1815, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Hammuda ibn Ali",
+      "title": "Bey",
+      "from": 1782,
+      "to": 1814,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_18th_century",
+        "quote": "Hammuda ibn Ali, Bey (1782–1814)"
+      }
+    },
     {
       "name": "Mahmud ibn Muhammad",
       "title": "Bey",

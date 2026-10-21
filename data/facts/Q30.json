@@ -4,6 +4,16 @@
   "summary": "United States of America.",
   "rulers": [
     {
+      "name": "John Adams",
+      "title": "President",
+      "from": 1797,
+      "to": 1801,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_18th_century",
+        "quote": "John Adams, President (1797–1801)"
+      }
+    },
+    {
       "name": "James Madison",
       "title": "President",
       "from": 1809,

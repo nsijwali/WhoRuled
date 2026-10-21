@@ -1,8 +1,18 @@
 {
   "qid": "Q1071439",
   "name": "Merina Kingdom",
-  "summary": "Merina Kingdom: office-holders in 1815, 1880, from Wikipedia's lists of state leaders.",
+  "summary": "Merina Kingdom: office-holders in 1800, 1815, 1880, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Andrianampoinimerina",
+      "title": "King",
+      "from": 1787,
+      "to": 1810,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_18th_century",
+        "quote": "Andrianampoinimerina, King (1787–1810)"
+      }
+    },
     {
       "name": "Radama I",
       "title": "King",

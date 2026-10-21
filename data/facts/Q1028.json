@@ -1,7 +1,7 @@
 {
   "qid": "Q1028",
   "name": "Morocco",
-  "summary": "Morocco: office-holders in 1815, 1914, 1920, 1938, 1945, 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Morocco: office-holders in 1800, 1815, 1914, 1920, 1938, 1945, 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Slimane",
@@ -9,7 +9,7 @@
       "from": 1792,
       "to": 1822,
       "source": {
-        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1801%E2%80%931850)",
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_18th_century",
         "quote": "Slimane, Sultan (1792–1822)"
       }
     },

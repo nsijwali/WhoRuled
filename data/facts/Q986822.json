@@ -1,0 +1,19 @@
+{
+  "qid": "Q986822",
+  "name": "Rozvi Empire",
+  "summary": "Rozvi Empire: office-holders in 1800, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Changamire Dhafa",
+      "title": "King",
+      "from": 1790,
+      "to": 1824,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_18th_century",
+        "quote": "Changamire Dhafa, King (c.1790–1824)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

@@ -1,0 +1,19 @@
+{
+  "qid": "Q762084",
+  "name": "Bamana Empire",
+  "summary": "Bamana Empire: office-holders in 1800, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Mansong Diarra",
+      "title": "Faama",
+      "from": 1795,
+      "to": 1808,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_18th_century",
+        "quote": "Mansong Diarra, Faama (1795–1808)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}
