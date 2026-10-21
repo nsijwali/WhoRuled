@@ -1,8 +1,28 @@
 {
   "qid": "Q917",
   "name": "Bhutan",
-  "summary": "Bhutan: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Bhutan: office-holders in 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Jigme Dorji Wangchuck",
+      "title": "Druk Gyalpo",
+      "from": 1952,
+      "to": 1972,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Jigme Dorji Wangchuck, Druk Gyalpo (1952–1972)"
+      }
+    },
+    {
+      "name": "Jigme Singye Wangchuck",
+      "title": "Druk Gyalpo",
+      "from": 1972,
+      "to": 2006,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Jigme Singye Wangchuck, Druk Gyalpo (1972–2006)"
+      }
+    },
     {
       "name": "Jigme Khesar Namgyel Wangchuck",
       "title": "Druk Gyalpo",
@@ -15,6 +35,16 @@
     }
   ],
   "offices": [
+    {
+      "name": "Jigme Palden Dorji",
+      "title": "Prime minister",
+      "from": 1952,
+      "to": 1964,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Jigme Palden Dorji, Prime minister (1952–1964)"
+      }
+    },
     {
       "name": "Jigme Thinley",
       "title": "Prime minister",

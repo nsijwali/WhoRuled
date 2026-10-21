@@ -1,8 +1,28 @@
 {
   "qid": "Q884",
   "name": "South Korea",
-  "summary": "South Korea: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "South Korea: office-holders in 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Syngman Rhee",
+      "title": "President",
+      "from": 1948,
+      "to": 1960,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Syngman Rhee, President (1948–1960)"
+      }
+    },
+    {
+      "name": "Kim Young-sam",
+      "title": "President",
+      "from": 1993,
+      "to": 1998,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Kim Young-sam, President (1993–1998)"
+      }
+    },
     {
       "name": "Lee Myung-bak",
       "title": "President",
@@ -25,6 +45,66 @@
     }
   ],
   "offices": [
+    {
+      "name": "Yun Po-sun",
+      "title": "President",
+      "from": 1960,
+      "to": 1962,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Yun Po-sun, President (1960–1962)"
+      }
+    },
+    {
+      "name": "Yi Yun-yong",
+      "title": "Prime minister",
+      "from": 1960,
+      "to": 1960,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Yi Yun-yong, Acting Prime minister (1952), Prime minister (1960)"
+      }
+    },
+    {
+      "name": "Chang Myon",
+      "title": "Prime minister",
+      "from": 1960,
+      "to": 1961,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Chang Myon, Prime minister (1960–1961)"
+      }
+    },
+    {
+      "name": "Lee Hoi-chang",
+      "title": "Prime minister",
+      "from": 1993,
+      "to": 1994,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Lee Hoi-chang, Prime minister (1993–1994)"
+      }
+    },
+    {
+      "name": "Lee Yung-dug",
+      "title": "Prime minister",
+      "from": 1994,
+      "to": 1994,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Lee Yung-dug, Prime minister (1994)"
+      }
+    },
+    {
+      "name": "Lee Hong-koo",
+      "title": "Prime minister",
+      "from": 1994,
+      "to": 1995,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Lee Hong-koo, Prime minister (1994–1995)"
+      }
+    },
     {
       "name": "Chung Un-chan",
       "title": "Prime minister",

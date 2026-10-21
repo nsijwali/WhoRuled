@@ -1,0 +1,30 @@
+{
+  "qid": "Q783684",
+  "name": "Provisional Government of the French Republic",
+  "summary": "Provisional Government of the French Republic: office-holders in 1945, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Charles de Gaulle",
+      "title": "Chairmen",
+      "from": 1944,
+      "to": 1946,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Charles de Gaulle, Chairmen (1944–1946)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Charles de Gaulle",
+      "title": "Prime minister",
+      "from": 1944,
+      "to": 1946,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Charles de Gaulle, Prime minister (1944–1946)"
+      }
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "qid": "Q1274468",
+  "name": "Republic of Bosnia and Herzegovina",
+  "summary": "Republic of Bosnia and Herzegovina: office-holders in 1994, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Alija Izetbegović",
+      "title": "President",
+      "from": 1992,
+      "to": 1997,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Alija Izetbegović, President (1992–1997)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Haris Silajdžić",
+      "title": "Prime minister",
+      "from": 1993,
+      "to": 1996,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Haris Silajdžić, Prime minister (1993–1996)"
+      }
+    }
+  ],
+  "events": []
+}

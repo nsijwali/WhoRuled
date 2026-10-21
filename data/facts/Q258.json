@@ -1,8 +1,28 @@
 {
   "qid": "Q258",
   "name": "South Africa",
-  "summary": "South Africa: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "South Africa: office-holders in 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Hendrik Verwoerd",
+      "title": "Prime minister",
+      "from": 1958,
+      "to": 1966,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Hendrik Verwoerd, Prime minister (1958–1966)"
+      }
+    },
+    {
+      "name": "F. W. de Klerk",
+      "title": "State President",
+      "from": 1989,
+      "to": 1994,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "F. W. de Klerk, State President (1989–1994)"
+      }
+    },
     {
       "name": "Jacob Zuma",
       "title": "President",
@@ -24,6 +44,17 @@
       }
     }
   ],
-  "offices": [],
+  "offices": [
+    {
+      "name": "Nelson Mandela",
+      "title": "President",
+      "from": 1994,
+      "to": 1999,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Nelson Mandela, President (1994–1999)"
+      }
+    }
+  ],
   "events": []
 }

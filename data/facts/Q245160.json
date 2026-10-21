@@ -1,0 +1,19 @@
+{
+  "qid": "Q245160",
+  "name": "Democratic Republic of Georgia",
+  "summary": "Democratic Republic of Georgia: office-holders in 1920, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Noe Zhordania",
+      "title": "Prime minister",
+      "from": 1918,
+      "to": 1921,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Noe Zhordania, Prime minister (1918–1921)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

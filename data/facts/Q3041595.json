@@ -1,0 +1,30 @@
+{
+  "qid": "Q3041595",
+  "name": "Iraqi Republic (1958–1968)",
+  "summary": "Iraqi Republic (1958–1968): office-holders in 1960, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Muhammad Najib ar-Ruba'i",
+      "title": "President",
+      "from": 1958,
+      "to": 1963,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Muhammad Najib ar-Ruba'i, President (1958–1963)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Abd al-Karim Qasim",
+      "title": "Prime minister",
+      "from": 1958,
+      "to": 1963,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Abd al-Karim Qasim, Prime minister (1958–1963)"
+      }
+    }
+  ],
+  "events": []
+}

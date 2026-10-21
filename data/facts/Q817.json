@@ -1,8 +1,18 @@
 {
   "qid": "Q817",
   "name": "Kuwait",
-  "summary": "Kuwait: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Kuwait: office-holders in 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Jaber III",
+      "title": "Emir",
+      "from": 1977,
+      "to": 2006,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Jaber III, Emir (1977–2006)"
+      }
+    },
     {
       "name": "Sabah IV",
       "title": "Emir",
@@ -25,6 +35,16 @@
     }
   ],
   "offices": [
+    {
+      "name": "Saad Al-Abdullah",
+      "title": "Prime minister",
+      "from": 1978,
+      "to": 2003,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Saad Al-Abdullah, Prime minister (1978–2003)"
+      }
+    },
     {
       "name": "Nasser Al-Mohammed",
       "title": "Prime minister",

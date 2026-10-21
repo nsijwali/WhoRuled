@@ -1,0 +1,60 @@
+{
+  "qid": "Q241748",
+  "name": "Kingdom of Serbia",
+  "summary": "Kingdom of Serbia: office-holders in 1900, 1914, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "Alexander",
+      "title": "King",
+      "from": 1889,
+      "to": 1918,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Alexander, King (1889–1918)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Vladan Đorđević",
+      "title": "President of the ministry",
+      "from": 1897,
+      "to": 1900,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Vladan Đorđević, President of the ministry (1897–1900)"
+      }
+    },
+    {
+      "name": "Aleksa Jovanović",
+      "title": "President of the ministry",
+      "from": 1900,
+      "to": 1901,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Aleksa Jovanović, President of the ministry (1900–1901)"
+      }
+    },
+    {
+      "name": "Peter I",
+      "title": "King",
+      "from": 1903,
+      "to": 1921,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Peter I, King (1903–1921)"
+      }
+    },
+    {
+      "name": "Nikola Pašić",
+      "title": "Prime minister",
+      "from": 1912,
+      "to": 1918,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Nikola Pašić, Prime minister (1912–1918)"
+      }
+    }
+  ],
+  "events": []
+}

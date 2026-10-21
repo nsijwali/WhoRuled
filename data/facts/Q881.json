@@ -1,8 +1,18 @@
 {
   "qid": "Q881",
   "name": "Vietnam",
-  "summary": "Vietnam: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Vietnam: office-holders in 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Đỗ Mười",
+      "title": "General Secretary",
+      "from": 1991,
+      "to": 1997,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Đỗ Mười, General Secretary (1991–1997)"
+      }
+    },
     {
       "name": "Nông Đức Mạnh",
       "title": "General Secretary",
@@ -25,6 +35,26 @@
     }
   ],
   "offices": [
+    {
+      "name": "Lê Đức Anh",
+      "title": "President",
+      "from": 1992,
+      "to": 1997,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Lê Đức Anh, President (1992–1997)"
+      }
+    },
+    {
+      "name": "Võ Văn Kiệt",
+      "title": "Prime minister",
+      "from": 1992,
+      "to": 1997,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Võ Văn Kiệt, Chairmen of the Council of ministers (1991–1992), Prime minister (1992–1997)"
+      }
+    },
     {
       "name": "Nguyễn Minh Triết",
       "title": "President",

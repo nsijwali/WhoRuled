@@ -1,0 +1,70 @@
+{
+  "qid": "Q149805",
+  "name": "Kingdom of Iraq",
+  "summary": "Kingdom of Iraq: office-holders in 1938, 1945, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "Ghazi I",
+      "title": "King",
+      "from": 1933,
+      "to": 1939,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Ghazi I, King (1933–1939)"
+      }
+    },
+    {
+      "name": "'Abd al-Ilah",
+      "title": "Regent",
+      "from": 1939,
+      "to": 1953,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "'Abd al-Ilah, Regent (1939–1953)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Jameel Al-Madfaai",
+      "title": "Prime minister",
+      "from": 1937,
+      "to": 1938,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Jameel Al-Madfaai, Prime minister (1933–1934, 1935, 1937–1938, 1941, 1953)"
+      }
+    },
+    {
+      "name": "Nuri al-Said",
+      "title": "Prime minister",
+      "from": 1938,
+      "to": 1940,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Nuri al-Said, Prime minister (1930–1932, 1938–1940, 1941–1944, 1946–1947, 1949, 1950–1952, 1954–1957, 1958)"
+      }
+    },
+    {
+      "name": "Faisal II",
+      "title": "King",
+      "from": 1939,
+      "to": 1958,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Faisal II, King (1939–1958)"
+      }
+    },
+    {
+      "name": "Hamdi al-Pachachi",
+      "title": "Prime minister",
+      "from": 1944,
+      "to": 1946,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Hamdi al-Pachachi, Prime minister (1944–1946)"
+      }
+    }
+  ],
+  "events": []
+}

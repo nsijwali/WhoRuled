@@ -4,6 +4,16 @@
   "summary": "Russian Federation.",
   "rulers": [
     {
+      "name": "Boris Yeltsin",
+      "title": "President",
+      "from": 1991,
+      "to": 1999,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Boris Yeltsin, President (1991–1999)"
+      }
+    },
+    {
       "name": "Dmitry Medvedev",
       "title": "president",
       "from": 2008,
@@ -25,6 +35,16 @@
     }
   ],
   "offices": [
+    {
+      "name": "Viktor Chernomyrdin",
+      "title": "Prime minister",
+      "from": 1992,
+      "to": 1998,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Viktor Chernomyrdin, Prime minister (1992–1998)"
+      }
+    },
     {
       "name": "Vladimir Putin",
       "title": "Prime minister",

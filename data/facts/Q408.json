@@ -1,15 +1,35 @@
 {
   "qid": "Q408",
   "name": "Australia",
-  "summary": "Australia: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Australia: office-holders in 1914, 1920, 1938, 1945, 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "George V",
+      "title": "King",
+      "from": 1910,
+      "to": 1936,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "George V, King (1910–1936)"
+      }
+    },
+    {
+      "name": "George VI",
+      "title": "King",
+      "from": 1936,
+      "to": 1952,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "George VI, King (1936–1952)"
+      }
+    },
     {
       "name": "Elizabeth II",
       "title": "Queen",
       "from": 1952,
       "to": 2022,
       "source": {
-        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
         "quote": "Elizabeth II, Queen (1952–2022)"
       }
     },
@@ -25,6 +45,96 @@
     }
   ],
   "offices": [
+    {
+      "name": "Joseph Cook",
+      "title": "Prime minister",
+      "from": 1913,
+      "to": 1914,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Joseph Cook, Prime minister (1913–1914)"
+      }
+    },
+    {
+      "name": "Andrew Fisher",
+      "title": "Prime minister",
+      "from": 1914,
+      "to": 1916,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Andrew Fisher, Prime minister (1914–1916)"
+      }
+    },
+    {
+      "name": "Billy Hughes",
+      "title": "Prime minister",
+      "from": 1916,
+      "to": 1923,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Billy Hughes, Prime minister (1916–1923)"
+      }
+    },
+    {
+      "name": "Joseph Lyons",
+      "title": "Prime minister",
+      "from": 1932,
+      "to": 1939,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Joseph Lyons, Prime minister (1932–1939)"
+      }
+    },
+    {
+      "name": "John Curtin",
+      "title": "Prime minister",
+      "from": 1941,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "John Curtin, Prime minister (1941–1945)"
+      }
+    },
+    {
+      "name": "Frank Forde",
+      "title": "Prime minister",
+      "from": 1945,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Frank Forde, Prime minister (1945–1945)"
+      }
+    },
+    {
+      "name": "Ben Chifley",
+      "title": "Prime minister",
+      "from": 1945,
+      "to": 1949,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Ben Chifley, Prime minister (1945–1949)"
+      }
+    },
+    {
+      "name": "Sir Robert Menzies",
+      "title": "Prime minister",
+      "from": 1949,
+      "to": 1966,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Sir Robert Menzies, Prime minister (1949–1966)"
+      }
+    },
+    {
+      "name": "Paul Keating",
+      "title": "Prime minister",
+      "from": 1991,
+      "to": 1996,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Paul Keating, Prime minister (1991–1996)"
+      }
+    },
     {
       "name": "Kevin Rudd",
       "title": "Prime minister",

@@ -1,8 +1,88 @@
 {
   "qid": "Q792",
   "name": "El Salvador",
-  "summary": "El Salvador: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "El Salvador: office-holders in 1880, 1900, 1914, 1920, 1938, 1945, 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Rafael Zaldívar",
+      "title": "President",
+      "from": 1876,
+      "to": 1884,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Rafael Zaldívar, President (1876–1884)"
+      }
+    },
+    {
+      "name": "Tomás Regalado",
+      "title": "President",
+      "from": 1898,
+      "to": 1903,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Tomás Regalado, President (1898–1903)"
+      }
+    },
+    {
+      "name": "Carlos Meléndez Ramirez",
+      "title": "Provisional President",
+      "from": 1913,
+      "to": 1914,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Carlos Meléndez Ramirez, Provisional President (1913–1914)"
+      }
+    },
+    {
+      "name": "Jorge Meléndez",
+      "title": "President",
+      "from": 1919,
+      "to": 1923,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Jorge Meléndez, President (1919–1923)"
+      }
+    },
+    {
+      "name": "Maximiliano Hernández Martínez",
+      "title": "President",
+      "from": 1935,
+      "to": 1944,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Maximiliano Hernández Martínez, President (1935–1944)"
+      }
+    },
+    {
+      "name": "Osmín Aguirre y Salinas",
+      "title": "Provisional President",
+      "from": 1944,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Osmín Aguirre y Salinas, Provisional President (1944–1945)"
+      }
+    },
+    {
+      "name": "José María Lemus",
+      "title": "President",
+      "from": 1956,
+      "to": 1960,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "José María Lemus, President (1956–1960)"
+      }
+    },
+    {
+      "name": "Alfredo Cristiani",
+      "title": "President",
+      "from": 1989,
+      "to": 1994,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Alfredo Cristiani, President (1989–1994)"
+      }
+    },
     {
       "name": "Mauricio Funes",
       "title": "President",
@@ -24,6 +104,37 @@
       }
     }
   ],
-  "offices": [],
+  "offices": [
+    {
+      "name": "Alfonso Quiñónez Molina",
+      "title": "Provisional President",
+      "from": 1914,
+      "to": 1915,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Alfonso Quiñónez Molina, Provisional President (1914–1915)"
+      }
+    },
+    {
+      "name": "Salvador Castaneda Castro",
+      "title": "President",
+      "from": 1945,
+      "to": 1948,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Salvador Castaneda Castro, President (1945–1948)"
+      }
+    },
+    {
+      "name": "Armando Calderón Sol",
+      "title": "President",
+      "from": 1994,
+      "to": 1999,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Armando Calderón Sol, President (1994–1999)"
+      }
+    }
+  ],
   "events": []
 }

@@ -1,8 +1,68 @@
 {
   "qid": "Q774",
   "name": "Guatemala",
-  "summary": "Guatemala: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Guatemala: office-holders in 1914, 1920, 1938, 1945, 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Manuel Estrada Cabrera",
+      "title": "President",
+      "from": 1898,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Manuel Estrada Cabrera, President (1898–1920)"
+      }
+    },
+    {
+      "name": "Carlos Herrera",
+      "title": "President",
+      "from": 1920,
+      "to": 1921,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Carlos Herrera, President (1920–1921)"
+      }
+    },
+    {
+      "name": "Jorge Ubico",
+      "title": "President",
+      "from": 1931,
+      "to": 1944,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Jorge Ubico, President (1931–1944)"
+      }
+    },
+    {
+      "name": "Revolutionary Government Junta",
+      "title": "President",
+      "from": 1944,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Revolutionary Government Junta, President (1944–1945)"
+      }
+    },
+    {
+      "name": "Miguel Ydígoras Fuentes",
+      "title": "President",
+      "from": 1958,
+      "to": 1963,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Miguel Ydígoras Fuentes, President (1958–1963)"
+      }
+    },
+    {
+      "name": "Ramiro de León Carpio",
+      "title": "President",
+      "from": 1993,
+      "to": 1996,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Ramiro de León Carpio, President (1993–1996)"
+      }
+    },
     {
       "name": "Álvaro Colom",
       "title": "President",
@@ -24,6 +84,17 @@
       }
     }
   ],
-  "offices": [],
+  "offices": [
+    {
+      "name": "Juan José Arévalo",
+      "title": "President",
+      "from": 1945,
+      "to": 1951,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Juan José Arévalo, President (1945–1951)"
+      }
+    }
+  ],
   "events": []
 }

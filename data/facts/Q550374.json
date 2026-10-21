@@ -1,0 +1,19 @@
+{
+  "qid": "Q550374",
+  "name": "South African Republic",
+  "summary": "South African Republic: office-holders in 1900, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Schalk Willem Burger",
+      "title": "Acting State President",
+      "from": 1900,
+      "to": 1902,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Schalk Willem Burger, Acting State President (1900–1902)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

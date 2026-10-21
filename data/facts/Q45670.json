@@ -12,6 +12,58 @@
         "url": "https://en.wikipedia.org/wiki/John_II_of_Portugal",
         "quote": "John was proclaimed King of Portugal and crowned at Sintra on 31 August."
       }
+    },
+    {
+      "name": "Luís I",
+      "title": "King",
+      "from": 1861,
+      "to": 1889,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Luís I, King (1861–1889)"
+      }
+    },
+    {
+      "name": "Carlos I",
+      "title": "King",
+      "from": 1889,
+      "to": 1908,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Carlos I, King (1889–1908)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Anselmo José Braamcamp",
+      "title": "Prime minister",
+      "from": 1879,
+      "to": 1881,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Anselmo José Braamcamp, Prime minister (1879–1881)"
+      }
+    },
+    {
+      "name": "José Luciano de Castro",
+      "title": "Prime minister",
+      "from": 1897,
+      "to": 1900,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "José Luciano de Castro, Prime minister (1897–1900)"
+      }
+    },
+    {
+      "name": "Ernesto Hintze Ribeiro",
+      "title": "Prime minister",
+      "from": 1900,
+      "to": 1904,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Ernesto Hintze Ribeiro, Prime minister (1900–1904)"
+      }
     }
   ],
   "events": []

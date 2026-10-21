@@ -85,6 +85,12 @@ describe('raw files', () => {
       'C D, acting prime minister (28 August 2025 – 14 September 2025); prime minister (since 14 September 2025)',
     ]);
   });
+  it('reads an optional border name as the last field', () => {
+    const rows = parseRawFile(`# source: ${URL_1914}\nAbyssinia|Q1|Lij Iyasu, Emperor (1913–1916)|Abyssinia\nSiam|Q2|Vajiravudh, King (1910–1925)|Rattanakosin Kingdom\n`, 1914);
+    expect(rows.map((r) => r.border)).toEqual(['Abyssinia', 'Rattanakosin Kingdom']);
+    expect(() => parseRawFile(`# source: ${URL_1914}\nA|Q1|B C, King (1900–1920)|`, 1914)).toThrow(/Bad row/);
+    expect(() => parseRawFile(`# source: ${URL_1914}\nA|Q1|B C, King (1900–1920)|X|Y`, 1914)).toThrow(/Bad row/);
+  });
   it('rejects a missing source header or a malformed row', () => {
     expect(() => parseRawFile('A|Q1|B C, King (1900–1920)', 1914)).toThrow(/source/);
     expect(() => parseRawFile(`# source: ${URL_1914}\nA|nope|B C, King (1900–1920)`, 1914)).toThrow(/Bad row/);
@@ -140,6 +146,19 @@ describe('buildPolity', () => {
       ['Haakon VIII', 2026, null],
     ]);
     expect(p.offices.map((o) => o.name)).toEqual(['Jens Stoltenberg', 'Jonas Gahr Støre']);
+  });
+  it('puts the Wikidata description in a generated summary, never over a curated one', () => {
+    const p = buildPolity('Q1', [row(1914, ['George V, King (1910–1936)'])], null, 'country in Europe.');
+    expect(p.summary).toBe("Testland: country in Europe (Wikidata description). Office-holders in 1914, from Wikipedia's list of state leaders.");
+    const again = buildPolity('Q1', [row(1914, ['George V, King (1910–1936)']), row(1920, ['George V, King (1910–1936)'])], p, 'country in Europe');
+    expect(again.summary).toContain('Office-holders in 1914, 1920');
+    const curated = { qid: 'Q1', name: 'Curated', summary: 'Curated land.', rulers: [], offices: [], events: [] };
+    expect(buildPolity('Q1', [row(1914, ['George V, King (1910–1936)'])], curated, 'x').summary).toBe('Curated land.');
+  });
+  it('recognises its own BC summaries as generated', () => {
+    const bc = buildPolity('Q1', [row(-500, ['Darius I, King (522–486)'])], null);
+    expect(bc.summary).toBe("Testland: office-holders in 500 BC, from Wikipedia's list of state leaders.");
+    expect(buildPolity('Q1', [row(-500, ['Darius I, King (522–486)'])], bc, 'empire').summary).toContain('(Wikidata description)');
   });
   it('regenerates earlier imports instead of piling them up', () => {
     const first = buildPolity('Q1', [row(1914, ['George V, King (1910–1936)', 'H. H. Asquith, Prime minister (1908–1916)'])], null);

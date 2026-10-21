@@ -1,15 +1,45 @@
 {
   "qid": "Q16",
   "name": "Canada",
-  "summary": "Canada: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Canada: office-holders in 1914, 1920, 1938, 1945, 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Robert Borden",
+      "title": "Prime minister",
+      "from": 1911,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Robert Borden, Prime minister (1911–1920)"
+      }
+    },
+    {
+      "name": "Arthur Meighen",
+      "title": "Prime minister",
+      "from": 1920,
+      "to": 1921,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Arthur Meighen, Prime minister (1920–1921)"
+      }
+    },
+    {
+      "name": "George VI",
+      "title": "King",
+      "from": 1936,
+      "to": 1952,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "George VI, King (1936–1952)"
+      }
+    },
     {
       "name": "Elizabeth II",
       "title": "Queen",
       "from": 1952,
       "to": 2022,
       "source": {
-        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
         "quote": "Elizabeth II, Queen (1952–2022)"
       }
     },
@@ -25,6 +55,36 @@
     }
   ],
   "offices": [
+    {
+      "name": "William Lyon Mackenzie King",
+      "title": "Prime minister",
+      "from": 1935,
+      "to": 1948,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "William Lyon Mackenzie King, Prime minister (1935–1948)"
+      }
+    },
+    {
+      "name": "John Diefenbaker",
+      "title": "Prime minister",
+      "from": 1957,
+      "to": 1963,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "John Diefenbaker, Prime minister (1957–1963)"
+      }
+    },
+    {
+      "name": "Jean Chrétien",
+      "title": "Prime minister",
+      "from": 1993,
+      "to": 2003,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Jean Chrétien, Prime minister (1993–2003)"
+      }
+    },
     {
       "name": "Stephen Harper",
       "title": "Prime minister",

@@ -1,0 +1,60 @@
+{
+  "qid": "Q1121819",
+  "name": "Emirate of Transjordan",
+  "summary": "Emirate of Transjordan: office-holders in 1938, 1945, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "Abdullah I",
+      "title": "Emir",
+      "from": 1921,
+      "to": 1946,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Abdullah I, Emir (1921–1946), King (1946–1951)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Ibrahim Hashem",
+      "title": "Prime minister",
+      "from": 1933,
+      "to": 1938,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Ibrahim Hashem, Prime minister (1933–1938)"
+      }
+    },
+    {
+      "name": "Tawfik Abu al-Huda",
+      "title": "Prime minister",
+      "from": 1938,
+      "to": 1944,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Tawfik Abu al-Huda, Prime minister (1938–1944)"
+      }
+    },
+    {
+      "name": "Samir al-Rifai",
+      "title": "Prime minister",
+      "from": 1944,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Samir al-Rifai, Prime minister (1944–1945)"
+      }
+    },
+    {
+      "name": "Ibrahim Hashem",
+      "title": "Prime minister",
+      "from": 1945,
+      "to": 1946,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Ibrahim Hashem, Prime minister (1945–1946)"
+      }
+    }
+  ],
+  "events": []
+}

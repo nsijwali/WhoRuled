@@ -1,0 +1,40 @@
+{
+  "qid": "Q6500954",
+  "name": "Zaire",
+  "summary": "Zaire: office-holders in 1994, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Mobutu Sese Seko",
+      "title": "President",
+      "from": 1971,
+      "to": 1997,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Mobutu Sese Seko, President (1971–1997)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Faustin Birindwa",
+      "title": "Prime minister",
+      "from": 1993,
+      "to": 1994,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Faustin Birindwa, Prime minister (1993–1994)"
+      }
+    },
+    {
+      "name": "Léon Kengo",
+      "title": "First state commissioner",
+      "from": 1994,
+      "to": 1997,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Léon Kengo, First state commissioner (1994–1997)"
+      }
+    }
+  ],
+  "events": []
+}

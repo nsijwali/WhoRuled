@@ -1,8 +1,18 @@
 {
   "qid": "Q1029",
   "name": "Mozambique",
-  "summary": "Mozambique: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Mozambique: office-holders in 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Joaquim Chissano",
+      "title": "President",
+      "from": 1990,
+      "to": 2005,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Joaquim Chissano, President (1990–2005)"
+      }
+    },
     {
       "name": "Armando Guebuza",
       "title": "President",
@@ -25,6 +35,26 @@
     }
   ],
   "offices": [
+    {
+      "name": "Mário da Graça Machungo",
+      "title": "Prime minister",
+      "from": 1990,
+      "to": 1994,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Mário da Graça Machungo, Prime minister (1990–1994)"
+      }
+    },
+    {
+      "name": "Pascoal Mocumbi",
+      "title": "Prime minister",
+      "from": 1994,
+      "to": 2004,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Pascoal Mocumbi, Prime minister (1994–2004)"
+      }
+    },
     {
       "name": "Luísa Diogo",
       "title": "Prime minister",

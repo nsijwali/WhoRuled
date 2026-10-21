@@ -1,8 +1,18 @@
 {
   "qid": "Q1020",
   "name": "Malawi",
-  "summary": "Malawi: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Malawi: office-holders in 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Hastings Banda",
+      "title": "President",
+      "from": 1966,
+      "to": 1994,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Hastings Banda, President (1966–1994)"
+      }
+    },
     {
       "name": "Bingu wa Mutharika",
       "title": "President",
@@ -24,6 +34,17 @@
       }
     }
   ],
-  "offices": [],
+  "offices": [
+    {
+      "name": "Bakili Muluzi",
+      "title": "President",
+      "from": 1994,
+      "to": 2004,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Bakili Muluzi, President (1994–2004)"
+      }
+    }
+  ],
   "events": []
 }

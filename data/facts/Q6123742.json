@@ -1,0 +1,40 @@
+{
+  "qid": "Q6123742",
+  "name": "Second Dominican Republic",
+  "summary": "Second Dominican Republic: office-holders in 1880, 1900, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "Gregorio Luperón",
+      "title": "President",
+      "from": 1879,
+      "to": 1880,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Gregorio Luperón, President (1879–1880)"
+      }
+    },
+    {
+      "name": "Juan Isidro Jimenes Pereyra",
+      "title": "President",
+      "from": 1899,
+      "to": 1902,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Juan Isidro Jimenes Pereyra, President (1899–1902)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Fernando Arturo de Meriño",
+      "title": "President",
+      "from": 1880,
+      "to": 1882,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Fernando Arturo de Meriño, President (1880–1882)"
+      }
+    }
+  ],
+  "events": []
+}

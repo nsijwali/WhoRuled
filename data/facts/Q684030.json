@@ -1,0 +1,40 @@
+{
+  "qid": "Q684030",
+  "name": "Principality of Serbia",
+  "summary": "Principality of Serbia: office-holders in 1880, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Milan IV / I",
+      "title": "Prince",
+      "from": 1868,
+      "to": 1882,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Milan IV / I, Prince (1868–1882), King (1882–1889)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Jovan Ristić",
+      "title": "President of the ministry",
+      "from": 1878,
+      "to": 1880,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Jovan Ristić, President of the ministry (1878–1880)"
+      }
+    },
+    {
+      "name": "Milan Piroćanac",
+      "title": "President of the ministry",
+      "from": 1880,
+      "to": 1882,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Milan Piroćanac, President of the ministry (1880–1882)"
+      }
+    }
+  ],
+  "events": []
+}

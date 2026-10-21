@@ -4,6 +4,26 @@
   "summary": "Republic of India.",
   "rulers": [
     {
+      "name": "Rajendra Prasad",
+      "title": "President",
+      "from": 1950,
+      "to": 1962,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Rajendra Prasad, President (1950–1962)"
+      }
+    },
+    {
+      "name": "Shankar Dayal Sharma",
+      "title": "President",
+      "from": 1992,
+      "to": 1997,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Shankar Dayal Sharma, President (1992–1997)"
+      }
+    },
+    {
       "name": "Pratibha Patil",
       "title": "president",
       "from": 2007,
@@ -25,6 +45,26 @@
     }
   ],
   "offices": [
+    {
+      "name": "Jawaharlal Nehru",
+      "title": "Prime minister",
+      "from": 1947,
+      "to": 1964,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Jawaharlal Nehru, Prime minister (1947–1964)"
+      }
+    },
+    {
+      "name": "P. V. Narasimha Rao",
+      "title": "Prime minister",
+      "from": 1991,
+      "to": 1996,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "P. V. Narasimha Rao, Prime minister (1991–1996)"
+      }
+    },
     {
       "name": "Manmohan Singh",
       "title": "Prime minister",

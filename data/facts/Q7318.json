@@ -1,0 +1,30 @@
+{
+  "qid": "Q7318",
+  "name": "Nazi Germany",
+  "summary": "Nazi Germany: office-holders in 1938, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Adolf Hitler",
+      "title": "Führer",
+      "from": 1934,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Adolf Hitler, Führer (1934–1945)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Adolf Hitler",
+      "title": "Chancellor",
+      "from": 1933,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Adolf Hitler, Chancellor (1933–1945)"
+      }
+    }
+  ],
+  "events": []
+}

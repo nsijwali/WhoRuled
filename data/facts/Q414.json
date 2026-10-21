@@ -1,8 +1,68 @@
 {
   "qid": "Q414",
   "name": "Argentina",
-  "summary": "Argentina: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Argentina: office-holders in 1914, 1920, 1938, 1945, 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Roque Sáenz Peña",
+      "title": "President",
+      "from": 1910,
+      "to": 1914,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Roque Sáenz Peña, President (1910–1914)"
+      }
+    },
+    {
+      "name": "Hipólito Yrigoyen",
+      "title": "President",
+      "from": 1916,
+      "to": 1922,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Hipólito Yrigoyen, President (1916–1922)"
+      }
+    },
+    {
+      "name": "Agustín Pedro Justo",
+      "title": "President",
+      "from": 1932,
+      "to": 1938,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Agustín Pedro Justo, President (1932–1938)"
+      }
+    },
+    {
+      "name": "Edelmiro Julián Farrell",
+      "title": "de facto President",
+      "from": 1944,
+      "to": 1946,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Edelmiro Julián Farrell, de facto President (1944–1946)"
+      }
+    },
+    {
+      "name": "Arturo Frondizi",
+      "title": "President",
+      "from": 1958,
+      "to": 1962,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Arturo Frondizi, President (1958–1962)"
+      }
+    },
+    {
+      "name": "Carlos Menem",
+      "title": "President",
+      "from": 1989,
+      "to": 1999,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Carlos Menem, President (1989–1999)"
+      }
+    },
     {
       "name": "Cristina Fernández de Kirchner",
       "title": "President",
@@ -24,6 +84,27 @@
       }
     }
   ],
-  "offices": [],
+  "offices": [
+    {
+      "name": "Victorino de la Plaza",
+      "title": "President",
+      "from": 1914,
+      "to": 1916,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Victorino de la Plaza, President (1914–1916)"
+      }
+    },
+    {
+      "name": "Roberto María Ortiz",
+      "title": "President",
+      "from": 1938,
+      "to": 1942,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Roberto María Ortiz, President (1938–1942)"
+      }
+    }
+  ],
   "events": []
 }

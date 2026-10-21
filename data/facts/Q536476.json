@@ -1,0 +1,19 @@
+{
+  "qid": "Q536476",
+  "name": "Toucouleur Empire",
+  "summary": "Toucouleur Empire: office-holders in 1880, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Tidiani Tall",
+      "title": "ruler",
+      "from": 1864,
+      "to": 1890,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Tidiani Tall, ruler (1864–1890)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "qid": "Q332071",
+  "name": "Transitional Government of Ethiopia",
+  "summary": "Transitional Government of Ethiopia: office-holders in 1994, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Meles Zenawi",
+      "title": "Acting President",
+      "from": 1991,
+      "to": 1995,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Meles Zenawi, Acting President (1991–1995)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Tamrat Layne",
+      "title": "Acting Prime minister",
+      "from": 1991,
+      "to": 1995,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Tamrat Layne, Acting Prime minister (1991–1995)"
+      }
+    }
+  ],
+  "events": []
+}

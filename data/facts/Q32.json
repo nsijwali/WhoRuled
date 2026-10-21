@@ -1,8 +1,58 @@
 {
   "qid": "Q32",
   "name": "Luxembourg",
-  "summary": "Luxembourg: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Luxembourg: office-holders in 1880, 1900, 1914, 1920, 1938, 1945, 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "William III",
+      "title": "Grand Duke",
+      "from": 1849,
+      "to": 1890,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "William III, Grand Duke (1849–1890)"
+      }
+    },
+    {
+      "name": "Adolphe",
+      "title": "Grand Duke",
+      "from": 1890,
+      "to": 1905,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Adolphe, Grand Duke (1890–1905)"
+      }
+    },
+    {
+      "name": "Marie-Adélaïde",
+      "title": "Grand Duchess",
+      "from": 1912,
+      "to": 1919,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Marie-Adélaïde, Grand Duchess (1912–1919)"
+      }
+    },
+    {
+      "name": "Charlotte",
+      "title": "Grand Duchess",
+      "from": 1919,
+      "to": 1964,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Charlotte, Grand Duchess (1919–1964)"
+      }
+    },
+    {
+      "name": "Jean",
+      "title": "Grand Duke",
+      "from": 1964,
+      "to": 2000,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Jean, Grand Duke (1964–2000)"
+      }
+    },
     {
       "name": "Henri",
       "title": "Grand Duke",
@@ -25,6 +75,66 @@
     }
   ],
   "offices": [
+    {
+      "name": "Félix de Blochausen",
+      "title": "Prime minister",
+      "from": 1874,
+      "to": 1885,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Félix de Blochausen, Prime minister (1874–1885)"
+      }
+    },
+    {
+      "name": "Paul Eyschen",
+      "title": "Prime minister",
+      "from": 1888,
+      "to": 1915,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Paul Eyschen, Prime minister (1888–1915)"
+      }
+    },
+    {
+      "name": "Émile Reuter",
+      "title": "Prime minister",
+      "from": 1918,
+      "to": 1925,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Émile Reuter, Prime minister (1918–1925)"
+      }
+    },
+    {
+      "name": "Pierre Dupong",
+      "title": "Prime minister",
+      "from": 1937,
+      "to": 1953,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Pierre Dupong, Prime minister (1937–1953)"
+      }
+    },
+    {
+      "name": "Pierre Werner",
+      "title": "Prime minister",
+      "from": 1959,
+      "to": 1974,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Pierre Werner, Prime minister (1959–1974)"
+      }
+    },
+    {
+      "name": "Jacques Santer",
+      "title": "Prime minister",
+      "from": 1984,
+      "to": 1995,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Jacques Santer, Prime minister (1984–1995)"
+      }
+    },
     {
       "name": "Jean-Claude Juncker",
       "title": "Prime minister",

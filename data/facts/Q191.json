@@ -1,8 +1,38 @@
 {
   "qid": "Q191",
   "name": "Estonia",
-  "summary": "Estonia: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Estonia: office-holders in 1920, 1938, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Ants Piip",
+      "title": "State Elder",
+      "from": 1920,
+      "to": 1921,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Ants Piip, State Elder (1920–1921)"
+      }
+    },
+    {
+      "name": "Konstantin Päts",
+      "title": "President-Regent",
+      "from": 1937,
+      "to": 1938,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Konstantin Päts, President-Regent (1937–1938)"
+      }
+    },
+    {
+      "name": "Lennart Meri",
+      "title": "President",
+      "from": 1992,
+      "to": 2001,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Lennart Meri, President (1992–2001)"
+      }
+    },
     {
       "name": "Toomas Hendrik Ilves",
       "title": "President",
@@ -25,6 +55,86 @@
     }
   ],
   "offices": [
+    {
+      "name": "Jaan Tõnisson",
+      "title": "Prime minister",
+      "from": 1919,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Jaan Tõnisson, Prime minister (1919–1920)"
+      }
+    },
+    {
+      "name": "Ado Birk",
+      "title": "Prime minister",
+      "from": 1920,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Ado Birk, Prime minister (1920)"
+      }
+    },
+    {
+      "name": "Jaan Tõnisson",
+      "title": "Prime minister",
+      "from": 1920,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Jaan Tõnisson, Prime minister (1920)"
+      }
+    },
+    {
+      "name": "Ants Piip",
+      "title": "Prime minister",
+      "from": 1920,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Ants Piip, Prime minister (1920)"
+      }
+    },
+    {
+      "name": "Konstantin Päts",
+      "title": "President",
+      "from": 1938,
+      "to": 1940,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Konstantin Päts, President (1938–1940)"
+      }
+    },
+    {
+      "name": "Kaarel Eenpalu",
+      "title": "Prime minister",
+      "from": 1938,
+      "to": 1939,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Kaarel Eenpalu, Prime minister (1938–1939)"
+      }
+    },
+    {
+      "name": "Mart Laar",
+      "title": "Prime minister",
+      "from": 1992,
+      "to": 1994,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Mart Laar, Prime minister (1992–1994)"
+      }
+    },
+    {
+      "name": "Andres Tarand",
+      "title": "Prime minister",
+      "from": 1994,
+      "to": 1995,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Andres Tarand, Prime minister (1994–1995)"
+      }
+    },
     {
       "name": "Andrus Ansip",
       "title": "Prime minister",

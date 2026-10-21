@@ -1,0 +1,213 @@
+# source: https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)
+# 106 states. QIDs come from each state's linked article and were checked against its Wikidata inception/dissolution dates.
+# wikidata-description Q1009: sovereign state in West-Central Africa
+Cameroon|Q1009|Ahmadou Ahidjo, President (1960–1982);Ahmadou Ahidjo, Prime minister (1958–1960);Charles Assalé, Prime minister (1960–1961)
+# wikidata-description Q929: country in Central Africa
+Central African Republic|Q929|David Dacko, President (1960–1966);David Dacko, Prime minister (1959–1960)
+# wikidata-description Q657: sovereign state in central Africa
+Chad|Q657|François Tombalbaye, President (1960–1975)
+# wikidata-description Q618399: former country (1960–1971) in Africa, predecessor of Zaire
+Republic of the Congo (Léopoldville)|Q618399|Joseph Kasa-Vubu, President (1960–1965);Patrice Lumumba, Prime minister (1960);Joseph Iléo, Prime minister (1960);Justin Marie Bomboko, Prime minister (1960–1961);Antoine Gizenga, Rebel, Prime minister (1960–1961)|Zaire
+# wikidata-description Q971: country in Central Africa, capital Brazzaville
+Republic of the Congo|Q971|Fulbert Youlou, President (1960–1963)|Congo
+# wikidata-description Q1000: country on the Atlantic coast of Central Africa
+Gabon|Q1000|Léon M'ba, President (1960–1967);Léon M'ba, Prime minister (1957–1961)
+# wikidata-description Q1192936: former kingdom in Central/Eastern Africa up to 1966
+Kingdom of Burundi|Q1192936|Mwambutsa IV Bangiriceng, King (1915–1966)|Burundi
+# wikidata-description Q207521: 1270–1974 state in the Horn of Africa
+Ethiopian Empire|Q207521|Haile Selassie I, Emperor (1930–1974)|Ethiopia
+# wikidata-description Q6740997: Regime 1958-1975
+Malagasy Republic|Q6740997|Philibert Tsiranana, President (1959–1972)|Madagascar
+# wikidata-description Q889884: former kingdom in East Africa from the 15th century and up to 1962
+Kingdom of Rwanda|Q889884|Kigeli V Ndahindurwa, King (1959–1961)|Rwanda
+# wikidata-description Q31454: kingdom in Northern Africa
+Kingdom of Libya|Q31454|Idris, Emir (1949–1951), King (1951–1969);Abdul Majid Kubar, Prime minister (1957–1960);Muhammad Osman Said, Prime minister (1960–1963)|Libya
+# wikidata-description Q948: country in North Africa
+Tunisia|Q948|Habib Bourguiba, President (1957–1987)
+# wikidata-description Q79: country in Northeast Africa and Southwest Asia
+Egypt|Q79|Gamal Abdel Nasser, President (1954–1970);Gamal Abdel Nasser, Prime minister, government in rebellion (1954–1962)
+# wikidata-description Q3486796: former state (1956–1969)
+Republic of the Sudan (1956–1969)|Q3486796|Ibrahim Abboud, President (1958–1964);Ibrahim Abboud, Prime minister (1958–1964)|Sudan
+# wikidata-description Q1028: sovereign state in North Africa
+Morocco|Q1028|Mohammed V, Sultan (1927–1953, 1955–1957), King (1957–1961);Abdallah Ibrahim, Prime minister (1958–1960)
+Basutoland|Q2340665|'Mantšebo, Regent (1941–1960);Moshoeshoe II, Paramount Chief (1960–1966), King (1966–1990, 1995–1996)|Lesotho
+# wikidata-description Q258: country in southern Africa
+South Africa|Q258|Hendrik Verwoerd, Prime minister (1958–1966)
+# wikidata-description Q798431: former country
+Republic of Dahomey|Q798431|Hubert Maga, President (1960–1963);Hubert Maga, Prime minister (1960)|Benin
+# wikidata-description Q117: country in West Africa
+Ghana|Q117|Kwame Nkrumah, President of the First Republic (1960–1966)
+# wikidata-description Q1006: sovereign state in West Africa
+Guinea|Q1006|Ahmed Sékou Touré, President (1958–1984)
+# wikidata-description Q1008: sovereign state in West Africa
+Ivory Coast|Q1008|Félix Houphouët-Boigny, President (1960–1993);Félix Houphouët-Boigny, Prime minister (1960)
+# wikidata-description Q1014: sovereign state in West Africa
+Liberia|Q1014|William Tubman, President (1944–1971)
+# wikidata-description Q912: country in West Africa
+Mali|Q912|Modibo Keïta, Head of State (1960–1965), President (1965–1968);Modibo Keïta, Prime minister (1960–1965)
+# wikidata-description Q1025: sovereign state in West Africa and North Africa
+Mauritania|Q1025|Moktar Ould Daddah, Acting Head of State (1960–1978), President (1960–1978);Moktar Ould Daddah, Prime minister (1960–1961)
+# wikidata-description Q1032: sovereign state in western Africa
+Niger|Q1032|Hamani Diori, President of the Republic (1960–1974);Hamani Diori, Prime minister (1958–1960)
+# wikidata-description Q1041: country on the coast of West Africa
+Senegal|Q1041|Léopold Sédar Senghor, President (1960–1980);Mamadou Dia, Prime minister (1960–1962)
+# wikidata-description Q945: country in West Africa
+Togolese|Q945|Sylvanus Olympio, President (1960–1963);Sylvanus Olympio, Prime minister (1960–1961)|Togo
+# wikidata-description Q241: sovereign state situated on an island in the Caribbean Sea
+Cuba|Q241|Osvaldo Dorticós Torrado, President (1959–1976);Fidel Castro, Prime minister (1959–1976), President of the Council of Ministers (1976–2008)
+# wikidata-description Q800: country in Central America
+Costa Rica|Q800|Mario Echandi Jiménez, President (1958–1962)
+# wikidata-description Q792: sovereign state in Central America
+El Salvador|Q792|José María Lemus, President (1956–1960)
+# wikidata-description Q774: sovereign state in Central America
+Guatemala|Q774|Miguel Ydígoras Fuentes, President (1958–1963)
+# wikidata-description Q783: sovereign state in Central America
+Honduras|Q783|Ramón Villeda Morales, President (1957–1963)
+# wikidata-description Q811: sovereign state in Central America
+Nicaragua|Q811|Luis Somoza Debayle, President (1956–1963)
+# wikidata-description Q804: sovereign state in Central America
+Panama|Q804|Ernesto de la Guardia, President (1956–1960);Roberto Francisco Chiari Remón, President (1960–1964)
+# wikidata-description Q16: country in North America
+Canada|Q16|Elizabeth II, Queen (1952–2022);John Diefenbaker, Prime minister (1957–1963)
+# wikidata-description Q96: country in North America
+Mexico|Q96|Adolfo López Mateos, President (1958–1964)
+# wikidata-description Q30: country located primarily in North America
+United States|Q30|Dwight D. Eisenhower, President (1953–1961)
+# wikidata-description Q414: country in South America
+Argentina|Q414|Arturo Frondizi, President (1958–1962)
+# wikidata-description Q750: sovereign state in South America
+Bolivia|Q750|Hernán Siles Zuazo, President (1956–1960);Víctor Paz Estenssoro, President (1960–1964)
+# wikidata-description Q2897795: period of Chilean history from the Constitution of 1925 to Pinochet's seizure of power in 1973
+Presidential Republic (1925–1973)|Q2897795|Jorge Alessandri, President (1958–1964)|Chile
+# wikidata-description Q739: country in South America
+Colombia|Q739|Alberto Lleras Camargo, President (1958–1962)
+# wikidata-description Q736: sovereign state in South America
+Ecuador|Q736|Camilo Ponce Enríquez, President (1956–1960);José María Velasco Ibarra, President (1960–1961)
+# wikidata-description Q18353087: 1954–1989 period of Alredo Stroessner's rule in Paraguay
+El Stronato|Q18353087|Alfredo Stroessner, President (1954–1989)|Paraguay
+# wikidata-description Q419: sovereign state in South America
+Peru|Q419|Pedro Beltrán Espantoso, Prime Minister (1959–1961)
+# wikidata-description Q19901436: constituent country of the Kingdom of the Netherlands, 1954–1975
+Suriname (Kingdom of the Netherlands)|Q19901436|Severinus Desiré Emanuels, Prime minister (1958–1963)|Suriname
+# wikidata-description Q21296156: historical period of Venezuela
+Republic of Venezuela|Q21296156|Rómulo Betancourt, President (1959–1964)|Venezuela
+# wikidata-description Q865: country in East Asia
+Republic of China: Taiwan|Q865|Chiang Kai-shek, President (1950–1975);Chen Cheng, Premier (1950–1954, 1958–1963)|Taiwan
+# wikidata-description Q148: country in East Asia
+China|Q148|Mao Zedong, Chairman (1945–1976), Paramount Leader (1949–1976);Liu Shaoqi, President (1959–1968);Zhou Enlai, Premier (1949–1976)
+# wikidata-description Q17: island country in East Asia
+Japan|Q17|Hirohito, Emperor (1926–1989);Hayato Ikeda, Prime minister (1960)
+# wikidata-description Q423: sovereign state in East Asia
+North Korea|Q423|Kim Il Sung, Chairman (1949–1966), General Secretary (1966–1994);Kim Il Sung, Premier (1949–1972)|Korea, Democratic People's Republic of
+# wikidata-description Q884: country in East Asia
+South Korea|Q884|Syngman Rhee, President (1948–1960);Yun Po-sun, President (1960–1962);Yi Yun-yong, Acting Prime minister (1952), Prime minister (1960);Chang Myon, Prime minister (1960–1961)|Korea, Republic of
+# wikidata-description Q212056: 1924–1992 communist republic in East Asia
+Mongolian People's Republic|Q212056|Jamsrangiin Sambuu, Chairman (1954–1972);Yumjaagiin Tsedenbal, Prime minister (1952–1974)|Mongolia
+# wikidata-description Q921: sovereign country and sultanate on the island of Borneo in south-east Asia, member of the Commonwealth of Nations
+Protectorate of Brunei|Q921|Omar Ali Saifuddien III, Sultan (1950–1967)|Brunei
+# wikidata-description Q2638486: 1953-1970 monarchy in Southeast Asia
+Kingdom of Cambodia (1953–1970)|Q2638486|Norodom Sihanouk, King (1941–1955), Prince (1960–1970);Norodom Suramarit, King (1955–1960);Chuop Hell, Acting Head of state (1960);Sisowath Monireth, Acting Head of state (1960);Sisowath Kossamak, Queen Mother (1960–1970);Pho Proeung, Prime minister (1960–1961)|Cambodia
+# wikidata-description Q870055: former country
+Kingdom of Laos|Q870055|Sisavang Vatthana, King (1959–1975);Souvanna Phouma, Prime minister (1951–1954, 1956–1958, 1960, 1962–1975);Sounthone Pathammavong, Prime minister (1959–1960);Kou Abhay, Prime minister (1960);Somsanith Vongkotrattana, Prime minister (1960);Boun Oum, Prime minister (1960–1962)|Laos
+# wikidata-description Q7233551: post independent Burma
+Union of Burma|Q7233551|Win Maung, President (1957–1962);U Nu, Prime minister (1948–1956, 1957–1958, 1960–1962);Ne Win, Prime minister (1958–1960, 1962–1974)|Burma
+# wikidata-description Q928: archipelagic country in Southeast Asia
+Philippines|Q928|Carlos P. Garcia, President (1957–1961)
+# wikidata-description Q869: country in Southeast Asia
+Thailand|Q869|Bhumibol Adulyadej, King (1946–2016);Sarit Thanarat, Prime minister (1957, 1958–1963)
+# wikidata-description Q1138904: kingdom in Central Asia between 1926–1973
+Kingdom of Afghanistan|Q1138904|Mohammad Zahir Shah, King (1933–1973);Mohammed Daoud Khan, Prime minister (1953–1963)|Afghanistan
+# wikidata-description Q917: sovereign state in South Asia
+Bhutan|Q917|Jigme Dorji Wangchuck, Druk Gyalpo (1952–1972);Jigme Palden Dorji, Prime minister (1952–1964)
+# wikidata-description Q668: country in South Asia
+India|Q668|Rajendra Prasad, President (1950–1962);Jawaharlal Nehru, Prime minister (1947–1964)
+# wikidata-description Q1078602: sovereign monarchy in South Asia, lasting from 1768–2008
+Kingdom of Nepal|Q1078602|Mahendra, King (1955–1972);Bishweshwar Prasad Koirala, Prime minister (1959–1960);Tulsi Giri, Prime minister (1960–1963)|Nepal
+# wikidata-description Q843: sovereign state in South Asia
+Pakistan|Q843|Ayub Khan, President (1958–1969)
+# wikidata-description Q2670092: predecessor of the modern day country of Sri Lanka
+Dominion of Ceylon|Q2670092|Elizabeth II, Queen (1952–1972);Wijeyananda Dahanayake, Prime minister (1959–1960);Dudley Senanayake, Prime minister (1960);Sirimavo Bandaranaike, Prime minister (1960–1965)|Sri Lanka
+# wikidata-description Q229: country in the Mediterranean Sea
+Cyprus|Q229|Makarios III, President (1960–1974)
+# wikidata-description Q107258515: former sovereign state (1925–1979)
+Imperial State of Iran|Q107258515|Mohammad Reza Pahlavi, Shah (1941–1979)|Iran
+# wikidata-description Q3041595: state forged in 1958 in Iraq and ended in 1968
+Iraqi Republic (1958–1968)|Q3041595|Muhammad Najib ar-Ruba'i, President (1958–1963);Abd al-Karim Qasim, Prime minister (1958–1963)|Iraq
+# wikidata-description Q801: country in West Asia
+Israel|Q801|Yitzhak Ben-Zvi, President (1952–1963);David Ben-Gurion, Prime minister (1955–1963)
+# wikidata-description Q810: country in West Asia
+Jordan|Q810|Hussein, King (1952–1999);Hazza' al-Majali, Prime minister (1959–1960);Bahjat Talhouni, Prime minister (1960–1962)
+# wikidata-description Q3480281: sheikhdom in the Arabian peninsula (1752-1961), precursor of Kuwait
+Sheikhdom of Kuwait|Q3480281|Abdullah III, Sheikh (1950–1961), Emir (1961–1965)|Kuwait
+# wikidata-description Q822: country in West Asia
+Lebanon|Q822|Fuad Chehab, President (1958–1964);Rashid Karami, Prime minister (1958–1960);Ahmad Daouk, Prime minister (1960);Saeb Salam, Prime minister (1960–1961)
+# wikidata-description Q157734: monarchy on the Arab Peninsula between 1820-1970
+Muscat and Oman|Q157734|Said III, Sultan (1932–1970)|Oman
+# wikidata-description Q846: country in West Asia
+Qatar|Q846|Ali bin Abdullah Al Thani, Emir (1949–1960);Ahmad bin Ali Al Thani, Emir (1960–1972)
+# wikidata-description Q851: country in West Asia
+Saudi Arabia|Q851|Saud, King (1953–1964)
+# wikidata-description Q43: country in West Asia and Southeast Europe
+Turkey|Q43|Celâl Bayar, President (1950–1960);Cemal Gürsel, Chairman (1960–1961), President (1961–1966);Adnan Menderes, Prime minister (1950–1960);Cemal Gürsel, Prime minister (1960–1961)
+# wikidata-description Q580188: historical Arab monarchy
+Mutawakkilite Kingdom of Yemen|Q580188|Ahmad bin Yahya, King (1948–1962)|Yemen
+# wikidata-description Q467864: Marxist-Leninist government of Albania (1946–1992)
+People's Socialist Republic of Albania|Q467864|Enver Hoxha, First Secretary (1941–1985): Democratic Government of Albania (1944–1946);Haxhi Lleshi, Chairman (1953–1982);Mehmet Shehu, Prime minister (1954–1981)|Albania
+# wikidata-description Q121932: Socialist republic ruled by the Bulgarian Communist Party (1946–1990)
+People's Republic of Bulgaria|Q121932|Todor Zhivkov, General Secretary (1954–1989);Dimitar Ganev, Chairman of the Presidium of the National Assembly (1958–1964);Anton Yugov, Prime minister (1956–1962)|Bulgaria
+# wikidata-description Q209065: period of Greek statehood from 1832 to 1924 and 1935 to 1973
+Kingdom of Greece|Q209065|Paul, King (1947–1964);Konstantinos Karamanlis, Prime minister (1958–1961)|Greece
+# wikidata-description Q36704: 1918–1992 country in Southeastern Europe
+Yugoslavia|Q36704|Josip Broz Tito, General Secretary (1945–1964), President of the Presidium (1964–1980);Josip Broz Tito, President (1953–1980);Josip Broz Tito, Prime minister (1941–1963)
+# wikidata-description Q27: country in Northwestern Europe
+Republic of Ireland|Q27|Éamon de Valera, President (1959–1973);Seán Lemass, Taoiseach (1959–1966)|Ireland
+# wikidata-description Q145: island country in north-west Europe
+United Kingdom of Great Britain and Northern Ireland|Q145|Elizabeth II, Queen (1952–2022);Harold Macmillan, Prime minister (1957–1963)|United Kingdom
+# wikidata-description Q40: country in Central Europe
+Austria|Q40|Adolf Schärf, President (1957–1965);Julius Raab, Chancellor (1953–1961)
+# wikidata-description Q853348: republic in Central/Eastern Europe between 1948 and 1990
+Czechoslovak Socialist Republic|Q853348|Antonín Novotný, General Secretary (1953–1968);Antonín Novotný, President (1957–1968);Viliam Široký, Prime minister (1953–1963)|Czechoslovakia
+# wikidata-description Q16957: 1949–1990 country in central Europe, unified into modern Germany
+East Germany|Q16957|Walter Ulbricht, General Secretary (1950–1953), First Secretary (1953–1971);Wilhelm Pieck, President (1949–1960);Walter Ulbricht, Chairmen of the State Council (1960–1973);Otto Grotewohl, Chairman (1949–1964)
+# wikidata-description Q713750: Federal Republic of Germany in the period between its formation on 23 May 1949 and German reunification on 3 October 1990
+West Germany|Q713750|Heinrich Lübke, President (1959–1969);Konrad Adenauer, Chancellor (1945–1963)
+# wikidata-description Q16410: 1949–1989 socialist republic in Central Europe
+Hungarian People's Republic|Q16410|János Kádár, General Secretary (1956–1988);István Dobi, Chairman (1952–1967);Ferenc Münnich, Prime minister (1958–1961)|Hungary
+# wikidata-description Q211274: country of the Warsaw Pact and Eastern Bloc from 1947 to 1989
+Polish People's Republic|Q211274|Władysław Gomułka, First Secretary (1956–1970);Aleksander Zawadzki, Chairman (1952–1964);Józef Cyrankiewicz, Prime minister (1954–1970)|Poland
+# wikidata-description Q39: country in Central Europe
+Switzerland|Q39|Max Petitpierre, President of the Confederation (1960)
+# wikidata-description Q15180: former country in Eurasia (1922–1991)
+Soviet Union|Q15180|Nikita Khrushchev, General Secretary (1953–1964);Kliment Voroshilov, Chairman of the Presidium of the Supreme Soviet (1953–1960);Leonid Brezhnev, Chairman of the Presidium of the Supreme Soviet (1960–1964);Nikita Khrushchev, Chairman of the Council of Ministers (1958–1964)|USSR
+# wikidata-description Q35: country in Northern Europe
+Denmark|Q35|Frederik IX, King (1947–1972);H. C. Hansen, Prime minister (1955–1960);Viggo Kampmann, Prime minister (1960–1962)
+# wikidata-description Q33: country in Northern Europe
+Finland|Q33|Urho Kekkonen, President (1956–1982);V. J. Sukselainen, Prime minister (1959–1961)
+# wikidata-description Q189: Nordic island country in the North Atlantic Ocean
+Iceland|Q189|Ásgeir Ásgeirsson, President (1952–1968);Ólafur Thors, Prime minister (1959–1963)
+# wikidata-description Q20: country in Northern Europe
+Norway|Q20|Olav V, King (1957–1991);Einar Gerhardsen, Prime minister (1955–1963)
+# wikidata-description Q34: country in Northern Europe
+Sweden|Q34|Gustaf VI Adolf, King (1950–1973);Tage Erlander, Prime minister (1946–1969)
+# wikidata-description Q38: country in southern Europe
+Italy|Q38|Giovanni Gronchi, President (1955–1962);Antonio Segni, Prime minister (1959–1960);Fernando Tambroni, Prime minister (1960);Amintore Fanfani, Prime minister (1960–1963)
+# wikidata-description Q228: sovereign microstate between France and Spain, in Western Europe
+Andorra|Q228|Ramon Iglesias i Navarri, Episcopal Co-Prince (1943–1969);Charles de Gaulle, French Co-Prince (1959–1969)
+# wikidata-description Q824489: 1933–1974 authoritarian regime in Portugal
+Second Portuguese Republic|Q824489|Américo Thomaz, President (1958–1974);António de Oliveira Salazar, President of the Council of Ministers (1933–1968)|Portugal
+# wikidata-description Q13474305: 1939–1975 dictature period of Spain
+Francoist Spain|Q13474305|Francisco Franco, Caudillo (1936–1975);Francisco Franco, Prime minister (1936–1973)|Spain
+# wikidata-description Q31: country in western Europe
+Belgium|Q31|Baudouin, King (1951–1993);Gaston Eyskens, Prime minister (1958–1961)
+# wikidata-description Q142: country in Western Europe and other continents (through its overseas territories in America, Africa and Oceania)
+France|Q142|Charles de Gaulle, President (1959–1969);Michel Debré, Prime minister (1959–1962)
+# wikidata-description Q32: country in Western Europe
+Luxembourg|Q32|Charlotte, Grand Duchess (1919–1964);Pierre Werner, Prime minister (1959–1974)
+# wikidata-description Q29999: transcontinental sovereign state and constitutional monarchy
+Kingdom of the Netherlands|Q29999|Juliana, Queen (1948–1980);Jan de Quay, Prime minister (1959–1963)|Netherlands
+# wikidata-description Q408: country
+Australia|Q408|Elizabeth II, Queen (1952–2022);Sir Robert Menzies, Prime minister (1949–1966)
+# wikidata-description Q664: island country in the southwest Pacific Ocean
+New Zealand|Q664|Elizabeth II, Queen (1952–2022);Walter Nash, Prime minister (1957–1960);Keith Holyoake, Prime minister (1960–1972)
+# wikidata-description Q23022146: protected state of the United Kingdom in Polynesia
+Kingdom of Tonga (1900–70)|Q23022146|Sālote Tupou III, King (1918–1965);Tupoutoʻa-Tungi, Prime minister (1949–1965)|Tonga

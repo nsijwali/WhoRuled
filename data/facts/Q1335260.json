@@ -1,0 +1,40 @@
+{
+  "qid": "Q1335260",
+  "name": "Emirate of Afghanistan",
+  "summary": "Emirate of Afghanistan: office-holders in 1880, 1900, 1914, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "Ayub Khan",
+      "title": "Emir",
+      "from": 1879,
+      "to": 1880,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Ayub Khan, Emir (1879–1880)"
+      }
+    },
+    {
+      "name": "Habibullah Khan",
+      "title": "Emir",
+      "from": 1901,
+      "to": 1919,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Habibullah Khan, Emir (1901–1919)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Abdur Rahman Khan",
+      "title": "Emir",
+      "from": 1880,
+      "to": 1901,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Abdur Rahman Khan, Emir (1880–1901)"
+      }
+    }
+  ],
+  "events": []
+}

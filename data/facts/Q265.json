@@ -1,7 +1,7 @@
 {
   "qid": "Q265",
   "name": "Uzbekistan",
-  "summary": "Uzbekistan: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Uzbekistan: office-holders in 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Islam Karimov",
@@ -9,7 +9,7 @@
       "from": 1991,
       "to": 2016,
       "source": {
-        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
         "quote": "Islam Karimov, President (1991–2016)"
       }
     },
@@ -25,6 +25,16 @@
     }
   ],
   "offices": [
+    {
+      "name": "Abdulhashim Mutalov",
+      "title": "Prime minister",
+      "from": 1992,
+      "to": 1995,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Abdulhashim Mutalov, Prime minister (1992–1995)"
+      }
+    },
     {
       "name": "Shavkat Mirziyoyev",
       "title": "Prime minister",

@@ -1,15 +1,35 @@
 {
   "qid": "Q869",
   "name": "Thailand",
-  "summary": "Thailand: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Thailand: office-holders in 1914, 1920, 1938, 1945, 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Vajiravudh",
+      "title": "King",
+      "from": 1910,
+      "to": 1925,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Vajiravudh, King (1910–1925)"
+      }
+    },
+    {
+      "name": "Ananda Mahidol",
+      "title": "King",
+      "from": 1935,
+      "to": 1946,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Ananda Mahidol, King (1935–1946)"
+      }
+    },
     {
       "name": "Bhumibol Adulyadej",
       "title": "King",
       "from": 1946,
       "to": 2016,
       "source": {
-        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
         "quote": "Bhumibol Adulyadej, King (1946–2016)"
       }
     },
@@ -25,6 +45,76 @@
     }
   ],
   "offices": [
+    {
+      "name": "Phraya Phahon Phonphayuhasena",
+      "title": "Prime minister",
+      "from": 1933,
+      "to": 1938,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Phraya Phahon Phonphayuhasena, Prime minister (1933–1938)"
+      }
+    },
+    {
+      "name": "Plaek Phibunsongkhram",
+      "title": "Prime minister",
+      "from": 1938,
+      "to": 1944,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Plaek Phibunsongkhram, Prime minister (1938–1944)"
+      }
+    },
+    {
+      "name": "Khuang Aphaiwong",
+      "title": "Prime minister",
+      "from": 1944,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Khuang Aphaiwong, Prime minister (1944–1945)"
+      }
+    },
+    {
+      "name": "Tawee Boonyaket",
+      "title": "Prime minister",
+      "from": 1945,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Tawee Boonyaket, Prime minister (1945)"
+      }
+    },
+    {
+      "name": "Seni Pramoj",
+      "title": "Prime minister",
+      "from": 1945,
+      "to": 1946,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Seni Pramoj, Prime minister (1945–1946)"
+      }
+    },
+    {
+      "name": "Sarit Thanarat",
+      "title": "Prime minister",
+      "from": 1958,
+      "to": 1963,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Sarit Thanarat, Prime minister (1957, 1958–1963)"
+      }
+    },
+    {
+      "name": "Chuan Leekpai",
+      "title": "Prime minister",
+      "from": 1992,
+      "to": 1995,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Chuan Leekpai, Prime minister (1992–1995)"
+      }
+    },
     {
       "name": "Abhisit Vejjajiva",
       "title": "Prime minister",

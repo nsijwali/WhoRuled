@@ -1,0 +1,59 @@
+{
+  "qid": "Q207521",
+  "name": "Ethiopian Empire",
+  "summary": "Ethiopian Empire: office-holders in 1880, 1900, 1914, 1920, 1945, 1960, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "Yohannes IV",
+      "title": "Emperor",
+      "from": 1871,
+      "to": 1889,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Yohannes IV, Emperor (1871–1889)"
+      }
+    },
+    {
+      "name": "Menelik II",
+      "title": "Emperor",
+      "from": 1889,
+      "to": 1913,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Menelik II, Emperor (1889–1913)"
+      }
+    },
+    {
+      "name": "Iyasu V",
+      "title": "Emperor",
+      "from": 1913,
+      "to": 1916,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Iyasu V, Emperor (1913–1916)"
+      }
+    },
+    {
+      "name": "Zewditu I",
+      "title": "Empress",
+      "from": 1916,
+      "to": 1930,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Zewditu I, Empress (1916–1930)"
+      }
+    },
+    {
+      "name": "Haile Selassie I",
+      "title": "Emperor",
+      "from": 1930,
+      "to": 1974,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Haile Selassie I, Emperor (1930–1974)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

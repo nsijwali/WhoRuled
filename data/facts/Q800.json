@@ -1,8 +1,28 @@
 {
   "qid": "Q800",
   "name": "Costa Rica",
-  "summary": "Costa Rica: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Costa Rica: office-holders in 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Mario Echandi Jiménez",
+      "title": "President",
+      "from": 1958,
+      "to": 1962,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Mario Echandi Jiménez, President (1958–1962)"
+      }
+    },
+    {
+      "name": "Rafael Calderón Fournier",
+      "title": "President",
+      "from": 1990,
+      "to": 1994,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Rafael Calderón Fournier, President (1990–1994)"
+      }
+    },
     {
       "name": "Óscar Arias",
       "title": "President",
@@ -25,6 +45,16 @@
     }
   ],
   "offices": [
+    {
+      "name": "José Figueres Olsen",
+      "title": "President",
+      "from": 1994,
+      "to": 1998,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "José Figueres Olsen, President (1994–1998)"
+      }
+    },
     {
       "name": "Laura Chinchilla",
       "title": "President",

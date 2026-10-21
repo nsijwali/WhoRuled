@@ -1,0 +1,50 @@
+{
+  "qid": "Q211274",
+  "name": "Polish People's Republic",
+  "summary": "Polish People's Republic: office-holders in 1945, 1960, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "Edward Osóbka-Morawski",
+      "title": "Prime minister",
+      "from": 1944,
+      "to": 1947,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Edward Osóbka-Morawski, Prime minister (1944–1947)"
+      }
+    },
+    {
+      "name": "Aleksander Zawadzki",
+      "title": "Chairman",
+      "from": 1952,
+      "to": 1964,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Aleksander Zawadzki, Chairman (1952–1964)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Władysław Gomułka",
+      "title": "First Secretary",
+      "from": 1956,
+      "to": 1970,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Władysław Gomułka, First Secretary (1956–1970)"
+      }
+    },
+    {
+      "name": "Józef Cyrankiewicz",
+      "title": "Prime minister",
+      "from": 1954,
+      "to": 1970,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Józef Cyrankiewicz, Prime minister (1954–1970)"
+      }
+    }
+  ],
+  "events": []
+}

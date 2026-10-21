@@ -1,0 +1,30 @@
+{
+  "qid": "Q1048340",
+  "name": "Albanian Kingdom (1928–1939)",
+  "summary": "Albanian Kingdom (1928–1939): office-holders in 1938, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Zogu I (Ahmet Zogu)",
+      "title": "King",
+      "from": 1928,
+      "to": 1939,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Zogu I (Ahmet Zogu), President (1925–1928), King (1928–1939)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Kostaq Kota",
+      "title": "Prime minister",
+      "from": 1936,
+      "to": 1939,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Kostaq Kota, Prime minister (1936–1939)"
+      }
+    }
+  ],
+  "events": []
+}

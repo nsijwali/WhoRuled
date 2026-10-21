@@ -1,8 +1,38 @@
 {
   "qid": "Q189",
   "name": "Iceland",
-  "summary": "Iceland: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Iceland: office-holders in 1945, 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Sveinn Björnsson",
+      "title": "President",
+      "from": 1944,
+      "to": 1952,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Sveinn Björnsson, President (1944–1952)"
+      }
+    },
+    {
+      "name": "Ásgeir Ásgeirsson",
+      "title": "President",
+      "from": 1952,
+      "to": 1968,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Ásgeir Ásgeirsson, President (1952–1968)"
+      }
+    },
+    {
+      "name": "Vigdís Finnbogadóttir",
+      "title": "President",
+      "from": 1980,
+      "to": 1996,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Vigdís Finnbogadóttir, President (1980–1996)"
+      }
+    },
     {
       "name": "Ólafur Ragnar Grímsson",
       "title": "President",
@@ -25,6 +55,36 @@
     }
   ],
   "offices": [
+    {
+      "name": "Ólafur Thors",
+      "title": "Prime minister",
+      "from": 1944,
+      "to": 1947,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Ólafur Thors, Prime minister (1944–1947)"
+      }
+    },
+    {
+      "name": "Ólafur Thors",
+      "title": "Prime minister",
+      "from": 1959,
+      "to": 1963,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Ólafur Thors, Prime minister (1959–1963)"
+      }
+    },
+    {
+      "name": "Davíð Oddsson",
+      "title": "Prime minister",
+      "from": 1991,
+      "to": 2004,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Davíð Oddsson, Prime minister (1991–2004)"
+      }
+    },
     {
       "name": "Jóhanna Sigurðardóttir",
       "title": "Prime minister",

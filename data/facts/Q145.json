@@ -4,6 +4,16 @@
   "summary": "United Kingdom.",
   "rulers": [
     {
+      "name": "George VI",
+      "title": "King",
+      "from": 1936,
+      "to": 1952,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "George VI, King (1936–1952)"
+      }
+    },
+    {
       "name": "Elizabeth II",
       "title": "queen",
       "from": 1952,
@@ -25,6 +35,56 @@
     }
   ],
   "offices": [
+    {
+      "name": "Neville Chamberlain",
+      "title": "Prime minister",
+      "from": 1937,
+      "to": 1940,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Neville Chamberlain, Prime minister (1937–1940)"
+      }
+    },
+    {
+      "name": "Winston Churchill",
+      "title": "Prime minister",
+      "from": 1940,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Winston Churchill, Prime minister (1940–1945)"
+      }
+    },
+    {
+      "name": "Clement Attlee",
+      "title": "Prime minister",
+      "from": 1945,
+      "to": 1951,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Clement Attlee, Prime minister (1945–1951)"
+      }
+    },
+    {
+      "name": "Harold Macmillan",
+      "title": "Prime minister",
+      "from": 1957,
+      "to": 1963,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Harold Macmillan, Prime minister (1957–1963)"
+      }
+    },
+    {
+      "name": "John Major",
+      "title": "Prime minister",
+      "from": 1990,
+      "to": 1997,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "John Major, Prime minister (1990–1997)"
+      }
+    },
     {
       "name": "Gordon Brown",
       "title": "Prime Minister",

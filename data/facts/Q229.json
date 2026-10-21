@@ -1,8 +1,28 @@
 {
   "qid": "Q229",
   "name": "Cyprus",
-  "summary": "Cyprus: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Cyprus: office-holders in 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Makarios III",
+      "title": "President",
+      "from": 1960,
+      "to": 1974,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Makarios III, President (1960–1974)"
+      }
+    },
+    {
+      "name": "Glafcos Clerides",
+      "title": "President",
+      "from": 1993,
+      "to": 2003,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Glafcos Clerides, President (1993–2003)"
+      }
+    },
     {
       "name": "Demetris Christofias",
       "title": "President",

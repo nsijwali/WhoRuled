@@ -1,0 +1,30 @@
+{
+  "qid": "Q26234937",
+  "name": "First Syrian Republic",
+  "summary": "First Syrian Republic: office-holders in 1945, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Shukri al-Quwatli",
+      "title": "President",
+      "from": 1945,
+      "to": 1949,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Shukri al-Quwatli, President (1945–1949)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Saadallah al-Jabiri",
+      "title": "Prime minister",
+      "from": 1945,
+      "to": 1946,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Saadallah al-Jabiri, Prime minister (1945–1946)"
+      }
+    }
+  ],
+  "events": []
+}

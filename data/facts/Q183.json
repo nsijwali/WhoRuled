@@ -1,8 +1,18 @@
 {
   "qid": "Q183",
   "name": "Germany",
-  "summary": "Germany: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Germany: office-holders in 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Richard von Weizsäcker",
+      "title": "President of reunified Germany",
+      "from": 1990,
+      "to": 1994,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Richard von Weizsäcker, President of West Germany (1984–1990), President of reunified Germany (1990–1994)"
+      }
+    },
     {
       "name": "Horst Köhler",
       "title": "President",
@@ -25,6 +35,26 @@
     }
   ],
   "offices": [
+    {
+      "name": "Roman Herzog",
+      "title": "President",
+      "from": 1994,
+      "to": 1999,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Roman Herzog, President (1994–1999)"
+      }
+    },
+    {
+      "name": "Helmut Kohl",
+      "title": "Chancellor of reunified Germany",
+      "from": 1990,
+      "to": 1998,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Helmut Kohl, Chancellor of West Germany (1982–1990), Chancellor of reunified Germany (1990–1998)"
+      }
+    },
     {
       "name": "Christian Wulff",
       "title": "President",

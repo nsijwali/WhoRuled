@@ -1,0 +1,80 @@
+{
+  "qid": "Q147909",
+  "name": "Kingdom of Bulgaria",
+  "summary": "Kingdom of Bulgaria: office-holders in 1914, 1920, 1938, 1945, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "Ferdinand I",
+      "title": "Tsar",
+      "from": 1908,
+      "to": 1918,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Ferdinand I, Prince (1887–1908), Tsar (1908–1918)"
+      }
+    },
+    {
+      "name": "Boris III",
+      "title": "Tsar",
+      "from": 1918,
+      "to": 1943,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Boris III, Tsar (1918–1943)"
+      }
+    },
+    {
+      "name": "Simeon II",
+      "title": "Tsar",
+      "from": 1943,
+      "to": 1946,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Simeon II, Tsar (1943–1946)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Vasil Radoslavov",
+      "title": "Prime minister",
+      "from": 1913,
+      "to": 1918,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Vasil Radoslavov, Prime minister (1886–1887, 1913–1918)"
+      }
+    },
+    {
+      "name": "Aleksandar Stamboliyski",
+      "title": "Prime minister",
+      "from": 1919,
+      "to": 1923,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Aleksandar Stamboliyski, Prime minister (1919–1923)"
+      }
+    },
+    {
+      "name": "Georgi Kyoseivanov",
+      "title": "Prime minister",
+      "from": 1935,
+      "to": 1940,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Georgi Kyoseivanov, Prime minister (1935–1940)"
+      }
+    },
+    {
+      "name": "Kimon Georgiev",
+      "title": "Prime minister",
+      "from": 1944,
+      "to": 1946,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Kimon Georgiev, Prime minister (1944–1946)"
+      }
+    }
+  ],
+  "events": []
+}

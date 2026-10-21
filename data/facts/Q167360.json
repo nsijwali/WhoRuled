@@ -1,0 +1,160 @@
+{
+  "qid": "Q167360",
+  "name": "First Portuguese Republic",
+  "summary": "First Portuguese Republic: office-holders in 1914, 1920, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "Manuel de Arriaga",
+      "title": "President",
+      "from": 1911,
+      "to": 1915,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Manuel de Arriaga, President (1911–1915)"
+      }
+    },
+    {
+      "name": "António José de Almeida",
+      "title": "President",
+      "from": 1919,
+      "to": 1923,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "António José de Almeida, President (1919–1923)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Afonso Costa",
+      "title": "President of the Ministry",
+      "from": 1913,
+      "to": 1914,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Afonso Costa, President of the Ministry (1913–1914)"
+      }
+    },
+    {
+      "name": "Bernardino Machado",
+      "title": "President of the Ministry",
+      "from": 1914,
+      "to": 1914,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Bernardino Machado, President of the Ministry (1914)"
+      }
+    },
+    {
+      "name": "Vítor Hugo de Azevedo Coutinho",
+      "title": "President of the Ministry",
+      "from": 1914,
+      "to": 1915,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Vítor Hugo de Azevedo Coutinho, President of the Ministry (1914–1915)"
+      }
+    },
+    {
+      "name": "Alfredo de Sá Cardoso",
+      "title": "President of the Ministry",
+      "from": 1919,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Alfredo de Sá Cardoso, President of the Ministry (1919–1920)"
+      }
+    },
+    {
+      "name": "Francisco Fernandes Costa",
+      "title": "President of the Ministry designate",
+      "from": 1920,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Francisco Fernandes Costa, President of the Ministry designate (1920)"
+      }
+    },
+    {
+      "name": "Alfredo de Sá Cardoso",
+      "title": "President of the Ministry",
+      "from": 1920,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Alfredo de Sá Cardoso, President of the Ministry (1920)"
+      }
+    },
+    {
+      "name": "Domingos Pereira",
+      "title": "President of the Ministry",
+      "from": 1920,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Domingos Pereira, President of the Ministry (1920)"
+      }
+    },
+    {
+      "name": "António Maria Baptista",
+      "title": "President of the Ministry",
+      "from": 1920,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "António Maria Baptista, President of the Ministry (1920)"
+      }
+    },
+    {
+      "name": "José Ramos Preto",
+      "title": "Acting President of the Ministry and President of the Ministry",
+      "from": 1920,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "José Ramos Preto, Acting President of the Ministry and President of the Ministry (1920)"
+      }
+    },
+    {
+      "name": "António Maria da Silva",
+      "title": "President of the Ministry",
+      "from": 1920,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "António Maria da Silva, President of the Ministry (1920)"
+      }
+    },
+    {
+      "name": "António Granjo",
+      "title": "President of the Ministry",
+      "from": 1920,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "António Granjo, President of the Ministry (1920)"
+      }
+    },
+    {
+      "name": "Álvaro de Castro",
+      "title": "President of the Ministry",
+      "from": 1920,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Álvaro de Castro, President of the Ministry (1920)"
+      }
+    },
+    {
+      "name": "Liberato Pinto",
+      "title": "President of the Ministry",
+      "from": 1920,
+      "to": 1921,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Liberato Pinto, President of the Ministry (1920–1921)"
+      }
+    }
+  ],
+  "events": []
+}

@@ -1,8 +1,18 @@
 {
   "qid": "Q819",
   "name": "Laos",
-  "summary": "Laos: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Laos: office-holders in 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Khamtai Siphandone",
+      "title": "Chairman",
+      "from": 1992,
+      "to": 2006,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Khamtai Siphandone, Chairman (1992–2006)"
+      }
+    },
     {
       "name": "Choummaly Sayasone",
       "title": "General Secretary",
@@ -25,6 +35,26 @@
     }
   ],
   "offices": [
+    {
+      "name": "Nouhak Phoumsavanh",
+      "title": "President",
+      "from": 1992,
+      "to": 1998,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Nouhak Phoumsavanh, President (1992–1998)"
+      }
+    },
+    {
+      "name": "Khamtai Siphandone",
+      "title": "Prime minister",
+      "from": 1991,
+      "to": 1998,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Khamtai Siphandone, Prime minister (1991–1998)"
+      }
+    },
     {
       "name": "Choummaly Sayasone",
       "title": "President",

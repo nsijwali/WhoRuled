@@ -1,20 +1,130 @@
 {
   "qid": "Q34",
   "name": "Sweden",
-  "summary": "Sweden: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Sweden: office-holders in 1914, 1920, 1938, 1945, 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Gustaf V",
+      "title": "King",
+      "from": 1907,
+      "to": 1950,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Gustaf V, King (1907–1950)"
+      }
+    },
+    {
+      "name": "Gustaf VI Adolf",
+      "title": "King",
+      "from": 1950,
+      "to": 1973,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Gustaf VI Adolf, King (1950–1973)"
+      }
+    },
     {
       "name": "Carl XVI Gustaf",
       "title": "King",
       "from": 1973,
       "to": null,
       "source": {
-        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
         "quote": "Carl XVI Gustaf, King (1973–present)"
       }
     }
   ],
   "offices": [
+    {
+      "name": "Karl Staaff",
+      "title": "Prime minister",
+      "from": 1911,
+      "to": 1914,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Karl Staaff, Prime minister (1911–1914)"
+      }
+    },
+    {
+      "name": "Hjalmar Hammarskjöld",
+      "title": "Prime minister",
+      "from": 1914,
+      "to": 1917,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Hjalmar Hammarskjöld, Prime minister (1914–1917)"
+      }
+    },
+    {
+      "name": "Nils Edén",
+      "title": "Prime minister",
+      "from": 1917,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Nils Edén, Prime minister (1917–1920)"
+      }
+    },
+    {
+      "name": "Hjalmar Branting",
+      "title": "Prime minister",
+      "from": 1920,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Hjalmar Branting, Prime minister (1920)"
+      }
+    },
+    {
+      "name": "Gerhard Louis De Geer",
+      "title": "Prime minister",
+      "from": 1920,
+      "to": 1921,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Gerhard Louis De Geer, Prime minister (1920–1921)"
+      }
+    },
+    {
+      "name": "Per Albin Hansson",
+      "title": "Prime minister",
+      "from": 1936,
+      "to": 1946,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Per Albin Hansson, Prime minister (1936–1946)"
+      }
+    },
+    {
+      "name": "Tage Erlander",
+      "title": "Prime minister",
+      "from": 1946,
+      "to": 1969,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Tage Erlander, Prime minister (1946–1969)"
+      }
+    },
+    {
+      "name": "Carl Bildt",
+      "title": "Prime minister",
+      "from": 1991,
+      "to": 1994,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Carl Bildt, Prime minister (1991–1994)"
+      }
+    },
+    {
+      "name": "Ingvar Carlsson",
+      "title": "Prime minister",
+      "from": 1994,
+      "to": 1996,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Ingvar Carlsson, Prime minister (1994–1996)"
+      }
+    },
     {
       "name": "Fredrik Reinfeldt",
       "title": "Prime minister",

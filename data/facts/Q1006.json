@@ -1,8 +1,28 @@
 {
   "qid": "Q1006",
   "name": "Guinea",
-  "summary": "Guinea: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Guinea: office-holders in 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Ahmed Sékou Touré",
+      "title": "President",
+      "from": 1958,
+      "to": 1984,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Ahmed Sékou Touré, President (1958–1984)"
+      }
+    },
+    {
+      "name": "Lansana Conté",
+      "title": "President",
+      "from": 1984,
+      "to": 2008,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Lansana Conté, President (1984–2008)"
+      }
+    },
     {
       "name": "Sékouba Konaté",
       "title": "Acting President",

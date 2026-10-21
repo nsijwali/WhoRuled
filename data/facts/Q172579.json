@@ -4,6 +4,16 @@
   "summary": "Kingdom of Italy as drawn in the 1914 border data.",
   "rulers": [
     {
+      "name": "Umberto I",
+      "title": "King",
+      "from": 1878,
+      "to": 1900,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Umberto I, King (1878–1900)"
+      }
+    },
+    {
       "name": "Victor Emmanuel III",
       "title": "king",
       "from": 1900,
@@ -11,6 +21,118 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Victor_Emmanuel_III_of_Italy",
         "quote": "was King of Italy from 29 July 1900 until his abdication on 9 May 1946"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Benedetto Cairoli",
+      "title": "Prime minister",
+      "from": 1879,
+      "to": 1881,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Benedetto Cairoli, Prime minister (1879–1881)"
+      }
+    },
+    {
+      "name": "Luigi Pelloux",
+      "title": "Prime minister",
+      "from": 1898,
+      "to": 1900,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Luigi Pelloux, Prime minister (1898–1900)"
+      }
+    },
+    {
+      "name": "Giuseppe Saracco",
+      "title": "Prime minister",
+      "from": 1900,
+      "to": 1901,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Giuseppe Saracco, Prime minister (1900–1901)"
+      }
+    },
+    {
+      "name": "Giovanni Giolitti",
+      "title": "Prime minister",
+      "from": 1911,
+      "to": 1914,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Giovanni Giolitti, Prime minister (1911–1914)"
+      }
+    },
+    {
+      "name": "Antonio Salandra",
+      "title": "Prime minister",
+      "from": 1914,
+      "to": 1916,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Antonio Salandra, Prime minister (1914–1916)"
+      }
+    },
+    {
+      "name": "Francesco Saverio Nitti",
+      "title": "Prime minister",
+      "from": 1919,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Francesco Saverio Nitti, Prime minister (1919–1920)"
+      }
+    },
+    {
+      "name": "Giovanni Giolitti",
+      "title": "Prime minister",
+      "from": 1920,
+      "to": 1921,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Giovanni Giolitti, Prime minister (1920–1921)"
+      }
+    },
+    {
+      "name": "Benito Mussolini",
+      "title": "Prime minister",
+      "from": 1922,
+      "to": 1943,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Benito Mussolini, Prime minister (1922–1943)"
+      }
+    },
+    {
+      "name": "Ivanoe Bonomi",
+      "title": "Prime minister",
+      "from": 1944,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Ivanoe Bonomi, Prime minister (1944–1945)"
+      }
+    },
+    {
+      "name": "Ferruccio Parri",
+      "title": "Prime minister",
+      "from": 1945,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Ferruccio Parri, Prime minister (1945)"
+      }
+    },
+    {
+      "name": "Alcide De Gasperi",
+      "title": "Prime minister",
+      "from": 1945,
+      "to": 1946,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Alcide De Gasperi, Prime minister (1945–1946)"
       }
     }
   ],

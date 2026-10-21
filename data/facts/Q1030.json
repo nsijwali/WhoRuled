@@ -1,8 +1,18 @@
 {
   "qid": "Q1030",
   "name": "Namibia",
-  "summary": "Namibia: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Namibia: office-holders in 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Sam Nujoma",
+      "title": "President",
+      "from": 1990,
+      "to": 2005,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Sam Nujoma, President (1990–2005)"
+      }
+    },
     {
       "name": "Hifikepunye Pohamba",
       "title": "President",
@@ -25,6 +35,16 @@
     }
   ],
   "offices": [
+    {
+      "name": "Hage Geingob",
+      "title": "Prime minister",
+      "from": 1990,
+      "to": 2002,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Hage Geingob, Prime minister (1990–2002)"
+      }
+    },
     {
       "name": "Nahas Angula",
       "title": "Prime minister",

@@ -1,8 +1,58 @@
 {
   "qid": "Q33",
   "name": "Finland",
-  "summary": "Finland: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Finland: office-holders in 1920, 1938, 1945, 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Kaarlo Juho Ståhlberg",
+      "title": "President",
+      "from": 1919,
+      "to": 1925,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Kaarlo Juho Ståhlberg, President (1919–1925)"
+      }
+    },
+    {
+      "name": "Kyösti Kallio",
+      "title": "President",
+      "from": 1937,
+      "to": 1940,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Kyösti Kallio, President (1937–1940)"
+      }
+    },
+    {
+      "name": "Carl Gustaf Emil Mannerheim",
+      "title": "President",
+      "from": 1944,
+      "to": 1946,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Carl Gustaf Emil Mannerheim, President (1944–1946)"
+      }
+    },
+    {
+      "name": "Urho Kekkonen",
+      "title": "President",
+      "from": 1956,
+      "to": 1982,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Urho Kekkonen, President (1956–1982)"
+      }
+    },
+    {
+      "name": "Mauno Koivisto",
+      "title": "President",
+      "from": 1982,
+      "to": 1994,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Mauno Koivisto, President (1982–1994)"
+      }
+    },
     {
       "name": "Tarja Halonen",
       "title": "President",
@@ -25,6 +75,76 @@
     }
   ],
   "offices": [
+    {
+      "name": "Juho Vennola",
+      "title": "Prime minister",
+      "from": 1919,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Juho Vennola, Prime minister (1919–1920)"
+      }
+    },
+    {
+      "name": "Rafael Erich",
+      "title": "Prime minister",
+      "from": 1920,
+      "to": 1921,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Rafael Erich, Prime minister (1920–1921)"
+      }
+    },
+    {
+      "name": "Aimo Cajander",
+      "title": "Prime minister",
+      "from": 1937,
+      "to": 1939,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Aimo Cajander, Prime minister (1937–1939)"
+      }
+    },
+    {
+      "name": "Juho Kusti Paasikivi",
+      "title": "Prime minister",
+      "from": 1944,
+      "to": 1946,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Juho Kusti Paasikivi, Prime minister (1944–1946)"
+      }
+    },
+    {
+      "name": "V. J. Sukselainen",
+      "title": "Prime minister",
+      "from": 1959,
+      "to": 1961,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "V. J. Sukselainen, Prime minister (1959–1961)"
+      }
+    },
+    {
+      "name": "Martti Ahtisaari",
+      "title": "President",
+      "from": 1994,
+      "to": 2000,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Martti Ahtisaari, President (1994–2000)"
+      }
+    },
+    {
+      "name": "Esko Aho",
+      "title": "Prime minister",
+      "from": 1991,
+      "to": 1995,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Esko Aho, Prime minister (1991–1995)"
+      }
+    },
     {
       "name": "Matti Vanhanen",
       "title": "Prime minister",

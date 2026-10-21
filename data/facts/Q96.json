@@ -1,8 +1,68 @@
 {
   "qid": "Q96",
   "name": "Mexico",
-  "summary": "Mexico: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Mexico: office-holders in 1914, 1920, 1938, 1945, 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Victoriano Huerta",
+      "title": "President",
+      "from": 1913,
+      "to": 1914,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Victoriano Huerta, President (1913–1914)"
+      }
+    },
+    {
+      "name": "Venustiano Carranza",
+      "title": "President",
+      "from": 1917,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Venustiano Carranza, First Chief of the Constitutional Army (1914–1917), President (1917–1920)"
+      }
+    },
+    {
+      "name": "Lázaro Cárdenas",
+      "title": "President",
+      "from": 1934,
+      "to": 1940,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Lázaro Cárdenas, President (1934–1940)"
+      }
+    },
+    {
+      "name": "Manuel Ávila Camacho",
+      "title": "President",
+      "from": 1940,
+      "to": 1946,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Manuel Ávila Camacho, President (1940–1946)"
+      }
+    },
+    {
+      "name": "Adolfo López Mateos",
+      "title": "President",
+      "from": 1958,
+      "to": 1964,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Adolfo López Mateos, President (1958–1964)"
+      }
+    },
+    {
+      "name": "Carlos Salinas de Gortari",
+      "title": "President",
+      "from": 1988,
+      "to": 1994,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Carlos Salinas de Gortari, President (1988–1994)"
+      }
+    },
     {
       "name": "Felipe Calderón",
       "title": "President",
@@ -24,6 +84,67 @@
       }
     }
   ],
-  "offices": [],
+  "offices": [
+    {
+      "name": "Francisco S. Carvajal",
+      "title": "President",
+      "from": 1914,
+      "to": 1914,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Francisco S. Carvajal, President (1914)"
+      }
+    },
+    {
+      "name": "Eulalio Gutiérrez",
+      "title": "President",
+      "from": 1914,
+      "to": 1915,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Eulalio Gutiérrez, President (1914–1915)"
+      }
+    },
+    {
+      "name": "Venustiano Carranza",
+      "title": "First Chief of the Constitutional Army",
+      "from": 1914,
+      "to": 1917,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Venustiano Carranza, First Chief of the Constitutional Army (1914–1917), President (1917–1920)"
+      }
+    },
+    {
+      "name": "Adolfo de la Huerta",
+      "title": "President",
+      "from": 1920,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Adolfo de la Huerta, President (1920)"
+      }
+    },
+    {
+      "name": "Álvaro Obregón",
+      "title": "President",
+      "from": 1920,
+      "to": 1924,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Álvaro Obregón, President (1920–1924)"
+      }
+    },
+    {
+      "name": "Ernesto Zedillo",
+      "title": "President",
+      "from": 1994,
+      "to": 2000,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Ernesto Zedillo, President (1994–2000)"
+      }
+    }
+  ],
   "events": []
 }

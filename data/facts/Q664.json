@@ -1,15 +1,25 @@
 {
   "qid": "Q664",
   "name": "New Zealand",
-  "summary": "New Zealand: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "New Zealand: office-holders in 1945, 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "George VI",
+      "title": "King",
+      "from": 1936,
+      "to": 1952,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "George VI, King (1936–1952)"
+      }
+    },
     {
       "name": "Elizabeth II",
       "title": "Queen",
       "from": 1952,
       "to": 2022,
       "source": {
-        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
         "quote": "Elizabeth II, Queen (1952–2022)"
       }
     },
@@ -25,6 +35,46 @@
     }
   ],
   "offices": [
+    {
+      "name": "Peter Fraser",
+      "title": "Prime minister",
+      "from": 1940,
+      "to": 1949,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Peter Fraser, Prime minister (1940–1949)"
+      }
+    },
+    {
+      "name": "Walter Nash",
+      "title": "Prime minister",
+      "from": 1957,
+      "to": 1960,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Walter Nash, Prime minister (1957–1960)"
+      }
+    },
+    {
+      "name": "Keith Holyoake",
+      "title": "Prime minister",
+      "from": 1960,
+      "to": 1972,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Keith Holyoake, Prime minister (1960–1972)"
+      }
+    },
+    {
+      "name": "Jim Bolger",
+      "title": "Prime minister",
+      "from": 1990,
+      "to": 1997,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Jim Bolger, Prime minister (1990–1997)"
+      }
+    },
     {
       "name": "John Key",
       "title": "Prime minister",

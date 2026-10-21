@@ -1,0 +1,19 @@
+{
+  "qid": "Q28233",
+  "name": "Korean Empire",
+  "summary": "Korean Empire: office-holders in 1900, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Gojong",
+      "title": "Emperor",
+      "from": 1897,
+      "to": 1907,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Gojong, King (1863–1897), Emperor (1897–1907)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

@@ -1,0 +1,50 @@
+{
+  "qid": "Q127861",
+  "name": "Khedivate of Egypt",
+  "summary": "Khedivate of Egypt: office-holders in 1880, 1900, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "Tewfik Pasha",
+      "title": "Khedive",
+      "from": 1879,
+      "to": 1892,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Tewfik Pasha, Khedive (1879–1892)"
+      }
+    },
+    {
+      "name": "Abbas II",
+      "title": "Khedive",
+      "from": 1892,
+      "to": 1914,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Abbas II, Khedive (1892–1914)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Riaz Pasha",
+      "title": "Prime minister",
+      "from": 1879,
+      "to": 1881,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Riaz Pasha, Prime minister (1879–1881)"
+      }
+    },
+    {
+      "name": "Mostafa Fahmy Pasha",
+      "title": "Prime minister",
+      "from": 1895,
+      "to": 1908,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Mostafa Fahmy Pasha, Prime minister (1895–1908)"
+      }
+    }
+  ],
+  "events": []
+}

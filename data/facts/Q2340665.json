@@ -1,0 +1,49 @@
+{
+  "qid": "Q2340665",
+  "name": "Basutoland",
+  "summary": "Basutoland: office-holders in 1900, 1914, 1920, 1938, 1945, 1960, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "Lerotholi",
+      "title": "Paramount Chief",
+      "from": 1891,
+      "to": 1905,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Lerotholi, Paramount Chief (1891–1905)"
+      }
+    },
+    {
+      "name": "Nathaniel Griffith Lerotholi",
+      "title": "Paramount Chief",
+      "from": 1913,
+      "to": 1939,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Nathaniel Griffith Lerotholi, Paramount Chief (1913–1939)"
+      }
+    },
+    {
+      "name": "'Mantšebo",
+      "title": "Regent",
+      "from": 1941,
+      "to": 1960,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "'Mantšebo, Regent (1941–1960)"
+      }
+    },
+    {
+      "name": "Moshoeshoe II",
+      "title": "Paramount Chief",
+      "from": 1960,
+      "to": 1966,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Moshoeshoe II, Paramount Chief (1960–1966), King (1966–1990, 1995–1996)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

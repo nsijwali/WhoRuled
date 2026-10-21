@@ -1,8 +1,28 @@
 {
   "qid": "Q912",
   "name": "Mali",
-  "summary": "Mali: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Mali: office-holders in 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Modibo Keïta",
+      "title": "Head of State",
+      "from": 1960,
+      "to": 1965,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Modibo Keïta, Head of State (1960–1965), President (1965–1968)"
+      }
+    },
+    {
+      "name": "Alpha Oumar Konaré",
+      "title": "President",
+      "from": 1992,
+      "to": 2002,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Alpha Oumar Konaré, President (1992–2002)"
+      }
+    },
     {
       "name": "Amadou Toumani Touré",
       "title": "President",
@@ -25,6 +45,36 @@
     }
   ],
   "offices": [
+    {
+      "name": "Modibo Keïta",
+      "title": "Prime minister",
+      "from": 1960,
+      "to": 1965,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Modibo Keïta, Prime minister (1960–1965)"
+      }
+    },
+    {
+      "name": "Abdoulaye Sékou Sow",
+      "title": "Prime minister",
+      "from": 1993,
+      "to": 1994,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Abdoulaye Sékou Sow, Prime minister (1993–1994)"
+      }
+    },
+    {
+      "name": "Ibrahim Boubacar Keïta",
+      "title": "Prime minister",
+      "from": 1994,
+      "to": 2000,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Ibrahim Boubacar Keïta, Prime minister (1994–2000)"
+      }
+    },
     {
       "name": "Modibo Sidibé",
       "title": "Prime minister",

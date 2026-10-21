@@ -4,6 +4,16 @@
   "summary": "Empire of Japan as drawn in the 1914 border data.",
   "rulers": [
     {
+      "name": "Meiji",
+      "title": "Emperor",
+      "from": 1867,
+      "to": 1912,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Meiji, Emperor (1867–1912)"
+      }
+    },
+    {
       "name": "Taishō",
       "title": "emperor",
       "from": 1912,
@@ -11,6 +21,118 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Emperor_Taish%C5%8D",
         "quote": "was Emperor of Japan from 29 July 1912 until his death in 1926"
+      }
+    },
+    {
+      "name": "Hirohito",
+      "title": "Emperor",
+      "from": 1926,
+      "to": 1989,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Hirohito, Emperor (1926–1989)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Yamagata Aritomo",
+      "title": "Prime minister",
+      "from": 1898,
+      "to": 1900,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Yamagata Aritomo, Prime minister (1898–1900)"
+      }
+    },
+    {
+      "name": "Itō Hirobumi",
+      "title": "Prime minister",
+      "from": 1900,
+      "to": 1901,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Itō Hirobumi, Prime minister (1900–1901)"
+      }
+    },
+    {
+      "name": "Yamamoto Gonnohyōe",
+      "title": "Prime minister",
+      "from": 1913,
+      "to": 1914,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Yamamoto Gonnohyōe, Prime minister (1913–1914)"
+      }
+    },
+    {
+      "name": "Ōkuma Shigenobu",
+      "title": "Prime minister",
+      "from": 1914,
+      "to": 1916,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Ōkuma Shigenobu, Prime minister (1914–1916)"
+      }
+    },
+    {
+      "name": "Hara Takashi",
+      "title": "Prime minister",
+      "from": 1918,
+      "to": 1921,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Hara Takashi, Prime minister (1918–1921)"
+      }
+    },
+    {
+      "name": "Fumimaro Konoe",
+      "title": "Prime minister",
+      "from": 1937,
+      "to": 1939,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Fumimaro Konoe, Prime minister (1937–1939)"
+      }
+    },
+    {
+      "name": "Kuniaki Koiso",
+      "title": "Prime minister",
+      "from": 1944,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Kuniaki Koiso, Prime minister (1944–1945)"
+      }
+    },
+    {
+      "name": "Kantarō Suzuki",
+      "title": "Prime minister",
+      "from": 1945,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Kantarō Suzuki, Prime minister (1945–1945)"
+      }
+    },
+    {
+      "name": "Prince Naruhiko Higashikuni",
+      "title": "Prime minister",
+      "from": 1945,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Prince Naruhiko Higashikuni, Prime minister (1945–1945)"
+      }
+    },
+    {
+      "name": "Kijūrō Shidehara",
+      "title": "Prime minister",
+      "from": 1945,
+      "to": 1946,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Kijūrō Shidehara, Prime minister (1945–1946)"
       }
     }
   ],

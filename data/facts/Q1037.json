@@ -1,8 +1,18 @@
 {
   "qid": "Q1037",
   "name": "Rwanda",
-  "summary": "Rwanda: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Rwanda: office-holders in 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Juvénal Habyarimana",
+      "title": "President",
+      "from": 1973,
+      "to": 1994,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Juvénal Habyarimana, President (1973–1994)"
+      }
+    },
     {
       "name": "Paul Kagame",
       "title": "President",
@@ -15,6 +25,56 @@
     }
   ],
   "offices": [
+    {
+      "name": "Théodore Sindikubwabo",
+      "title": "Interim President",
+      "from": 1994,
+      "to": 1994,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Théodore Sindikubwabo, Interim President (1994)"
+      }
+    },
+    {
+      "name": "Pasteur Bizimungu",
+      "title": "President",
+      "from": 1994,
+      "to": 2000,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Pasteur Bizimungu, President (1994–2000)"
+      }
+    },
+    {
+      "name": "Agathe Uwilingiyimana",
+      "title": "Prime minister",
+      "from": 1993,
+      "to": 1994,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Agathe Uwilingiyimana, Prime minister (1993–1994)"
+      }
+    },
+    {
+      "name": "Jean Kambanda",
+      "title": "Prime minister",
+      "from": 1994,
+      "to": 1994,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Jean Kambanda, Prime minister (1994)"
+      }
+    },
+    {
+      "name": "Faustin Twagiramungu",
+      "title": "Prime minister",
+      "from": 1994,
+      "to": 1995,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Faustin Twagiramungu, Prime minister (1994–1995)"
+      }
+    },
     {
       "name": "Bernard Makuza",
       "title": "Prime minister",

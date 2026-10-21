@@ -1,0 +1,19 @@
+{
+  "qid": "Q887803",
+  "name": "Bruneian Empire",
+  "summary": "Bruneian Empire: office-holders in 1880, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Abdul Momin",
+      "title": "Sultan",
+      "from": 1852,
+      "to": 1885,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Abdul Momin, Sultan (1852–1885)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

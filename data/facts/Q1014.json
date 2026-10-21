@@ -1,8 +1,78 @@
 {
   "qid": "Q1014",
   "name": "Liberia",
-  "summary": "Liberia: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Liberia: office-holders in 1880, 1900, 1914, 1920, 1938, 1945, 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Anthony W. Gardner",
+      "title": "President",
+      "from": 1878,
+      "to": 1883,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Anthony W. Gardner, President (1878–1883)"
+      }
+    },
+    {
+      "name": "William D. Coleman",
+      "title": "President",
+      "from": 1896,
+      "to": 1900,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "William D. Coleman, President (1896–1900)"
+      }
+    },
+    {
+      "name": "Daniel Edward Howard",
+      "title": "President",
+      "from": 1912,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Daniel Edward Howard, President (1912–1920)"
+      }
+    },
+    {
+      "name": "Charles D. B. King",
+      "title": "President",
+      "from": 1920,
+      "to": 1930,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Charles D. B. King, President (1920–1930)"
+      }
+    },
+    {
+      "name": "Edwin Barclay",
+      "title": "President",
+      "from": 1930,
+      "to": 1944,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Edwin Barclay, President (1930–1944)"
+      }
+    },
+    {
+      "name": "William Tubman",
+      "title": "President",
+      "from": 1944,
+      "to": 1971,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "William Tubman, President (1944–1971)"
+      }
+    },
+    {
+      "name": "Amos Sawyer",
+      "title": "President of the Interim Government of National Unity",
+      "from": 1990,
+      "to": 1994,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Amos Sawyer, President of the Interim Government of National Unity (1990–1994)"
+      }
+    },
     {
       "name": "Ellen Johnson Sirleaf",
       "title": "President",
@@ -24,6 +94,27 @@
       }
     }
   ],
-  "offices": [],
+  "offices": [
+    {
+      "name": "Garretson W. Gibson",
+      "title": "President",
+      "from": 1900,
+      "to": 1904,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Garretson W. Gibson, President (1900–1904)"
+      }
+    },
+    {
+      "name": "David D. Kpormakpor",
+      "title": "Chairman of the Council of State",
+      "from": 1994,
+      "to": 1995,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "David D. Kpormakpor, Chairman of the Council of State (1994–1995)"
+      }
+    }
+  ],
   "events": []
 }

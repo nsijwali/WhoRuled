@@ -1,0 +1,60 @@
+{
+  "qid": "Q14905932",
+  "name": "Republic of Cuba",
+  "summary": "Republic of Cuba: office-holders in 1914, 1920, 1938, 1945, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "Mario García Menocal",
+      "title": "President",
+      "from": 1913,
+      "to": 1921,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Mario García Menocal, President (1913–1921)"
+      }
+    },
+    {
+      "name": "Federico Laredo Brú",
+      "title": "President",
+      "from": 1936,
+      "to": 1940,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Federico Laredo Brú, President (1936–1940)"
+      }
+    },
+    {
+      "name": "Ramón Grau",
+      "title": "President",
+      "from": 1944,
+      "to": 1948,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Ramón Grau, President (1944–1948)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Félix Lancís Sánchez",
+      "title": "Prime minister",
+      "from": 1944,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Félix Lancís Sánchez, Prime minister (1944–1945)"
+      }
+    },
+    {
+      "name": "Carlos Prío Socarrás",
+      "title": "Prime minister",
+      "from": 1945,
+      "to": 1947,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Carlos Prío Socarrás, Prime minister (1945–1947)"
+      }
+    }
+  ],
+  "events": []
+}

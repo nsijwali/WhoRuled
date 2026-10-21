@@ -6,11 +6,15 @@ import { Polity } from '../src/data/schema.ts';
  * Repeatable import of "who held office in <year>" rows copied from Wikipedia's "List of state leaders"
  * pages. One raw file per snapshot year: pipeline/import/leaders-<year>.txt (`leaders-bc500.txt` for
  * 500 BC). A file starts with `# source: <url of the list page used>`; every other non-comment line is
- * `Wikipedia name|QID|Name, Title (from–to);...`, keeping only the list lines that cover that year.
- * Rows become rulers/offices with the list line as the quoted source. Curated (non-imported) rulers and
- * offices are never replaced; output never carries a `review` field (ADR-019).
+ * `Wikipedia name|QID|Name, Title (from–to);...[|border NAME]`, keeping only the list lines that cover
+ * that year. The optional last field names the year's border feature when it differs from the Wikipedia
+ * name. Rows become rulers/offices with the list line as the quoted source. Curated (non-imported) rulers
+ * and offices are never replaced; output never carries a `review` field (ADR-019).
+ * `pipeline/import/descriptions.json` holds each imported QID's English Wikidata description (CC0),
+ * used only in the generated summary of polities that have no curated summary.
  */
 const IMPORT_DIR = 'pipeline/import';
+const DESCRIPTIONS = join(IMPORT_DIR, 'descriptions.json');
 const IMPORTED_URL = /^https:\/\/en\.wikipedia\.org\/wiki\/List_of_state_leaders/;
 
 /** Per snapshot year: Wikipedia country name -> border dataset feature NAME (only where they differ). */
@@ -60,6 +64,8 @@ export interface Row {
   wikiName: string;
   url: string;
   lines: string[];
+  /** Border feature NAME for this year when it differs from `wikiName`. */
+  border?: string;
 }
 
 /** `leaders-1914.txt` -> 1914, `leaders-bc500.txt` -> -500; null for other files. */
@@ -77,10 +83,10 @@ export function parseRawFile(text: string, year: number): (Row & { qid: string }
     .split('\n')
     .filter((l) => l.trim() !== '' && !l.startsWith('#'))
     .map((row) => {
-      const [wikiName, qid, rest, extra] = row.split('|');
-      if (!wikiName || !qid || !rest || extra !== undefined || !/^Q[1-9]\d*$/.test(qid)) throw new Error(`Bad row: ${row}`);
+      const [wikiName, qid, rest, border, extra] = row.split('|');
+      if (!wikiName || !qid || !rest || border === '' || extra !== undefined || !/^Q[1-9]\d*$/.test(qid)) throw new Error(`Bad row: ${row}`);
       // Entries are joined with a bare `;`. A `; ` inside one list line (one person, several roles) is kept.
-      return { year, wikiName, url, lines: rest.split(/;(?! )/), qid };
+      return { year, wikiName, url, lines: rest.split(/;(?! )/), qid, ...(border ? { border } : {}) };
     });
 }
 
@@ -127,7 +133,7 @@ type Office = Polity['rulers'][number];
 const isImported = (r: Office) => IMPORTED_URL.test(r.source.url);
 const covers = (r: Office, year: number) => r.from <= year && (r.to === null || r.to >= year);
 const key = (r: Office) => `${r.name}|${r.title}|${r.from}|${r.to}`;
-const IMPORTED_SUMMARY = /: office-holders in [-\d, ]+, from Wikipedia's lists? of state leaders\.$/;
+const IMPORTED_SUMMARY = /office-holders in [-\d, BC]+, from Wikipedia's lists? of state leaders\.$/i;
 
 const toRecord = (e: Entry, row: Row): Office => ({
   name: e.name,
@@ -142,7 +148,7 @@ const toRecord = (e: Entry, row: Row): Office => ({
  * `existing` are regenerated; curated ones are kept. Per year, the first ruler-like title becomes the
  * ruler unless a ruler already covers that year; everything else becomes an office.
  */
-export function buildPolity(qid: string, rows: Row[], existing: Polity | null): Polity {
+export function buildPolity(qid: string, rows: Row[], existing: Polity | null, description?: string): Polity {
   const rulers = (existing?.rulers ?? []).filter((r) => !isImported(r));
   const offices = (existing?.offices ?? []).filter((r) => !isImported(r));
   const seen = new Set([...rulers, ...offices].map(key));
@@ -162,9 +168,13 @@ export function buildPolity(qid: string, rows: Row[], existing: Polity | null): 
   const curated = existing !== null && !IMPORTED_SUMMARY.test(existing.summary);
   const name = curated ? existing.name : (sorted.at(-1)?.wikiName ?? existing?.name ?? qid);
   const years = [...new Set(sorted.map((r) => r.year))].map((y) => (y < 0 ? `${-y} BC` : String(y)));
+  const list = `from Wikipedia's ${years.length > 1 ? 'lists' : 'list'} of state leaders.`;
+  const about = description?.trim().replace(/\.$/, '').slice(0, 200);
   const summary = curated
     ? existing.summary
-    : `${name}: office-holders in ${years.join(', ')}, from Wikipedia's ${years.length > 1 ? 'lists' : 'list'} of state leaders.`;
+    : about
+      ? `${name}: ${about} (Wikidata description). Office-holders in ${years.join(', ')}, ${list}`
+      : `${name}: office-holders in ${years.join(', ')}, ${list}`;
   return Polity.parse({
     qid,
     name,
@@ -181,6 +191,7 @@ if (process.argv[1] && import.meta.url === new URL(`file://${process.argv[1]}`).
   const factsDir = 'data/facts';
   const mapPath = join(factsDir, 'feature-map.json');
   const featureMap = JSON.parse(readFileSync(mapPath, 'utf8')) as Record<string, Record<string, string>>;
+  const descriptions = existsSync(DESCRIPTIONS) ? (JSON.parse(readFileSync(DESCRIPTIONS, 'utf8')) as Record<string, string>) : {};
   const byQid = new Map<string, Row[]>();
   const perYear: Record<string, number> = {};
   for (const file of readdirSync(IMPORT_DIR).sort()) {
@@ -188,7 +199,7 @@ if (process.argv[1] && import.meta.url === new URL(`file://${process.argv[1]}`).
     if (year === null) continue;
     const yearMap = (featureMap[String(year)] ??= {});
     for (const { qid, ...row } of parseRawFile(readFileSync(join(IMPORT_DIR, file), 'utf8'), year)) {
-      const border = BORDER_NAME[year]?.[row.wikiName] ?? row.wikiName;
+      const border = row.border ?? BORDER_NAME[year]?.[row.wikiName] ?? row.wikiName;
       if (yearMap[border] && yearMap[border] !== qid) throw new Error(`${file}: "${border}" is already mapped to ${yearMap[border]}`);
       yearMap[border] = qid;
       byQid.set(qid, [...(byQid.get(qid) ?? []), row]);
@@ -198,7 +209,7 @@ if (process.argv[1] && import.meta.url === new URL(`file://${process.argv[1]}`).
   for (const [qid, rows] of byQid) {
     const file = join(factsDir, `${qid}.json`);
     const existing = existsSync(file) ? Polity.parse(JSON.parse(readFileSync(file, 'utf8'))) : null;
-    writeFileSync(file, `${JSON.stringify(buildPolity(qid, rows, existing), null, 2)}\n`);
+    writeFileSync(file, `${JSON.stringify(buildPolity(qid, rows, existing, descriptions[qid]), null, 2)}\n`);
   }
   writeFileSync(mapPath, `${JSON.stringify(featureMap, null, 2)}\n`);
   console.log(JSON.stringify({ polities: byQid.size, rowsPerYear: perYear }));

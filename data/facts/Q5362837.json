@@ -1,0 +1,30 @@
+{
+  "qid": "Q5362837",
+  "name": "Emirate of Jabal Shammar",
+  "summary": "Emirate of Jabal Shammar: office-holders in 1920, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Saud bin Abdulaziz",
+      "title": "Emir",
+      "from": 1908,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Saud bin Abdulaziz, Emir (1908–1920)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "ʿAbdullah bin Mutʿib",
+      "title": "Emir",
+      "from": 1920,
+      "to": 1921,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "ʿAbdullah bin Mutʿib, Emir (1920–1921)"
+      }
+    }
+  ],
+  "events": []
+}

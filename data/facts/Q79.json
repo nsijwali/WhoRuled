@@ -4,6 +4,16 @@
   "summary": "Egypt.",
   "rulers": [
     {
+      "name": "Gamal Abdel Nasser",
+      "title": "President",
+      "from": 1954,
+      "to": 1970,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Gamal Abdel Nasser, President (1954–1970)"
+      }
+    },
+    {
       "name": "Hosni Mubarak",
       "title": "president",
       "from": 1981,
@@ -25,6 +35,26 @@
     }
   ],
   "offices": [
+    {
+      "name": "Gamal Abdel Nasser",
+      "title": "Prime minister, government in rebellion",
+      "from": 1954,
+      "to": 1962,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Gamal Abdel Nasser, Prime minister, government in rebellion (1954–1962)"
+      }
+    },
+    {
+      "name": "Atef Sedky",
+      "title": "Prime minister",
+      "from": 1986,
+      "to": 1996,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Atef Sedky, Prime minister (1986–1996)"
+      }
+    },
     {
       "name": "Ahmed Nazif",
       "title": "Prime minister",

@@ -1,15 +1,55 @@
 {
   "qid": "Q921",
   "name": "Brunei",
-  "summary": "Brunei: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Brunei: office-holders in 1900, 1914, 1920, 1938, 1945, 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Hashim Jalilul Alam Aqamaddin",
+      "title": "Sultan",
+      "from": 1885,
+      "to": 1906,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Hashim Jalilul Alam Aqamaddin, Sultan (1885–1906)"
+      }
+    },
+    {
+      "name": "Muhammad Jamalul Alam II",
+      "title": "Sultan",
+      "from": 1906,
+      "to": 1924,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Muhammad Jamalul Alam II, Sultan (1906–1924)"
+      }
+    },
+    {
+      "name": "Ahmad Tajuddin",
+      "title": "Sultan",
+      "from": 1924,
+      "to": 1950,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Ahmad Tajuddin, Sultan (1924–1950)"
+      }
+    },
+    {
+      "name": "Omar Ali Saifuddien III",
+      "title": "Sultan",
+      "from": 1950,
+      "to": 1967,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Omar Ali Saifuddien III, Sultan (1950–1967)"
+      }
+    },
     {
       "name": "Hassanal Bolkiah",
       "title": "Sultan",
       "from": 1967,
       "to": null,
       "source": {
-        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
         "quote": "Hassanal Bolkiah, Sultan (1967–present)"
       }
     }

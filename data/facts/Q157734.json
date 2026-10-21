@@ -1,0 +1,49 @@
+{
+  "qid": "Q157734",
+  "name": "Muscat and Oman",
+  "summary": "Muscat and Oman: office-holders in 1880, 1900, 1920, 1938, 1945, 1960, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "Turki",
+      "title": "Sultan",
+      "from": 1871,
+      "to": 1888,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Turki, Sultan (1871–1888)"
+      }
+    },
+    {
+      "name": "Faisal",
+      "title": "Sultan",
+      "from": 1888,
+      "to": 1913,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Faisal, Sultan (1888–1913)"
+      }
+    },
+    {
+      "name": "Taimur",
+      "title": "Sultan",
+      "from": 1913,
+      "to": 1932,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Taimur, Sultan (1913–1932)"
+      }
+    },
+    {
+      "name": "Said III",
+      "title": "Sultan",
+      "from": 1932,
+      "to": 1970,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Said III, Sultan (1932–1970)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

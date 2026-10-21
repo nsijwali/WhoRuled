@@ -4,6 +4,36 @@
   "summary": "Saudi Arabia.",
   "rulers": [
     {
+      "name": "Ibn Saud",
+      "title": "King",
+      "from": 1926,
+      "to": 1953,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Ibn Saud, Emir (1902–1921), Sultan (1921–1927), King (1926–1953)"
+      }
+    },
+    {
+      "name": "Saud",
+      "title": "King",
+      "from": 1953,
+      "to": 1964,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Saud, King (1953–1964)"
+      }
+    },
+    {
+      "name": "Fahd",
+      "title": "King",
+      "from": 1982,
+      "to": 2005,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Fahd, King (1982–2005)"
+      }
+    },
+    {
       "name": "Abdullah",
       "title": "king",
       "from": 2005,

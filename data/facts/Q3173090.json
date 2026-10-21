@@ -1,0 +1,60 @@
+{
+  "qid": "Q3173090",
+  "name": "French Protectorate of Cambodia",
+  "summary": "French Protectorate of Cambodia: office-holders in 1938, 1945, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "Sisowath Monivong",
+      "title": "King",
+      "from": 1927,
+      "to": 1941,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Sisowath Monivong, King (1927–1941)"
+      }
+    },
+    {
+      "name": "Norodom Sihanouk",
+      "title": "King",
+      "from": 1941,
+      "to": 1955,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Norodom Sihanouk, King (1941–1955)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Norodom Sihanouk",
+      "title": "Prime minister",
+      "from": 1945,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Norodom Sihanouk, Prime minister (1945, 1950, 1952)"
+      }
+    },
+    {
+      "name": "Son Ngoc Thanh",
+      "title": "Prime minister",
+      "from": 1945,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Son Ngoc Thanh, Prime minister (1945)"
+      }
+    },
+    {
+      "name": "Sisowath Monireth",
+      "title": "Prime minister",
+      "from": 1945,
+      "to": 1946,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Sisowath Monireth, Prime minister (1945–1946)"
+      }
+    }
+  ],
+  "events": []
+}

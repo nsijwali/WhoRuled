@@ -1,0 +1,29 @@
+{
+  "qid": "Q218023",
+  "name": "Orange Free State",
+  "summary": "Orange Free State: office-holders in 1880, 1900, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "Johannes Henricus Brand",
+      "title": "State President",
+      "from": 1864,
+      "to": 1888,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Johannes Henricus Brand, State President (1864–1888)"
+      }
+    },
+    {
+      "name": "Martinus Theunis Steyn",
+      "title": "State President",
+      "from": 1896,
+      "to": 1902,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1851%E2%80%931900)",
+        "quote": "Martinus Theunis Steyn, State President (1896–1902)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

@@ -1,15 +1,35 @@
 {
   "qid": "Q35",
   "name": "Denmark",
-  "summary": "Denmark: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Denmark: office-holders in 1914, 1920, 1938, 1945, 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Christian X",
+      "title": "King",
+      "from": 1912,
+      "to": 1947,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Christian X, King (1912–1947)"
+      }
+    },
+    {
+      "name": "Frederik IX",
+      "title": "King",
+      "from": 1947,
+      "to": 1972,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Frederik IX, King (1947–1972)"
+      }
+    },
     {
       "name": "Margrethe II",
       "title": "Queen",
       "from": 1972,
       "to": 2024,
       "source": {
-        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
         "quote": "Margrethe II, Queen (1972–2024)"
       }
     },
@@ -25,6 +45,116 @@
     }
   ],
   "offices": [
+    {
+      "name": "Carl Theodor Zahle",
+      "title": "Council president",
+      "from": 1913,
+      "to": 1918,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Carl Theodor Zahle, Council president (1913–1918), Prime minister (1918–1920)"
+      }
+    },
+    {
+      "name": "Carl Theodor Zahle",
+      "title": "Prime minister",
+      "from": 1918,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Carl Theodor Zahle, Council president (1913–1918), Prime minister (1918–1920)"
+      }
+    },
+    {
+      "name": "Otto Liebe",
+      "title": "Prime minister",
+      "from": 1920,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Otto Liebe, Prime minister (1920)"
+      }
+    },
+    {
+      "name": "Michael Pedersen Friis",
+      "title": "Prime minister",
+      "from": 1920,
+      "to": 1920,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Michael Pedersen Friis, Prime minister (1920)"
+      }
+    },
+    {
+      "name": "Niels Neergaard",
+      "title": "Prime minister",
+      "from": 1920,
+      "to": 1924,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Niels Neergaard, Prime minister (1920–1924)"
+      }
+    },
+    {
+      "name": "Thorvald Stauning",
+      "title": "Prime minister",
+      "from": 1929,
+      "to": 1942,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Thorvald Stauning, Prime minister (1929–1942)"
+      }
+    },
+    {
+      "name": "Vilhelm Buhl",
+      "title": "Prime minister",
+      "from": 1945,
+      "to": 1945,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Vilhelm Buhl, Prime minister (1945)"
+      }
+    },
+    {
+      "name": "Knud Kristensen",
+      "title": "Prime minister",
+      "from": 1945,
+      "to": 1947,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Knud Kristensen, Prime minister (1945–1947)"
+      }
+    },
+    {
+      "name": "H. C. Hansen",
+      "title": "Prime minister",
+      "from": 1955,
+      "to": 1960,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "H. C. Hansen, Prime minister (1955–1960)"
+      }
+    },
+    {
+      "name": "Viggo Kampmann",
+      "title": "Prime minister",
+      "from": 1960,
+      "to": 1962,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Viggo Kampmann, Prime minister (1960–1962)"
+      }
+    },
+    {
+      "name": "Poul Nyrup Rasmussen",
+      "title": "Prime minister",
+      "from": 1993,
+      "to": 2001,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Poul Nyrup Rasmussen, Prime minister (1993–2001)"
+      }
+    },
     {
       "name": "Lars Løkke Rasmussen",
       "title": "Prime minister",

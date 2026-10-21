@@ -1,7 +1,7 @@
 {
   "qid": "Q916",
   "name": "Angola",
-  "summary": "Angola: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Angola: office-holders in 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "José Eduardo dos Santos",
@@ -9,7 +9,7 @@
       "from": 1979,
       "to": 2017,
       "source": {
-        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
         "quote": "José Eduardo dos Santos, President (1979–2017)"
       }
     },
@@ -25,6 +25,16 @@
     }
   ],
   "offices": [
+    {
+      "name": "Marcolino Moco",
+      "title": "Prime minister",
+      "from": 1992,
+      "to": 1996,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Marcolino Moco, Prime minister (1992–1996)"
+      }
+    },
     {
       "name": "Paulo Kassoma",
       "title": "Prime minister",

@@ -14,6 +14,28 @@
       }
     }
   ],
+  "offices": [
+    {
+      "name": "Karl von Stürgkh",
+      "title": "Ministers-President",
+      "from": 1911,
+      "to": 1916,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Karl von Stürgkh, Ministers-President (1911–1916)"
+      }
+    },
+    {
+      "name": "István Tisza",
+      "title": "Prime Minister",
+      "from": 1913,
+      "to": 1917,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "István Tisza, Prime Minister (1913–1917)"
+      }
+    }
+  ],
   "events": [
     {
       "year": 1914,

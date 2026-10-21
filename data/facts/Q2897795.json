@@ -1,0 +1,50 @@
+{
+  "qid": "Q2897795",
+  "name": "Presidential Republic (1925–1973)",
+  "summary": "Presidential Republic (1925–1973): office-holders in 1938, 1945, 1960, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "Arturo Alessandri",
+      "title": "President",
+      "from": 1932,
+      "to": 1938,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Arturo Alessandri, President (1932–1938)"
+      }
+    },
+    {
+      "name": "Juan Antonio Ríos",
+      "title": "President",
+      "from": 1942,
+      "to": 1946,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Juan Antonio Ríos, President (1942–1946)"
+      }
+    },
+    {
+      "name": "Jorge Alessandri",
+      "title": "President",
+      "from": 1958,
+      "to": 1964,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Jorge Alessandri, President (1958–1964)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Pedro Aguirre Cerda",
+      "title": "President",
+      "from": 1938,
+      "to": 1941,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Pedro Aguirre Cerda, President (1938–1941)"
+      }
+    }
+  ],
+  "events": []
+}

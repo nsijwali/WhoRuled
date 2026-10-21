@@ -1,0 +1,110 @@
+# source: https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)
+# 59 states. QIDs come from each state's linked article and were checked against its Wikidata inception/dissolution dates.
+# wikidata-description Q207521: 1270–1974 state in the Horn of Africa
+Ethiopian Empire|Q207521|Iyasu V, Emperor (1913–1916)|Abyssinia
+# wikidata-description Q1028: sovereign state in North Africa
+Morocco|Q1028|Yusef, Sultan (1912–1927)
+Basutoland|Q2340665|Nathaniel Griffith Lerotholi, Paramount Chief (1913–1939)|Lesotho
+# wikidata-description Q193619: state in southern Africa from 1910 to 1961, predecessor to the Republic of South Africa
+Union of South Africa|Q193619|George V, King (1910–1936);Louis Botha, Prime minister (1910–1919)|South Africa
+# wikidata-description Q1014: sovereign state in West Africa
+Liberia|Q1014|Daniel Edward Howard, President (1912–1920)
+# wikidata-description Q14905932: historical period in Cuba between 20 May 1902 and 1 January 1959
+Republic of Cuba|Q14905932|Mario García Menocal, President (1913–1921)|Cuba
+# wikidata-description Q5864743: historical country
+Republic of Haiti (1859–1957)|Q5864743|Michel Oreste, President (1913–1914);Oreste Zamor, President (1914);Joseph Davilmar Théodore, President (1914–1915)|Haiti
+# wikidata-description Q60038319: Country of Central America (1848-1949)
+First Costa Rican Republic|Q60038319|Ricardo Jiménez Oreamuno, President (1910–1914);Alfredo González Flores, President (1914–1917)|Costa Rica
+# wikidata-description Q792: sovereign state in Central America
+El Salvador|Q792|Carlos Meléndez Ramirez, Provisional President (1913–1914);Alfonso Quiñónez Molina, Provisional President (1914–1915)
+# wikidata-description Q774: sovereign state in Central America
+Guatemala|Q774|Manuel Estrada Cabrera, President (1898–1920)
+# wikidata-description Q783: sovereign state in Central America
+Honduras|Q783|Francisco Bertrand, President (1913–1919)
+# wikidata-description Q811: sovereign state in Central America
+Nicaragua|Q811|Adolfo Díaz, President (1911–1917)
+# wikidata-description Q804: sovereign state in Central America
+Panama|Q804|Belisario Porras Barahona, President (1912–1916)
+# wikidata-description Q16: country in North America
+Canada|Q16|Robert Borden, Prime minister (1911–1920)
+# wikidata-description Q96: country in North America
+Mexico|Q96|Victoriano Huerta, President (1913–1914);Francisco S. Carvajal, President (1914);Eulalio Gutiérrez, President (1914–1915);Venustiano Carranza, First Chief of the Constitutional Army (1914–1917), President (1917–1920)
+United States|Q30|Woodrow Wilson, President (1913–1921)
+# wikidata-description Q414: country in South America
+Argentine Republic|Q414|Roque Sáenz Peña, President (1910–1914);Victorino de la Plaza, President (1914–1916)|Argentina
+# wikidata-description Q750: sovereign state in South America
+Bolivia|Q750|Ismael Montes, President (1913–1917)
+# wikidata-description Q2414171: 1889–1930 federal republic in South America
+First Brazilian Republic|Q2414171|Hermes da Fonseca, President (1910–1914);Venceslau Brás, President (1914–1918)|Brazil
+# wikidata-description Q739: country in South America
+Colombia|Q739|Carlos Eugenio Restrepo Restrepo, President (1910–1914);José Vicente Concha Ferreira, President (1914–1918)
+# wikidata-description Q736: sovereign state in South America
+Ecuador|Q736|Leónidas Plaza, President (1912–1916)
+# wikidata-description Q419: sovereign state in South America
+Peru|Q419|Guillermo Billinghurst, Constitutional President (1912–1914);Óscar R. Benavides, Interim President (1914–1915)
+# wikidata-description Q77: sovereign state in South America
+Uruguay|Q77|José Batlle y Ordóñez, President (1911–1915)
+# wikidata-description Q5848651: republic from 1864 to 1953
+United States of Venezuela|Q5848651|José Gil Fortoul, Interim President (1913–1914);Victorino Márquez Bustillos, President (1914–1922)|Venezuela
+# wikidata-description Q2444884: former de facto state in East Asia
+Tibet (1912–1951)|Q2444884|Thubten Gyatso, 13th Dalai Lama (1879–1933)|Tibet
+Empire of Japan|Q188712|Taishō, Emperor (1912–1926);Yamamoto Gonnohyōe, Prime minister (1913–1914);Ōkuma Shigenobu, Prime minister (1914–1916)
+# wikidata-description Q2475921: khanate ruled by bogd khan on Outer Mongolia from 1911 to 1919 and 1921 to 1924
+Bogd Khanate of Mongolia|Q2475921|Bogd Khan, Khagan (1911–1924)|Mongolia
+# wikidata-description Q921: sovereign country and sultanate on the island of Borneo in south-east Asia, member of the Commonwealth of Nations
+Protectorate of Brunei|Q921|Muhammad Jamalul Alam II, Sultan (1906–1924)|Brunei
+# wikidata-description Q869: country in Southeast Asia
+Siam/Thailand|Q869|Vajiravudh, King (1910–1925)|Rattanakosin Kingdom
+# wikidata-description Q1335260: monarchy in Central Asia from 1823 to 1926
+Emirate of Afghanistan|Q1335260|Habibullah Khan, Emir (1901–1919)|Afghanistan
+# wikidata-description Q63158027: country in Western Asia (1789–1925)
+Sublime State of Persia|Q63158027|Ahmad Shah Qajar, Shah (1909–1925)|Persia
+# wikidata-description Q3480281: sheikhdom in the Arabian peninsula (1752-1961), precursor of Kuwait
+Sheikhdom of Kuwait|Q3480281|Mubarak I, Sheikh (1896–1915)|Kuwait
+# wikidata-description Q846: country in West Asia
+Qatar|Q846|Abdullah bin Jassim Al Thani, Emir (1913–1949)
+# wikidata-description Q2011891: contemporary state of Saudi Arabia
+Emirate of Nejd and Hasa|Q2011891|Ibn Saud, Emir (1902–1921), Sultan (1921–1927), King (1926–1953)|Arabia (Nejd)
+Ottoman (Turkish) Empire|Q12560|Mehmed V, Sultan (1909–1918);Said Halim Pasha, Grand Vizier (1913–1917)|Ottoman Empire
+# wikidata-description Q147909: state on the Balkan Peninsula between 1908 and 1946
+Kingdom of Bulgaria|Q147909|Ferdinand I, Prince (1887–1908), Tsar (1908–1918);Vasil Radoslavov, Prime minister (1886–1887, 1913–1918)|Bulgaria
+# wikidata-description Q209065: period of Greek statehood from 1832 to 1924 and 1935 to 1973
+Kingdom of Greece|Q209065|Constantine I, King (1913–1917);Eleftherios Venizelos, Prime minister (1910–1915)|Greece
+# wikidata-description Q241748: 1882–1918 kingdom in Southeastern Europe
+Kingdom of Serbia|Q241748|Peter I, King (1903–1921);Nikola Pašić, Prime minister (1912–1918)|Serbia
+# wikidata-description Q386496: 1910–1918 kingdom in Southeastern Europe
+Kingdom of Montenegro|Q386496|Nikola I, Sovereign prince (1860–1910), King (1910–1918);Janko Vukotić, President (1913–1915)|Montenegro
+United Kingdom of Great Britain and Ireland|Q174193|George V, King (1910–1936);H. H. Asquith, Prime minister (1908–1916)
+Austria-Hungary|Q28513|Franz Joseph I, Emperor (1848–1916);Karl von Stürgkh, Ministers-President (1911–1916);István Tisza, Prime Minister (1913–1917)|Austro-Hungarian Empire
+German Empire|Q43287|Wilhelm II, Emperor (1888–1918);Theobald von Bethmann Hollweg, Chancellor (1909–1917)
+# wikidata-description Q39: country in Central Europe
+Switzerland|Q39|Arthur Hoffmann, President of the Confederation (1914)
+# wikidata-description Q203493: kingdom in Southeastern Europe between 1881 and 1947
+Kingdom of Romania|Q203493|Charles I, King (1881–1914);Ferdinand I, King (1914–1927);Titu Maiorescu, Prime minister (1912–1914);Ion I. C. Brătianu, Prime minister (1914–1918)|Romania
+Russian Empire|Q34266|Nicholas II, Emperor (1894–1917);Vladimir Kokovtsov, Chairman of council of ministers (1911–1914);Ivan Goremykin, Chairman of council of ministers (1914–1916)
+# wikidata-description Q35: country in Northern Europe
+Denmark|Q35|Christian X, King (1912–1947);Carl Theodor Zahle, Council president (1913–1918), Prime minister (1918–1920)
+# wikidata-description Q62633: predecessor state of modern Finland
+Grand Duchy of Finland|Q62633|Nicholas II, Grand Prince (1894–1917)|Finland
+# wikidata-description Q20: country in Northern Europe
+Norway|Q20|Haakon VII, King (1905–1957);Gunnar Knudsen, Prime minister (1913–1920)
+# wikidata-description Q34: country in Northern Europe
+Sweden|Q34|Gustaf V, King (1907–1950);Karl Staaff, Prime minister (1911–1914);Hjalmar Hammarskjöld, Prime minister (1914–1917)
+Kingdom of Italy|Q172579|Victor Emmanuel III, King (1900–1946);Giovanni Giolitti, Prime minister (1911–1914);Antonio Salandra, Prime minister (1914–1916)
+# wikidata-description Q167360: 1910–1926 republic in Southwestern Europe
+First Portuguese Republic|Q167360|Manuel de Arriaga, President (1911–1915);Afonso Costa, President of the Ministry (1913–1914);Bernardino Machado, President of the Ministry (1914);Vítor Hugo de Azevedo Coutinho, President of the Ministry (1914–1915)|Portugal
+# wikidata-description Q1044536: name given to a period between 1874 (end of First Spanish Republic) and 1931 (start of the Second Spanish Republic), and the state of Spain during that time
+Bourbon Restoration of Spain|Q1044536|Alfonso XIII, King (1886–1931);Eduardo Dato, Prime minister (1913–1915)|Spain
+# wikidata-description Q31: country in western Europe
+Belgium|Q31|Albert I, King (1909–1934);Charles de Broqueville, Prime minister (1911–1918)
+French Third Republic|Q70802|Raymond Poincaré, President (1913–1920);Gaston Doumergue, President of the Council of ministers (1913–1914);Alexandre Ribot, President of the Council of ministers (1914);René Viviani, President of the Council of ministers (1914–1915)|France
+# wikidata-description Q32: country in Western Europe
+Luxembourg|Q32|Marie-Adélaïde, Grand Duchess (1912–1919);Paul Eyschen, Prime minister (1888–1915)
+# wikidata-description Q55: one of the four autonomous countries of the Kingdom of the Netherlands; with territories in the Caribbean
+Netherlands|Q55|Wilhelmina, Queen (1890–1948);Pieter Cort van der Linden, Prime minister (1913–1918)
+# wikidata-description Q408: country
+Australia|Q408|George V, King (1910–1936);Joseph Cook, Prime minister (1913–1914);Andrew Fisher, Prime minister (1914–1916)
+# wikidata-description Q2594990: former dominion of the British Empire
+Dominion of New Zealand|Q2594990|George V, King (1910–1936);William Massey, Prime minister (1912–1925)|New Zealand
+# wikidata-description Q23022146: protected state of the United Kingdom in Polynesia
+Kingdom of Tonga (1900–70)|Q23022146|George Tupou II, King (1893–1918);Tevita Tuʻivakano, Prime minister (1912–1923)|Tonga

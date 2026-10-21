@@ -1,0 +1,50 @@
+{
+  "qid": "Q1138904",
+  "name": "Kingdom of Afghanistan",
+  "summary": "Kingdom of Afghanistan: office-holders in 1938, 1945, 1960, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "Mohammed Zahir Shah",
+      "title": "King",
+      "from": 1933,
+      "to": 1973,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Mohammed Zahir Shah, King (1933–1973)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Mohammad Hashim Khan",
+      "title": "Prime minister",
+      "from": 1929,
+      "to": 1946,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1901%E2%80%931950)",
+        "quote": "Mohammad Hashim Khan, Prime minister (1929–1946)"
+      }
+    },
+    {
+      "name": "Mohammad Zahir Shah",
+      "title": "King",
+      "from": 1933,
+      "to": 1973,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Mohammad Zahir Shah, King (1933–1973)"
+      }
+    },
+    {
+      "name": "Mohammed Daoud Khan",
+      "title": "Prime minister",
+      "from": 1953,
+      "to": 1963,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_20th_century_(1951%E2%80%932000)",
+        "quote": "Mohammed Daoud Khan, Prime minister (1953–1963)"
+      }
+    }
+  ],
+  "events": []
+}
