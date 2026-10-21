@@ -128,7 +128,7 @@ const canonical = new URL(path, SITE_URL).href;
       .overview .largest li { display: flex; align-items: center; gap: 8px; }
       .overview .largest button { text-align: left; }
       .overview .hint { margin-top: 12px; color: var(--grey); font-size: 20px; }
-      .unreviewed { color: var(--grey); font-size: 19px; }
+      .reviewed { color: var(--grey); font-size: 19px; }
 
       /* Timeline */
       .year-slider { grid-area: time; display: grid; grid-template-columns: auto auto minmax(0, 1fr); align-items: center; gap: 12px; padding: 2px 4px; }
@@ -213,7 +213,6 @@ const canonical = new URL(path, SITE_URL).href;
         <span class="credits">
           Borders: <a href="https://github.com/aourednik/historical-basemaps" target="_blank" rel="noopener noreferrer">historical-basemaps</a> (GPL-3.0) to 2010; <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener noreferrer">Natural Earth</a> (public domain) for 2026.
           Office-holders: <a href="https://en.wikipedia.org/wiki/Lists_of_state_leaders" target="_blank" rel="noopener noreferrer">Wikipedia</a> lists (CC BY-SA 4.0) and Wikidata (CC0).
-          Facts are sourced but not all are human-reviewed.
         </span>{' '}
         <a href="/about/">About &amp; licences</a>
       </footer>

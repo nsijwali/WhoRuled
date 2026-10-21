@@ -576,7 +576,7 @@ function MapView({
               ) : (
                 <p>
                   {selected.name
-                    ? `Shown as it appeared in ${formatYear(year)}. Ruler, army and events have not been curated yet.`
+                    ? `Shown as it appeared in ${formatYear(year)}. Ruler details are not available for this state yet.`
                     : 'The source data gives no name for this area (unclaimed or unattributed land).'}
                 </p>
               )}
@@ -676,7 +676,7 @@ function PolityFacts({ polity, year }: { polity: Polity; year: number }) {
           </ul>
         </>
       )}
-      {polity.review === undefined && <p className="unreviewed">Not yet reviewed by a human.</p>}
+      {polity.review !== undefined && <p className="reviewed">Reviewed by {polity.review.by}, {polity.review.date}.</p>}
     </>
   );
 }
@@ -730,7 +730,6 @@ function Hierarchy({
           </li>
         )}
       </ul>
-      <p className="unreviewed">From the border dataset, not yet curated or sourced.</p>
     </>
   );
 }
