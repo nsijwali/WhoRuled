@@ -2,7 +2,15 @@ import { readFileSync } from 'node:fs';
 import { beforeAll, describe, expect, it } from 'vitest';
 import { feature } from 'topojson-client';
 import type { FeatureCollection, MultiPolygon, Position } from 'geojson';
-import { HALF_WORLD, buildGeo, snapshotFile, type GeoProperties, type GeoResult } from '../pipeline/build-geo.js';
+import {
+  HALF_WORLD,
+  buildGeo,
+  fromNaturalEarth,
+  loadSnapshot,
+  snapshotFile,
+  type GeoProperties,
+  type GeoResult,
+} from '../pipeline/build-geo.js';
 
 let result: GeoResult;
 let fc: FeatureCollection<MultiPolygon, GeoProperties>;
@@ -97,5 +105,68 @@ describe('snapshotFile', () => {
   it('uses the upstream bc spelling for BC years', () => {
     expect(snapshotFile(-500)).toBe('data/borders-gpl/world_bc500.geojson');
     expect(snapshotFile(1914)).toBe('data/borders-gpl/world_1914.geojson');
+  });
+
+  it('takes the present-day snapshot from Natural Earth, outside the GPL folder', () => {
+    expect(snapshotFile(2026)).toBe('data/borders-ne/ne_50m_admin_0_countries.geojson');
+    expect(snapshotFile(2010)).toBe('data/borders-gpl/world_2010.geojson');
+  });
+});
+
+describe('buildGeo (2026, Natural Earth)', () => {
+  let modern: GeoResult;
+  let mfc: FeatureCollection<MultiPolygon, GeoProperties>;
+
+  beforeAll(async () => {
+    const { raw, source } = loadSnapshot(2026);
+    expect(source).toBe('natural-earth');
+    modern = await buildGeo(raw);
+    mfc = feature(modern.topology, modern.topology.objects.borders as never) as unknown as typeof mfc;
+  }, 60_000);
+
+  const byName = (name: string) => mfc.features.find((f) => f.properties.name === name);
+
+  it('keeps every Natural Earth admin-0 feature with the same output properties as other years', () => {
+    expect(modern.stats.sourceFeatures).toBe(242);
+    expect(modern.stats.features).toBe(242);
+    for (const f of mfc.features) {
+      expect(Object.keys(f.properties).sort()).toEqual(['fid', 'name', 'overlord', 'precision']);
+      expect(typeof f.properties.name).toBe('string');
+      expect(f.properties.precision).toBe(3);
+    }
+    expect(new Set(mfc.features.map((f) => f.properties.fid)).size).toBe(242);
+  });
+
+  it('uses full English names and includes states created after 2010', () => {
+    for (const name of ['United States of America', 'Democratic Republic of the Congo', 'South Sudan', 'Kosovo'])
+      expect(byName(name), name).toBeDefined();
+  });
+
+  it('names an overlord only for dependencies, never for disputed areas', () => {
+    expect(byName('Puerto Rico')?.properties.overlord).toBe('United States of America');
+    expect(byName('France')?.properties.overlord).toBeNull();
+    expect(byName('Palestine')?.properties.overlord).toBeNull();
+    expect(byName('Falkland Islands')?.properties.overlord).toBeNull();
+  });
+
+  it('stays inside the Mercator square and has no ring wrapping across the antimeridian', () => {
+    for (const f of mfc.features)
+      for (const polygon of f.geometry.coordinates)
+        for (const ring of polygon) {
+          const xs = ring.map((p) => p[0] as number);
+          const ys = ring.map((p) => p[1] as number);
+          expect(Math.max(...xs.map(Math.abs), ...ys.map(Math.abs))).toBeLessThanOrEqual(HALF_WORLD * 1.001);
+          // A ring that wrapped round the antimeridian would span almost the whole world. Antarctica
+          // legitimately does: it is cut along the antimeridian and closed along the clip edge.
+          if (f.properties.name !== 'Antarctica') expect(Math.max(...xs) - Math.min(...xs), f.properties.name ?? '').toBeLessThan(HALF_WORLD);
+        }
+  });
+
+  it('stays comparable in size to the historical snapshots', () => {
+    expect(modern.stats.gzipBytes).toBeLessThan(150_000);
+  });
+
+  it('rejects a collection without Natural Earth columns', () => {
+    expect(() => fromNaturalEarth({ type: 'FeatureCollection', features: [{ type: 'Feature', properties: {}, geometry: null }] })).toThrow();
   });
 });

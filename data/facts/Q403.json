@@ -1,7 +1,7 @@
 {
   "qid": "Q403",
   "name": "Serbia",
-  "summary": "Serbia: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Serbia: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Boris Tadić",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Boris Tadić, President (2004–2012)"
+      }
+    },
+    {
+      "name": "Ana Brnabić",
+      "title": "acting president",
+      "from": 2026,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Ana Brnabić, acting president (since 27 September 2026)"
       }
     }
   ],
@@ -23,6 +33,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Mirko Cvetković, Prime minister (2008–2012)"
+      }
+    },
+    {
+      "name": "Đuro Macut",
+      "title": "prime minister",
+      "from": 2025,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Đuro Macut, prime minister (since 16 April 2025)"
       }
     }
   ],

@@ -1,7 +1,7 @@
 {
   "qid": "Q43",
   "name": "Turkey",
-  "summary": "Turkey: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Turkey: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Abdullah Gül",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Abdullah Gül, President (2007–2014)"
+      }
+    },
+    {
+      "name": "Recep Tayyip Erdoğan",
+      "title": "president",
+      "from": 2014,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Recep Tayyip Erdoğan, president (since 28 August 2014)"
       }
     }
   ],

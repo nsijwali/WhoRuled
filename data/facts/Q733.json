@@ -1,7 +1,7 @@
 {
   "qid": "Q733",
   "name": "Paraguay",
-  "summary": "Paraguay: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Paraguay: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Fernando Lugo",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Fernando Lugo, President (2008–2012)"
+      }
+    },
+    {
+      "name": "Santiago Peña",
+      "title": "president",
+      "from": 2023,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Santiago Peña, president (since 15 August 2023)"
       }
     }
   ],

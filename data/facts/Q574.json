@@ -1,0 +1,30 @@
+{
+  "qid": "Q574",
+  "name": "Timor-Leste",
+  "summary": "Timor-Leste: office-holders in 2026, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "José Ramos-Horta",
+      "title": "president",
+      "from": 2022,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "José Ramos-Horta, president (since 20 May 2022)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Xanana Gusmão",
+      "title": "prime minister",
+      "from": 2023,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Xanana Gusmão, prime minister (since 1 July 2023)"
+      }
+    }
+  ],
+  "events": []
+}

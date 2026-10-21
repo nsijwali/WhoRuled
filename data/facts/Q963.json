@@ -1,7 +1,7 @@
 {
   "qid": "Q963",
   "name": "Botswana",
-  "summary": "Botswana: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Botswana: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Ian Khama",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Ian Khama, President (2008–2018)"
+      }
+    },
+    {
+      "name": "Duma Boko",
+      "title": "president",
+      "from": 2024,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Duma Boko, president (since 1 November 2024)"
       }
     }
   ],

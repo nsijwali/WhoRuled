@@ -31,7 +31,7 @@ type LoadState =
   | { status: 'error'; message: string }
   | { status: 'ready'; features: BorderFeature[] };
 
-const DEFAULT_YEAR = 1492;
+const DEFAULT_YEAR = 2026;
 
 const collator = new Intl.Collator('en', { sensitivity: 'base', ignorePunctuation: true });
 

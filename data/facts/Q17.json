@@ -12,6 +12,16 @@
         "url": "https://en.wikipedia.org/wiki/Akihito",
         "quote": "reigned as the 125th emperor of Japan from 7 January 1989 until his abdication on 30 April 2019"
       }
+    },
+    {
+      "name": "Naruhito",
+      "title": "emperor",
+      "from": 2019,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Naruhito, emperor (since 1 May 2019)"
+      }
     }
   ],
   "offices": [
@@ -33,6 +43,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Naoto Kan, Prime minister (2010–2011)"
+      }
+    },
+    {
+      "name": "Sanae Takaichi",
+      "title": "prime minister",
+      "from": 2025,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Sanae Takaichi, prime minister (since 21 October 2025)"
       }
     }
   ],

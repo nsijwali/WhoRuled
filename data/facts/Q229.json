@@ -1,7 +1,7 @@
 {
   "qid": "Q229",
   "name": "Cyprus",
-  "summary": "Cyprus: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Cyprus: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Demetris Christofias",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Demetris Christofias, President (2008–2013)"
+      }
+    },
+    {
+      "name": "Nikos Christodoulides",
+      "title": "president",
+      "from": 2023,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Nikos Christodoulides, president (since 28 February 2023)"
       }
     }
   ],

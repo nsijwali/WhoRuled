@@ -12,6 +12,16 @@
         "url": "https://en.wikipedia.org/wiki/Hosni_Mubarak",
         "quote": "served as the fourth president of Egypt from 1981 until his resignation in 2011"
       }
+    },
+    {
+      "name": "Abdel Fattah el-Sisi",
+      "title": "president",
+      "from": 2014,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Abdel Fattah el-Sisi, president (since 8 June 2014)"
+      }
     }
   ],
   "offices": [
@@ -23,6 +33,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Ahmed Nazif, Prime minister (2004–2011)"
+      }
+    },
+    {
+      "name": "Mostafa Madbouly",
+      "title": "prime minister",
+      "from": 2018,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Mostafa Madbouly, prime minister (since 14 June 2018)"
       }
     }
   ],

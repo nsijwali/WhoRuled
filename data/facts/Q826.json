@@ -1,0 +1,19 @@
+{
+  "qid": "Q826",
+  "name": "Maldives",
+  "summary": "Maldives: office-holders in 2026, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Mohamed Muizzu",
+      "title": "president",
+      "from": 2023,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Mohamed Muizzu, president (since 17 November 2023)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

@@ -1,0 +1,40 @@
+{
+  "qid": "Q685",
+  "name": "Solomon Islands",
+  "summary": "Solomon Islands: office-holders in 2026, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Charles III",
+      "title": "king",
+      "from": 2022,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Charles III, king (since 8 September 2022)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "David Tiva Kapu",
+      "title": "governor-general",
+      "from": 2024,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "David Tiva Kapu, governor-general (since 7 July 2024)"
+      }
+    },
+    {
+      "name": "Matthew Wale",
+      "title": "prime minister",
+      "from": 2026,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Matthew Wale, prime minister (since 15 May 2026)"
+      }
+    }
+  ],
+  "events": []
+}

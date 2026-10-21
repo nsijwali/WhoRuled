@@ -1,7 +1,7 @@
 {
   "qid": "Q1020",
   "name": "Malawi",
-  "summary": "Malawi: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Malawi: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Bingu wa Mutharika",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Bingu wa Mutharika, President (2004–2012)"
+      }
+    },
+    {
+      "name": "Peter Mutharika",
+      "title": "president",
+      "from": 2025,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Peter Mutharika, president (since 4 October 2025)"
       }
     }
   ],

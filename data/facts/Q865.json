@@ -1,7 +1,7 @@
 {
   "qid": "Q865",
   "name": "Taiwan",
-  "summary": "Taiwan: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Taiwan: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Ma Ying-jeou",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Ma Ying-jeou, President (2008–2016)"
+      }
+    },
+    {
+      "name": "Lai Ching-te",
+      "title": "president",
+      "from": 2024,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Lai Ching-te, president (since 20 May 2024)"
       }
     }
   ],
@@ -23,6 +33,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Wu Den-yih, Premier (2009–2012)"
+      }
+    },
+    {
+      "name": "Cho Jung-tai",
+      "title": "premier",
+      "from": 2024,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Cho Jung-tai, premier (since 20 May 2024)"
       }
     }
   ],

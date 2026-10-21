@@ -12,6 +12,16 @@
         "url": "https://en.wikipedia.org/wiki/Dmitry_Medvedev",
         "quote": "On 7 May 2008, Dmitry Medvedev took an oath as the third president of the Russian Federation"
       }
+    },
+    {
+      "name": "Vladimir Putin",
+      "title": "president",
+      "from": 2012,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Vladimir Putin, president (since 7 May 2012)"
+      }
     }
   ],
   "offices": [
@@ -23,6 +33,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Vladimir Putin, Prime minister (2008–2012)"
+      }
+    },
+    {
+      "name": "Mikhail Mishustin",
+      "title": "prime minister",
+      "from": 2020,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Mikhail Mishustin, prime minister (16 January 2020 – 30 April 2020, since 19 May 2020)"
       }
     }
   ],

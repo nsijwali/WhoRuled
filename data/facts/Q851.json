@@ -12,9 +12,30 @@
         "url": "https://en.wikipedia.org/wiki/Abdullah_of_Saudi_Arabia",
         "quote": "was King and Prime Minister of Saudi Arabia from 1 August 2005 until his death in 2015"
       }
+    },
+    {
+      "name": "Salman",
+      "title": "king",
+      "from": 2015,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Salman, king (since 23 January 2015)"
+      }
     }
   ],
-  "offices": [],
+  "offices": [
+    {
+      "name": "Mohammed bin Salman",
+      "title": "prime minister",
+      "from": 2022,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Mohammed bin Salman, prime minister (since 27 September 2022)"
+      }
+    }
+  ],
   "events": [
     {
       "year": 2011,

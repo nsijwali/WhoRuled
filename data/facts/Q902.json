@@ -1,7 +1,7 @@
 {
   "qid": "Q902",
   "name": "Bangladesh",
-  "summary": "Bangladesh: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Bangladesh: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Zillur Rahman",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Zillur Rahman, President (2009–2013)"
+      }
+    },
+    {
+      "name": "Mirza Fakhrul Islam Alamgir",
+      "title": "president",
+      "from": 2026,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Mirza Fakhrul Islam Alamgir, president (since 21 August 2026)"
       }
     }
   ],
@@ -23,6 +33,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Sheikh Hasina, Prime minister (2009–2024)"
+      }
+    },
+    {
+      "name": "Tarique Rahman",
+      "title": "prime minister",
+      "from": 2026,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Tarique Rahman, prime minister (since 17 February 2026)"
       }
     }
   ],

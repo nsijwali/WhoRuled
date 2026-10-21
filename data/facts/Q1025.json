@@ -1,7 +1,7 @@
 {
   "qid": "Q1025",
   "name": "Mauritania",
-  "summary": "Mauritania: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Mauritania: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Mohamed Ould Abdel Aziz",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Mohamed Ould Abdel Aziz, President (2009–2019)"
+      }
+    },
+    {
+      "name": "Mohamed Ould Ghazouani",
+      "title": "president",
+      "from": 2019,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Mohamed Ould Ghazouani, president (since 1 August 2019)"
       }
     }
   ],
@@ -23,6 +33,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Moulaye Ould Mohamed Laghdaf, Prime minister (2008–2014)"
+      }
+    },
+    {
+      "name": "Mokhtar Ould Djay",
+      "title": "prime minister",
+      "from": 2024,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Mokhtar Ould Djay, prime minister (since 2 August 2024)"
       }
     }
   ],

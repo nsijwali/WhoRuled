@@ -1,7 +1,7 @@
 {
   "qid": "Q881",
   "name": "Vietnam",
-  "summary": "Vietnam: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Vietnam: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Nông Đức Mạnh",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Nông Đức Mạnh, General Secretary (2001–2011)"
+      }
+    },
+    {
+      "name": "Tô Lâm",
+      "title": "general secretary",
+      "from": 2024,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Tô Lâm, acting general secretary (19 July 2024 – 3 August 2024); general secretary (since 3 August 2024)"
       }
     }
   ],
@@ -33,6 +43,26 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Nguyễn Tấn Dũng, Prime minister (2006–2016)"
+      }
+    },
+    {
+      "name": "Tô Lâm",
+      "title": "president",
+      "from": 2026,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Tô Lâm, president (22 May 2024 – 21 October 2024, since 7 April 2026)"
+      }
+    },
+    {
+      "name": "Lê Minh Hưng",
+      "title": "prime minister",
+      "from": 2026,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Lê Minh Hưng, prime minister (since 7 April 2026)"
       }
     }
   ],

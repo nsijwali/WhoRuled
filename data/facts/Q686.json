@@ -1,0 +1,19 @@
+{
+  "qid": "Q686",
+  "name": "Vanuatu",
+  "summary": "Vanuatu: office-holders in 2026, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Nikenike Vurobaravu",
+      "title": "president",
+      "from": 2022,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Nikenike Vurobaravu, president (since 23 July 2022)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

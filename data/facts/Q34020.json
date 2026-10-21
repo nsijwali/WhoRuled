@@ -1,0 +1,30 @@
+{
+  "qid": "Q34020",
+  "name": "Niue",
+  "summary": "Niue: office-holders in 2026, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Charles III",
+      "title": "king",
+      "from": 2022,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Charles III, king (since 8 September 2022)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Dalton Tagelagi",
+      "title": "prime minister",
+      "from": 2024,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Dalton Tagelagi, premier (11 June 2020 – 3 September 2024); prime minister (since 3 September 2024)"
+      }
+    }
+  ],
+  "events": []
+}

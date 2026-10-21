@@ -1,7 +1,7 @@
 {
   "qid": "Q854",
   "name": "Sri Lanka",
-  "summary": "Sri Lanka: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Sri Lanka: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Mahinda Rajapaksa",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Mahinda Rajapaksa, President (2005–2015)"
+      }
+    },
+    {
+      "name": "Anura Kumara Dissanayake",
+      "title": "president",
+      "from": 2024,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Anura Kumara Dissanayake, president (since 23 September 2024)"
       }
     }
   ],
@@ -33,6 +43,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "D. M. Jayaratne, Prime minister (2010–2015)"
+      }
+    },
+    {
+      "name": "Harini Amarasuriya",
+      "title": "prime minister",
+      "from": 2024,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Harini Amarasuriya, prime minister (since 24 September 2024)"
       }
     }
   ],

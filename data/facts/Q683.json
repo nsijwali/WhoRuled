@@ -1,7 +1,7 @@
 {
   "qid": "Q683",
   "name": "Samoa",
-  "summary": "Samoa: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Samoa: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Tui Ātua Tupua Tamasese Efi",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Tui Ātua Tupua Tamasese Efi, O le Ao o le Malo (2007–2017)"
+      }
+    },
+    {
+      "name": "Tuimalealiʻifano Vaʻaletoʻa Sualauvi II",
+      "title": "O le Ao o le Malo",
+      "from": 2017,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Tuimalealiʻifano Vaʻaletoʻa Sualauvi II, O le Ao o le Malo (since 21 July 2017)"
       }
     }
   ],
@@ -23,6 +33,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Tuila'epa Sa'ilele Malielegaoi, Prime minister (1998–2021)"
+      }
+    },
+    {
+      "name": "Laʻauli Leuatea Schmidt",
+      "title": "prime minister",
+      "from": 2025,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Laʻauli Leuatea Schmidt , prime minister (since 16 September 2025)"
       }
     }
   ],

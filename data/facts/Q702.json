@@ -1,0 +1,19 @@
+{
+  "qid": "Q702",
+  "name": "Federated States of Micronesia",
+  "summary": "Federated States of Micronesia: office-holders in 2026, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Wesley Simina",
+      "title": "president",
+      "from": 2023,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Wesley Simina, president (since 11 May 2023)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

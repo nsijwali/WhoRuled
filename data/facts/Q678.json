@@ -1,7 +1,7 @@
 {
   "qid": "Q678",
   "name": "Tonga",
-  "summary": "Tonga: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Tonga: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "George Tupou V",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "George Tupou V, King (2006–2012)"
+      }
+    },
+    {
+      "name": "Tupou VI",
+      "title": "king",
+      "from": 2012,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Tupou VI, king (since 18 March 2012)"
       }
     }
   ],
@@ -33,6 +43,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Sialeʻataongo Tuʻivakanō, Prime minister (2010–2014)"
+      }
+    },
+    {
+      "name": "Fatafehi Fakafānua",
+      "title": "prime minister",
+      "from": 2025,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Fatafehi Fakafānua, prime minister (since 18 December 2025)"
       }
     }
   ],

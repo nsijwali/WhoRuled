@@ -1,7 +1,7 @@
 {
   "qid": "Q792",
   "name": "El Salvador",
-  "summary": "El Salvador: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "El Salvador: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Mauricio Funes",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Mauricio Funes, President (2009–2014)"
+      }
+    },
+    {
+      "name": "Nayib Bukele",
+      "title": "president",
+      "from": 2019,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Nayib Bukele, president (since 1 June 2019)"
       }
     }
   ],

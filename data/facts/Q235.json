@@ -1,0 +1,30 @@
+{
+  "qid": "Q235",
+  "name": "Monaco",
+  "summary": "Monaco: office-holders in 2026, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Albert II",
+      "title": "prince",
+      "from": 2005,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Albert II, prince (since 6 April 2005)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Christophe Mirmand",
+      "title": "minister of state",
+      "from": 2025,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Christophe Mirmand, minister of state (since 21 July 2025)"
+      }
+    }
+  ],
+  "events": []
+}

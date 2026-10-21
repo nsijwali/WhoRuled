@@ -1,7 +1,7 @@
 {
   "qid": "Q801",
   "name": "Israel",
-  "summary": "Israel: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Israel: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Shimon Peres",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Shimon Peres, President (2007–2014)"
+      }
+    },
+    {
+      "name": "Isaac Herzog",
+      "title": "president",
+      "from": 2021,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Isaac Herzog, president (since 7 July 2021)"
       }
     }
   ],
@@ -23,6 +33,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Benjamin Netanyahu, Prime minister (2009–2021)"
+      }
+    },
+    {
+      "name": "Benjamin Netanyahu",
+      "title": "prime minister",
+      "from": 2022,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Benjamin Netanyahu, caretaker prime minister (9 April 2019 – 17 May 2020); prime minister (17 May 2020 – 13 June 2021, since 29 December 2022)"
       }
     }
   ],

@@ -1,7 +1,7 @@
 {
   "qid": "Q419",
   "name": "Peru",
-  "summary": "Peru: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Peru: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Alan García Pérez",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Alan García Pérez, Constitutional President (2006–2011)"
+      }
+    },
+    {
+      "name": "Keiko Fujimori",
+      "title": "president",
+      "from": 2026,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Keiko Fujimori, president (since 28 July 2026)"
       }
     }
   ],
@@ -33,6 +43,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "José Antonio Chang, Prime Minister (2010–2011)"
+      }
+    },
+    {
+      "name": "Luis Galarreta",
+      "title": "prime minister",
+      "from": 2026,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Luis Galarreta, prime minister (since 28 July 2026)"
       }
     }
   ],

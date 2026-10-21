@@ -63,6 +63,60 @@ export interface GeoResult {
   stats: GeoStats;
 }
 
+/** Where a snapshot's geometry comes from; recorded in the manifest so the modern layer is labelled. */
+export type GeoSource = 'historical-basemaps' | 'natural-earth';
+
+/**
+ * Present-day snapshots built from Natural Earth (public domain, data/borders-ne) instead of the GPL
+ * historical-basemaps files, which end at 2010. Kept in its own folder so the licences stay apart.
+ */
+export const MODERN_SNAPSHOTS: Readonly<Record<number, string>> = {
+  2026: 'data/borders-ne/ne_50m_admin_0_countries.geojson',
+};
+
+const NaturalEarthCollection = z.object({
+  type: z.literal('FeatureCollection'),
+  features: z.array(
+    z.object({
+      type: z.literal('Feature'),
+      properties: z
+        .object({ ADMIN: z.string().min(1), SOVEREIGNT: z.string().min(1), TYPE: z.string().min(1) })
+        .passthrough(),
+      geometry: z.object({ type: z.string() }).passthrough().nullable(),
+    }),
+  ),
+});
+
+/**
+ * Maps Natural Earth admin-0 features onto the historical-basemaps property names, so buildGeo emits
+ * the same output properties for every year: NAME = ADMIN (full English name), BORDERPRECISION = 3
+ * (surveyed modern borders), and SUBJECTO = SOVEREIGNT only for dependencies. Disputed and
+ * indeterminate areas get no overlord, so the map takes no side. All other columns are dropped.
+ */
+export function fromNaturalEarth(raw: unknown): z.infer<typeof SourceCollection> {
+  const source = NaturalEarthCollection.parse(raw);
+  return {
+    type: 'FeatureCollection' as const,
+    features: source.features.map((f) => ({
+      type: 'Feature' as const,
+      properties: {
+        NAME: f.properties.ADMIN,
+        BORDERPRECISION: 3,
+        SUBJECTO: f.properties.TYPE === 'Dependency' ? f.properties.SOVEREIGNT : f.properties.ADMIN,
+      },
+      geometry: f.geometry,
+    })),
+  };
+}
+
+/** Reads the raw source for a snapshot year, normalised to the historical-basemaps property names. */
+export function loadSnapshot(year: number): { raw: unknown; source: GeoSource } {
+  const raw: unknown = JSON.parse(readFileSync(snapshotFile(year), 'utf8'));
+  return year in MODERN_SNAPSHOTS
+    ? { raw: fromNaturalEarth(raw), source: 'natural-earth' }
+    : { raw, source: 'historical-basemaps' };
+}
+
 
 function flipY(coords: unknown): unknown {
   if (Array.isArray(coords) && typeof coords[0] === 'number') {
@@ -132,13 +186,18 @@ export async function buildGeo(
 }
 
 /** Writes `geo/<year>.<hash>.topojson` and updates manifest.json in outDir. */
-export function writeGeo(outDir: string, year: number, result: GeoResult): string {
+export function writeGeo(
+  outDir: string,
+  year: number,
+  result: GeoResult,
+  source: GeoSource = 'historical-basemaps',
+): string {
   const hash = createHash('sha256').update(result.json).digest('hex').slice(0, 8);
   const file = `geo/${year}.${hash}.topojson`;
   mkdirSync(join(outDir, 'geo'), { recursive: true });
   writeFileSync(join(outDir, file), result.json);
   const manifestPath = join(outDir, 'manifest.json');
-  let manifest: { geo: Record<string, { file: string; features: number; bytes: number }> };
+  let manifest: { geo: Record<string, { file: string; features: number; bytes: number; source: GeoSource }> };
   try {
     manifest = JSON.parse(readFileSync(manifestPath, 'utf8'));
   } catch {
@@ -148,6 +207,7 @@ export function writeGeo(outDir: string, year: number, result: GeoResult): strin
     file,
     features: result.stats.features,
     bytes: result.stats.bytes,
+    source,
   };
   mkdirSync(dirname(manifestPath), { recursive: true });
   writeFileSync(manifestPath, JSON.stringify(manifest, null, 2));
@@ -156,6 +216,8 @@ export function writeGeo(outDir: string, year: number, result: GeoResult): strin
 
 /** Source file name for a snapshot year; BC years use the upstream `bc<N>` spelling. */
 export function snapshotFile(year: number): string {
+  const modern = MODERN_SNAPSHOTS[year];
+  if (modern !== undefined) return modern;
   return `data/borders-gpl/world_${year < 0 ? `bc${-year}` : year}.geojson`;
 }
 
@@ -166,9 +228,9 @@ if (process.argv[1] && import.meta.url === new URL(`file://${process.argv[1]}`).
       ? [Number(process.argv[2])]
       : (JSON.parse(readFileSync('data/years.json', 'utf8')) as number[]);
   for (const year of years) {
-    const raw: unknown = JSON.parse(readFileSync(snapshotFile(year), 'utf8'));
+    const { raw, source } = loadSnapshot(year);
     const result = await buildGeo(raw, { ...DEFAULT_OPTIONS, simplifyPercent: percent });
-    const file = writeGeo('public/data', year, result);
-    console.log(JSON.stringify({ year, percent, file, ...result.stats }));
+    const file = writeGeo('public/data', year, result, source);
+    console.log(JSON.stringify({ year, source, percent, file, ...result.stats }));
   }
 }

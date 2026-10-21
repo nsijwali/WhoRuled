@@ -1,7 +1,7 @@
 {
   "qid": "Q35",
   "name": "Denmark",
-  "summary": "Denmark: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Denmark: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Margrethe II",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Margrethe II, Queen (1972–2024)"
+      }
+    },
+    {
+      "name": "Frederik X",
+      "title": "king",
+      "from": 2024,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Frederik X, king (since 14 January 2024)"
       }
     }
   ],
@@ -23,6 +33,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Lars Løkke Rasmussen, Prime minister (2009–2011)"
+      }
+    },
+    {
+      "name": "Mette Frederiksen",
+      "title": "prime minister",
+      "from": 2019,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Mette Frederiksen, prime minister (since 27 June 2019)"
       }
     }
   ],

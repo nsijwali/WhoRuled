@@ -12,6 +12,16 @@
         "url": "https://en.wikipedia.org/wiki/Nicolas_Sarkozy",
         "quote": "served as the president of France from 2007 to 2012"
       }
+    },
+    {
+      "name": "Emmanuel Macron",
+      "title": "president",
+      "from": 2017,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Emmanuel Macron, president (since 14 May 2017)"
+      }
     }
   ],
   "offices": [
@@ -23,6 +33,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "François Fillon, Prime minister (2007–2012)"
+      }
+    },
+    {
+      "name": "Sébastien Lecornu",
+      "title": "prime minister",
+      "from": 2025,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Sébastien Lecornu,prime minister (since 09 September 2025)"
       }
     }
   ],

@@ -1,0 +1,30 @@
+{
+  "qid": "Q219060",
+  "name": "Palestine",
+  "summary": "Palestine: office-holders in 2026, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Mahmoud Abbas",
+      "title": "president",
+      "from": 2008,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Mahmoud Abbas, president (since 23 November 2008)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Mohammad Mustafa",
+      "title": "prime minister",
+      "from": 2024,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Mohammad Mustafa, prime minister (since 31 March 2024)"
+      }
+    }
+  ],
+  "events": []
+}

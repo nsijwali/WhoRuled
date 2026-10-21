@@ -1,0 +1,30 @@
+{
+  "qid": "Q1011",
+  "name": "Cape Verde",
+  "summary": "Cape Verde: office-holders in 2026, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "José Maria Neves",
+      "title": "president",
+      "from": 2021,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "José Maria Neves, president (since 9 November 2021)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Francisco Carvalho",
+      "title": "prime minister",
+      "from": 2026,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Francisco Carvalho, prime minister (since 19 June 2026)"
+      }
+    }
+  ],
+  "events": []
+}

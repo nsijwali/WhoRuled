@@ -1,0 +1,19 @@
+{
+  "qid": "Q697",
+  "name": "Nauru",
+  "summary": "Nauru: office-holders in 2026, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "David Adeang",
+      "title": "president",
+      "from": 2023,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "David Adeang, president (since 30 October 2023)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

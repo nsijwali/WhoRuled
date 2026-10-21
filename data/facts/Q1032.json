@@ -1,7 +1,7 @@
 {
   "qid": "Q1032",
   "name": "Niger",
-  "summary": "Niger: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Niger: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Mamadou Tandja",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Mamadou Tandja, President (1999–2010)"
+      }
+    },
+    {
+      "name": "Abdourahamane Tiani",
+      "title": "president of the National Council for the Safeguard of the Homeland",
+      "from": 2023,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Abdourahamane Tiani, president of the National Council for the Safeguard of the Homeland (since 28 July 2023), president (since 26 March 2025)"
       }
     }
   ],
@@ -43,6 +53,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Mahamadou Danda, Prime minister (2010–2011)"
+      }
+    },
+    {
+      "name": "Ali Lamine Zeine",
+      "title": "prime minister",
+      "from": 2023,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Ali Lamine Zeine, prime minister (since 8 August 2023)"
       }
     }
   ],

@@ -22,6 +22,9 @@ await page.goto(`http://localhost:${port}/`);
 await page.waitForSelector('canvas');
 await page.waitForSelector('.state-list li');
 await page.waitForTimeout(500);
+// the map opens on the present day: the last snapshot, built from Natural Earth
+const openingYear = await page.locator('.year-slider output').textContent();
+if (openingYear !== '2026') problems.push(`expected the map to open on 2026, got ${openingYear}`);
 if (process.argv[2]) await page.screenshot({ path: process.argv[2] });
 // click the centre of the map and expect a detail heading or still-the-prompt
 const box = await page.locator('canvas').boundingBox();
@@ -32,13 +35,23 @@ const heading = await page.locator('.detail h2').count();
 await page.locator('.map-side input').fill('france');
 await page.locator('.state-list button').first().click();
 await page.waitForTimeout(300);
+const presentName = await page.locator('.detail h2').textContent();
+await page.locator('.detail', { hasText: 'Emmanuel Macron' }).waitFor({ timeout: 3000 }).catch(() => problems.push('2026 leader for France (Emmanuel Macron) did not appear'));
+// back to 1492 (slider index 14 in data/years.json) for the curated facts
+await page.locator('#year-range').fill('14');
+await page.waitForTimeout(500);
+const pastYear = await page.locator('.year-slider output').textContent();
+if (pastYear !== '1492') problems.push(`expected 1492 at slider index 14, got ${pastYear}`);
+await page.locator('.map-side input').fill('france');
+await page.locator('.state-list button').first().click();
+await page.waitForTimeout(300);
 const name = await page.locator('.detail h2').textContent();
 await page.locator('.detail', { hasText: 'Charles VIII' }).waitFor({ timeout: 3000 }).catch(() => problems.push('curated facts for France (Charles VIII) did not appear'));
 if (process.argv[3]) await page.screenshot({ path: process.argv[3] });
 // year slider: move to the last snapshot and expect a different map and label
 await page.locator('#year-range').fill('3');
 await page.waitForTimeout(500);
-const yearLabel = await page.locator('.lcd output').textContent();
-console.log(JSON.stringify({ problems, yearLabel, mapClickSelected: heading > 0, listSelected: name }));
+const yearLabel = await page.locator('.year-slider output').textContent();
+console.log(JSON.stringify({ problems, openingYear, yearLabel, mapClickSelected: heading > 0, presentName, listSelected: name }));
 await browser.close(); srv.close();
 if (problems.length) process.exit(1);

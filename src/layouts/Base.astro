@@ -186,7 +186,7 @@ const canonical = new URL(path, SITE_URL).href;
     <div class="window">
       <div class="titlebar">
         <h1><a href="/">{SITE_NAME}</a></h1>
-        <span class="blurb">Who ruled where, 1000 BC to 2010</span>
+        <span class="blurb">Who ruled where, 1000 BC to today</span>
       </div>
       <nav class="menubar" aria-label="Site">
         <a href="/" aria-current={path === '/' ? 'page' : undefined}>Map</a>
@@ -197,7 +197,7 @@ const canonical = new URL(path, SITE_URL).href;
       <div class="window-body"><slot /></div>
       <footer class="site-footer">
         <span class="credits">
-          Borders: <a href="https://github.com/aourednik/historical-basemaps">historical-basemaps</a> (GPL-3.0).
+          Borders: <a href="https://github.com/aourednik/historical-basemaps">historical-basemaps</a> (GPL-3.0) to 2010; <a href="https://www.naturalearthdata.com/">Natural Earth</a> (public domain) for 2026.
           Office-holders: <a href="https://en.wikipedia.org/wiki/Lists_of_state_leaders">Wikipedia</a> lists (CC BY-SA 4.0) and Wikidata (CC0).
           Facts are sourced but not all are human-reviewed.
         </span>{' '}

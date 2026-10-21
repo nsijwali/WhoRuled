@@ -1,7 +1,7 @@
 {
   "qid": "Q1028",
   "name": "Morocco",
-  "summary": "Morocco: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Morocco: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Mohammed VI",
@@ -23,6 +23,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Abbas El Fassi, Prime Minister (2007–2011)"
+      }
+    },
+    {
+      "name": "Fatima Ezzahra El Mansouri",
+      "title": "prime minister",
+      "from": 2026,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Fatima Ezzahra El Mansouri, prime minister (since 29 September 2026)"
       }
     }
   ],

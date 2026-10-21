@@ -1,7 +1,7 @@
 {
   "qid": "Q846",
   "name": "Qatar",
-  "summary": "Qatar: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Qatar: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Hamad bin Khalifa Al Thani",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Hamad bin Khalifa Al Thani, Emir (1995–2013)"
+      }
+    },
+    {
+      "name": "Tamim bin Hamad Al Thani",
+      "title": "emir",
+      "from": 2013,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Tamim bin Hamad Al Thani, emir (since 25 June 2013)"
       }
     }
   ],
@@ -23,6 +33,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Hamad bin Jassim, Prime minister (2007–2013)"
+      }
+    },
+    {
+      "name": "Mohammed bin Abdulrahman bin Jassim Al Thani",
+      "title": "prime minister",
+      "from": 2023,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Mohammed bin Abdulrahman bin Jassim Al Thani, prime minister (since 7 March 2023)"
       }
     }
   ],

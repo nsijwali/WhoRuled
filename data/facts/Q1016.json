@@ -1,7 +1,7 @@
 {
   "qid": "Q1016",
   "name": "Libya",
-  "summary": "Libya: office-holders in 2010, from Wikipedia's list of state leaders.",
+  "summary": "Libya: office-holders in 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Muammar Gaddafi",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Muammar Gaddafi, Brotherly Leader and Guide of the Revolution (1977–2011)"
+      }
+    },
+    {
+      "name": "Mohamed al-Menfi",
+      "title": "chairman of the Presidential Council",
+      "from": 2021,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Mohamed al-Menfi, chairman of the Presidential Council (since 15 March 2021)"
       }
     }
   ],
@@ -23,6 +33,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Baghdadi Mahmudi, Prime minister (2006–2011)"
+      }
+    },
+    {
+      "name": "Abdul Hamid Dbeibeh",
+      "title": "prime minister",
+      "from": 2021,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Abdul Hamid Dbeibeh, prime minister (since 15 March 2021)"
       }
     }
   ],

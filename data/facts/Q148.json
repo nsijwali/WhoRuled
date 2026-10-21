@@ -12,6 +12,16 @@
         "url": "https://en.wikipedia.org/wiki/Hu_Jintao",
         "quote": "served as the paramount leader of China from 2002 to 2012"
       }
+    },
+    {
+      "name": "Xi Jinping",
+      "title": "general secretary and paramount leader",
+      "from": 2012,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Xi Jinping, general secretary and paramount leader (since 15 November 2012)"
+      }
     }
   ],
   "offices": [
@@ -23,6 +33,26 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2010s",
         "quote": "Wen Jiabao, Premier (2003–2013)"
+      }
+    },
+    {
+      "name": "Xi Jinping",
+      "title": "president",
+      "from": 2013,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Xi Jinping, president (since 14 March 2013)"
+      }
+    },
+    {
+      "name": "Li Qiang",
+      "title": "premier",
+      "from": 2023,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Li Qiang, premier (since 11 March 2023)"
       }
     }
   ],

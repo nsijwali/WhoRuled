@@ -1,0 +1,19 @@
+{
+  "qid": "Q970",
+  "name": "Comoros",
+  "summary": "Comoros: office-holders in 2026, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Azali Assoumani",
+      "title": "president",
+      "from": 2019,
+      "to": null,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_2020s",
+        "quote": "Azali Assoumani, president (since 3 April 2019)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}
