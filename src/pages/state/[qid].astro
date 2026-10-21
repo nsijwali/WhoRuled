@@ -5,6 +5,7 @@ import { correctionUrl, formatYear } from '../../map/format';
 import { isIndexable, type Polity } from '../../data/schema';
 import AdSlot from '../../components/AdSlot.astro';
 import Base from '../../layouts/Base.astro';
+import { AFFILIATE_DISCLOSURE, AMAZON_TAG, booksUrl } from '../../config/site';
 
 export const getStaticPaths = (() => {
   const { polities } = readFacts('data/facts');
@@ -78,6 +79,12 @@ const description = (
     <p class="note">
       {polity.review !== undefined && `Reviewed by ${polity.review.by} on ${polity.review.date}. `}Every entry above links to its source. Spot an error? <a href={correctionUrl(polity.name, null)} target="_blank" rel="noopener noreferrer">Report it</a>.
     </p>
+    {AMAZON_TAG && (
+      <p>
+        Read more: <a href={booksUrl(polity.name, AMAZON_TAG)} target="_blank" rel="sponsored noopener noreferrer">books about {polity.name} on Amazon</a>
+        <br /><small>{AFFILIATE_DISCLOSURE}</small>
+      </p>
+    )}
     <AdSlot />
     <p><a href="/">← Back to the map</a></p>
   </main>
