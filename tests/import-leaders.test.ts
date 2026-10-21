@@ -57,6 +57,16 @@ describe('parseEntry', () => {
       'Assimi Goïta, chairman of the National Committee for the Salvation of the People (18 August 2020 – 25 September 2020), interim president (24 May 2021 – 8 July 2025), president (since 8 July 2025)';
     expect(parseEntry(multi, 2026)).toMatchObject({ title: 'president', from: 2025, to: null });
   });
+  it('reads BC and AD periods of the ancient lists', () => {
+    expect(parseEntry('Darius I, King (522–486 BC)', -500)).toMatchObject({ name: 'Darius I', title: 'King', from: -522, to: -486 });
+    expect(parseEntry('Darius I, King (c.522–486 BC)', -480)).toBeNull();
+    expect(parseEntry('Ptolemy V, Pharaoh (204 BC)', -204)).toMatchObject({ from: -204, to: -204 });
+    expect(parseEntry('Augustus, Emperor (27 BC–14 AD)', -1)).toMatchObject({ from: -27, to: 14 });
+    expect(parseEntry('Tiberius, Emperor (14–37 AD)', 20)).toMatchObject({ from: 14, to: 37 });
+    // an unmarked end after a BC start is ambiguous and skipped
+    expect(parseEntry('A B, King (27 BC–14)', -1)).toBeNull();
+    expect(parseEntry('A B, King (12 BC–27 BC)', -20)).toBeNull();
+  });
   it('rejects rows outside the year or without a title', () => {
     expect(parseEntry('A B, King (1900–1950)', 2010)).toBeNull();
     expect(parseEntry('Nameless (2000–2020)', 2010)).toBeNull();
