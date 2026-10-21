@@ -13,8 +13,8 @@ export function paypalMeName(input: string): string {
   return /^[A-Za-z0-9]{3,20}$/.test(name) ? name : '';
 }
 
-/** PayPal.Me name (the part after paypal.me/). A public handle, not a credential. Empty = no PayPal support page. */
-export const PAYPAL_ME: string = paypalMeName(env.PUBLIC_PAYPAL_ME ?? '');
+/** PayPal.Me name (the part after paypal.me/). A public handle, not a credential. Defaults to the owner's; set PUBLIC_PAYPAL_ME to '-' to switch the page off. */
+export const PAYPAL_ME: string = paypalMeName(env.PUBLIC_PAYPAL_ME ?? 'sijwalinitin');
 
 /** The support link in the menu: an explicit URL, else the PayPal support page when PayPal is set up. Empty = none. */
 export const SUPPORT_URL: string = env.PUBLIC_SUPPORT_URL ?? (PAYPAL_ME ? '/support/' : '');
