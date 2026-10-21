@@ -13,7 +13,7 @@ import {
 import { CanvasMap } from '../map/CanvasMap';
 import { HALF_WORLD, VIEW_NORTH, VIEW_SOUTH, baseScale, homeView, viewForBbox } from '../map/geometry';
 import { eraOf } from '../map/eras';
-import { formatYear } from '../map/format';
+import { correctionUrl, formatYear } from '../map/format';
 import { realmFill } from '../map/palette';
 import { themeOf, themedFillCss, type EraTheme } from '../map/theme';
 import { loadFactsIndex, loadPolity, type FactsIndex } from '../map/loadFacts';
@@ -526,6 +526,10 @@ function MapView({
               No state recorded
             </li>
             <li>
+              <i className="key-approx" />
+              Dashed edge: the border is approximate
+            </li>
+            <li>
               <i className="key-chosen" />
               The state you chose
             </li>
@@ -580,7 +584,13 @@ function MapView({
                     : 'The source data gives no name for this area (unclaimed or unattributed land).'}
                 </p>
               )}
+              {selected.precision === 1 && <p className="hint">Its border is approximate in the source data (drawn dashed).</p>}
               <Hierarchy selected={selected} features={features} onChoose={chooseFromList} />
+              <p>
+                <a href={correctionUrl(selected.name, year)} target="_blank" rel="noopener noreferrer">
+                  Suggest a correction
+                </a>
+              </p>
             </>
           ) : (
             <div className="overview">

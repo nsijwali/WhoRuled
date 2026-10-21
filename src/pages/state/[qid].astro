@@ -1,7 +1,7 @@
 ---
 import type { GetStaticPaths } from 'astro';
 import { readFacts } from '../../../pipeline/build-facts.ts';
-import { formatYear } from '../../map/format';
+import { correctionUrl, formatYear } from '../../map/format';
 import { isIndexable, type Polity } from '../../data/schema';
 import AdSlot from '../../components/AdSlot.astro';
 import Base from '../../layouts/Base.astro';
@@ -76,7 +76,7 @@ const description = (
       </>
     )}
     <p class="note">
-      {polity.review !== undefined && `Reviewed by ${polity.review.by} on ${polity.review.date}. `}Every entry above links to its source. Spot an error? <a href="https://github.com/nsijwali/WhoRuled/issues/new" target="_blank" rel="noopener noreferrer">Report it</a>.
+      {polity.review !== undefined && `Reviewed by ${polity.review.by} on ${polity.review.date}. `}Every entry above links to its source. Spot an error? <a href={correctionUrl(polity.name, null)} target="_blank" rel="noopener noreferrer">Report it</a>.
     </p>
     <AdSlot />
     <p><a href="/">← Back to the map</a></p>
