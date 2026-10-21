@@ -76,10 +76,7 @@ const description = (
       </>
     )}
     <p class="note">
-      {polity.review === undefined
-        ? 'Every entry above links to its source, but this page has not been reviewed by a human.'
-        : `Reviewed by ${polity.review.by} on ${polity.review.date}.`}
-      {' '}Spot an error? <a href="https://github.com/nsijwali/WhoRuled/issues/new" target="_blank" rel="noopener noreferrer">Report it</a>.
+      {polity.review !== undefined && `Reviewed by ${polity.review.by} on ${polity.review.date}. `}Every entry above links to its source. Spot an error? <a href="https://github.com/nsijwali/WhoRuled/issues/new" target="_blank" rel="noopener noreferrer">Report it</a>.
     </p>
     <AdSlot />
     <p><a href="/">← Back to the map</a></p>
