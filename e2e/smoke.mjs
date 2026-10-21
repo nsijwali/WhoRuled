@@ -68,7 +68,7 @@ const externalLinks = () => page.evaluate(() => [...document.querySelectorAll('a
   .filter((a) => a.protocol.startsWith('http') && a.origin !== location.origin)
   .filter((a) => a.target !== '_blank' || !/\bnoopener\b/.test(a.rel) || !/\bnoreferrer\b/.test(a.rel))
   .map((a) => a.href));
-for (const route of ['/', '/about/', '/privacy/', '/support/', '/state/Q142/', '/year/1914/']) {
+for (const route of ['/', '/about/', '/privacy/', '/support/', '/state/Q142/', '/state/Q142/1960/', '/year/1914/']) {
   await page.goto(`http://localhost:${port}${route}`);
   await page.waitForTimeout(400);
   if (route === '/') {

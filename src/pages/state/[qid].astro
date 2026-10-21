@@ -5,6 +5,7 @@ import { correctionUrl, formatYear } from '../../map/format';
 import { isIndexable, type Polity } from '../../data/schema';
 import AdSlot from '../../components/AdSlot.astro';
 import Base from '../../layouts/Base.astro';
+import { stateYears } from '../../data/stateYears';
 import { AFFILIATE_DISCLOSURE, AMAZON_TAG, SITE_URL, booksUrl } from '../../config/site';
 
 export const getStaticPaths = (() => {
@@ -22,6 +23,7 @@ const onMap = Object.entries(index)
   .map(([year]) => Number(year))
   .sort((a, b) => a - b);
 const pageYears = new Set(browseYears());
+const rulerYears = stateYears().filter((s) => s.polity.qid === polity.qid).map((s) => s.year);
 const span = (r: { from: number; to: number | null }) =>
   `${formatYear(r.from)}–${r.to === null ? 'present' : formatYear(r.to)}`;
 const lead = polity.rulers[0];
@@ -93,6 +95,12 @@ const description = (
     <p class="note">
       {polity.review !== undefined && `Reviewed by ${polity.review.by} on ${polity.review.date}. `}Every entry above links to its source. Spot an error? <a href={correctionUrl(polity.name, null)} target="_blank" rel="noopener noreferrer">Report it</a>.
     </p>
+    {rulerYears.length > 0 && (
+      <p>
+        Who ruled {polity.name} in:{' '}
+        {rulerYears.map((y, i) => <>{i > 0 && ', '}<a href={`/state/${polity.qid}/${y}/`}>{formatYear(y)}</a></>)}.
+      </p>
+    )}
     {onMap.some((y) => pageYears.has(y)) && (
       <p>
         See it among the world's states in:{' '}
