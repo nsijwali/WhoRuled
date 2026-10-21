@@ -4,7 +4,7 @@
  */
 const env = import.meta.env;
 
-export const SITE_URL: string = env.PUBLIC_SITE_URL ?? 'https://whoruled.sijwalinitin.workers.dev';
+export const SITE_URL: string = env.PUBLIC_SITE_URL ?? 'https://whoruled.nitinsijwali.com';
 export const SITE_NAME = 'WhoRuled';
 
 /** Turns `name`, `paypal.me/name` or `https://www.paypal.me/name` into the bare PayPal.Me name, or '' if it is not one. */
