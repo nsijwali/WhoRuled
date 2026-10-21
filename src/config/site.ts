@@ -42,7 +42,7 @@ export function amazonTag(input: string): string {
   const tag = input.trim();
   return /^[A-Za-z0-9-]{3,40}$/.test(tag) ? tag : '';
 }
-export const AMAZON_TAG: string = amazonTag(env.PUBLIC_AMAZON_TAG ?? '');
+export const AMAZON_TAG: string = amazonTag(env.PUBLIC_AMAZON_TAG ?? 'whoruled-21');
 
 /** Required wording whenever an affiliate link is shown. */
 export const AFFILIATE_DISCLOSURE = 'As an Amazon Associate I earn from qualifying purchases.';

@@ -8,7 +8,7 @@ Settings → Build → Variables (build variables), add any of these, then redep
 | `PUBLIC_SITE_URL` | your custom domain, e.g. `https://whoruled.example` | canonical URLs, sitemap, robots |
 | `PUBLIC_PAYPAL_ME` | your PayPal.Me name, e.g. `yourname` (or `paypal.me/yourname`) | `/support/` page with $1, $3, $5 and any-amount tip links, and the menu link. No PayPal script is loaded; payment happens on paypal.com |
 | `PUBLIC_UPI_ID` | UPI address, default the owner's | UPI section on `/support/` (QR + "Pay with a UPI app" button on phones). `public/upi-qr.svg` encodes the same address; regenerate it if the address changes |
-| `PUBLIC_AMAZON_TAG` | Amazon Associates India store id, e.g. `yourname-21` | "books about …" link and the required disclosure on state pages and About |
+| `PUBLIC_AMAZON_TAG` | Amazon Associates India store id (default `whoruled-21`) | "books about …" link and the required disclosure on state pages and About |
 | `PUBLIC_SUPPORT_URL` | overrides the PayPal page, e.g. `https://github.com/sponsors/nsijwali` or a Ko-fi page | "Support this project" link in the header |
 | `PUBLIC_CF_ANALYTICS_TOKEN` | token from Cloudflare → Web Analytics → add site | cookie-free page-view counts |
 | `PUBLIC_ADS_CLIENT` | AdSense id `ca-pub-…` | consent banner, ad slot on state pages, `/ads.txt` |
