@@ -13,8 +13,8 @@ export function paypalMeName(input: string): string {
   return /^[A-Za-z0-9]{3,20}$/.test(name) ? name : '';
 }
 
-/** PayPal.Me name (the part after paypal.me/). A public handle, not a credential. Empty = no PayPal link (the owner's Indian PayPal account cannot receive PayPal.Me payments). */
-export const PAYPAL_ME: string = paypalMeName(env.PUBLIC_PAYPAL_ME ?? '');
+/** PayPal.Me name (the part after paypal.me/). A public handle, not a credential. Defaults to the owner's; set PUBLIC_PAYPAL_ME to '-' to hide the PayPal section. */
+export const PAYPAL_ME: string = paypalMeName(env.PUBLIC_PAYPAL_ME ?? 'sijwalinitin');
 
 /** A UPI address (VPA) such as name@bank, or '' if the input is not one. */
 export function upiId(input: string): string {

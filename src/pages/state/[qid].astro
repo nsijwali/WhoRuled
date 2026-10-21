@@ -40,7 +40,7 @@ const description = (
           <thead><tr><th>Name</th><th>Title</th><th>Years</th><th>Source</th></tr></thead>
           <tbody>
             {polity.rulers.map((r) => (
-              <tr><td>{r.name}</td><td>{r.title}</td><td>{span(r)}</td><td><a href={r.source.url} rel="noopener noreferrer">source</a></td></tr>
+              <tr><td>{r.name}</td><td>{r.title}</td><td>{span(r)}</td><td><a href={r.source.url} target="_blank" rel="noopener noreferrer">source</a></td></tr>
             ))}
           </tbody>
         </table>
@@ -53,7 +53,7 @@ const description = (
           <thead><tr><th>Name</th><th>Office</th><th>Years</th><th>Source</th></tr></thead>
           <tbody>
             {polity.offices.map((o) => (
-              <tr><td>{o.name}</td><td>{o.title}</td><td>{span(o)}</td><td><a href={o.source.url} rel="noopener noreferrer">source</a></td></tr>
+              <tr><td>{o.name}</td><td>{o.title}</td><td>{span(o)}</td><td><a href={o.source.url} target="_blank" rel="noopener noreferrer">source</a></td></tr>
             ))}
           </tbody>
         </table>
@@ -62,7 +62,7 @@ const description = (
     {polity.armySize && (
       <p>
         Army: about {polity.armySize.value.toLocaleString('en')} ({formatYear(polity.armySize.year)}, {polity.armySize.confidence} confidence)
-        <a href={polity.armySize.source.url} rel="noopener noreferrer"> source</a>
+        <a href={polity.armySize.source.url} target="_blank" rel="noopener noreferrer"> source</a>
       </p>
     )}
     {polity.events.length > 0 && (
@@ -70,7 +70,7 @@ const description = (
         <h2>Events</h2>
         <ul>
           {polity.events.map((e) => (
-            <li>{formatYear(e.year)}: {e.summary} <a href={e.source.url} rel="noopener noreferrer">source</a></li>
+            <li>{formatYear(e.year)}: {e.summary} <a href={e.source.url} target="_blank" rel="noopener noreferrer">source</a></li>
           ))}
         </ul>
       </>
@@ -79,7 +79,7 @@ const description = (
       {polity.review === undefined
         ? 'Every entry above links to its source, but this page has not been reviewed by a human.'
         : `Reviewed by ${polity.review.by} on ${polity.review.date}.`}
-      {' '}Spot an error? <a href="https://github.com/nsijwali/WhoRuled/issues/new">Report it</a>.
+      {' '}Spot an error? <a href="https://github.com/nsijwali/WhoRuled/issues/new" target="_blank" rel="noopener noreferrer">Report it</a>.
     </p>
     <AdSlot />
     <p><a href="/">← Back to the map</a></p>

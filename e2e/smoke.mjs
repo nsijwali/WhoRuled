@@ -4,12 +4,15 @@ import { readFileSync, existsSync, statSync } from 'node:fs';
 import path from 'node:path';
 
 const root = path.resolve('dist');
-const types = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.topojson': 'application/json' };
+const types = { '.svg': 'image/svg+xml', '.woff2': 'font/woff2', '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.topojson': 'application/json' };
+const headers = readFileSync(path.join(root, '_headers'), 'utf8')
+  .split('\n').filter((l) => l.startsWith('  ')).map((l) => l.trim().split(/:\s(.*)/s).slice(0, 2));
 const srv = http.createServer((q, r) => {
   let f = path.join(root, decodeURIComponent(q.url.split('?')[0]));
   if (existsSync(f) && statSync(f).isDirectory()) f = path.join(f, 'index.html');
   if (!existsSync(f)) { r.statusCode = 404; return r.end(); }
   r.setHeader('content-type', types[path.extname(f)] ?? 'application/octet-stream');
+  for (const [name, value] of headers) r.setHeader(name, value); // the same security headers Cloudflare serves from public/_headers
   r.end(readFileSync(f));
 }).listen(0);
 const port = srv.address().port;
@@ -60,6 +63,24 @@ if (process.argv[3]) await page.screenshot({ path: process.argv[3] });
 await page.locator('#year-range').fill('3');
 await page.waitForTimeout(500);
 const yearLabel = await page.locator('.year-slider output').textContent();
+// every link that leaves the site must open a new tab and give the new page no handle back to ours
+const externalLinks = () => page.evaluate(() => [...document.querySelectorAll('a[href]')]
+  .filter((a) => a.protocol.startsWith('http') && a.origin !== location.origin)
+  .filter((a) => a.target !== '_blank' || !/\bnoopener\b/.test(a.rel) || !/\bnoreferrer\b/.test(a.rel))
+  .map((a) => a.href));
+for (const route of ['/', '/about/', '/privacy/', '/support/', '/state/Q142/']) {
+  await page.goto(`http://localhost:${port}${route}`);
+  await page.waitForTimeout(400);
+  if (route === '/') {
+    await page.locator('.map-side input').fill('france');
+    await page.locator('.state-list button').first().click();
+    await page.waitForTimeout(400);
+  }
+  const bad = await externalLinks();
+  if (bad.length) problems.push(`${route}: external links without target=_blank rel=noopener noreferrer: ${bad.join(', ')}`);
+  const response = await page.request.get(`http://localhost:${port}${route}`);
+  if (response.headers()['x-content-type-options'] !== 'nosniff') problems.push(`${route}: security headers missing`);
+}
 console.log(JSON.stringify({ problems, openingYear, yearLabel, mapClickSelected: heading > 0, presentName, listSelected: name }));
 await browser.close(); srv.close();
 if (problems.length) process.exit(1);
