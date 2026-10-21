@@ -13,7 +13,7 @@ import {
 import { CanvasMap } from '../map/CanvasMap';
 import { HALF_WORLD, VIEW_NORTH, VIEW_SOUTH, baseScale, homeView, viewForBbox } from '../map/geometry';
 import { eraOf } from '../map/eras';
-import { correctionUrl, formatYear } from '../map/format';
+import { correctionUrl, formatYear, inYear } from '../map/format';
 import { realmFill } from '../map/palette';
 import { themeOf, themedFillCss, type EraTheme } from '../map/theme';
 import { loadFactsIndex, loadPolity, type FactsIndex } from '../map/loadFacts';
@@ -620,10 +620,6 @@ function MapView({
       </div>
     </div>
   );
-}
-
-function inYear(r: { from: number; to: number | null }, year: number): boolean {
-  return r.from <= year && (r.to === null || r.to >= year);
 }
 
 function PolityFacts({ polity, year }: { polity: Polity; year: number }) {

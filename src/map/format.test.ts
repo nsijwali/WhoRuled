@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { correctionUrl, formatYear } from './format';
+import { correctionUrl, formatYear, inYear } from './format';
 
 describe('formatYear', () => {
   it('labels negative years as BC', () => {
@@ -24,5 +24,15 @@ describe('correctionUrl', () => {
   it('keeps odd characters in a name from breaking the link', () => {
     const url = new URL(correctionUrl('A&B #1', 1900));
     expect(url.searchParams.get('title')).toBe('Correction: A&B #1, 1900');
+  });
+});
+
+describe('inYear', () => {
+  it('covers both ends and treats a null end as still going', () => {
+    expect(inYear({ from: 1000, to: 1100 }, 1000)).toBe(true);
+    expect(inYear({ from: 1000, to: 1100 }, 1100)).toBe(true);
+    expect(inYear({ from: 1000, to: 1100 }, 1101)).toBe(false);
+    expect(inYear({ from: 1000, to: null }, 2026)).toBe(true);
+    expect(inYear({ from: 1000, to: null }, 999)).toBe(false);
   });
 });

@@ -13,9 +13,14 @@ interface Props {
   path: string;
   index?: boolean;
   fullHeight?: boolean;
+  /** schema.org data for search engines (WebSite, BreadcrumbList, ...). */
+  jsonLd?: Record<string, unknown>;
 }
-const { title, description, path, index = true, fullHeight = false } = Astro.props;
+const { title, description, path, index = true, fullHeight = false, jsonLd } = Astro.props;
 const canonical = new URL(path, SITE_URL).href;
+const image = new URL('/og.png', SITE_URL).href;
+// `<` is escaped so the data can never close the script element
+const jsonLdText = jsonLd ? JSON.stringify(jsonLd).replace(/</g, '\\u003c') : '';
 ---
 <!doctype html>
 <html lang="en" data-era="modern">
@@ -30,6 +35,16 @@ const canonical = new URL(path, SITE_URL).href;
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:image" content={image} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="A map of the world's states with a year slider" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={image} />
+    {jsonLdText && <script type="application/ld+json" is:inline set:html={jsonLdText}></script>}
     <link rel="icon" href="data:," />
     <style
       is:inline
@@ -67,6 +82,8 @@ const canonical = new URL(path, SITE_URL).href;
       .window-body { flex: 1; min-height: 0; display: flex; flex-direction: column; }
       .site-footer { padding: 2px 8px; border-top: 2px solid var(--lo); font-size: 18px; line-height: 1.15; color: var(--black); }
       .site-footer a { color: var(--blue); }
+      .browse { margin-top: 2px; }
+      .browse a { margin-right: 4px; }
 
       button { font: 22px/1 var(--body); color: var(--black); background: var(--grey); padding: 3px 10px 4px; cursor: pointer; border: 2px solid; border-color: var(--hi) var(--lo) var(--lo) var(--hi); box-shadow: 1px 1px 0 var(--black); }
       button:active:not(:disabled) { border-color: var(--lo) var(--hi) var(--hi) var(--lo); box-shadow: none; transform: translate(1px, 1px); }
@@ -216,6 +233,7 @@ const canonical = new URL(path, SITE_URL).href;
           Office-holders: <a href="https://en.wikipedia.org/wiki/Lists_of_state_leaders" target="_blank" rel="noopener noreferrer">Wikipedia</a> lists (CC BY-SA 4.0) and Wikidata (CC0).
         </span>{' '}
         <a href="/about/">About &amp; licences</a>
+        <slot name="footer" />
       </footer>
     </div>
     <Consent />

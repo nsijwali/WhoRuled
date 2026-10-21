@@ -1,12 +1,28 @@
 ---
 import MapIsland from '../components/MapIsland';
 import Base from '../layouts/Base.astro';
+import { browseYears } from '../data/browseYears';
+import { SITE_NAME, SITE_URL } from '../config/site';
+import { formatYear } from '../map/format';
+
+const years = browseYears();
 ---
 <Base
   title="WhoRuled – interactive map of who ruled where, from 1000 BC to the present day"
   description="Slide through 3,000 years of history, from 1000 BC to today (2026). Click any state to see its rulers, government and sources."
   path="/"
   fullHeight
+  jsonLd={{
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: SITE_NAME,
+    url: SITE_URL,
+    description: 'An interactive map of who ruled where, from 1000 BC to the present day.',
+  }}
 >
   <MapIsland client:load />
+  <nav slot="footer" class="browse" aria-label="Browse by year">
+    Browse by year:{' '}
+    {years.map((y) => <><a href={`/year/${y}/`}>{formatYear(y)}</a>{' '}</>)}
+  </nav>
 </Base>
