@@ -1,32 +1,42 @@
 ---
 import Base from '../layouts/Base.astro';
-import { PAYPAL_ME } from '../config/site';
+import { PAYPAL_ME, UPI_ID } from '../config/site';
 
 const tip = (amount: number) => `https://www.paypal.me/${PAYPAL_ME}/${amount}USD`;
 const amounts = [1, 3, 5];
+const upiLink = `upi://pay?pa=${UPI_ID}&pn=WhoRuled&cu=INR`;
 ---
 <Base
   title="Support WhoRuled"
-  description="WhoRuled is free and has no paywall. If it is useful to you, a small PayPal tip helps cover hosting and data work."
+  description="WhoRuled is free and has no paywall. If it is useful to you, a small tip by UPI or PayPal helps cover hosting and data work."
   path="/support/"
-  index={PAYPAL_ME !== ''}
+  index={PAYPAL_ME !== '' || UPI_ID !== ''}
 >
   <main class="page">
     <h2 style="margin-top:0">Support WhoRuled</h2>
     <p>The map is free, with no account and no paywall. A tip helps pay for the research that makes the facts trustworthy, and for hosting.</p>
-    {PAYPAL_ME ? (
+    {UPI_ID && (
       <>
+        <h2>From India: UPI</h2>
+        <p>Scan with any UPI app (PhonePe, Google Pay, Paytm, BHIM) and pick your own amount, even ₹10.</p>
+        <p><img class="qr" src="/upi-qr.svg" width="222" height="222" alt="UPI QR code for tips to WhoRuled" /></p>
+        <p class="phone-only"><a class="tip" href={upiLink}>Pay with a UPI app</a></p>
+        <p>Payments go straight to the maker's bank account through your UPI app; WhoRuled never sees your details.</p>
+      </>
+    )}
+    {PAYPAL_ME && (
+      <>
+        <h2>From elsewhere: PayPal</h2>
         <p>
           {amounts.map((a) => (
             <><a class="tip" href={tip(a)} rel="noopener noreferrer">Tip ${a}</a>{' '}</>
           ))}
           <a class="tip" href={`https://www.paypal.me/${PAYPAL_ME}`} rel="noopener noreferrer">Any amount</a>
         </p>
-        <p>Payment happens on PayPal's own site; WhoRuled never sees your card or account details. PayPal.Me tips are personal payments and are not tax-deductible donations.</p>
+        <p>Payment happens on PayPal's own site. PayPal.Me tips are personal payments and are not tax-deductible donations.</p>
       </>
-    ) : (
-      <p>Tipping is not switched on yet.</p>
     )}
+    {!PAYPAL_ME && !UPI_ID && <p>Tipping is not switched on yet.</p>}
     <h2>Other ways to help</h2>
     <ul>
       <li><a href="https://github.com/nsijwali/WhoRuled/issues/new">Report a wrong ruler, border or date</a> with a source.</li>
@@ -38,4 +48,7 @@ const amounts = [1, 3, 5];
 <style>
   .tip { display: inline-block; margin: 0 4px 6px 0; padding: 4px 14px 5px; color: var(--black); background: var(--yellow); border: 2px solid; border-color: var(--hi) var(--lo) var(--lo) var(--hi); box-shadow: 1px 1px 0 var(--black); text-decoration: none; }
   .tip:hover { background: var(--white); }
+  .qr { display: block; padding: 8px; background: #fff; image-rendering: pixelated; border: 2px solid var(--black); }
+  .phone-only { display: none; }
+  @media (pointer: coarse), (max-width: 760px) { .phone-only { display: block; } }
 </style>
