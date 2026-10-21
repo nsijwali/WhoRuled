@@ -1,0 +1,19 @@
+{
+  "qid": "Q20135",
+  "name": "Grand Duchy of Hesse",
+  "summary": "Grand Duchy of Hesse: office-holders in 1815, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Louis I",
+      "title": "Grand Duke of Hesse",
+      "from": 1806,
+      "to": 1830,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1801%E2%80%931850)",
+        "quote": "Louis I, Landgrave of Hesse-Darmstadt (1790–1806), Grand Duke of Hesse (1806–1830)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

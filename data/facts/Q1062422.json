@@ -1,0 +1,19 @@
+{
+  "qid": "Q1062422",
+  "name": "Konbaung dynasty",
+  "summary": "Konbaung dynasty: office-holders in 1815, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Bodawpaya",
+      "title": "King",
+      "from": 1782,
+      "to": 1819,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1801%E2%80%931850)",
+        "quote": "Bodawpaya, King (1782–1819)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

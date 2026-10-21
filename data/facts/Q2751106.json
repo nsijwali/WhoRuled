@@ -1,0 +1,19 @@
+{
+  "qid": "Q2751106",
+  "name": "Mecklenburg-Strelitz",
+  "summary": "Mecklenburg-Strelitz: office-holders in 1815, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Charles II",
+      "title": "Duke",
+      "from": 1794,
+      "to": 1815,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1801%E2%80%931850)",
+        "quote": "Charles II, Duke (1794–1815), Grand Duke (1815–1816)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "qid": "Q4899891",
+  "name": "Beylik of Tunis",
+  "summary": "Beylik of Tunis: office-holders in 1815, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Mahmud ibn Muhammad",
+      "title": "Bey",
+      "from": 1814,
+      "to": 1824,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1801%E2%80%931850)",
+        "quote": "Mahmud ibn Muhammad, Bey (1814–1824)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Yusuf Sahib al-Tabi",
+      "title": "Grand vizier",
+      "from": 1815,
+      "to": 1822,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1801%E2%80%931850)",
+        "quote": "Yusuf Sahib al-Tabi, Grand vizier (1815–1822)"
+      }
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,19 @@
+{
+  "qid": "Q252580",
+  "name": "Duchy of Modena",
+  "summary": "Duchy of Modena: office-holders in 1815, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Francesco IV",
+      "title": "Duke",
+      "from": 1814,
+      "to": 1846,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1801%E2%80%931850)",
+        "quote": "Francesco IV, Duke (1814–1846)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

@@ -1,0 +1,19 @@
+{
+  "qid": "Q153015",
+  "name": "Kingdom of Saxony",
+  "summary": "Kingdom of Saxony: office-holders in 1815, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Frederick Augustus the Just",
+      "title": "King",
+      "from": 1806,
+      "to": 1827,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1801%E2%80%931850)",
+        "quote": "Frederick Augustus the Just, Elector (1763–1806), King (1806–1827)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

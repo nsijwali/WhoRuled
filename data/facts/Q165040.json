@@ -1,0 +1,19 @@
+{
+  "qid": "Q165040",
+  "name": "Duchy of Parma",
+  "summary": "Duchy of Parma: office-holders in 1815, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Marie Louise",
+      "title": "Duke",
+      "from": 1814,
+      "to": 1847,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1801%E2%80%931850)",
+        "quote": "Marie Louise, Duke (1814–1847)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

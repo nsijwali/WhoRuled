@@ -1,8 +1,18 @@
 {
   "qid": "Q62589",
   "name": "Sweden–Norway",
-  "summary": "Sweden–Norway: office-holders in 1880, 1900, from Wikipedia's lists of state leaders.",
+  "summary": "Sweden–Norway: office-holders in 1815, 1880, 1900, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Charles XIII",
+      "title": "King of Sweden",
+      "from": 1809,
+      "to": 1818,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1801%E2%80%931850)",
+        "quote": "Charles XIII, King of Sweden (1809–1818) King of Norway (1814–1818)"
+      }
+    },
     {
       "name": "Oscar II",
       "title": "King",
@@ -15,6 +25,26 @@
     }
   ],
   "offices": [
+    {
+      "name": "Marcus Gjøe Rosenkrantz",
+      "title": "First Minister",
+      "from": 1814,
+      "to": 1815,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1801%E2%80%931850)",
+        "quote": "Marcus Gjøe Rosenkrantz, First Minister (1814–1815)"
+      }
+    },
+    {
+      "name": "Mathias Sommerhielm",
+      "title": "First Minister",
+      "from": 1815,
+      "to": 1822,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1801%E2%80%931850)",
+        "quote": "Mathias Sommerhielm, First Minister (1815–1822)"
+      }
+    },
     {
       "name": "Louis Gerhard De Geer",
       "title": "Prime minister",

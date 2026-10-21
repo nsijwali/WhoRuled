@@ -14,6 +14,16 @@
       }
     },
     {
+      "name": "Mahmud II",
+      "title": "Sultan",
+      "from": 1808,
+      "to": 1839,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1801%E2%80%931850)",
+        "quote": "Mahmud II, Sultan (1808–1839)"
+      }
+    },
+    {
       "name": "Abdul Hamid II",
       "title": "Sultan",
       "from": 1876,
@@ -45,6 +55,26 @@
     }
   ],
   "offices": [
+    {
+      "name": "Hurshid Pasha",
+      "title": "Grand Vizier",
+      "from": 1812,
+      "to": 1815,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1801%E2%80%931850)",
+        "quote": "Hurshid Pasha, Grand Vizier (1812–1815)"
+      }
+    },
+    {
+      "name": "Mehmed Emin Rauf Pasha",
+      "title": "Grand Vizier",
+      "from": 1815,
+      "to": 1818,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1801%E2%80%931850)",
+        "quote": "Mehmed Emin Rauf Pasha, Grand Vizier (1815–1818)"
+      }
+    },
     {
       "name": "Mehmed Said Pasha",
       "title": "Grand Vizier",

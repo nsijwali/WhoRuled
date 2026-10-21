@@ -4,6 +4,16 @@
   "summary": "United Kingdom of Great Britain and Ireland as drawn in the 1914 border data.",
   "rulers": [
     {
+      "name": "George III",
+      "title": "King",
+      "from": 1760,
+      "to": 1820,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1801%E2%80%931850)",
+        "quote": "George III, King (1760–1820)"
+      }
+    },
+    {
       "name": "Victoria",
       "title": "Queen",
       "from": 1837,
@@ -25,6 +35,26 @@
     }
   ],
   "offices": [
+    {
+      "name": "George IV",
+      "title": "Regent",
+      "from": 1811,
+      "to": 1820,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1801%E2%80%931850)",
+        "quote": "George IV, Regent (1811–1820), King (1820–1830)"
+      }
+    },
+    {
+      "name": "Robert Jenkinson",
+      "title": "Prime minister",
+      "from": 1812,
+      "to": 1827,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1801%E2%80%931850)",
+        "quote": "Robert Jenkinson, Prime minister (1812–1827)"
+      }
+    },
     {
       "name": "Benjamin Disraeli",
       "title": "Prime minister",

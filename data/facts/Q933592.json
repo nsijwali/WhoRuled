@@ -1,0 +1,19 @@
+{
+  "qid": "Q933592",
+  "name": "Duchy of Massa and Carrara",
+  "summary": "Duchy of Massa and Carrara: office-holders in 1815, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Maria Beatrice",
+      "title": "Duchess and Princess",
+      "from": 1815,
+      "to": 1829,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1801%E2%80%931850)",
+        "quote": "Maria Beatrice, Duchess and Princess (1790–1796, 1815–1829)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

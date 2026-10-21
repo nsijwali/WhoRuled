@@ -1,0 +1,19 @@
+{
+  "qid": "Q11024667",
+  "name": "Mecklenburg-Schwerin",
+  "summary": "Mecklenburg-Schwerin: office-holders in 1815, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Frederick Francis I",
+      "title": "Duke",
+      "from": 1785,
+      "to": 1815,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1801%E2%80%931850)",
+        "quote": "Frederick Francis I, Duke (1785–1815), Grand Duke (1815–1837)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}
