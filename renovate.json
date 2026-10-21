@@ -1,8 +1,31 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:recommended", ":pinAllExceptPeerDependencies", "helpers:pinGitHubActionDigests"],
+  "extends": [
+    "config:recommended",
+    ":pinAllExceptPeerDependencies",
+    "helpers:pinGitHubActionDigests"
+  ],
   "prConcurrentLimit": 3,
   "packageRules": [
-    { "matchUpdateTypes": ["minor", "patch"], "groupName": "non-major dependencies" }
+    {
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "groupName": "non-major dependencies"
+    },
+    {
+      "matchPackageNames": [
+        "typescript"
+      ],
+      "matchUpdateTypes": [
+        "major"
+      ],
+      "enabled": false,
+      "description": "TypeScript 7 fails astro check; revisit when Astro supports it"
+    }
+  ],
+  "schedule": [
+    "before 6am on monday"
   ]
 }
