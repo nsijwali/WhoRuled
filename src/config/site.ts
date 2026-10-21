@@ -36,3 +36,19 @@ export const ANALYTICS_TOKEN: string = env.PUBLIC_CF_ANALYTICS_TOKEN ?? '';
 
 /** AdSense publisher id such as ca-pub-1234567890123456. Empty = no ads, no ad script, no consent banner. */
 export const ADS_CLIENT: string = env.PUBLIC_ADS_CLIENT ?? '';
+
+/** Amazon Associates store id such as `name-21`. Empty = no book links. A public id, not a credential. */
+export function amazonTag(input: string): string {
+  const tag = input.trim();
+  return /^[A-Za-z0-9-]{3,40}$/.test(tag) ? tag : '';
+}
+export const AMAZON_TAG: string = amazonTag(env.PUBLIC_AMAZON_TAG ?? '');
+
+/** Required wording whenever an affiliate link is shown. */
+export const AFFILIATE_DISCLOSURE = 'As an Amazon Associate I earn from qualifying purchases.';
+
+/** Amazon India search for books about a state, carrying the Associates tag. */
+export function booksUrl(name: string, tag: string): string {
+  const query = new URLSearchParams({ k: `${name} history`, i: 'stripbooks', tag });
+  return `https://www.amazon.in/s?${query.toString()}`;
+}
