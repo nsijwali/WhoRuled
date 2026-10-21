@@ -1,8 +1,18 @@
 {
   "qid": "Q1139762",
   "name": "Bornu Empire (Kanem–Bornu)",
-  "summary": "Bornu Empire (Kanem–Bornu): office-holders in 1800, 1815, 1880, from Wikipedia's lists of state leaders.",
+  "summary": "Bornu Empire (Kanem–Bornu): office-holders in 1700, 1800, 1815, 1880, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Dunama VII",
+      "title": "Mai",
+      "from": 1696,
+      "to": 1715,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century",
+        "quote": "Dunama VII, Mai (1696–1715)"
+      }
+    },
     {
       "name": "Ahmad",
       "title": "Mai",

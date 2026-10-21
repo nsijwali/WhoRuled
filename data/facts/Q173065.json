@@ -1,0 +1,30 @@
+{
+  "qid": "Q173065",
+  "name": "Kingdom of Naples",
+  "summary": "Kingdom of Naples: office-holders in 1700, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Charles V",
+      "title": "King",
+      "from": 1665,
+      "to": 1700,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century",
+        "quote": "Charles V, King (1665–1700)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Philip IV",
+      "title": "King",
+      "from": 1700,
+      "to": 1713,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century",
+        "quote": "Philip IV, King (1700–1713)"
+      }
+    }
+  ],
+  "events": []
+}

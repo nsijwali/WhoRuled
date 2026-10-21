@@ -1,8 +1,18 @@
 {
   "qid": "Q8733",
   "name": "Qing dynasty",
-  "summary": "Qing dynasty: office-holders in 1800, 1815, 1880, 1900, from Wikipedia's lists of state leaders.",
+  "summary": "Qing dynasty: office-holders in 1700, 1800, 1815, 1880, 1900, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Kangxi",
+      "title": "Emperor",
+      "from": 1661,
+      "to": 1722,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century",
+        "quote": "Kangxi, Emperor (1661–1722)"
+      }
+    },
     {
       "name": "Jiaqing",
       "title": "Emperor",

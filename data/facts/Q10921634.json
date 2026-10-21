@@ -1,0 +1,30 @@
+{
+  "qid": "Q10921634",
+  "name": "Khoshut Khanate",
+  "summary": "Khoshut Khanate: office-holders in 1700, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Lha-bzang",
+      "title": "Khan",
+      "from": 1697,
+      "to": 1717,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century",
+        "quote": "Lha-bzang, Khan (1697–1717)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Tsangyang Gyatso",
+      "title": "6th Dalai Lama",
+      "from": 1697,
+      "to": 1706,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century",
+        "quote": "Tsangyang Gyatso, 6th Dalai Lama (1697–1706)"
+      }
+    }
+  ],
+  "events": []
+}

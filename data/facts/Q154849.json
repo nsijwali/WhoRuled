@@ -1,8 +1,18 @@
 {
   "qid": "Q154849",
   "name": "Grand Duchy of Tuscany",
-  "summary": "Grand Duchy of Tuscany: office-holders in 1815, from Wikipedia's list of state leaders.",
+  "summary": "Grand Duchy of Tuscany: office-holders in 1700, 1815, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Cosimo III",
+      "title": "Grand Duke",
+      "from": 1670,
+      "to": 1723,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century",
+        "quote": "Cosimo III, Grand Duke (1670–1723)"
+      }
+    },
     {
       "name": "Ferdinando III",
       "title": "Grand Duke",

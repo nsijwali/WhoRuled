@@ -1,0 +1,19 @@
+{
+  "qid": "Q841364",
+  "name": "Ayutthaya Kingdom",
+  "summary": "Ayutthaya Kingdom: office-holders in 1700, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Phetracha",
+      "title": "King",
+      "from": 1688,
+      "to": 1703,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century",
+        "quote": "Phetracha, King (1688–1703)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

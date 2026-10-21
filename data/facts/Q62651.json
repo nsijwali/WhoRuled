@@ -1,8 +1,18 @@
 {
   "qid": "Q62651",
   "name": "Denmark–Norway",
-  "summary": "Denmark–Norway: office-holders in 1800, from Wikipedia's list of state leaders.",
+  "summary": "Denmark–Norway: office-holders in 1700, 1800, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Frederick IV",
+      "title": "King",
+      "from": 1699,
+      "to": 1730,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century",
+        "quote": "Frederick IV, King (1699–1730)"
+      }
+    },
     {
       "name": "Christian VII",
       "title": "King",

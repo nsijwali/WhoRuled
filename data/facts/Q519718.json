@@ -1,0 +1,19 @@
+{
+  "qid": "Q519718",
+  "name": "Toungoo dynasty",
+  "summary": "Toungoo dynasty: office-holders in 1700, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Sanay Min",
+      "title": "King",
+      "from": 1698,
+      "to": 1714,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century",
+        "quote": "Sanay Min, King (1698–1714)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

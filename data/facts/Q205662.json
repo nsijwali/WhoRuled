@@ -1,8 +1,18 @@
 {
   "qid": "Q205662",
   "name": "Tokugawa shogunate",
-  "summary": "Tokugawa shogunate: office-holders in 1800, 1815, from Wikipedia's lists of state leaders.",
+  "summary": "Tokugawa shogunate: office-holders in 1700, 1800, 1815, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Higashiyama",
+      "title": "Emperor",
+      "from": 1687,
+      "to": 1709,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century",
+        "quote": "Higashiyama, Emperor (1687–1709)"
+      }
+    },
     {
       "name": "Kōkaku",
       "title": "Emperor",
@@ -15,6 +25,16 @@
     }
   ],
   "offices": [
+    {
+      "name": "Tokugawa Tsunayoshi",
+      "title": "Shōgun",
+      "from": 1680,
+      "to": 1709,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century",
+        "quote": "Tokugawa Tsunayoshi, Shōgun (1680–1709)"
+      }
+    },
     {
       "name": "Tokugawa Ienari",
       "title": "Shōgun",

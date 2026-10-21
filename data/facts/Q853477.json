@@ -1,0 +1,19 @@
+{
+  "qid": "Q853477",
+  "name": "Lan Xang",
+  "summary": "Lan Xang: office-holders in 1700, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Setthathirath II",
+      "title": "King",
+      "from": 1700,
+      "to": 1707,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century",
+        "quote": "Setthathirath II, King (1700–1707)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

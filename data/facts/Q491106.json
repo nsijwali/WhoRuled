@@ -1,0 +1,19 @@
+{
+  "qid": "Q491106",
+  "name": "Khanate of Khiva",
+  "summary": "Khanate of Khiva: office-holders in 1700, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Ishaq Agha Shah Niyaz",
+      "title": "Khan",
+      "from": 1698,
+      "to": 1701,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century",
+        "quote": "Ishaq Agha Shah Niyaz, Khan (1698–1701)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}
