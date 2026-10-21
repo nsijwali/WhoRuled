@@ -7,11 +7,15 @@ Settings → Build → Variables (build variables), add any of these, then redep
 | --- | --- | --- |
 | `PUBLIC_SITE_URL` | your custom domain, e.g. `https://whoruled.example` | canonical URLs, sitemap, robots |
 | `PUBLIC_PAYPAL_ME` | your PayPal.Me name, e.g. `yourname` (or `paypal.me/yourname`) | `/support/` page with $1, $3, $5 and any-amount tip links, and the menu link. No PayPal script is loaded; payment happens on paypal.com |
-| `PUBLIC_UPI_ID` | UPI address, default the owner's | UPI section on `/support/` (QR + "Pay with a UPI app" button on phones). `public/upi-qr.svg` encodes the same address; regenerate it if the address changes |
-| `PUBLIC_AMAZON_TAG` | Amazon Associates India store id (default `whoruled-21`) | "books about …" link and the required disclosure on state pages and About |
+| `PUBLIC_UPI_ID` | UPI address | UPI section on `/support/` (QR generated at build time at `/upi-qr.svg`, plus per-app buttons on phones) |
+| `PUBLIC_AMAZON_TAG` | Amazon Associates India store id, e.g. `yourname-21` | "books about …" link and the required disclosure on state pages and About |
 | `PUBLIC_SUPPORT_URL` | overrides the PayPal page, e.g. `https://github.com/sponsors/nsijwali` or a Ko-fi page | "Support this project" link in the header |
 | `PUBLIC_CF_ANALYTICS_TOKEN` | token from Cloudflare → Web Analytics → add site | cookie-free page-view counts |
 | `PUBLIC_ADS_CLIENT` | AdSense id `ca-pub-…` | consent banner, ad slot on state pages, `/ads.txt` |
 
 Order: custom domain → analytics (watch for 1,000 monthly views) → support link → apply to AdSense
 with the custom domain → set `PUBLIC_ADS_CLIENT` after approval. Ads load only after a visitor accepts the banner and never appear on the map screen.
+
+## Where the payment settings live
+
+The PayPal name, UPI address and Amazon tag are **not in the repository**. Set `PUBLIC_PAYPAL_ME`, `PUBLIC_UPI_ID` and `PUBLIC_AMAZON_TAG` as build variables in Cloudflare (Workers & Pages → whoruled → Settings → Build → Variables and secrets). A pull request therefore cannot redirect tips or commissions by editing code, and a build without the variables simply shows no tipping or book links. The files that read them are covered by `CODEOWNERS`.

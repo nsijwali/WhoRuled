@@ -13,8 +13,12 @@ export function paypalMeName(input: string): string {
   return /^[A-Za-z0-9]{3,20}$/.test(name) ? name : '';
 }
 
-/** PayPal.Me name (the part after paypal.me/). A public handle, not a credential. Defaults to the owner's; set PUBLIC_PAYPAL_ME to '-' to hide the PayPal section. */
-export const PAYPAL_ME: string = paypalMeName(env.PUBLIC_PAYPAL_ME ?? 'sijwalinitin');
+/**
+ * PayPal.Me name (the part after paypal.me/). A public handle, not a credential.
+ * Deliberately NOT in the repo: it comes only from PUBLIC_PAYPAL_ME, set in the Cloudflare build
+ * settings, so a code change cannot silently redirect tips. Empty = no PayPal section.
+ */
+export const PAYPAL_ME: string = paypalMeName(env.PUBLIC_PAYPAL_ME ?? '');
 
 /** A UPI address (VPA) such as name@bank, or '' if the input is not one. */
 export function upiId(input: string): string {
@@ -24,9 +28,10 @@ export function upiId(input: string): string {
 
 /**
  * UPI address for tips from India. A public payment address, not a credential.
- * `public/upi-qr.svg` encodes this same address, so regenerate it when this changes.
+ * Only from PUBLIC_UPI_ID (Cloudflare build settings), never the repo. The QR at /upi-qr.svg is
+ * generated from it at build time. Empty = no UPI section.
  */
-export const UPI_ID: string = upiId(env.PUBLIC_UPI_ID ?? '9910731705@ybl');
+export const UPI_ID: string = upiId(env.PUBLIC_UPI_ID ?? '');
 
 /** The support link in the menu: an explicit URL, else the support page when any way to tip is set up. Empty = none. */
 export const SUPPORT_URL: string = env.PUBLIC_SUPPORT_URL ?? (PAYPAL_ME || UPI_ID ? '/support/' : '');
@@ -37,12 +42,12 @@ export const ANALYTICS_TOKEN: string = env.PUBLIC_CF_ANALYTICS_TOKEN ?? '';
 /** AdSense publisher id such as ca-pub-1234567890123456. Empty = no ads, no ad script, no consent banner. */
 export const ADS_CLIENT: string = env.PUBLIC_ADS_CLIENT ?? '';
 
-/** Amazon Associates store id such as `name-21`. Empty = no book links. A public id, not a credential. */
+/** Amazon Associates store id such as `name-21`. A public id, not a credential. Only from PUBLIC_AMAZON_TAG (Cloudflare build settings), never the repo. Empty = no book links. */
 export function amazonTag(input: string): string {
   const tag = input.trim();
   return /^[A-Za-z0-9-]{3,40}$/.test(tag) ? tag : '';
 }
-export const AMAZON_TAG: string = amazonTag(env.PUBLIC_AMAZON_TAG ?? 'whoruled-21');
+export const AMAZON_TAG: string = amazonTag(env.PUBLIC_AMAZON_TAG ?? '');
 
 /** Required wording whenever an affiliate link is shown. */
 export const AFFILIATE_DISCLOSURE = 'As an Amazon Associate I earn from qualifying purchases.';
