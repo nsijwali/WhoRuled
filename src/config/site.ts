@@ -13,11 +13,23 @@ export function paypalMeName(input: string): string {
   return /^[A-Za-z0-9]{3,20}$/.test(name) ? name : '';
 }
 
-/** PayPal.Me name (the part after paypal.me/). A public handle, not a credential. Defaults to the owner's; set PUBLIC_PAYPAL_ME to '-' to switch the page off. */
-export const PAYPAL_ME: string = paypalMeName(env.PUBLIC_PAYPAL_ME ?? 'sijwalinitin');
+/** PayPal.Me name (the part after paypal.me/). A public handle, not a credential. Empty = no PayPal link (the owner's Indian PayPal account cannot receive PayPal.Me payments). */
+export const PAYPAL_ME: string = paypalMeName(env.PUBLIC_PAYPAL_ME ?? '');
 
-/** The support link in the menu: an explicit URL, else the PayPal support page when PayPal is set up. Empty = none. */
-export const SUPPORT_URL: string = env.PUBLIC_SUPPORT_URL ?? (PAYPAL_ME ? '/support/' : '');
+/** A UPI address (VPA) such as name@bank, or '' if the input is not one. */
+export function upiId(input: string): string {
+  const id = input.trim();
+  return /^[A-Za-z0-9._-]{2,64}@[A-Za-z]{2,32}$/.test(id) ? id : '';
+}
+
+/**
+ * UPI address for tips from India. A public payment address, not a credential.
+ * `public/upi-qr.svg` encodes this same address, so regenerate it when this changes.
+ */
+export const UPI_ID: string = upiId(env.PUBLIC_UPI_ID ?? '9910731705@ybl');
+
+/** The support link in the menu: an explicit URL, else the support page when any way to tip is set up. Empty = none. */
+export const SUPPORT_URL: string = env.PUBLIC_SUPPORT_URL ?? (PAYPAL_ME || UPI_ID ? '/support/' : '');
 
 /** Cloudflare Web Analytics token (cookie-free page views). Empty = no analytics script. */
 export const ANALYTICS_TOKEN: string = env.PUBLIC_CF_ANALYTICS_TOKEN ?? '';
