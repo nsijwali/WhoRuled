@@ -10,11 +10,12 @@ import {
   type KeyboardEvent as ReactKeyboardEvent,
   type ReactNode,
 } from 'react';
-import { CanvasMap, LABEL_FONT } from '../map/CanvasMap';
+import { CanvasMap } from '../map/CanvasMap';
 import { HALF_WORLD, VIEW_NORTH, VIEW_SOUTH, baseScale, homeView, viewForBbox } from '../map/geometry';
 import { eraOf } from '../map/eras';
 import { formatYear } from '../map/format';
-import { fillCss, realmFill } from '../map/palette';
+import { realmFill } from '../map/palette';
+import { themeOf, themedFillCss, type EraTheme } from '../map/theme';
 import { loadFactsIndex, loadPolity, type FactsIndex } from '../map/loadFacts';
 import { loadBorders, loadYears } from '../map/loadGeo';
 import type { Polity } from '../data/schema';
@@ -125,12 +126,22 @@ export default function MapIsland({ dataBase = '/data/' }: { dataBase?: string }
     return () => window.removeEventListener('keydown', onKey);
   }, [step, togglePlay]);
 
+  const theme = themeOf(year ?? DEFAULT_YEAR);
+  // The whole page follows the year: CSS custom properties per era hang off this attribute.
+  useEffect(() => {
+    document.documentElement.dataset['era'] = theme.id;
+    return () => {
+      document.documentElement.dataset['era'] = 'modern';
+    };
+  }, [theme.id]);
+
   if (state.status === 'error') return <p role="alert" className="boot">Could not load the map: {state.message}</p>;
   if (state.status === 'loading' || year === null) return <p role="status" className="boot">Loading the map…</p>;
   return (
     <MapView
       features={state.features}
       year={year}
+      theme={theme}
       factsIndex={factsIndex}
       dataBase={dataBase}
       timeline={
@@ -226,12 +237,14 @@ function Timeline({
 function MapView({
   features,
   year,
+  theme,
   factsIndex,
   dataBase,
   timeline,
 }: {
   features: BorderFeature[];
   year: number;
+  theme: EraTheme;
   factsIndex: FactsIndex;
   dataBase: string;
   timeline: ReactNode;
@@ -300,16 +313,30 @@ function MapView({
     [schedule],
   );
 
-  // Map lettering is drawn on the canvas, so redraw once the pixel font has arrived.
+  // Map lettering is drawn on the canvas, so redraw once this era's font has arrived.
+  const themeRef = useRef(theme);
+  themeRef.current = theme;
   useEffect(() => {
-    document.fonts.load(LABEL_FONT).then(schedule, () => undefined);
-  }, [schedule]);
+    document.fonts.load(theme.map.labelFont).then(schedule, () => undefined);
+  }, [schedule, theme]);
+
+  // Crossing into another era re-dresses the map; dissolve from the old look unless motion is reduced.
+  useEffect(() => {
+    const renderer = rendererRef.current;
+    if (!renderer || renderer.currentTheme === theme) return;
+    if (!prefersLessMotion()) {
+      renderer.captureGhost();
+      dissolveStartRef.current = performance.now();
+    }
+    renderer.setTheme(theme);
+    schedule();
+  }, [theme, schedule]);
 
   useEffect(() => {
     const container = containerRef.current;
     const canvas = canvasRef.current;
     if (!container || !canvas) return;
-    const renderer = new CanvasMap(canvas, features, rendererRef.current !== null && !prefersLessMotion());
+    const renderer = new CanvasMap(canvas, features, rendererRef.current !== null && !prefersLessMotion(), themeRef.current);
     rendererRef.current = renderer;
     dissolveStartRef.current = performance.now();
 
@@ -530,7 +557,7 @@ function MapView({
           {matches.map((f) => (
             <li key={f.fid}>
               <button type="button" onClick={() => chooseFromList(f)} aria-pressed={selected?.fid === f.fid}>
-                <i className="swatch" style={{ background: fillCss(realmFill(f.name, f.overlord)) }} />
+                <i className="swatch" style={{ background: themedFillCss(theme, realmFill(f.name, f.overlord, theme.map.realms)) }} />
                 {f.name}
               </button>
             </li>
@@ -565,7 +592,7 @@ function MapView({
               <ul className="largest">
                 {largest.map((f) => (
                   <li key={f.fid}>
-                    <i className="swatch" style={{ background: fillCss(realmFill(f.name, f.overlord)) }} />
+                    <i className="swatch" style={{ background: themedFillCss(theme, realmFill(f.name, f.overlord, theme.map.realms)) }} />
                     <button type="button" className="link" onClick={() => chooseFromList(f)}>
                       {f.name}
                     </button>

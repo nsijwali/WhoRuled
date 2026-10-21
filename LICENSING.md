@@ -26,3 +26,9 @@ default (de facto) point of view. Its `WIKIDATAID` column is used to check the p
 2026 facts.
 
 Geometry and facts are kept in separate folders so each can be reused under its own licence.
+
+## Fonts
+
+All fonts are self-hosted from the `@fontsource` packages, pinned in `package.json`: Silkscreen and
+IM Fell English (SIL Open Font License 1.1), VT323 (SIL OFL 1.1) and Special Elite (Apache 2.0). Each
+package ships its own licence file in `node_modules`. The map changes look with the year (`src/map/theme.ts`).
