@@ -170,14 +170,18 @@ export class CanvasMap {
     ctx.lineJoin = 'round';
     let selected: BorderFeature | undefined;
     let hovered: BorderFeature | undefined;
+    // Borders the source marks as approximate (precision 1) are dashed, so certainty shows on the map.
+    const approximate = [4 / s, 3 / s];
     this.features.forEach((feature, i) => {
       if (feature.fid === selectedFid) selected = feature;
       if (feature.fid === hoverFid) hovered = feature;
       const fill = this.fills[i];
       ctx.fillStyle = (fill && this.patterns.get(fill)) ?? this.wild;
       ctx.fill(feature.path, 'evenodd');
+      ctx.setLineDash(feature.precision === 1 ? approximate : []);
       ctx.stroke(feature.path);
     });
+    ctx.setLineDash([]);
     if (hovered && hovered !== selected) {
       ctx.fillStyle = this.glint;
       ctx.fill(hovered.path, 'evenodd');
