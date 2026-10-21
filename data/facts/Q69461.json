@@ -1,0 +1,19 @@
+{
+  "qid": "Q69461",
+  "name": "Kingdom of France",
+  "summary": "Kingdom of France: office-holders in 1700, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Louis XIV",
+      "title": "King",
+      "from": 1643,
+      "to": 1715,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century",
+        "quote": "Louis XIV, King (1643–1715)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

@@ -1,8 +1,38 @@
 {
   "qid": "Q1071439",
   "name": "Merina Kingdom",
-  "summary": "Merina Kingdom: office-holders in 1880, from Wikipedia's list of state leaders.",
+  "summary": "Merina Kingdom: office-holders in 1700, 1800, 1815, 1880, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Andriamasinavalona",
+      "title": "King",
+      "from": 1675,
+      "to": 1710,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century",
+        "quote": "Andriamasinavalona, King (1675–1710)"
+      }
+    },
+    {
+      "name": "Andrianampoinimerina",
+      "title": "King",
+      "from": 1787,
+      "to": 1810,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_18th_century",
+        "quote": "Andrianampoinimerina, King (1787–1810)"
+      }
+    },
+    {
+      "name": "Radama I",
+      "title": "King",
+      "from": 1810,
+      "to": 1828,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1801%E2%80%931850)",
+        "quote": "Radama I, King (1810–1828)"
+      }
+    },
     {
       "name": "Ranavalona II",
       "title": "Queen",

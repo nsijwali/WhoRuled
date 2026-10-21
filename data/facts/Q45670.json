@@ -14,6 +14,26 @@
       }
     },
     {
+      "name": "Peter II",
+      "title": "King",
+      "from": 1683,
+      "to": 1706,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century",
+        "quote": "Peter II, King (1683–1706)"
+      }
+    },
+    {
+      "name": "Maria I",
+      "title": "Queen",
+      "from": 1777,
+      "to": 1816,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_18th_century",
+        "quote": "Maria I, Queen (1777–1816)"
+      }
+    },
+    {
       "name": "Luís I",
       "title": "King",
       "from": 1861,

@@ -1,0 +1,19 @@
+{
+  "qid": "Q18234383",
+  "name": "Safavid Iran",
+  "summary": "Safavid Iran: office-holders in 1700, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Husayn",
+      "title": "Sultan",
+      "from": 1694,
+      "to": 1722,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century",
+        "quote": "Husayn, Sultan (1694–1722)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

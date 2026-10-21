@@ -1,8 +1,28 @@
 {
   "qid": "Q28179",
   "name": "Joseon",
-  "summary": "Joseon: office-holders in 1880, from Wikipedia's list of state leaders.",
+  "summary": "Joseon: office-holders in 1700, 1800, 1815, 1880, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Sukjong",
+      "title": "King",
+      "from": 1674,
+      "to": 1720,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century",
+        "quote": "Sukjong, King (1674–1720)"
+      }
+    },
+    {
+      "name": "Jeongjo",
+      "title": "King",
+      "from": 1776,
+      "to": 1800,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_18th_century",
+        "quote": "Jeongjo, King (1776–1800)"
+      }
+    },
     {
       "name": "Gojong",
       "title": "King",
@@ -14,6 +34,17 @@
       }
     }
   ],
-  "offices": [],
+  "offices": [
+    {
+      "name": "Sunjo",
+      "title": "King",
+      "from": 1800,
+      "to": 1834,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_18th_century",
+        "quote": "Sunjo, King (1800–1834)"
+      }
+    }
+  ],
   "events": []
 }

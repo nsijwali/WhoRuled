@@ -1,8 +1,18 @@
 {
   "qid": "Q889884",
   "name": "Kingdom of Rwanda",
-  "summary": "Kingdom of Rwanda: office-holders in 1880, 1900, 1920, 1938, 1960, from Wikipedia's lists of state leaders.",
+  "summary": "Kingdom of Rwanda: office-holders in 1815, 1880, 1900, 1920, 1938, 1960, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Mutara II Rwogera",
+      "title": "King",
+      "from": 1802,
+      "to": 1853,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1801%E2%80%931850)",
+        "quote": "Mutara II Rwogera, King (1802–1853)"
+      }
+    },
     {
       "name": "Kigeli IV Rwabugiri",
       "title": "King",

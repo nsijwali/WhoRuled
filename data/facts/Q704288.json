@@ -1,0 +1,30 @@
+{
+  "qid": "Q704288",
+  "name": "Duchy of Holstein",
+  "summary": "Duchy of Holstein: office-holders in 1815, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Frederick VI",
+      "title": "Duke",
+      "from": 1808,
+      "to": 1839,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1801%E2%80%931850)",
+        "quote": "Frederick VI, Duke (1808–1839)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Charles of Hesse-Kassel",
+      "title": "Statholder",
+      "from": 1768,
+      "to": 1836,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1801%E2%80%931850)",
+        "quote": "Charles of Hesse-Kassel, Statholder (1768–1836)"
+      }
+    }
+  ],
+  "events": []
+}

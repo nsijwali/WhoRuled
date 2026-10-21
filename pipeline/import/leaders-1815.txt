@@ -1,0 +1,133 @@
+# source: https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1801%E2%80%931850)
+# Read 2026-10-21, revision 1360994931. 64 states. QIDs come from each state's linked article and were checked against its Wikidata inception/dissolution dates.
+# Skipped for 1815: Ottoman Tripolitania (linked item is the 1864 vilayet), Zulu Kingdom (Wikidata inception 1816), Barotseland and Spain (linked item has no dates),
+# Haiti (two states for one border), San Marino (lines name two Captains Regent each), Austria (linked items are Austria-Hungary/Habsburg monarchy), Prussia (linked item is the Margraviate of Brandenburg), Naples/Sicily/Two Sicilies (inception 1816),
+# First French Empire (France is mapped to the Bourbon Restoration), and states without a 1815 border feature.
+# wikidata-description Q796583: former African kingdom located in west central Africa
+Kingdom of Kongo|Q796583|Garcia V, King (1803–1830)|Congo
+# wikidata-description Q1796223: pre-colonial African confederation of states in what is now the Democratic Republic of Congo, Angola and Zambia
+Lunda Empire|Q1796223|Nawej II Ditend, Mwaant Yaav (c.1800–1852)|Lunda
+# wikidata-description Q1192936: former kingdom in Central/Eastern Africa up to 1966
+Kingdom of Burundi|Q1192936|Ntare IV, King (c.1796–c.1850)|Burundi
+# wikidata-description Q889884: former kingdom in East Africa from the 15th century and up to 1962
+Kingdom of Rwanda|Q889884|Mutara II Rwogera, King (1802–1853)|Rwanda
+# wikidata-description Q473748: a Bantu kingdom within Uganda, the kingdom of Baganda people
+Buganda|Q473748|Kamaanya, Kabaka (1814–1832)
+# wikidata-description Q889897: kingdom in Western Uganda
+Bunyoro|Q889897|Nyamutukura Kyebambe III, Omukama (1786–1835)
+# wikidata-description Q207521: 1270–1974 state in the Horn of Africa
+Ethiopian Empire|Q207521|Egwale Seyon, Emperor (1801–1818)|Ethiopia
+# wikidata-description Q1071439: former country
+Merina Kingdom|Q1071439|Radama I, King (1810–1828)
+# wikidata-description Q4899891: monarchy in Tunisia between 1705 and 1881
+Beylik of Tunis|Q4899891|Mahmud ibn Muhammad, Bey (1814–1824);Yusuf Sahib al-Tabi, Grand vizier (1815–1822)|Tunis
+# wikidata-description Q1028: sovereign state in North Africa
+Morocco|Q1028|Slimane, Sultan (1792–1822)
+# wikidata-description Q5675285: traditional kingdom in present-day Zambia
+Kazembe|Q5675285|Kanyembo Keleka Mayi, Mwata (1805–1850)
+# wikidata-description Q722071: former Akan empire centered around modern day Ghana
+Kingdom of Ashanti|Q722071|Osei Bonsu, Asantehene (1804–1824)|Asante
+# wikidata-description Q1139762: former country in Africa
+Bornu Empire|Q1139762|Dunama IX Lefiami, Mai (1808–1816);Muhammad al-Amin al-Kanemi, Shehu (1809–1837)|Kanem-Bornu
+# wikidata-description Q849623: former imperial state
+Oyo Empire|Q849623|Majotu, Alaafin (1802–1830)|Oyo
+# wikidata-description Q30: country located primarily in North America
+United States|Q30|James Madison, President (1809–1817)
+# wikidata-description Q738144: country in South America (1816–1831)
+United Provinces of the Río de la Plata|Q738144|Gervasio Antonio de Posadas, Supreme Director (1814–1815);Carlos María de Alvear, Supreme Director (1815);Juan José Viamonte, Supreme Director (1815);José Rondeau, Supreme Director (1815);Ignacio Álvarez Thomas, Acting Director (1815–1816)
+# wikidata-description Q8733: Manchu-led dynasty of China (1644–1912)
+Qing dynasty|Q8733|Jiaqing, Emperor (1796–1820)|Manchu Empire
+# wikidata-description Q205662: 1603–1868 Japanese military government
+Tokugawa shogunate|Q205662|Kōkaku, Emperor (1780–1817);Tokugawa Ienari, Shōgun (1787–1837)|Japan
+# wikidata-description Q28179: Korean dynasty / kingdom (1392–1897)
+Joseon|Q28179|Sunjo, King (1800–1834)|Korea
+# wikidata-description Q887803: Malay sultanate, centred in Brunei on the northern coast of Borneo island in Southeast Asia from 1368 to 1888
+Bruneian Empire|Q887803|Muhammad Kanzul Alam, Sultan (1807–1826)|Brunei
+# wikidata-description Q4919413: aspect of Cambodian history
+Kingdom of Cambodia|Q4919413|Ang Chan, King (1806–1834)|Cambodia
+# wikidata-description Q1062422: Last dynasty of Myanmar, that ruled the Third Empire of Myanmar
+Konbaung dynasty|Q1062422|Bodawpaya, King (1782–1819)|Burma
+# wikidata-description Q1155700: fourth traditional centre of power in the history of Thailand (1782 to 24 June 1932)
+Rattanakosin Kingdom|Q1155700|Rama II, King (1809–1824)
+# wikidata-description Q6500483: imperial Vietnamese dynasty, 1802-1945
+Nguyễn dynasty|Q6500483|Gia Long, Emperor of Đại Việt (1802–1804), of Việt Nam (1804–1820)|Annam
+# wikidata-description Q467627: 1747–1823 Afghan empire founded by Ahmad Shah Durrani
+Durrani Empire|Q467627|Mahmud Shah Durrani, Emir (1801–1803, 1809–1818)|Afghanistan
+# wikidata-description Q63158027: country in Western Asia (1789–1925)
+Qajar Iran|Q63158027|Fath-Ali, Shah (1797–1834)|Persia
+# wikidata-description Q22684779: Omani maritime empire (1696–1856)
+Omani Empire|Q22684779|Said bin Sultan, Sultan (1804–1856)|Oman
+# wikidata-description Q146871: 1727–1818 included most of Arabian Peninsula
+Emirate of Diriyah|Q146871|Abdullah bin Saud, Imam (1814–1818)|Nejd
+# wikidata-description Q12560: empire with the monarchs from the Ottoman dynasty (1299–1922)
+Ottoman Empire|Q12560|Mahmud II, Sultan (1808–1839);Hurshid Pasha, Grand Vizier (1812–1815);Mehmed Emin Rauf Pasha, Grand Vizier (1815–1818)
+# wikidata-description Q85816686: 1597–1849 state in southwest Arabia
+Yemeni Zaidi State|Q85816686|al-Mutawakkil Ahmad, Imam (1809–1816)|Yemen
+# wikidata-description Q174193: historical sovereign state (1801–1922)
+United Kingdom of Great Britain and Ireland|Q174193|George III, King (1760–1820);George IV, Regent (1811–1820), King (1820–1830);Robert Jenkinson, Prime minister (1812–1827)
+# wikidata-description Q568452: aspect of history
+Restored Swiss Confederacy|Q568452|David von Wyss II, President of the Swiss Diet (1814–1815)|Switzerland
+# wikidata-description Q186320: German grand duchy (1806-1918)
+Grand Duchy of Baden|Q186320|Charles, Grand Duke (1811–1818)|Baden
+# wikidata-description Q154195: kingdom in Central Europe between 1806 and 1918, from January 1871 part of the German Empire
+Kingdom of Bavaria|Q154195|Maximillian IV, Elector (1799–1805), King (1805–1825)|Bavaria
+# wikidata-description Q326029: historical German state (1815–1918)
+Duchy of Brunswick|Q326029|Frederick William, Prince of Brunswick-Wolfenbüttel (1806–1807), Duke of Brunswick (1813–1815);Charles II, Duke (1815–1830)|Brunswick
+# wikidata-description Q164079: German kingdom established in 1814
+Kingdom of Hanover|Q164079|George III, Elector (1760–1806), King (1814–1820);George IV, Regent (1810–1820), King (1820–1830)|Hanover
+# wikidata-description Q20135: member state of the German Confederation & the German Empire (1806–1918)
+Grand Duchy of Hesse|Q20135|Louis I, Landgrave of Hesse-Darmstadt (1790–1806), Grand Duke of Hesse (1806–1830)
+# wikidata-description Q529605: since 1815 sovereign state, member of the German Confederation, annexed by Prussia in 1866
+Electorate of Hesse|Q529605|William I, Landgrave of Hesse-Kassel (1785–1803), Elector of Hesse (1803–1807, 1813–1821)|Electoral Hesse
+# wikidata-description Q704288: territory of the Holy Roman Empire and its successors, 1474–1867
+Duchy of Holstein|Q704288|Frederick VI, Duke (1808–1839);Charles of Hesse-Kassel, Statholder (1768–1836)|Holstein
+# wikidata-description Q14551680: German principality (1789–1919)
+Principality of Lippe|Q14551680|Leopold II, Prince (1802–1851)|Lippe-Detmold
+# wikidata-description Q950240: city-state in Germany (1226–1937)
+Free City of Lübeck|Q950240|Johann Matthaeus Tesdorpf, Mayor (1813–1824)|Lübeck
+# wikidata-description Q11024667: duchy in northern Germany created in 1701
+Mecklenburg-Schwerin|Q11024667|Frederick Francis I, Duke (1785–1815), Grand Duke (1815–1837)
+# wikidata-description Q2751106: former German duchy
+Mecklenburg-Strelitz|Q2751106|Charles II, Duke (1794–1815), Grand Duke (1815–1816)
+# wikidata-description Q836680: state
+Duchy of Nassau|Q836680|Frederick Augustus, Prince of Nassau-Usingen (1803–1806), Duke of Nassau (1806–1816)|Nassau
+# wikidata-description Q693669: grand duchy
+Grand Duchy of Oldenburg|Q693669|Wilhelm I, Duke (1785–1810), Grand Duke (1815–1823);Peter I, Regent (1785–1823), Grand Duke (1823–1829)|Oldenburg
+# wikidata-description Q153015: former German state (1806-1918)
+Kingdom of Saxony|Q153015|Frederick Augustus the Just, Elector (1763–1806), King (1806–1827)|Saxony
+# wikidata-description Q165763: former principality in Germany
+Principality of Waldeck and Pyrmont|Q165763|George II, Prince (1813–1845)|Waldeck
+# wikidata-description Q159631: kingdom in Central Europe between 1806–1918, from January 1871 part of the German Empire
+Kingdom of Württemberg|Q159631|Frederick I, Duke (1797–1803), Elector (1803–1805), King (1805–1816)|Württemberg
+# wikidata-description Q34266: former empire in Eurasia and North America (1721–1917)
+Russian Empire|Q34266|Alexander I, Emperor (1801–1825);Nikolai Saltykov, Chairman of the committee of ministers (1812–1816)
+# wikidata-description Q35: country in Northern Europe
+Denmark|Q35|Frederick VI, King (1808–1839)
+# wikidata-description Q26167: a Danish duchy, existing until 1864/1866 now divided between Germany and Denmark
+Duchy of Schleswig|Q26167|Frederick VI, Duke (1808–1839)|Schleswig
+# wikidata-description Q62589: personal union between Sweden and Norway 1814–1905
+Sweden–Norway|Q62589|Charles XIII, King of Sweden (1809–1818) King of Norway (1814–1818);Marcus Gjøe Rosenkrantz, First Minister (1814–1815);Mathias Sommerhielm, First Minister (1815–1822)
+# wikidata-description Q158290: Sovereign state of the preunitarian Italy (1815-1847)
+Duchy of Lucca|Q158290|Maria Luisa, Duchess (1815–1824)|Lucca
+# wikidata-description Q933592: 1473–1829 duchy in northwestern Tuscany, Italian Peninsula
+Duchy of Massa and Carrara|Q933592|Maria Beatrice, Duchess and Princess (1790–1796, 1815–1829)|Massa
+# wikidata-description Q252580: former country
+Duchy of Modena|Q252580|Francesco IV, Duke (1814–1846)|Modena
+# wikidata-description Q165040: former Italian state (1545–1802; 1814–1859)
+Duchy of Parma|Q165040|Marie Louise, Duke (1814–1847)|Parma
+# wikidata-description Q165154: state in Southern Europe from 1324 to 1861
+Kingdom of Sardinia|Q165154|Victor Emmanuel I, King of Sardinia (1802–1821), Duke of Savoy (1814–1821)
+# wikidata-description Q154849: former Italian state (1569–1801; 1815–1859)
+Grand Duchy of Tuscany|Q154849|Ferdinando III, Grand Duke (1790–1801, 1814–1824)|Tuscany
+# wikidata-description Q170174: territories mostly in the Appenine Peninsula under the sovereign direct rule of the pope between 756–1870
+Papal States|Q170174|Pius VII, Pope (1800–1823)
+# wikidata-description Q45670: kingdom in Southwestern Europe (1139–1910)
+Kingdom of Portugal|Q45670|Maria I, Queen (1777–1816)|Portugal
+# wikidata-description Q207162: period of French history, 1814–1830
+Bourbon Restoration|Q207162|Louis XVIII, King (1814–1815, 1815–1824);Charles Maurice de Talleyrand-Périgord, Prime minister (1815);Armand Emmanuel de Vignerot du Plessis, Prime minister (1815–1818)|France
+# wikidata-description Q32: country in Western Europe
+Luxembourg|Q32|William I, Grand Duke (1815–1840)
+# wikidata-description Q842390: former country
+Tuʻi Tonga Empire|Q842390|Tupoutoʻa, Tuʻi Kanokupolu (1808–1820)
+# wikidata-description Q156418: historical kingdom in the Hawaiian Islands (1778–1893)
+Hawaiian Kingdom|Q156418|Kamehameha I, King (1795–1819)|Kingdom of Hawaii

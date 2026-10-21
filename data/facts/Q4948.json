@@ -12,6 +12,28 @@
         "url": "https://en.wikipedia.org/wiki/Agostino_Barbarigo",
         "quote": "was Doge of Venice from 1486 until his death in 1501"
       }
+    },
+    {
+      "name": "Silvestro Valiero",
+      "title": "Doge",
+      "from": 1694,
+      "to": 1700,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century",
+        "quote": "Silvestro Valiero, Doge (1694–1700)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Alvise II Mocenigo",
+      "title": "Doge",
+      "from": 1700,
+      "to": 1709,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century",
+        "quote": "Alvise II Mocenigo, Doge (1700–1709)"
+      }
     }
   ],
   "events": [

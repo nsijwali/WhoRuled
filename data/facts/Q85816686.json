@@ -1,0 +1,29 @@
+{
+  "qid": "Q85816686",
+  "name": "Yemeni Zaidi State",
+  "summary": "Yemeni Zaidi State: office-holders in 1800, 1815, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "al-Mansur Ali I",
+      "title": "Imam",
+      "from": 1775,
+      "to": 1809,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_18th_century",
+        "quote": "al-Mansur Ali I, Imam (1775–1809)"
+      }
+    },
+    {
+      "name": "al-Mutawakkil Ahmad",
+      "title": "Imam",
+      "from": 1809,
+      "to": 1816,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1801%E2%80%931850)",
+        "quote": "al-Mutawakkil Ahmad, Imam (1809–1816)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

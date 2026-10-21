@@ -1,0 +1,29 @@
+{
+  "qid": "Q430309",
+  "name": "Đại Việt",
+  "summary": "Đại Việt: office-holders in 1700, 1800, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "Lê Hy Tông",
+      "title": "Emperor",
+      "from": 1676,
+      "to": 1704,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century",
+        "quote": "Lê Hy Tông, Emperor (1676–1704)"
+      }
+    },
+    {
+      "name": "Nguyễn Quang Toản",
+      "title": "Emperor",
+      "from": 1792,
+      "to": 1802,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_18th_century",
+        "quote": "Nguyễn Quang Toản, Emperor (1792–1802)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

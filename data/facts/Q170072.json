@@ -1,0 +1,30 @@
+{
+  "qid": "Q170072",
+  "name": "Dutch Republic",
+  "summary": "Dutch Republic: office-holders in 1700, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "William III",
+      "title": "Stadtholder",
+      "from": 1672,
+      "to": 1702,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century",
+        "quote": "William III, Stadtholder (1672–1702)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Anthonie Heinsius",
+      "title": "Grand Pensionary",
+      "from": 1689,
+      "to": 1720,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century",
+        "quote": "Anthonie Heinsius, Grand Pensionary (1689–1720)"
+      }
+    }
+  ],
+  "events": []
+}

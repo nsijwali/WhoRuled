@@ -1,0 +1,19 @@
+{
+  "qid": "Q600093",
+  "name": "Habsburg Spain",
+  "summary": "Habsburg Spain: office-holders in 1700, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Charles II the Bewitched",
+      "title": "King",
+      "from": 1665,
+      "to": 1700,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century",
+        "quote": "Charles II the Bewitched, King (1665–1700)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

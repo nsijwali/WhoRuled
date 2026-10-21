@@ -1,0 +1,19 @@
+{
+  "qid": "Q58296",
+  "name": "French First Republic",
+  "summary": "French First Republic: office-holders in 1800, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Napoleon Bonaparte",
+      "title": "First Consul",
+      "from": 1799,
+      "to": 1804,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_18th_century",
+        "quote": "Napoleon Bonaparte, First Consul (1799–1804)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

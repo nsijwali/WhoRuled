@@ -1,0 +1,30 @@
+{
+  "qid": "Q28136995",
+  "name": "Hamaj Regency of the Funj Sultanate",
+  "summary": "Hamaj Regency of the Funj Sultanate: office-holders in 1800, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Ranfi",
+      "title": "Sultan",
+      "from": 1798,
+      "to": 1804,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_18th_century",
+        "quote": "Ranfi, Sultan (1798–1804)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Idris wad Abu Likayik",
+      "title": "Regent",
+      "from": 1798,
+      "to": 1804,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_18th_century",
+        "quote": "Idris wad Abu Likayik, Regent (1798–1804)"
+      }
+    }
+  ],
+  "events": []
+}

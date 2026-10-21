@@ -1,0 +1,19 @@
+{
+  "qid": "Q186096",
+  "name": "Tsardom of Russia",
+  "summary": "Tsardom of Russia: office-holders in 1700, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Peter I",
+      "title": "Tsar",
+      "from": 1682,
+      "to": 1721,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century",
+        "quote": "Peter I, Tsar (1682–1721), Emperor (1721–1725)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

@@ -1,0 +1,19 @@
+{
+  "qid": "Q215443",
+  "name": "Swedish Empire",
+  "summary": "Swedish Empire: office-holders in 1700, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Charles XII",
+      "title": "King",
+      "from": 1697,
+      "to": 1718,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century",
+        "quote": "Charles XII, King (1697–1718)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

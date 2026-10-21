@@ -12,6 +12,28 @@
         "url": "https://en.wikipedia.org/wiki/Frederick_III,_Holy_Roman_Emperor",
         "quote": "was the Holy Roman emperor from 1452 until his death in 1493"
       }
+    },
+    {
+      "name": "Leopold I",
+      "title": "Emperor Elect, King",
+      "from": 1658,
+      "to": 1705,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century",
+        "quote": "Leopold I, Emperor Elect, King (1658–1705)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Dominik Andreas I. von Kaunitz",
+      "title": "Vice Chancellor",
+      "from": 1698,
+      "to": 1705,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century",
+        "quote": "Dominik Andreas I. von Kaunitz, Vice Chancellor (1698–1705)"
+      }
     }
   ],
   "events": [

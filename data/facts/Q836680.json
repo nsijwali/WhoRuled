@@ -1,0 +1,19 @@
+{
+  "qid": "Q836680",
+  "name": "Duchy of Nassau",
+  "summary": "Duchy of Nassau: office-holders in 1815, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Frederick Augustus",
+      "title": "Duke of Nassau",
+      "from": 1806,
+      "to": 1816,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1801%E2%80%931850)",
+        "quote": "Frederick Augustus, Prince of Nassau-Usingen (1803–1806), Duke of Nassau (1806–1816)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

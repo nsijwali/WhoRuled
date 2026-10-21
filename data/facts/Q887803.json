@@ -1,8 +1,38 @@
 {
   "qid": "Q887803",
   "name": "Bruneian Empire",
-  "summary": "Bruneian Empire: office-holders in 1880, from Wikipedia's list of state leaders.",
+  "summary": "Bruneian Empire: office-holders in 1700, 1800, 1815, 1880, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Nassaruddin",
+      "title": "Sultan",
+      "from": 1690,
+      "to": 1710,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century",
+        "quote": "Nassaruddin, Sultan (1690–1710)"
+      }
+    },
+    {
+      "name": "Muhammad Tajuddin",
+      "title": "Sultan",
+      "from": 1778,
+      "to": 1804,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_18th_century",
+        "quote": "Muhammad Tajuddin, Sultan (1778–1804, 1804–1807)"
+      }
+    },
+    {
+      "name": "Muhammad Kanzul Alam",
+      "title": "Sultan",
+      "from": 1807,
+      "to": 1826,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1801%E2%80%931850)",
+        "quote": "Muhammad Kanzul Alam, Sultan (1807–1826)"
+      }
+    },
     {
       "name": "Abdul Momin",
       "title": "Sultan",

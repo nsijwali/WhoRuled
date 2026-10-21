@@ -1,8 +1,18 @@
 {
   "qid": "Q34",
   "name": "Sweden",
-  "summary": "Sweden: office-holders in 1914, 1920, 1938, 1945, 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Sweden: office-holders in 1800, 1914, 1920, 1938, 1945, 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Gustav IV Adolf",
+      "title": "King",
+      "from": 1792,
+      "to": 1809,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_18th_century",
+        "quote": "Gustav IV Adolf, King (1792–1809)"
+      }
+    },
     {
       "name": "Gustaf V",
       "title": "King",

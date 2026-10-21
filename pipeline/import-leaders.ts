@@ -95,10 +95,23 @@ const DATE = String.raw`(?:\d{1,2}\s+)?(?:[A-Z][a-z]+\s+(?:\d{1,2},\s+)?)?(\d{4}
 /** Full-date periods used by the 2020s list: `since 26 September 2017`, `25 April 2024 – 7 October 2024`. */
 const DATED_PERIOD = new RegExp(String.raw`^(?:(since)\s+${DATE}|${DATE}(?:\s*[–—]\s*${DATE})?)$`);
 
+/** Ancient-list periods with an era: `486 BC`, `c.522–486 BC`, `27 BC–14 AD`, `14 AD`. BC years are negative. */
+const ERA_PERIOD = /^(?:c\.\s*)?(\d{1,4})(?:\s*(BC|BCE|AD|CE))?(?:\s*–\s*(?:c\.\s*)?(\d{1,4})(?:\s*(BC|BCE|AD|CE))?)?$/;
+
 /** A period as [from, to]; `to` is null while still in office. Null when the text is not a period. */
 function parsePeriod(text: string): [number, number | null] | null {
   const p = /^(?:c\.\s*)?(\d{3,4})(?:\s*–\s*(?:c\.\s*)?(\d{3,4}|present))?$/.exec(text);
   if (p) return [Number(p[1]), p[2] === undefined ? Number(p[1]) : p[2] === 'present' ? null : Number(p[2])];
+  const era = ERA_PERIOD.exec(text);
+  if (era && (era[2] ?? era[4])) {
+    const [, a, eraA, b, eraB] = era;
+    const bc = (e?: string) => e === 'BC' || e === 'BCE';
+    // `522–486 BC`: a trailing BC applies to both ends; `27 BC–14 AD` needs the AD spelled out.
+    if (b !== undefined && bc(eraA) && eraB === undefined) return null;
+    const from = bc(eraA) || (eraA === undefined && bc(eraB)) ? -Number(a) : Number(a);
+    const to = b === undefined ? from : bc(eraB) ? -Number(b) : Number(b);
+    return to >= from ? [from, to] : null;
+  }
   const d = DATED_PERIOD.exec(text);
   if (!d) return null;
   if (d[1]) return [Number(d[2]), null];

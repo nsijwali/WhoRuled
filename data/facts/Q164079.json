@@ -1,0 +1,30 @@
+{
+  "qid": "Q164079",
+  "name": "Kingdom of Hanover",
+  "summary": "Kingdom of Hanover: office-holders in 1815, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "George III",
+      "title": "King",
+      "from": 1814,
+      "to": 1820,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1801%E2%80%931850)",
+        "quote": "George III, Elector (1760–1806), King (1814–1820)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "George IV",
+      "title": "Regent",
+      "from": 1810,
+      "to": 1820,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1801%E2%80%931850)",
+        "quote": "George IV, Regent (1810–1820), King (1820–1830)"
+      }
+    }
+  ],
+  "events": []
+}

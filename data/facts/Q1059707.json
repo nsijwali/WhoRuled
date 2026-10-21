@@ -1,0 +1,19 @@
+{
+  "qid": "Q1059707",
+  "name": "Lan Na",
+  "summary": "Lan Na: office-holders in 1700, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Che Putarai",
+      "title": "King",
+      "from": 1675,
+      "to": 1707,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century",
+        "quote": "Che Putarai, King (1675–1707)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

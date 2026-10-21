@@ -1,0 +1,30 @@
+{
+  "qid": "Q188586",
+  "name": "Kingdom of Sicily",
+  "summary": "Kingdom of Sicily: office-holders in 1700, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Charles III",
+      "title": "King",
+      "from": 1665,
+      "to": 1700,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century",
+        "quote": "Charles III, King (1665–1700)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Philip V",
+      "title": "King",
+      "from": 1700,
+      "to": 1713,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century",
+        "quote": "Philip V, King (1700–1713)"
+      }
+    }
+  ],
+  "events": []
+}

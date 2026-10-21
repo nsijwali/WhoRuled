@@ -1,0 +1,19 @@
+{
+  "qid": "Q172107",
+  "name": "Polish–Lithuanian Commonwealth",
+  "summary": "Polish–Lithuanian Commonwealth: office-holders in 1700, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Augustus II the Strong",
+      "title": "King and Grand Duke",
+      "from": 1697,
+      "to": 1706,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century",
+        "quote": "Augustus II the Strong, King and Grand Duke (1697–1706, 1709–1733)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

@@ -1,0 +1,40 @@
+{
+  "qid": "Q4919413",
+  "name": "Kingdom of Cambodia",
+  "summary": "Kingdom of Cambodia: office-holders in 1700, 1815, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "Chey Chettha IV",
+      "title": "King",
+      "from": 1700,
+      "to": 1702,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century",
+        "quote": "Chey Chettha IV, King (1675–1695, 1696–1699, 1700–1702, 1703–1706)"
+      }
+    },
+    {
+      "name": "Ang Chan",
+      "title": "King",
+      "from": 1806,
+      "to": 1834,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1801%E2%80%931850)",
+        "quote": "Ang Chan, King (1806–1834)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Barom Ramadhipati or Kaev Hua III",
+      "title": "King",
+      "from": 1699,
+      "to": 1700,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century",
+        "quote": "Barom Ramadhipati or Kaev Hua III, King (1699–1700, 1710–1722)"
+      }
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,78 @@
+# source: https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century
+# Read 2026-10-21, revision 1380067782. 37 states. QIDs come from each state's linked article and were checked against its Wikidata inception/dissolution dates.
+# Skipped for 1700: Kongo (three rival claimants for one border), Morocco (linked item is the 'Alawi dynasty), Oman (linked item is a region), Duchy of Prussia (Wikidata dissolution 1618),
+# England (the list line joins two co-monarchs), Habsburg monarchy (the line gives no title), and states without a 1700 border feature.
+# wikidata-description Q1796223: pre-colonial African confederation of states in what is now the Democratic Republic of Congo, Angola and Zambia
+Kingdom of Lunda|Q1796223|Mbala I Yaav, Mwaant Yaav (c.1690–c.1720)|Lunda
+# wikidata-description Q207521: 1270–1974 state in the Horn of Africa
+Ethiopian Empire|Q207521|Iyasu I, Emperor (1682–1706)|Ethiopia
+# wikidata-description Q1071439: former country
+Merina Kingdom|Q1071439|Andriamasinavalona, King (1675–1710)
+# wikidata-description Q986822: Empire (1660-1880) in present Zimbabwe
+Rozvi Empire|Q986822|Changamire Zharare, King (c.1695–c.1700);Changamire Negamo, King (c.1700–1710)|Rozwi
+# wikidata-description Q171203: West African kingdom (1180–1897)
+Kingdom of Benin|Q171203|Ore-Oghene, Oba (1689–1701)|Benin
+# wikidata-description Q1139762: former country in Africa
+Bornu Empire|Q1139762|Dunama VII, Mai (1696–1715)|Kanem-Bornu
+# wikidata-description Q1433867: former Islamic monarchy in Central Asia, a successor to the Golden Horde
+Kazakh Khanate|Q1433867|Tauke, Khan (1680–1718)|Quazaq Khanate
+# wikidata-description Q10921634: Tibetan kingdom from 1642-1717
+Khoshut Khanate|Q10921634|Lha-bzang, Khan (1697–1717);Tsangyang Gyatso, 6th Dalai Lama (1697–1706)|Tibet
+# wikidata-description Q491106: former country
+Khanate of Khiva|Q491106|Ishaq Agha Shah Niyaz, Khan (1698–1701)|Khiva Khanate
+# wikidata-description Q8733: Manchu-led dynasty of China (1644–1912)
+Qing dynasty|Q8733|Kangxi, Emperor (1661–1722)|Manchu Empire
+# wikidata-description Q205662: 1603–1868 Japanese military government
+Tokugawa shogunate|Q205662|Higashiyama, Emperor (1687–1709);Tokugawa Tsunayoshi, Shōgun (1680–1709)
+# wikidata-description Q28179: Korean dynasty / kingdom (1392–1897)
+Joseon|Q28179|Sukjong, King (1674–1720)|Korea
+# wikidata-description Q887803: Malay sultanate, centred in Brunei on the northern coast of Borneo island in Southeast Asia from 1368 to 1888
+Bruneian Empire|Q887803|Nassaruddin, Sultan (1690–1710)|Brunei
+# wikidata-description Q4919413: aspect of Cambodian history
+Kingdom of Cambodia|Q4919413|Chey Chettha IV, King (1675–1695, 1696–1699, 1700–1702, 1703–1706);Barom Ramadhipati or Kaev Hua III, King (1699–1700, 1710–1722)|Cambodia
+# wikidata-description Q853477: unified kingdom from 1354 to 1707, one of the largest kingdoms in Southeast Asia
+Lan Xang|Q853477|Setthathirath II, King (1700–1707)|Laotian states
+# wikidata-description Q519718: ruling dynasty of Burma (Myanmar) from the mid-16th century to 1752
+Toungoo dynasty|Q519718|Sanay Min, King (1698–1714)|Ava
+# wikidata-description Q841364: 1350–1767 Siamese kingdom in Southeast Asia
+Ayutthaya Kingdom|Q841364|Phetracha, King (1688–1703)|Ayutthaya
+# wikidata-description Q1059707: Indianized state centered in present-day Northern Thailand from the 13th to 18th centuries
+Lan Na|Q1059707|Che Putarai, King (1675–1707)
+# wikidata-description Q430309: Name of Vietnamese monarchy (1054 - 1400; 1428 - 1804)
+Đại Việt|Q430309|Lê Hy Tông, Emperor (1676–1704)
+# wikidata-description Q18234383: historical empire that existed between 1501 and 1736
+Safavid Iran|Q18234383|Husayn, Sultan (1694–1722)|Safavid Empire
+# wikidata-description Q12560: empire with the monarchs from the Ottoman dynasty (1299–1922)
+Ottoman Empire|Q12560|Mustafa II, Sultan (1695–1703);Amcazade Köprülü Hüseyin Pasha, Grand Vizier (1697–1702)
+# wikidata-description Q12548: multi-ethnic complex of territories in Western and Central Europe (800/962–1806)
+Holy Roman Empire|Q12548|Leopold I, Emperor Elect, King (1658–1705);Dominik Andreas I. von Kaunitz, Vice Chancellor (1698–1705)
+# wikidata-description Q172107: historical multinational monarchist state in Eastern Europe (Crown of the Kingdom of Poland and the Grand Duchy of Lithuania)
+Polish–Lithuanian Commonwealth|Q172107|Augustus II the Strong, King and Grand Duke (1697–1706, 1709–1733)
+# wikidata-description Q186096: Russian state from 1547 to 1721
+Tsardom of Russia|Q186096|Peter I, Tsar (1682–1721), Emperor (1721–1725)|Tsardom of Muscovy
+# wikidata-description Q62651: political union (1524–1814)
+Denmark–Norway|Q62651|Frederick IV, King (1699–1730)|Denmark-Norway
+# wikidata-description Q215443: the years 1611–1721 in the history of Sweden
+Swedish Empire|Q215443|Charles XII, King (1697–1718)|Sweden
+# wikidata-description Q933592: 1473–1829 duchy in northwestern Tuscany, Italian Peninsula
+Duchy of Massa and Carrara|Q933592|Carlo II Cybo-Malaspina, Duke and Prince (1690–1710)|Massa
+# wikidata-description Q170174: territories mostly in the Appenine Peninsula under the sovereign direct rule of the pope between 756–1870
+Papal States|Q170174|Innocent XII, Pope (1691–1700);Clement XI, Pope (1700–1721)
+# wikidata-description Q165040: former Italian state (1545–1802; 1814–1859)
+Duchy of Parma|Q165040|Francesco, Duke (1694–1727)|Parma
+# wikidata-description Q154849: former Italian state (1569–1801; 1815–1859)
+Grand Duchy of Tuscany|Q154849|Cosimo III, Grand Duke (1670–1723)|Tuscany
+# wikidata-description Q4948: former state (697–1797) controlling, at various times, parts of northeastern Italy, the Balkans, and Mediterranean islands
+Republic of Venice|Q4948|Silvestro Valiero, Doge (1694–1700);Alvise II Mocenigo, Doge (1700–1709)|Venice
+# wikidata-description Q173065: Italian state (1282–1816)
+Kingdom of Naples|Q173065|Charles V, King (1665–1700);Philip IV, King (1700–1713)|Naples
+# wikidata-description Q188586: former state in southern Italy, 1130–1816
+Kingdom of Sicily|Q188586|Charles III, King (1665–1700);Philip V, King (1700–1713)|Sicily
+# wikidata-description Q45670: kingdom in Southwestern Europe (1139–1910)
+Kingdom of Portugal|Q45670|Peter II, King (1683–1706)|Portugal
+# wikidata-description Q600093: period of Spain under rule by the Spanish Branch of the House of Habsburg in the 16th and 17th centuries
+Habsburg Spain|Q600093|Charles II the Bewitched, King (1665–1700)|Spain
+# wikidata-description Q69461: history of France during the early modern era
+Kingdom of France|Q69461|Louis XIV, King (1643–1715)|France
+# wikidata-description Q170072: predecessor state of the Netherlands (1581–1795)
+Dutch Republic|Q170072|William III, Stadtholder (1672–1702);Anthonie Heinsius, Grand Pensionary (1689–1720)

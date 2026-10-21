@@ -1,8 +1,18 @@
 {
   "qid": "Q6500483",
   "name": "Nguyễn dynasty",
-  "summary": "Nguyễn dynasty: office-holders in 1880, from Wikipedia's list of state leaders.",
+  "summary": "Nguyễn dynasty: office-holders in 1815, 1880, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Gia Long",
+      "title": "of Việt Nam",
+      "from": 1804,
+      "to": 1820,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1801%E2%80%931850)",
+        "quote": "Gia Long, Emperor of Đại Việt (1802–1804), of Việt Nam (1804–1820)"
+      }
+    },
     {
       "name": "Tự Đức",
       "title": "Emperor",

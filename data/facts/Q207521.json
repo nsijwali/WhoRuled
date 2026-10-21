@@ -1,8 +1,38 @@
 {
   "qid": "Q207521",
   "name": "Ethiopian Empire",
-  "summary": "Ethiopian Empire: office-holders in 1880, 1900, 1914, 1920, 1945, 1960, from Wikipedia's lists of state leaders.",
+  "summary": "Ethiopian Empire: office-holders in 1700, 1800, 1815, 1880, 1900, 1914, 1920, 1945, 1960, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Iyasu I",
+      "title": "Emperor",
+      "from": 1682,
+      "to": 1706,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_17th_century",
+        "quote": "Iyasu I, Emperor (1682–1706)"
+      }
+    },
+    {
+      "name": "Demetros",
+      "title": "Emperor",
+      "from": 1799,
+      "to": 1800,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_18th_century",
+        "quote": "Demetros, Emperor (1799–1800)"
+      }
+    },
+    {
+      "name": "Egwale Seyon",
+      "title": "Emperor",
+      "from": 1801,
+      "to": 1818,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_19th_century_(1801%E2%80%931850)",
+        "quote": "Egwale Seyon, Emperor (1801–1818)"
+      }
+    },
     {
       "name": "Yohannes IV",
       "title": "Emperor",
@@ -54,6 +84,27 @@
       }
     }
   ],
-  "offices": [],
+  "offices": [
+    {
+      "name": "Tekle Giyorgis I",
+      "title": "Emperor",
+      "from": 1800,
+      "to": 1800,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_18th_century",
+        "quote": "Tekle Giyorgis I, Emperor (1800)"
+      }
+    },
+    {
+      "name": "Demetros",
+      "title": "Emperor",
+      "from": 1800,
+      "to": 1801,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_18th_century",
+        "quote": "Demetros, Emperor (1800–1801)"
+      }
+    }
+  ],
   "events": []
 }
