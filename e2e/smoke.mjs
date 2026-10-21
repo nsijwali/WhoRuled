@@ -68,7 +68,7 @@ const externalLinks = () => page.evaluate(() => [...document.querySelectorAll('a
   .filter((a) => a.protocol.startsWith('http') && a.origin !== location.origin)
   .filter((a) => a.target !== '_blank' || !/\bnoopener\b/.test(a.rel) || !/\bnoreferrer\b/.test(a.rel))
   .map((a) => a.href));
-for (const route of ['/', '/about/', '/privacy/', '/support/', '/state/Q142/']) {
+for (const route of ['/', '/about/', '/privacy/', '/support/', '/state/Q142/', '/year/1914/']) {
   await page.goto(`http://localhost:${port}${route}`);
   await page.waitForTimeout(400);
   if (route === '/') {
@@ -81,6 +81,20 @@ for (const route of ['/', '/about/', '/privacy/', '/support/', '/state/Q142/']) 
   const response = await page.request.get(`http://localhost:${port}${route}`);
   if (response.headers()['x-content-type-options'] !== 'nosniff') problems.push(`${route}: security headers missing`);
 }
+// search engines: a year page has real content, one h-tags set, a share image and valid structured data
+await page.goto(`http://localhost:${port}/year/1914/`);
+const seo = await page.evaluate(() => ({
+  rows: document.querySelectorAll('main table tbody tr').length,
+  canonical: document.querySelector('link[rel=canonical]')?.getAttribute('href') ?? '',
+  ogImage: document.querySelector('meta[property="og:image"]')?.getAttribute('content') ?? '',
+  jsonLd: [...document.querySelectorAll('script[type="application/ld+json"]')].map((s) => JSON.parse(s.textContent ?? 'null')),
+}));
+if (seo.rows < 15) problems.push(`/year/1914/ lists only ${seo.rows} states`);
+if (!seo.canonical.endsWith('/year/1914/')) problems.push(`/year/1914/ canonical is ${seo.canonical}`);
+if (!seo.ogImage.endsWith('/og.png')) problems.push('share image meta is missing');
+if (seo.jsonLd[0]?.['@type'] !== 'BreadcrumbList') problems.push('structured data is missing on /year/1914/');
+const sitemap = await (await page.request.get(`http://localhost:${port}/sitemap.xml`)).text();
+if (!sitemap.includes('/year/1914/')) problems.push('sitemap does not list /year/1914/');
 console.log(JSON.stringify({ problems, openingYear, yearLabel, mapClickSelected: heading > 0, presentName, listSelected: name }));
 await browser.close(); srv.close();
 if (problems.length) process.exit(1);

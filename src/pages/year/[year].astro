@@ -1,0 +1,70 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { browseYears, loadFacts } from '../../data/browseYears';
+import { SITE_URL } from '../../config/site';
+import { eraOf } from '../../map/eras';
+import { formatYear, inYear } from '../../map/format';
+import Base from '../../layouts/Base.astro';
+
+export const getStaticPaths = (() => browseYears().map((year) => ({ params: { year: String(year) }, props: { year } }))) satisfies GetStaticPaths;
+
+interface Props {
+  year: number;
+}
+const { year } = Astro.props;
+const { polities, index } = loadFacts();
+const byQid = new Map(polities.map((p) => [p.qid, p]));
+const label = formatYear(year);
+const rows = Object.entries(index[String(year)] ?? {})
+  .map(([drawnAs, qid]) => {
+    const polity = byQid.get(qid);
+    return polity ? { drawnAs, polity, leaders: [...polity.rulers, ...polity.offices].filter((r) => inYear(r, year)) } : null;
+  })
+  .filter((row): row is NonNullable<typeof row> => row !== null)
+  .sort((a, b) => a.polity.name.localeCompare(b.polity.name, 'en'));
+const withLeaders = rows.filter((r) => r.leaders.length > 0).length;
+const years = browseYears();
+const at = years.indexOf(year);
+const prev = years[at - 1];
+const next = years[at + 1];
+const era = eraOf(year).name;
+const title = `Who ruled the world in ${label}? States and leaders | WhoRuled`;
+const description = `${rows.length} states in ${label} (${era}) and who led them, with sources. Open the interactive map to see their borders.`;
+---
+<Base
+  title={title}
+  description={description}
+  path={`/year/${year}/`}
+  jsonLd={{
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'WhoRuled', item: new URL('/', SITE_URL).href },
+      { '@type': 'ListItem', position: 2, name: `The world in ${label}`, item: new URL(`/year/${year}/`, SITE_URL).href },
+    ],
+  }}
+>
+  <main class="page">
+    <h2 style="margin-top:0">Who ruled the world in {label}?</h2>
+    <p>
+      The {era.toLowerCase()}: {rows.length} states on the map for {label}, {withLeaders} with a known leader.{' '}
+      <a href="/">Open the interactive map</a> and move the slider to {label} to see their borders.
+    </p>
+    <table>
+      <thead><tr><th>State</th><th>Led by in {label}</th></tr></thead>
+      <tbody>
+        {rows.map(({ polity, leaders }) => (
+          <tr>
+            <td><a href={`/state/${polity.qid}/`}>{polity.name}</a></td>
+            <td>{leaders.length > 0 ? leaders.map((l) => `${l.name} (${l.title})`).join('; ') : '—'}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+    <p>
+      {prev !== undefined && <a href={`/year/${prev}/`}>← {formatYear(prev)}</a>}
+      {prev !== undefined && next !== undefined && ' · '}
+      {next !== undefined && <a href={`/year/${next}/`}>{formatYear(next)} →</a>}
+    </p>
+  </main>
+</Base>

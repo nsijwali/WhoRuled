@@ -1,14 +1,14 @@
 ---
 import type { GetStaticPaths } from 'astro';
-import { readFacts } from '../../../pipeline/build-facts.ts';
+import { browseYears, loadFacts } from '../../data/browseYears';
 import { correctionUrl, formatYear } from '../../map/format';
 import { isIndexable, type Polity } from '../../data/schema';
 import AdSlot from '../../components/AdSlot.astro';
 import Base from '../../layouts/Base.astro';
-import { AFFILIATE_DISCLOSURE, AMAZON_TAG, booksUrl } from '../../config/site';
+import { AFFILIATE_DISCLOSURE, AMAZON_TAG, SITE_URL, booksUrl } from '../../config/site';
 
 export const getStaticPaths = (() => {
-  const { polities } = readFacts('data/facts');
+  const { polities } = loadFacts();
   return polities.map((polity) => ({ params: { qid: polity.qid }, props: { polity } }));
 }) satisfies GetStaticPaths;
 
@@ -16,6 +16,12 @@ interface Props {
   polity: Polity;
 }
 const { polity } = Astro.props;
+const { index } = loadFacts();
+const onMap = Object.entries(index)
+  .filter(([, names]) => Object.values(names).includes(polity.qid))
+  .map(([year]) => Number(year))
+  .sort((a, b) => a - b);
+const pageYears = new Set(browseYears());
 const span = (r: { from: number; to: number | null }) =>
   `${formatYear(r.from)}–${r.to === null ? 'present' : formatYear(r.to)}`;
 const lead = polity.rulers[0];
@@ -26,9 +32,17 @@ const description = (
 ).slice(0, 300);
 ---
 <Base
-  title={`${polity.name} – rulers and government | WhoRuled`}
+  title={`Who ruled ${polity.name}? Rulers and government | WhoRuled`}
   description={description}
   path={`/state/${polity.qid}/`}
+  jsonLd={{
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'WhoRuled', item: new URL('/', SITE_URL).href },
+      { '@type': 'ListItem', position: 2, name: polity.name, item: new URL(`/state/${polity.qid}/`, SITE_URL).href },
+    ],
+  }}
   index={isIndexable(polity)}
 >
   <main class="page">
@@ -79,6 +93,12 @@ const description = (
     <p class="note">
       {polity.review !== undefined && `Reviewed by ${polity.review.by} on ${polity.review.date}. `}Every entry above links to its source. Spot an error? <a href={correctionUrl(polity.name, null)} target="_blank" rel="noopener noreferrer">Report it</a>.
     </p>
+    {onMap.some((y) => pageYears.has(y)) && (
+      <p>
+        See it among the world's states in:{' '}
+        {onMap.filter((y) => pageYears.has(y)).map((y, i) => <>{i > 0 && ', '}<a href={`/year/${y}/`}>{formatYear(y)}</a></>)}.
+      </p>
+    )}
     {AMAZON_TAG && (
       <p>
         Read more: <a href={booksUrl(polity.name, AMAZON_TAG)} target="_blank" rel="sponsored noopener noreferrer">books about {polity.name} on Amazon</a>

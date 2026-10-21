@@ -11,3 +11,8 @@ export function correctionUrl(name: string | null, year: number | null): string 
 export function formatYear(year: number): string {
   return year < 0 ? `${-year} BC` : String(year);
 }
+
+/** True when a period (`to` null = still going) covers a year. */
+export function inYear(period: { from: number; to: number | null }, year: number): boolean {
+  return period.from <= year && (period.to === null || period.to >= year);
+}
