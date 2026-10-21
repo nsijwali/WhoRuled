@@ -1,0 +1,41 @@
+---
+import Base from '../layouts/Base.astro';
+import { PAYPAL_ME } from '../config/site';
+
+const tip = (amount: number) => `https://www.paypal.me/${PAYPAL_ME}/${amount}USD`;
+const amounts = [3, 5, 10];
+---
+<Base
+  title="Support WhoRuled"
+  description="WhoRuled is free and has no paywall. If it is useful to you, a small PayPal tip helps cover hosting and data work."
+  path="/support/"
+  index={PAYPAL_ME !== ''}
+>
+  <main class="page">
+    <h2 style="margin-top:0">Support WhoRuled</h2>
+    <p>The map is free, with no account and no paywall. A tip helps pay for the research that makes the facts trustworthy, and for hosting.</p>
+    {PAYPAL_ME ? (
+      <>
+        <p>
+          {amounts.map((a) => (
+            <><a class="tip" href={tip(a)} rel="noopener noreferrer">Tip ${a}</a>{' '}</>
+          ))}
+          <a class="tip" href={`https://www.paypal.me/${PAYPAL_ME}`} rel="noopener noreferrer">Any amount</a>
+        </p>
+        <p>Payment happens on PayPal's own site; WhoRuled never sees your card or account details. PayPal.Me tips are personal payments and are not tax-deductible donations.</p>
+      </>
+    ) : (
+      <p>Tipping is not switched on yet.</p>
+    )}
+    <h2>Other ways to help</h2>
+    <ul>
+      <li><a href="https://github.com/nsijwali/WhoRuled/issues/new">Report a wrong ruler, border or date</a> with a source.</li>
+      <li>Share the map with a teacher or a history fan.</li>
+    </ul>
+  </main>
+</Base>
+
+<style>
+  .tip { display: inline-block; margin: 0 4px 6px 0; padding: 4px 14px 5px; color: var(--black); background: var(--yellow); border: 2px solid; border-color: var(--hi) var(--lo) var(--lo) var(--hi); box-shadow: 1px 1px 0 var(--black); text-decoration: none; }
+  .tip:hover { background: var(--white); }
+</style>

@@ -6,7 +6,8 @@ Settings → Build → Variables (build variables), add any of these, then redep
 | Variable | Value | Effect |
 | --- | --- | --- |
 | `PUBLIC_SITE_URL` | your custom domain, e.g. `https://whoruled.example` | canonical URLs, sitemap, robots |
-| `PUBLIC_SUPPORT_URL` | e.g. `https://github.com/sponsors/nsijwali` or a Ko-fi page | "Support this project" link in the header |
+| `PUBLIC_PAYPAL_ME` | your PayPal.Me name, e.g. `yourname` (or `paypal.me/yourname`) | `/support/` page with $3, $5, $10 and any-amount tip links, and the menu link. No PayPal script is loaded; payment happens on paypal.com |
+| `PUBLIC_SUPPORT_URL` | overrides the PayPal page, e.g. `https://github.com/sponsors/nsijwali` or a Ko-fi page | "Support this project" link in the header |
 | `PUBLIC_CF_ANALYTICS_TOKEN` | token from Cloudflare → Web Analytics → add site | cookie-free page-view counts |
 | `PUBLIC_ADS_CLIENT` | AdSense id `ca-pub-…` | consent banner, ad slot on state pages, `/ads.txt` |
 

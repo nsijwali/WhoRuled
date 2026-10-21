@@ -7,8 +7,17 @@ const env = import.meta.env;
 export const SITE_URL: string = env.PUBLIC_SITE_URL ?? 'https://whoruled.sijwalinitin.workers.dev';
 export const SITE_NAME = 'WhoRuled';
 
-/** Donation / sponsor page, e.g. https://github.com/sponsors/nsijwali. Empty = no support link. */
-export const SUPPORT_URL: string = env.PUBLIC_SUPPORT_URL ?? '';
+/** Turns `name`, `paypal.me/name` or `https://www.paypal.me/name` into the bare PayPal.Me name, or '' if it is not one. */
+export function paypalMeName(input: string): string {
+  const name = input.trim().replace(/^(https?:\/\/)?(www\.)?paypal\.me\//i, '').replace(/\/+$/, '');
+  return /^[A-Za-z0-9]{3,20}$/.test(name) ? name : '';
+}
+
+/** PayPal.Me name (the part after paypal.me/). A public handle, not a credential. Empty = no PayPal support page. */
+export const PAYPAL_ME: string = paypalMeName(env.PUBLIC_PAYPAL_ME ?? '');
+
+/** The support link in the menu: an explicit URL, else the PayPal support page when PayPal is set up. Empty = none. */
+export const SUPPORT_URL: string = env.PUBLIC_SUPPORT_URL ?? (PAYPAL_ME ? '/support/' : '');
 
 /** Cloudflare Web Analytics token (cookie-free page views). Empty = no analytics script. */
 export const ANALYTICS_TOKEN: string = env.PUBLIC_CF_ANALYTICS_TOKEN ?? '';
