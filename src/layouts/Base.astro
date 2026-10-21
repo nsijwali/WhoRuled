@@ -206,13 +206,13 @@ const canonical = new URL(path, SITE_URL).href;
         <a href="/" aria-current={path === '/' ? 'page' : undefined}>Map</a>
         <a href="/about/" aria-current={path === '/about/' ? 'page' : undefined}>About</a>
         <a href="/privacy/" aria-current={path === '/privacy/' ? 'page' : undefined}>Privacy</a>
-        {SUPPORT_URL && <a href={SUPPORT_URL} rel={SUPPORT_URL.startsWith('/') ? undefined : 'noopener noreferrer'} aria-current={path === '/support/' ? 'page' : undefined}>Support this project</a>}
+        {SUPPORT_URL && <a href={SUPPORT_URL} target={SUPPORT_URL.startsWith('/') ? undefined : '_blank'} rel={SUPPORT_URL.startsWith('/') ? undefined : 'noopener noreferrer'} aria-current={path === '/support/' ? 'page' : undefined}>Support this project</a>}
       </nav>
       <div class="window-body"><slot /></div>
       <footer class="site-footer">
         <span class="credits">
-          Borders: <a href="https://github.com/aourednik/historical-basemaps">historical-basemaps</a> (GPL-3.0) to 2010; <a href="https://www.naturalearthdata.com/">Natural Earth</a> (public domain) for 2026.
-          Office-holders: <a href="https://en.wikipedia.org/wiki/Lists_of_state_leaders">Wikipedia</a> lists (CC BY-SA 4.0) and Wikidata (CC0).
+          Borders: <a href="https://github.com/aourednik/historical-basemaps" target="_blank" rel="noopener noreferrer">historical-basemaps</a> (GPL-3.0) to 2010; <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener noreferrer">Natural Earth</a> (public domain) for 2026.
+          Office-holders: <a href="https://en.wikipedia.org/wiki/Lists_of_state_leaders" target="_blank" rel="noopener noreferrer">Wikipedia</a> lists (CC BY-SA 4.0) and Wikidata (CC0).
           Facts are sourced but not all are human-reviewed.
         </span>{' '}
         <a href="/about/">About &amp; licences</a>

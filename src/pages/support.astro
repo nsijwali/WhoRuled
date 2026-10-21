@@ -29,9 +29,9 @@ const upiLink = `upi://pay?pa=${UPI_ID}&pn=WhoRuled&cu=INR`;
         <h2>From elsewhere: PayPal</h2>
         <p>
           {amounts.map((a) => (
-            <><a class="tip" href={tip(a)} rel="noopener noreferrer">Tip ${a}</a>{' '}</>
+            <><a class="tip" href={tip(a)} target="_blank" rel="noopener noreferrer">Tip ${a}</a>{' '}</>
           ))}
-          <a class="tip" href={`https://www.paypal.me/${PAYPAL_ME}`} rel="noopener noreferrer">Any amount</a>
+          <a class="tip" href={`https://www.paypal.me/${PAYPAL_ME}`} target="_blank" rel="noopener noreferrer">Any amount</a>
         </p>
         <p>Payment happens on PayPal's own site. PayPal.Me tips are personal payments and are not tax-deductible donations.</p>
       </>
@@ -39,7 +39,7 @@ const upiLink = `upi://pay?pa=${UPI_ID}&pn=WhoRuled&cu=INR`;
     {!PAYPAL_ME && !UPI_ID && <p>Tipping is not switched on yet.</p>}
     <h2>Other ways to help</h2>
     <ul>
-      <li><a href="https://github.com/nsijwali/WhoRuled/issues/new">Report a wrong ruler, border or date</a> with a source.</li>
+      <li><a href="https://github.com/nsijwali/WhoRuled/issues/new" target="_blank" rel="noopener noreferrer">Report a wrong ruler, border or date</a> with a source.</li>
       <li>Share the map with a teacher or a history fan.</li>
     </ul>
   </main>
