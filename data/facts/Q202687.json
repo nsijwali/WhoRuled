@@ -1,0 +1,19 @@
+{
+  "qid": "Q202687",
+  "name": "Songhai Empire",
+  "summary": "Songhai Empire: office-holders in 1500, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Askia Mohammad I",
+      "title": "King",
+      "from": 1493,
+      "to": 1529,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Askia Mohammad I, King (1493–1529)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

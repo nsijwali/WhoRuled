@@ -1,0 +1,30 @@
+{
+  "qid": "Q729540",
+  "name": "Tsangpa",
+  "summary": "Tsangpa: office-holders in 1600, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Karma Thutob Namgyal",
+      "title": "Monarch",
+      "from": 1586,
+      "to": 1610,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_16th_century",
+        "quote": "Karma Thutob Namgyal, Monarch (c.1586–1610)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Karma Tensung",
+      "title": "Monarch",
+      "from": 1599,
+      "to": 1611,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_16th_century",
+        "quote": "Karma Tensung, Monarch (1599–1611)"
+      }
+    }
+  ],
+  "events": []
+}

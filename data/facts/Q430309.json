@@ -1,8 +1,28 @@
 {
   "qid": "Q430309",
   "name": "Đại Việt",
-  "summary": "Đại Việt: office-holders in 1700, 1800, from Wikipedia's lists of state leaders.",
+  "summary": "Đại Việt: office-holders in 1500, 1600, 1700, 1800, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Lê Hiến Tông",
+      "title": "Emperor",
+      "from": 1497,
+      "to": 1504,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Lê Hiến Tông, Emperor (1497–1504)"
+      }
+    },
+    {
+      "name": "Lê Kính Tông",
+      "title": "Emperor",
+      "from": 1600,
+      "to": 1619,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_16th_century",
+        "quote": "Lê Kính Tông, Emperor (1600–1619)"
+      }
+    },
     {
       "name": "Lê Hy Tông",
       "title": "Emperor",

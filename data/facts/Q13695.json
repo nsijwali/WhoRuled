@@ -1,0 +1,19 @@
+{
+  "qid": "Q13695",
+  "name": "Tenochtitlan of the Aztec Empire",
+  "summary": "Tenochtitlan of the Aztec Empire: office-holders in 1500, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Ahuitzotl",
+      "title": "Hueyi Tlatoani",
+      "from": 1486,
+      "to": 1502,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Ahuitzotl, Hueyi Tlatoani (1486–1502)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

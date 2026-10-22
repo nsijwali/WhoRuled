@@ -1,0 +1,19 @@
+{
+  "qid": "Q62623",
+  "name": "Kalmar Union of Denmark, Sweden, and Norway",
+  "summary": "Kalmar Union of Denmark, Sweden, and Norway: office-holders in 1500, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "John",
+      "title": "King of Denmark",
+      "from": 1481,
+      "to": 1513,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "John, King of Denmark (1481–1513), of Norway (1483–1513), of Sweden (1497–1501)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

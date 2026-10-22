@@ -14,6 +14,26 @@
       }
     },
     {
+      "name": "Manuel I",
+      "title": "King",
+      "from": 1495,
+      "to": 1521,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Manuel I, King (1495–1521)"
+      }
+    },
+    {
+      "name": "Philip II",
+      "title": "King",
+      "from": 1598,
+      "to": 1621,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_16th_century",
+        "quote": "Philip II, King (1598–1621)"
+      }
+    },
+    {
       "name": "Peter II",
       "title": "King",
       "from": 1683,

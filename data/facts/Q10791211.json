@@ -1,0 +1,19 @@
+{
+  "qid": "Q10791211",
+  "name": "Kingdom of Mrauk U",
+  "summary": "Kingdom of Mrauk U: office-holders in 1500, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Salingathu",
+      "title": "King",
+      "from": 1494,
+      "to": 1502,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Salingathu, King (1494–1502)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

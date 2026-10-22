@@ -1,0 +1,19 @@
+{
+  "qid": "Q204920",
+  "name": "Crown of Aragon",
+  "summary": "Crown of Aragon: office-holders in 1500, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Ferdinand the Catholic",
+      "title": "King",
+      "from": 1479,
+      "to": 1516,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Ferdinand the Catholic, King (1479–1516)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

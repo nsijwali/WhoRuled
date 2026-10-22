@@ -1,0 +1,19 @@
+{
+  "qid": "Q1061057",
+  "name": "Aceh Sultanate",
+  "summary": "Aceh Sultanate: office-holders in 1600, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Alauddin Ri'ayat Syah Sayyid al-Mukammal",
+      "title": "Sultan",
+      "from": 1589,
+      "to": 1604,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_16th_century",
+        "quote": "Alauddin Ri'ayat Syah Sayyid al-Mukammal, Sultan (1589–1604)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

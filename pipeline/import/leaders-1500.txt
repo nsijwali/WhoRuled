@@ -1,0 +1,47 @@
+# source: https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century
+# Read 2026-10-22, revision 1379905626. QIDs come from each state's linked article and were checked against its Wikidata inception/dissolution dates (France, Portugal, Moscow and Đại Việt use curated QIDs because the linked item is a period article or has a truncated date range).
+# Skipped for 1500: Kazakh Khanate and Kingdom of Naples (no 1500 border feature), Kingdom of Cambodia (the linked item is a period article), Habsburg monarchy (starts 1526), and all states with no 1500 border feature.
+Kingdom of Kongo: Kilukeni|Q796583|João I, Manikongo (1470–1509)|Congo
+Ethiopian Empire: Solomonic dynasty|Q207521|Na'od, Emperor (1494–1508)|Ethiopia
+Adal Sultanate: Walashma dynasty|Q2365048|Muhammad ibn Azhar ad-Din, Sultan (1488–1518)|Adal
+Mamluk Sultanate: Burji dynasty|Q282428|Abu Sa'id Qansuh, Sultan (1498–1500);Al-Ashraf Janbalat, Sultan (1500–1501)|Mamluke Sultanate
+Hafsid dynasty|Q752662|Muhammad IV, Khalif (1494–1526)|Hafsid Caliphate
+# wikidata-description Q854468: kingdom in southern Africa between 1430 and 1760
+Kingdom of Mutapa|Q854468|Chikuyo Chisamarengu, Mwenemutapa (1494–c.1530)|Mwenemutapa
+Kingdom of Benin|Q171203|Ozolua, Oba (1480–1504)|Benin
+Mali Empire: Keita dynasty|Q184536|Mahmud III, Mansa (1496–1559)|Mali
+Songhai Empire|Q202687|Askia Mohammad I, King (1493–1529)|Songhai
+Bornu Empire (Kanem–Bornu)|Q1139762|Idris Katakarmabe, Mai (1487–1509)|Kanem-Bornu
+Tenochtitlan of the Aztec Empire|Q13695|Ahuitzotl, Hueyi Tlatoani (1486–1502)|Aztec Empire
+Inca Empire|Q28573|Huayna Capac, Sapa Inca (1493–1525)|Inca Empire
+Khanate of Sibir|Q190513|Abalak of Sibir, Khan (1496–1501);Muhammad Taibuga, Khan (1495–1502)|Khanate of Sibir
+Phagmodrupa dynasty|Q126416|Ngawang Tashi Drakpa, Monarch (1499–1554)|Tibet
+Ming dynasty|Q9903|Hongzhi, Emperor (1487–1505)|Ming Chinese Empire
+Ashikaga shogunate of Japan|Q1154406|Go-Tsuchimikado, Emperor (1464–1500);Go-Kashiwabara, Emperor (1500-1526);Yoshizumi, Shōgun (1493–1508)|Japan
+Joseon|Q28179|Yeonsangun, King (1494–1506)|Korea
+Lan Xang|Q853477|Somphou, King (1496–1501)|Laos
+Malacca Sultanate|Q46652|Mahmud Shah, Sultan (1488–1511, 1513–1528);Tun Perpatih Putih, Bendahara (1498–1500)|Malacca
+Hanthawaddy kingdom|Q1572529|Binnya Ran II, King (1492–1526)|Pegu
+Kingdom of Mrauk U|Q10791211|Salingathu, King (1494–1502)|Arakan
+Ayutthaya Kingdom|Q841364|Ramathibodi II, King (1491–1529)|Ayutthaya
+Đại Việt: Later Lê dynasty|Q430309|Lê Hiến Tông, Emperor (1497–1504)|Đại Việt
+Ottoman Empire|Q12560|Bayezid II, Sultan (1481–1512);Yakub Pasha, Grand Vizier (1499–1501)
+# wikidata-description Q230791: historic sovereign kingdom on the British Isles from the 9th century and up to 1707
+Kingdom of Scotland|Q230791|James IV, King (1488–1513)|Scotland
+Kingdom of England and Lordship of Ireland|Q179876|Henry VII, King and Lord (1485–1509)|England
+Holy Roman Empire, Kingdom of Germany|Q12548|Maximilian I, Emperor Elect (1508–1519), King (1486–1519)|Holy Roman Empire
+Kingdom of Hungary (1301–1526)|Q16056854|Vladislaus II, King (1490–1516)|Imperial Hungary
+Kingdom of Poland (1385–1569)|Q171348|John I Albert, King (1492–1501)|Poland-Lithuania
+State of the Teutonic Order|Q156020|Frederick, Duke of Saxony, Grand Master (1497–1510)|Teutonic Knights
+# wikidata-description Q160440: former state at the Crimean Peninsula until April 1783
+Crimean Khanate|Q160440|Meñli I Giray, Khan (1478–1515)
+Grand Duchy of Moscow|Q170770|Ivan III the Great, Grand prince (1462–1505)
+Kalmar Union of Denmark, Sweden, and Norway|Q62623|John, King of Denmark (1481–1513), of Norway (1483–1513), of Sweden (1497–1501)|Kalmar Union
+Papal States|Q170174|Alexander VI, Pope (1492–1503)
+Republic of Venice|Q4948|Agostino Barbarigo, Doge (1486–1501)|Venice
+Crown of Aragon|Q204920|Ferdinand the Catholic, King (1479–1516)|Aragón
+Crown of Castile|Q217196|Isabella I the Catholic, Queen (1474–1504);Ferdinand the Catholic, King (1475–1504)|Castille
+Kingdom of Navarre|Q200262|Catherine, Queen (1483–1517)|Navarre
+Kingdom of Portugal / Portugal and the Algarves|Q45670|Manuel I, King (1495–1521)|Portugal
+Kingdom of France|Q70972|Louis XII, King (1498–1515)|France
+Duchy of Brittany|Q71747|Anne, Duchess (1488–1514)|Britany

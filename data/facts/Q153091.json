@@ -1,0 +1,19 @@
+{
+  "qid": "Q153091",
+  "name": "Duchy of Prussia",
+  "summary": "Duchy of Prussia: office-holders in 1600, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Albert Frederick",
+      "title": "Duke",
+      "from": 1568,
+      "to": 1618,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_16th_century",
+        "quote": "Albert Frederick, Duke (1568–1618)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

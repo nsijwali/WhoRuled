@@ -1,0 +1,29 @@
+{
+  "qid": "Q160440",
+  "name": "Crimean Khanate",
+  "summary": "Crimean Khanate: office-holders in 1500, 1600, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "Meñli I Giray",
+      "title": "Khan",
+      "from": 1478,
+      "to": 1515,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Meñli I Giray, Khan (1478–1515)"
+      }
+    },
+    {
+      "name": "Ğazı II Giray",
+      "title": "Khan",
+      "from": 1596,
+      "to": 1607,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_16th_century",
+        "quote": "Ğazı II Giray, Khan (1596–1607)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

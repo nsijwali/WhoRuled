@@ -14,6 +14,26 @@
       }
     },
     {
+      "name": "Maximilian I",
+      "title": "King",
+      "from": 1486,
+      "to": 1519,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Maximilian I, Emperor Elect (1508–1519), King (1486–1519)"
+      }
+    },
+    {
+      "name": "Rudolph II",
+      "title": "Emperor Elect",
+      "from": 1576,
+      "to": 1612,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_16th_century",
+        "quote": "Rudolph II, Emperor Elect (1576–1612), King (1575–1612)"
+      }
+    },
+    {
       "name": "Leopold I",
       "title": "Emperor Elect, King",
       "from": 1658,
@@ -25,6 +45,16 @@
     }
   ],
   "offices": [
+    {
+      "name": "Rudolf Coraduz von und zu Nußdorf",
+      "title": "Vice Chancellor",
+      "from": 1597,
+      "to": 1606,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_16th_century",
+        "quote": "Rudolf Coraduz von und zu Nußdorf, Vice Chancellor (1597–1606)"
+      }
+    },
     {
       "name": "Dominik Andreas I. von Kaunitz",
       "title": "Vice Chancellor",

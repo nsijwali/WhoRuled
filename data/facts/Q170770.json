@@ -14,6 +14,18 @@
       }
     }
   ],
+  "offices": [
+    {
+      "name": "Ivan III the Great",
+      "title": "Grand prince",
+      "from": 1462,
+      "to": 1505,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Ivan III the Great, Grand prince (1462–1505)"
+      }
+    }
+  ],
   "events": [
     {
       "year": 1480,

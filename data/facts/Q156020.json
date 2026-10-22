@@ -1,0 +1,19 @@
+{
+  "qid": "Q156020",
+  "name": "State of the Teutonic Order",
+  "summary": "State of the Teutonic Order: office-holders in 1500, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Frederick",
+      "title": "Duke of Saxony, Grand Master",
+      "from": 1497,
+      "to": 1510,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Frederick, Duke of Saxony, Grand Master (1497–1510)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

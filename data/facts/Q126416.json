@@ -1,0 +1,19 @@
+{
+  "qid": "Q126416",
+  "name": "Phagmodrupa dynasty",
+  "summary": "Phagmodrupa dynasty: office-holders in 1500, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Ngawang Tashi Drakpa",
+      "title": "Monarch",
+      "from": 1499,
+      "to": 1554,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Ngawang Tashi Drakpa, Monarch (1499–1554)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}
