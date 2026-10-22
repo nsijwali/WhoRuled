@@ -3,6 +3,8 @@ import '@fontsource/silkscreen/400.css';
 import '@fontsource/vt323/400.css';
 import fellUrl from '@fontsource/im-fell-english/files/im-fell-english-latin-400-normal.woff2?url';
 import eliteUrl from '@fontsource/special-elite/files/special-elite-latin-400-normal.woff2?url';
+import vtUrl from '@fontsource/vt323/files/vt323-latin-400-normal.woff2?url';
+import silkUrl from '@fontsource/silkscreen/files/silkscreen-latin-400-normal.woff2?url';
 import { themeCss } from '../map/theme';
 import Consent from '../components/Consent.astro';
 import { ADS_CLIENT, ANALYTICS_TOKEN, SITE_NAME, SITE_URL, SUPPORT_URL } from '../config/site';
@@ -46,6 +48,9 @@ const jsonLdText = jsonLd ? JSON.stringify(jsonLd).replace(/</g, '\\u003c') : ''
     <meta name="twitter:image" content={image} />
     {jsonLdText && <script type="application/ld+json" is:inline set:html={jsonLdText}></script>}
     <link rel="icon" href="data:," />
+    {/* The page fonts load in parallel with the CSS instead of after it, so text does not reflow when they arrive. */}
+    <link rel="preload" as="font" type="font/woff2" href={vtUrl} crossorigin />
+    <link rel="preload" as="font" type="font/woff2" href={silkUrl} crossorigin />
     <style
       is:inline
       set:html={`
