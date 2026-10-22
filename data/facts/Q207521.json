@@ -1,8 +1,28 @@
 {
   "qid": "Q207521",
   "name": "Ethiopian Empire",
-  "summary": "Ethiopian Empire: office-holders in 1700, 1800, 1815, 1880, 1900, 1914, 1920, 1945, 1960, from Wikipedia's lists of state leaders.",
+  "summary": "Ethiopian Empire: office-holders in 1500, 1600, 1700, 1800, 1815, 1880, 1900, 1914, 1920, 1945, 1960, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Na'od",
+      "title": "Emperor",
+      "from": 1494,
+      "to": 1508,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Na'od, Emperor (1494–1508)"
+      }
+    },
+    {
+      "name": "Yaqob",
+      "title": "Emperor",
+      "from": 1597,
+      "to": 1603,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_16th_century",
+        "quote": "Yaqob, Emperor (1597–1603, 1604–1606)"
+      }
+    },
     {
       "name": "Iyasu I",
       "title": "Emperor",

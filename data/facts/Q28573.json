@@ -1,0 +1,19 @@
+{
+  "qid": "Q28573",
+  "name": "Inca Empire",
+  "summary": "Inca Empire: office-holders in 1500, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Huayna Capac",
+      "title": "Sapa Inca",
+      "from": 1493,
+      "to": 1525,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Huayna Capac, Sapa Inca (1493–1525)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

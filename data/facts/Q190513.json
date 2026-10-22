@@ -1,0 +1,30 @@
+{
+  "qid": "Q190513",
+  "name": "Khanate of Sibir",
+  "summary": "Khanate of Sibir: office-holders in 1500, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Abalak of Sibir",
+      "title": "Khan",
+      "from": 1496,
+      "to": 1501,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Abalak of Sibir, Khan (1496–1501)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Muhammad Taibuga",
+      "title": "Khan",
+      "from": 1495,
+      "to": 1502,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Muhammad Taibuga, Khan (1495–1502)"
+      }
+    }
+  ],
+  "events": []
+}

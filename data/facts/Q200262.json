@@ -1,0 +1,19 @@
+{
+  "qid": "Q200262",
+  "name": "Kingdom of Navarre",
+  "summary": "Kingdom of Navarre: office-holders in 1500, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Catherine",
+      "title": "Queen",
+      "from": 1483,
+      "to": 1517,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Catherine, Queen (1483–1517)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

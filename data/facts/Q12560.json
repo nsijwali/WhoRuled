@@ -14,6 +14,16 @@
       }
     },
     {
+      "name": "Mehmed III",
+      "title": "Sultan",
+      "from": 1595,
+      "to": 1603,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_16th_century",
+        "quote": "Mehmed III, Sultan (1595–1603)"
+      }
+    },
+    {
       "name": "Mustafa II",
       "title": "Sultan",
       "from": 1695,
@@ -75,6 +85,26 @@
     }
   ],
   "offices": [
+    {
+      "name": "Yakub Pasha",
+      "title": "Grand Vizier",
+      "from": 1499,
+      "to": 1501,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Yakub Pasha, Grand Vizier (1499–1501)"
+      }
+    },
+    {
+      "name": "Damat Ibrahim Pasha",
+      "title": "Grand Vizier",
+      "from": 1599,
+      "to": 1601,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_16th_century",
+        "quote": "Damat Ibrahim Pasha, Grand Vizier (1599–1601)"
+      }
+    },
     {
       "name": "Amcazade Köprülü Hüseyin Pasha",
       "title": "Grand Vizier",

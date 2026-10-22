@@ -1,0 +1,30 @@
+{
+  "qid": "Q1154406",
+  "name": "Ashikaga shogunate of Japan",
+  "summary": "Ashikaga shogunate of Japan: office-holders in 1500, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Go-Tsuchimikado",
+      "title": "Emperor",
+      "from": 1464,
+      "to": 1500,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Go-Tsuchimikado, Emperor (1464–1500)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Yoshizumi",
+      "title": "Shōgun",
+      "from": 1493,
+      "to": 1508,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Yoshizumi, Shōgun (1493–1508)"
+      }
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "qid": "Q46652",
+  "name": "Malacca Sultanate",
+  "summary": "Malacca Sultanate: office-holders in 1500, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Mahmud Shah",
+      "title": "Sultan",
+      "from": 1488,
+      "to": 1511,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Mahmud Shah, Sultan (1488–1511, 1513–1528)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Tun Perpatih Putih",
+      "title": "Bendahara",
+      "from": 1498,
+      "to": 1500,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Tun Perpatih Putih, Bendahara (1498–1500)"
+      }
+    }
+  ],
+  "events": []
+}

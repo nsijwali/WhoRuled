@@ -1,0 +1,19 @@
+{
+  "qid": "Q184536",
+  "name": "Mali Empire: Keita dynasty",
+  "summary": "Mali Empire: Keita dynasty: office-holders in 1500, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Mahmud III",
+      "title": "Mansa",
+      "from": 1496,
+      "to": 1559,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Mahmud III, Mansa (1496–1559)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

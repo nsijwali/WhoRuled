@@ -1,0 +1,48 @@
+# source: https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_16th_century
+# Read 2026-10-22, revision 1379022079. QIDs come from each state's linked article and were checked against its Wikidata inception/dissolution dates (France, Spain, Portugal, Sweden and Đại Việt use the same curated QIDs as 1700).
+# Skipped for 1600: Azuchi–Momoyama period Japan and Kingdom of Cambodia (the linked item is a period or history article, not a state), Habsburg monarchy and states with no 1600 border feature.
+Kingdom of Kongo|Q796583|Álvaro II, Manikongo (1587–1614)|Congo
+Ethiopian Empire: Solomonic dynasty|Q207521|Yaqob, Emperor (1597–1603, 1604–1606)|Ethiopia
+Merina Kingdom|Q1071439|Ralambo, King (1575–1612)
+# wikidata-description Q1136188: ruling dynasty (1549-1659)
+Saadi dynasty of Morocco|Q1136188|Ahmad al-Mansur, Sultan (1578–1603)|Watassid Morocco
+# wikidata-description Q854468: kingdom in southern Africa between 1430 and 1760
+Kingdom of Mutapa|Q854468|Gatsi Rusere, Mwenemutapa (1589–1623)|Mwenemutapa
+Kingdom of Benin|Q171203|Ehengbuda, Oba (1580–1602)|Benin
+Bornu Empire (Kanem–Bornu)|Q1139762|Muhammed VI Bukalmarami, Mai (1596–1612)|Kanem-Bornu
+Kazakh Khanate|Q1433867|Esim, Khan (1598–1628)|Quazaq Khanate
+# wikidata-description Q729540: dynasty that dominated large parts of Tibet from 1565 to 1642
+Tsangpa|Q729540|Karma Thutob Namgyal, Monarch (c.1586–1610);Karma Tensung, Monarch (1599–1611)|Tibet
+Khanate of Khiva|Q491106|Haji Muhammad I, Khan (1558–1602)|Khiva Khanate
+Ming dynasty|Q9903|Wanli, Emperor (1572–1620)|Ming Chinese Empire
+Joseon|Q28179|Seonjo, King (1567–1608)|Korea
+# wikidata-description Q1061057: former sultanate in Southeast Asia
+Aceh Sultanate|Q1061057|Alauddin Ri'ayat Syah Sayyid al-Mukammal, Sultan (1589–1604)|Aceh
+Lan Xang|Q853477|Voravongsa II, King (1598–1622)|Laos
+Ayutthaya Kingdom|Q841364|Naresuan, King of Sukhothai (1570–1590), King of Ayutthaya (1590–1605)|Ayutthaya
+Đại Việt: Revival Lê dynasty|Q430309|Lê Kính Tông, Emperor (1600–1619)|Đại Việt
+Safavid Iran|Q18234383|Abbas I, Shah (1587–1629)|Safavid Empire
+# wikidata-description Q11938308: rulers of Oman between the 12th and 17th century
+Nabhani dynasty|Q11938308|Abdulla bin Muhammad, Malik (1560–1624)|Oman
+Ottoman Empire|Q12560|Mehmed III, Sultan (1595–1603);Damat Ibrahim Pasha, Grand Vizier (1599–1601)
+Kingdom of England and Lordship/ Kingdom of Ireland|Q179876|Elizabeth I, Queen (1558–1603)|England and Ireland
+# wikidata-description Q230791: historic sovereign kingdom on the British Isles from the 9th century and up to 1707
+Kingdom of Scotland|Q230791|James VI, King of Scotland (1567–1625)|Scotland
+Holy Roman Empire, Kingdom of Germany|Q12548|Rudolph II, Emperor Elect (1576–1612), King (1575–1612);Rudolf Coraduz von und zu Nußdorf, Vice Chancellor (1597–1606)|Holy Roman Empire
+Polish–Lithuanian Commonwealth: Kingdom of Poland|Q172107|Sigismund III Vasa, King and Grand Duke (1587–1632)|Poland-Lithuania
+# wikidata-description Q153091: historical state (1525–1701)
+Duchy of Prussia|Q153091|Albert Frederick, Duke (1568–1618)|Prussia
+# wikidata-description Q160440: former state at the Crimean Peninsula until April 1783
+Crimean Khanate|Q160440|Ğazı II Giray, Khan (1596–1607)
+Tsardom of Russia|Q186096|Boris Godunov, Tsar (1598–1605)|Tsardom of Muscovy
+Denmark–Norway|Q62651|Christian IV, King (1588–1648)|Denmark-Norway
+History of Sweden (1523–1611)|Q215443|Charles IX, Regent (1599–1604), King (1604–1611)|Sweden
+Papal States|Q170174|Clement VIII, Pope (1592–1605)
+Grand Duchy of Tuscany|Q154849|Ferdinando I, Grand Duke (1587–1609)|Florence
+Republic of Venice|Q4948|Marino Grimani, Doge (1595–1606)|Venice
+Kingdom of Naples|Q173065|Philip II, King (1598–1621)|Naples
+Kingdom of Trinacria: Sicily|Q188586|Philip III, King (1598–1621)|Sicily
+Kingdom of Portugal and the Algarves / Portugal|Q45670|Philip II, King (1598–1621)|Portugal
+Habsburg Spain: Crown of Castile and Crown of Aragon|Q600093|Philip III the Pious, King (1598–1621)|Spain
+Kingdom of France: Ancien Régime|Q69461|Henry IV, King (1589–1610)|France
+United Provinces: Dutch Republic|Q170072|Maurice, Stadtholder (1585–1625);Johan van Oldenbarnevelt, Grand Pensionary (1586–1619)|Dutch Republic

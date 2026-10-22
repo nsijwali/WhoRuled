@@ -12,6 +12,28 @@
         "url": "https://en.wikipedia.org/wiki/Qaitbay",
         "quote": "He was made Sultan on 31 January."
       }
+    },
+    {
+      "name": "Abu Sa'id Qansuh",
+      "title": "Sultan",
+      "from": 1498,
+      "to": 1500,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Abu Sa'id Qansuh, Sultan (1498–1500)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Al-Ashraf Janbalat",
+      "title": "Sultan",
+      "from": 1500,
+      "to": 1501,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Al-Ashraf Janbalat, Sultan (1500–1501)"
+      }
     }
   ],
   "events": [

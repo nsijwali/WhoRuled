@@ -12,8 +12,19 @@
         "url": "https://en.wikipedia.org/wiki/Henry_VII_of_England",
         "quote": "Henry reigned for nearly 24 years and was peacefully succeeded by his son, Henry VIII"
       }
+    },
+    {
+      "name": "Elizabeth I",
+      "title": "Queen",
+      "from": 1558,
+      "to": 1603,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_16th_century",
+        "quote": "Elizabeth I, Queen (1558–1603)"
+      }
     }
   ],
+  "offices": [],
   "events": [
     {
       "year": 1485,

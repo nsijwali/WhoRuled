@@ -12,6 +12,28 @@
         "url": "https://en.wikipedia.org/wiki/Hongzhi_Emperor",
         "quote": "was the tenth emperor of the Ming dynasty of China, reigning from 1487 to 1505"
       }
+    },
+    {
+      "name": "Wanli",
+      "title": "Emperor",
+      "from": 1572,
+      "to": 1620,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_16th_century",
+        "quote": "Wanli, Emperor (1572–1620)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Hongzhi",
+      "title": "Emperor",
+      "from": 1487,
+      "to": 1505,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Hongzhi, Emperor (1487–1505)"
+      }
     }
   ],
   "events": [

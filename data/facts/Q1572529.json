@@ -1,0 +1,19 @@
+{
+  "qid": "Q1572529",
+  "name": "Hanthawaddy kingdom",
+  "summary": "Hanthawaddy kingdom: office-holders in 1500, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Binnya Ran II",
+      "title": "King",
+      "from": 1492,
+      "to": 1526,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Binnya Ran II, King (1492–1526)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

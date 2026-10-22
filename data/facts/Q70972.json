@@ -12,8 +12,19 @@
         "url": "https://en.wikipedia.org/wiki/Charles_VIII_of_France",
         "quote": "was King of France from 1483 to his death in 1498"
       }
+    },
+    {
+      "name": "Louis XII",
+      "title": "King",
+      "from": 1498,
+      "to": 1515,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Louis XII, King (1498–1515)"
+      }
     }
   ],
+  "offices": [],
   "events": [
     {
       "year": 1494,

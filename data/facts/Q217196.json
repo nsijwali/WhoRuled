@@ -1,0 +1,30 @@
+{
+  "qid": "Q217196",
+  "name": "Crown of Castile",
+  "summary": "Crown of Castile: office-holders in 1500, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Isabella I the Catholic",
+      "title": "Queen",
+      "from": 1474,
+      "to": 1504,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Isabella I the Catholic, Queen (1474–1504)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Ferdinand the Catholic",
+      "title": "King",
+      "from": 1475,
+      "to": 1504,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Ferdinand the Catholic, King (1475–1504)"
+      }
+    }
+  ],
+  "events": []
+}

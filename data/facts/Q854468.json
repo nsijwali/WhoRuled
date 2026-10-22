@@ -1,0 +1,29 @@
+{
+  "qid": "Q854468",
+  "name": "Kingdom of Mutapa",
+  "summary": "Kingdom of Mutapa: office-holders in 1500, 1600, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "Chikuyo Chisamarengu",
+      "title": "Mwenemutapa",
+      "from": 1494,
+      "to": 1530,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Chikuyo Chisamarengu, Mwenemutapa (1494–c.1530)"
+      }
+    },
+    {
+      "name": "Gatsi Rusere",
+      "title": "Mwenemutapa",
+      "from": 1589,
+      "to": 1623,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_16th_century",
+        "quote": "Gatsi Rusere, Mwenemutapa (1589–1623)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

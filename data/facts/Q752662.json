@@ -1,0 +1,19 @@
+{
+  "qid": "Q752662",
+  "name": "Hafsid dynasty",
+  "summary": "Hafsid dynasty: office-holders in 1500, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Muhammad IV",
+      "title": "Khalif",
+      "from": 1494,
+      "to": 1526,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Muhammad IV, Khalif (1494–1526)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}
