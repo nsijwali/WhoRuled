@@ -1,8 +1,18 @@
 {
   "qid": "Q241790",
   "name": "Kush",
-  "summary": "Kush: office-holders in 323 BC, from Wikipedia's list of state leaders.",
+  "summary": "Kush: office-holders in 500 BC, 323 BC, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Amaniastabarqa",
+      "title": "King",
+      "from": -510,
+      "to": -487,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_6th_century_BC",
+        "quote": "Amaniastabarqa, King (510–487 BC)"
+      }
+    },
     {
       "name": "Nastasen",
       "title": "King",

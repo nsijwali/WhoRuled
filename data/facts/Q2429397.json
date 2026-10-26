@@ -1,8 +1,18 @@
 {
   "qid": "Q2429397",
   "name": "Carthage",
-  "summary": "Carthage: office-holders in 323 BC, from Wikipedia's list of state leaders.",
+  "summary": "Carthage: office-holders in 500 BC, 323 BC, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Hamilcar I",
+      "title": "King",
+      "from": -510,
+      "to": -480,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_6th_century_BC",
+        "quote": "Hamilcar I, King (c.510–480 BC)"
+      }
+    },
     {
       "name": "Hamilcar II",
       "title": "King",

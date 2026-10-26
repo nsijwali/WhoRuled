@@ -1,0 +1,19 @@
+{
+  "qid": "Q284964",
+  "name": "Cao",
+  "summary": "Cao: office-holders in 500 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Cao Bo yang",
+      "title": "ruler",
+      "from": -501,
+      "to": -487,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_6th_century_BC",
+        "quote": "Cao Bo yang, ruler (501–487 BC)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

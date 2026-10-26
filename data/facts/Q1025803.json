@@ -1,0 +1,19 @@
+{
+  "qid": "Q1025803",
+  "name": "Cai",
+  "summary": "Cai: office-holders in 500 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Zhao",
+      "title": "Marquis",
+      "from": -518,
+      "to": -491,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_6th_century_BC",
+        "quote": "Zhao, Marquis (518–491 BC)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

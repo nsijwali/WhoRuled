@@ -1,8 +1,18 @@
 {
   "qid": "Q504759",
   "name": "Chu",
-  "summary": "Chu: office-holders in 323 BC, from Wikipedia's list of state leaders.",
+  "summary": "Chu: office-holders in 500 BC, 323 BC, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Zhao",
+      "title": "King",
+      "from": -515,
+      "to": -489,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_6th_century_BC",
+        "quote": "Zhao, King (515–489 BC)"
+      }
+    },
     {
       "name": "Huai",
       "title": "King",

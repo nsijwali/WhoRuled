@@ -1,0 +1,19 @@
+# source: https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_6th_century_BC
+# Read 2026-10-26 from the 6th-century-BC list (REV 1261838601), the snapshot for 500 BC. A row is kept only when its ruler is dated to cover 500 BC and its linked Wikidata item's dates cover that year.
+# Skipped for 500 BC: Hồng Bàng dynasty (linked item has no dates), Magadha: Haryanka dynasty (ruler line has no title), Kingdom of Armenia (page gives no dated ruler for 500 BC), Athens, Corinth, Lydia, Median Empire, Anshan, Urartu, Kingdom of Judah, Elam, Neo-Babylonian Empire and the Roman Republic (no curated QID in the repo for these items).
+Carthage|Q2429397|Hamilcar I, King (c.510–480 BC)|Carthaginian Empire
+Cyrene|Q44112|Battus IV, King (515–465 BC)
+Kingdom of Kush|Q241790|Amaniastabarqa, King (510–487 BC)
+Zhou, China: Eastern Zhou|Q35216|Jìng, King (519–477 BC)
+Cai|Q1025803|Zhao, Marquis (518–491 BC)
+Cao|Q284964|Cao Bo yang, ruler (501–487 BC)
+Chu|Q504759|Zhao, King (515–489 BC)
+Jin|Q912043|Ding, Duke (511–475 BC)
+Lu|Q736936|Ding, Duke (509–495 BC)
+Qi: House of Jiang|Q837855|Jing, Duke (547–490 BC)
+Song|Q1065073|Jing, Duke (516–451 BC)
+Wey|Q1147897|Ling, Duke (534–493 BC)
+Wu|Q912068|Helü, King (515–496 BC)
+Macedonia: Argead dynasty|Q83958|Amyntas I, King (547–498 BC)
+Sparta|Q5690|Demaratus, King (c.515–491 BC)
+First Persian Empire: Achaemenid Empire|Q389688|Darius I, King of Kings (522–486 BC)|Achaemenid Empire
