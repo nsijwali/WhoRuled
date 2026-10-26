@@ -1,8 +1,18 @@
 {
   "qid": "Q16056854",
   "name": "Kingdom of Hungary (1301–1526)",
-  "summary": "Kingdom of Hungary (1301–1526): office-holders in 1500, from Wikipedia's list of state leaders.",
+  "summary": "Kingdom of Hungary (1301–1526): office-holders in 1400, 1500, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Sigismund",
+      "title": "King",
+      "from": 1387,
+      "to": 1437,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_14th_century",
+        "quote": "Sigismund, King (1387–1437)"
+      }
+    },
     {
       "name": "Vladislaus II",
       "title": "King",

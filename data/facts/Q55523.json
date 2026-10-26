@@ -1,0 +1,19 @@
+{
+  "qid": "Q55523",
+  "name": "Hokuzan: Ryukyu Kingdoms of the Sanzan period",
+  "summary": "Hokuzan: Ryukyu Kingdoms of the Sanzan period: office-holders in 1400, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Min",
+      "title": "Chief",
+      "from": 1396,
+      "to": 1400,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_14th_century",
+        "quote": "Min, Chief (1396–1400)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

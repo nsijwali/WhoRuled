@@ -1,0 +1,62 @@
+# source: https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_14th_century
+# Read 2026-10-26, revision 1375702981. QIDs come from each state's linked article and were checked against its Wikidata inception/dissolution dates. Kingdom of France (Q237131) and Kingdom of Hungary (Q16056854) use the QIDs from the row itself; Portugal, Scotland, Teutonic Knights, Sicily, Venice and Georgia use the QIDs in the rows.
+# Skipped for 1400: Đại Việt Trần and Hồ rows (the 1400 border is ambiguous between the two dynasties), Kingdom of Poland (the linked item is the 1025–1385 kingdom, not Poland-Lithuania), Kingdom of England (the 1400 border is "English territory", not the same entity), and all states with no 1400 border feature.
+# wikidata-description Q282428: Egyptian state spanning in Hejaz and the Levant (1250–1517)
+Mamluk Sultanate|Q282428|An-Nasir Faraj, Sultan (1399–1405)|Mamluke Sultanate
+# wikidata-description Q752662: Sunni Muslim dynasty of Amazigh (Berber) descent
+Hafsid dynasty|Q752662|Abd al-Aziz II, Khalif (1394–1434)|Hafsid Caliphate
+# wikidata-description Q582861: Muslim Berber dynasty (1244–1465)
+Marinid dynasty of Morocco|Q582861|Abu Said Uthman III, Sultan (1398–1420)|Morocco
+Kingdom of Benin|Q171203|Orobiru, Oba (1397–1434)|Benin
+# wikidata-description Q184536: empire in West Africa from c.1230 to 1670
+Mali Empire: Keita dynasty|Q184536|Maghan III, Mansa (1390–1400);Musa III, Mansa (1400–c.1440)|Mali
+Bornu Empire (Kanem–Bornu)|Q1139762|Bir III, Mai (1383–1415)|Kanem-Bornu
+# wikidata-description Q487829: 1226–1347 Turkicized Mongol khanate in Central Asia
+Western Chagatai Khanate|Q487829|Mahmud, Khan (1384–1402)|Chagatai Khanate
+# wikidata-description Q126416: dynastic regime that held sway over Tibet or parts thereof from 1354 to the early 17th century
+Phagmodrupa dynasty|Q126416|Drakpa Gyaltsen, Monarch (1385–1432)|Tibet
+# wikidata-description Q55521: 14th century kingdom
+Chūzan: Ryukyu Kingdoms of the Sanzan period|Q55521|Bunei, Chief (1398–1406)|Chūzan
+# wikidata-description Q55523: 14th century kingdom
+Hokuzan: Ryukyu Kingdoms of the Sanzan period|Q55523|Min, Chief (1396–1400)|Hokuzan
+# wikidata-description Q201705: 802–1431 empire in Southeast Asia
+Khmer Empire|Q201705|Intharacha, King (1394–c.1421)
+# wikidata-description Q863279: early kingdom in the area around the city Sukhothai, in north central Thailand
+Sukhothai Kingdom|Q863279|Maha Thammaracha III, King (1400–1419)|Sukhothai
+Ayutthaya Kingdom|Q841364|Ramrachathirat, King (1395–1409)|Ayutthaya
+# wikidata-description Q216786: Civilization, comprised of multiple kingdoms, sometimes unified, sometimes not, in South-East Asia
+Champa|Q216786|Ko Cheng, King (1390–1400);Jaya Simhavarman V, King (1400–1441)
+# wikidata-description Q229411: 1206–1526 empire in the Indian subcontinent
+Delhi sultanate: Tughlaq dynasty|Q229411|Muhammad Shah Tughuluq IV, Sultan (1394–1413)|Sultanate of Delhi
+Ottoman Empire|Q12560|Bayezid I, Sultan (1389–1402)
+# wikidata-description Q12544: Roman Empire during Late Antiquity and the Middle Ages
+Byzantine Empire|Q12544|Manuel II Palaiologos, Emperor (1391–1425)
+Kingdom of Scotland|Q230791|Robert III, King (1390–1406)|Scotland
+Holy Roman Empire, Kingdom of Germany|Q12548|Wenceslaus, King (1376–1400);Rupert, King (1400–1410)|Holy Roman Empire
+# wikidata-description Q16056854: former Central European monarchy (1301–1526)
+Kingdom of Hungary (1301–1526)|Q16056854|Sigismund, King (1387–1437)|Kingdom of Hungary
+# wikidata-description Q156020: crusader state formed by the Teutonic Order during the 13th century Northern Crusades
+State of the Teutonic Order|Q156020|Konrad von Jungingen, Grand Master (1393–1407)|Teutonic Knights
+# wikidata-description Q171393: historical and geographical region of Romania
+Principality of Wallachia|Q171393|Mircea I the Elder, Prince (1386–1394, 1397–1418)
+# wikidata-description Q62623: former country. personal union of the three kingdoms of Denmark, Sweden and Norway (1397–1523)
+Kalmar Union of Denmark, Sweden, and Norway|Q62623|Margaret I, Queen Regent of Denmark (1387–1412), of Norway (1388–1412), of Sweden (1389–1412);Eric of Pomerania, King (1389–1442)|Kalmar Union
+# wikidata-description Q170174: territories mostly in the Appenine Peninsula under the sovereign direct rule of the pope between 756–1870
+Papal States|Q170174|Boniface IX, Pope (1389–1404)
+# wikidata-description Q4948: former state (697–1797) controlling, at various times, parts of northeastern Italy, the Balkans, and Mediterranean islands
+Republic of Venice|Q4948|Antonio Venier, Doge (1382–1400);Michele Steno, Doge (1400–1413)|Venice
+# wikidata-description Q188586: former state in southern Italy, 1130–1816
+Kingdom of Trinacria: Sicily|Q188586|Maria, Queen (1377–1401)|Sicily
+# wikidata-description Q217196: former country (1230-1715)
+Crown of Castile|Q217196|Henry III the Infirm, King (1390–1406)|Castile
+# wikidata-description Q238445: historic Iberian state (1238–1492)
+Emirate of Granada|Q238445|Muhammad VII (1392–1408)|Granada
+# wikidata-description Q200262: Basque medieval kingdom that occupied lands on either side of the western Pyrenees, alongside the Atlantic Ocean (1162–1512)
+Kingdom of Navarre|Q200262|Charles III, King (1387–1425)|Navarre
+Kingdom of Portugal|Q45670|John I, King (1385–1433)|Portugal
+# wikidata-description Q70972: Kingdom of France (medieval and early modern)
+Kingdom of France|Q70972|Charles VI, King (1380–1422)|France
+# wikidata-description Q71747: former European sovereign state 939–1547, then dukedom of the Kingdom of France
+Duchy of Brittany|Q71747|John V, Duke (1399–1442)|Britany
+# wikidata-description Q154667: medieval state in Eastern Europe
+Kingdom of Georgia|Q154667|George VII, King (1393–1407)|Georgia

@@ -1,8 +1,18 @@
 {
   "qid": "Q230791",
   "name": "Kingdom of Scotland",
-  "summary": "Kingdom of Scotland: office-holders in 1500, 1600, from Wikipedia's lists of state leaders.",
+  "summary": "Kingdom of Scotland: office-holders in 1400, 1500, 1600, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Robert III",
+      "title": "King",
+      "from": 1390,
+      "to": 1406,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_14th_century",
+        "quote": "Robert III, King (1390–1406)"
+      }
+    },
     {
       "name": "James IV",
       "title": "King",
