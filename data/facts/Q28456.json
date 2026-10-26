@@ -1,0 +1,19 @@
+{
+  "qid": "Q28456",
+  "name": "Silla",
+  "summary": "Silla: office-holders in 600, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Jinpyeong",
+      "title": "King",
+      "from": 579,
+      "to": 632,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_7th_century",
+        "quote": "Jinpyeong, King (579–632)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

@@ -1,0 +1,19 @@
+{
+  "qid": "Q106577",
+  "name": "Neustria of the Franks",
+  "summary": "Neustria of the Franks: office-holders in 600, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Clotaire II",
+      "title": "King",
+      "from": 584,
+      "to": 629,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_7th_century",
+        "quote": "Clotaire II, King (584–629)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

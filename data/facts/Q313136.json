@@ -1,0 +1,19 @@
+{
+  "qid": "Q313136",
+  "name": "Dumnonia",
+  "summary": "Dumnonia: office-holders in 600, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Bledric ap Custennin",
+      "title": "King",
+      "from": 598,
+      "to": 613,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_7th_century",
+        "quote": "Bledric ap Custennin, King (c.598–c.613)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}
