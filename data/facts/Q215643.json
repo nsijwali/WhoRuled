@@ -1,0 +1,19 @@
+{
+  "qid": "Q215643",
+  "name": "Indo-Greek Kingdom",
+  "summary": "Indo-Greek Kingdom: office-holders in 1 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Strato II and Strato III",
+      "title": "Kings of Eastern Punjab",
+      "from": -25,
+      "to": 10,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_1st_century_BC",
+        "quote": "Strato II and Strato III, Kings of Eastern Punjab (25 BC–10 AD)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

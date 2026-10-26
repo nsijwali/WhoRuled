@@ -1512,7 +1512,8 @@
     "Macedon and Hellenic League": "Q83958",
     "Odrysian kingdom of Thrace": "Q870517",
     "Kingdom of Iberia (Kartli)": "Q19083",
-    "Numidia": "Q102679"
+    "Numidia": "Q102679",
+    "Kingdom of Armenia": "Q208404"
   },
   "-323": {
     "Qin": "Q34756",
@@ -1531,7 +1532,8 @@
     "Sparta": "Q5690",
     "Kush": "Q241790",
     "Carthaginian Empire": "Q2429397",
-    "Epirus": "Q11266977"
+    "Epirus": "Q11266977",
+    "Kingdom of Armenia": "Q208404"
   },
   "-1000": {
     "Twenty-first Dynasty of the Third Intermediate Period": "Q748151",
@@ -1539,5 +1541,30 @@
     "Zhou, China: Western Zhou": "Q35216",
     "Kingdom of David and Solomon": "Q3185305",
     "Athens": "Q1524"
+  },
+  "-1": {
+    "Silla": "Q28456",
+    "Parthian Empire": "Q1986139",
+    "Odrysian Kingdom": "Q870517",
+    "Dacia": "Q173082",
+    "Armenia": "Q208404",
+    "Kingdom of Kush": "Q241790",
+    "Mauretania": "Q309272",
+    "Han": "Q7209",
+    "Baekje": "Q28428",
+    "Koguryo": "Q28370",
+    "Satavahana dynasty (Purana-based chronology)": "Q5257",
+    "Apracharajas": "Q4781804",
+    "Simhala": "Q1965597",
+    "Cappadocia": "Q29654286",
+    "Bosporian Kingdom": "Q321371",
+    "Commagene": "Q332137",
+    "Elymais": "Q1275158",
+    "Indo-Greek Kingdom": "Q215643",
+    "Indo-Scythian Kingdom": "Q240123",
+    "Osroene": "Q237234",
+    "Pontus": "Q7380487",
+    "Catuvellauni": "Q1051384",
+    "Iberia (Kartli)": "Q19083"
   }
 }

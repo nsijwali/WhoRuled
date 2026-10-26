@@ -1,0 +1,19 @@
+{
+  "qid": "Q4781804",
+  "name": "Apracharajas",
+  "summary": "Apracharajas: office-holders in 1 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Vijayamitra",
+      "title": "Raja",
+      "from": -12,
+      "to": 15,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_1st_century_BC",
+        "quote": "Vijayamitra, Raja (12 BC–15 AD)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

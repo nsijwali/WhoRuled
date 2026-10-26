@@ -1,0 +1,19 @@
+{
+  "qid": "Q1051384",
+  "name": "Catuvellauni",
+  "summary": "Catuvellauni: office-holders in 1 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Tasciovanus",
+      "title": "King",
+      "from": -20,
+      "to": 9,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_1st_century_BC",
+        "quote": "Tasciovanus, King (c.20 BC–9 AD)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

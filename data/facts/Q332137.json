@@ -1,0 +1,19 @@
+{
+  "qid": "Q332137",
+  "name": "Commagene",
+  "summary": "Commagene: office-holders in 1 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Antiochus III",
+      "title": "King",
+      "from": -12,
+      "to": 17,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_1st_century_BC",
+        "quote": "Antiochus III, King (12 BC–17 AD)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

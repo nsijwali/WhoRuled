@@ -1,0 +1,19 @@
+{
+  "qid": "Q28428",
+  "name": "Baekje",
+  "summary": "Baekje: office-holders in 1 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Onjo",
+      "title": "King",
+      "from": -18,
+      "to": 28,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_1st_century_BC",
+        "quote": "Onjo, King (18 BC–28 AD)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

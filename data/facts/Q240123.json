@@ -1,0 +1,19 @@
+{
+  "qid": "Q240123",
+  "name": "Indo-Scythian Kingdom",
+  "summary": "Indo-Scythian Kingdom: office-holders in 1 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Zeionises",
+      "title": "Sub-king",
+      "from": -10,
+      "to": 10,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_1st_century_BC",
+        "quote": "Zeionises, Sub-king (c.10 BC–10 AD)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

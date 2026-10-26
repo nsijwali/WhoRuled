@@ -1,0 +1,19 @@
+{
+  "qid": "Q237234",
+  "name": "Osroene",
+  "summary": "Osroene: office-holders in 1 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Abgar V",
+      "title": "King",
+      "from": -4,
+      "to": 7,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_1st_century_BC",
+        "quote": "Abgar V, King (4 BC–7 AD, 13–50)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

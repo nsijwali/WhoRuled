@@ -1,7 +1,7 @@
 {
   "qid": "Q241790",
-  "name": "Kush",
-  "summary": "Kush: office-holders in 1000 BC, 500 BC, 323 BC, from Wikipedia's lists of state leaders.",
+  "name": "Kingdom of Kush",
+  "summary": "Kingdom of Kush: office-holders in 1000 BC, 500 BC, 323 BC, 1 BC, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Kandake Makeda",
@@ -31,6 +31,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_4th_century_BC",
         "quote": "Nastasen, King (335–315 BC)"
+      }
+    },
+    {
+      "name": "Amanishakheto",
+      "title": "Kandake, Queen Regent",
+      "from": -10,
+      "to": 1,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_1st_century_BC",
+        "quote": "Amanishakheto, Kandake, Queen Regent (c.10 BC–1 AD)"
       }
     }
   ],

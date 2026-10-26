@@ -1,7 +1,7 @@
 {
   "qid": "Q19083",
-  "name": "Kingdom of Iberia (Kartli)",
-  "summary": "Kingdom of Iberia (Kartli): office-holders in 200 BC, from Wikipedia's list of state leaders.",
+  "name": "Iberia (Kartli)",
+  "summary": "Iberia (Kartli): office-holders in 200 BC, 1 BC, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Sauromaces I",
@@ -11,6 +11,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_3rd_century_BC",
         "quote": "Sauromaces I, King (234–159 BC)"
+      }
+    },
+    {
+      "name": "Arshak II",
+      "title": "King",
+      "from": -20,
+      "to": 1,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_1st_century_BC",
+        "quote": "Arshak II, King (20 BC–1 AD)"
       }
     }
   ],
