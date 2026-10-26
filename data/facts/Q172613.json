@@ -1,0 +1,19 @@
+{
+  "qid": "Q172613",
+  "name": "Teotihuacan",
+  "summary": "Teotihuacan: office-holders in 400, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Spearthrower Owl",
+      "title": "Emperor",
+      "from": 374,
+      "to": 439,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_5th_century",
+        "quote": "Spearthrower Owl, Emperor (374–439)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}
