@@ -1,0 +1,19 @@
+{
+  "qid": "Q28208",
+  "name": "Goryeo",
+  "summary": "Goryeo: office-holders in 1200, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Sinjong",
+      "title": "King",
+      "from": 1197,
+      "to": 1204,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_12th_century",
+        "quote": "Sinjong, King (1197–1204)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

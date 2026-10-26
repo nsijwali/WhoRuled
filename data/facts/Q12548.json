@@ -4,6 +4,16 @@
   "summary": "Holy Roman Empire as drawn in the 1492 border data.",
   "rulers": [
     {
+      "name": "Philip",
+      "title": "King",
+      "from": 1198,
+      "to": 1208,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_12th_century",
+        "quote": "Philip, King (1198–1208)"
+      }
+    },
+    {
       "name": "Albert I",
       "title": "King",
       "from": 1298,
@@ -65,6 +75,16 @@
     }
   ],
   "offices": [
+    {
+      "name": "Otto IV",
+      "title": "King",
+      "from": 1198,
+      "to": 1209,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_12th_century",
+        "quote": "Otto IV, Holy Roman Emperor (1209–1215), King (1198–1209)"
+      }
+    },
     {
       "name": "Rupert",
       "title": "King",

@@ -1,8 +1,18 @@
 {
   "qid": "Q1470101",
   "name": "Kingdom of Hungary (1000–1301)",
-  "summary": "Kingdom of Hungary (1000–1301): office-holders in 1300, from Wikipedia's list of state leaders.",
+  "summary": "Kingdom of Hungary (1000–1301): office-holders in 1200, 1300, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Emeric",
+      "title": "King",
+      "from": 1196,
+      "to": 1204,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_12th_century",
+        "quote": "Emeric, King (1196–1204)"
+      }
+    },
     {
       "name": "Andrew III",
       "title": "King",

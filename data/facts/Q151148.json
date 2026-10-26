@@ -1,0 +1,19 @@
+{
+  "qid": "Q151148",
+  "name": "Chola dynasty",
+  "summary": "Chola dynasty: office-holders in 1200, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Kulothunga Chola III",
+      "title": "King",
+      "from": 1178,
+      "to": 1218,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_12th_century",
+        "quote": "Kulothunga Chola III, King (1178–1218)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

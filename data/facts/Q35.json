@@ -1,8 +1,18 @@
 {
   "qid": "Q35",
   "name": "Denmark",
-  "summary": "Denmark: office-holders in 1300, 1815, 1914, 1920, 1938, 1945, 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Denmark: office-holders in 1200, 1300, 1815, 1914, 1920, 1938, 1945, 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Canute VI",
+      "title": "King",
+      "from": 1182,
+      "to": 1202,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_12th_century",
+        "quote": "Canute VI, King (1182–1202)"
+      }
+    },
     {
       "name": "Eric VI",
       "title": "King",

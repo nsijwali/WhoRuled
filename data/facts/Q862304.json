@@ -1,0 +1,19 @@
+{
+  "qid": "Q862304",
+  "name": "Qara Khitai / Western Liao",
+  "summary": "Qara Khitai / Western Liao: office-holders in 1200, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Yelü Zhilugu",
+      "title": "Sovereign",
+      "from": 1178,
+      "to": 1211,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_12th_century",
+        "quote": "Yelü Zhilugu, Sovereign (1178–1211)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

@@ -1,0 +1,19 @@
+{
+  "qid": "Q7462",
+  "name": "Song dynasty",
+  "summary": "Song dynasty: office-holders in 1200, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Ningzong",
+      "title": "Emperor",
+      "from": 1194,
+      "to": 1224,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_12th_century",
+        "quote": "Ningzong, Emperor (1194–1224)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

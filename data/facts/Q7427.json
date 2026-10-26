@@ -1,0 +1,19 @@
+{
+  "qid": "Q7427",
+  "name": "Western Xia",
+  "summary": "Western Xia: office-holders in 1200, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Huánzōng",
+      "title": "Emperor",
+      "from": 1193,
+      "to": 1206,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_12th_century",
+        "quote": "Huánzōng, Emperor (1193–1206)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

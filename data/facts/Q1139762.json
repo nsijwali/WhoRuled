@@ -1,8 +1,18 @@
 {
   "qid": "Q1139762",
   "name": "Bornu Empire (Kanem–Bornu)",
-  "summary": "Bornu Empire (Kanem–Bornu): office-holders in 1300, 1400, 1500, 1600, 1700, 1800, 1815, 1880, from Wikipedia's lists of state leaders.",
+  "summary": "Bornu Empire (Kanem–Bornu): office-holders in 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1815, 1880, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Salmama I",
+      "title": "Mai",
+      "from": 1176,
+      "to": 1203,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_12th_century",
+        "quote": "Salmama I, Mai (1176–1203)"
+      }
+    },
     {
       "name": "Ibrahim I",
       "title": "Mai",
