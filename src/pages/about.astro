@@ -10,6 +10,19 @@ import { AFFILIATE_DISCLOSURE, AMAZON_TAG } from '../config/site';
   <main class="page">
     <h2 style="margin-top:0">About WhoRuled</h2>
     <p>WhoRuled is a free interactive map of who ruled where. Move the year slider, click a state, and see its rulers, government and sources.</p>
+    <video
+      controls
+      playsinline
+      muted
+      preload="none"
+      poster="/demo/whoruled-demo.jpg"
+      width="960"
+      height="540"
+      style="width:100%;height:auto;aspect-ratio:16/9;background:#000;margin-top:8px"
+      aria-label="20-second tour: slide the year, click a state, see who ruled it with a source link"
+    >
+      <source src="/demo/whoruled-demo.mp4" type="video/mp4" />
+    </video>
     <h2>Where the data comes from</h2>
     <ul>
       <li><strong>Borders:</strong> <a href="https://github.com/aourednik/historical-basemaps" target="_blank" rel="noopener noreferrer">historical-basemaps</a> by Andre Ourednik, GPL-3.0. Historical borders are approximate; the source dataset has snapshots only for certain years, so the map shows the nearest one you select. Its last snapshot is 2010.</li>
