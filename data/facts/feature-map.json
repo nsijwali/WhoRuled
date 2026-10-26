@@ -1481,5 +1481,21 @@
   },
   "-500": {
     "Achaemenid Empire": "Q389688"
+  },
+  "-200": {
+    "Bosporan Kingdom": "Q321371",
+    "Han Empire": "Q7209",
+    "Mauryan Empire": "Q62943",
+    "Satavahana dynasty (Purana-based chronology)": "Q5257",
+    "Anuradhapura Kingdom": "Q1965597",
+    "Kingdom of Bithynia": "Q373189",
+    "Bactria": "Q488880",
+    "Parthia": "Q1986139",
+    "Kingdom of Pontus": "Q7380487",
+    "Seleucid Kingdom": "Q93180",
+    "Macedon and Hellenic League": "Q83958",
+    "Odrysian kingdom of Thrace": "Q870517",
+    "Kingdom of Iberia (Kartli)": "Q19083",
+    "Numidia": "Q102679"
   }
 }

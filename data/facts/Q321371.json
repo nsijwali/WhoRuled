@@ -1,0 +1,30 @@
+{
+  "qid": "Q321371",
+  "name": "Bosporan Kingdom",
+  "summary": "Bosporan Kingdom: office-holders in 200 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Hygiainon",
+      "title": "King",
+      "from": -220,
+      "to": -200,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_3rd_century_BC",
+        "quote": "Hygiainon, King (c.220–c.200 BC)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Spartacus V",
+      "title": "King",
+      "from": -200,
+      "to": -180,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_3rd_century_BC",
+        "quote": "Spartacus V, King (c.200–c.180 BC)"
+      }
+    }
+  ],
+  "events": []
+}

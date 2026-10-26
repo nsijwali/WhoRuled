@@ -1,0 +1,19 @@
+{
+  "qid": "Q62943",
+  "name": "Maurya Empire",
+  "summary": "Maurya Empire: office-holders in 200 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Devavarman",
+      "title": "Emperor",
+      "from": -202,
+      "to": -195,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_3rd_century_BC",
+        "quote": "Devavarman, Emperor (202–195 BC)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

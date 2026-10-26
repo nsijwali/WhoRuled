@@ -1,0 +1,19 @@
+{
+  "qid": "Q1965597",
+  "name": "Anuradhapura Kingdom",
+  "summary": "Anuradhapura Kingdom: office-holders in 200 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Ellalan",
+      "title": "King",
+      "from": -205,
+      "to": -161,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_3rd_century_BC",
+        "quote": "Ellalan, King (205–161 BC)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

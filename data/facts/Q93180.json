@@ -1,0 +1,19 @@
+{
+  "qid": "Q93180",
+  "name": "Seleucid Empire",
+  "summary": "Seleucid Empire: office-holders in 200 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Antiochus III",
+      "title": "the Great, King",
+      "from": -223,
+      "to": -187,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_3rd_century_BC",
+        "quote": "Antiochus III, the Great, King (223–187 BC)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

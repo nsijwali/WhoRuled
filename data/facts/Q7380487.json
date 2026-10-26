@@ -1,0 +1,19 @@
+{
+  "qid": "Q7380487",
+  "name": "Kingdom of Pontus",
+  "summary": "Kingdom of Pontus: office-holders in 200 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Mithridates III",
+      "title": "King",
+      "from": -210,
+      "to": -190,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_3rd_century_BC",
+        "quote": "Mithridates III, King (c.210–c.190 BC)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

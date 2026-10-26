@@ -1,0 +1,19 @@
+{
+  "qid": "Q5257",
+  "name": "Satavahana dynasty (Purana-based chronology)",
+  "summary": "Satavahana dynasty (Purana-based chronology): office-holders in 200 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Krishna",
+      "title": "King",
+      "from": -205,
+      "to": -187,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_3rd_century_BC",
+        "quote": "Krishna, King (205–187 BC)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

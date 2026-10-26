@@ -1,0 +1,19 @@
+{
+  "qid": "Q83958",
+  "name": "Macedonia: Antigonid dynasty",
+  "summary": "Macedonia: Antigonid dynasty: office-holders in 200 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Philip V",
+      "title": "King",
+      "from": -221,
+      "to": -179,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_3rd_century_BC",
+        "quote": "Philip V, King (221–179 BC)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

@@ -1,0 +1,19 @@
+{
+  "qid": "Q19083",
+  "name": "Kingdom of Iberia (Kartli)",
+  "summary": "Kingdom of Iberia (Kartli): office-holders in 200 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Sauromaces I",
+      "title": "King",
+      "from": -234,
+      "to": -159,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_3rd_century_BC",
+        "quote": "Sauromaces I, King (234–159 BC)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

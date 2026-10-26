@@ -1,0 +1,19 @@
+{
+  "qid": "Q870517",
+  "name": "Odrysian kingdom of Thrace",
+  "summary": "Odrysian kingdom of Thrace: office-holders in 200 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Seuthes IV",
+      "title": "King",
+      "from": -215,
+      "to": -190,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_3rd_century_BC",
+        "quote": "Seuthes IV, King (215–190 BC)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}
