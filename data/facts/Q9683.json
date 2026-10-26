@@ -1,0 +1,19 @@
+{
+  "qid": "Q9683",
+  "name": "Tang dynasty",
+  "summary": "Tang dynasty: office-holders in 800, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Dezong",
+      "title": "Emperor",
+      "from": 780,
+      "to": 805,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_9th_century",
+        "quote": "Dezong, Emperor (780–805)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

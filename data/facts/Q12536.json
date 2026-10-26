@@ -1,0 +1,19 @@
+{
+  "qid": "Q12536",
+  "name": "Abbasid Caliphate, Baghdad",
+  "summary": "Abbasid Caliphate, Baghdad: office-holders in 800, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Harun al-Rashid",
+      "title": "Caliph",
+      "from": 786,
+      "to": 809,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_9th_century",
+        "quote": "Harun al-Rashid, Caliph (786–809)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

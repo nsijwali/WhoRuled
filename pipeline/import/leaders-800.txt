@@ -1,0 +1,21 @@
+# source: https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_9th_century
+# Read 2026-10-26, revision 1380825870. QIDs come from each state's linked article and were checked against its Wikidata inception/dissolution dates. Rows without a border are ruler-only: no 800 border name fits these states.
+# Skipped for 800: Kingdom of Wessex (the row did not match an 800 border name, so its ruler was not extracted), Republic of Venice and Kingdom of Italy (no 800 border name fits), Frankish Empire, and all states with no 800 border feature.
+# wikidata-description Q9683: empire in the China proper between 618 and 907 AD
+Tang dynasty|Q9683|Dezong, Emperor (780–805)|Tang Empire
+# wikidata-description Q216786: Civilization, comprised of multiple kingdoms, sometimes unified, sometimes not, in South-East Asia
+Champa|Q216786|Indravarman I, King (c.787–c.803)
+# wikidata-description Q12536: third Islamic caliphate (750–1258)
+Abbasid Caliphate, Baghdad|Q12536|Harun al-Rashid, Caliph (786–809)|Abbasid Caliphate
+# wikidata-description Q12544: Roman Empire during Late Antiquity and the Middle Ages
+Byzantine Empire|Q12544|Irene, Regent (780–790, 792–797), Empress (797–802)
+# wikidata-description Q102891: ancient and medieval tribal confederation in northern Britain
+Picts|Q102891|Constantine (I), King (789–820)
+# wikidata-description Q105092: one of the kingdoms of the Anglo-Saxon Heptarchy
+Mercia|Q105092|Coenwulf, King (796–821), also King of Kent and of East Anglia|Mercia
+# wikidata-description Q173282: historical semi-nomadic Turkic ethnic group
+Khazar Khaganate|Q173282|Obadiah, ruler (c.786–809)|Khazars
+# wikidata-description Q170174: territories mostly in the Appenine Peninsula under the sovereign direct rule of the pope between 756–1870
+Papal States|Q170174|Leo III, Pope (795–816)
+# wikidata-description Q1337854: independent emirate in the Iberian Peninsula (756–929)
+Emirate of Córdoba|Q1337854|al-Hakam I, Emir (796–822)

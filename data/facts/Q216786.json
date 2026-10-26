@@ -1,8 +1,18 @@
 {
   "qid": "Q216786",
   "name": "Champa",
-  "summary": "Champa: office-holders in 1000, 1100, 1200, 1300, 1400, from Wikipedia's lists of state leaders.",
+  "summary": "Champa: office-holders in 800, 1000, 1100, 1200, 1300, 1400, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Indravarman I",
+      "title": "King",
+      "from": 787,
+      "to": 803,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_9th_century",
+        "quote": "Indravarman I, King (c.787–c.803)"
+      }
+    },
     {
       "name": "Yang Pu Ku Vijaya",
       "title": "King",
