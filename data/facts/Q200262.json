@@ -1,8 +1,18 @@
 {
   "qid": "Q200262",
   "name": "Kingdom of Navarre",
-  "summary": "Kingdom of Navarre: office-holders in 1500, from Wikipedia's list of state leaders.",
+  "summary": "Kingdom of Navarre: office-holders in 1400, 1500, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Charles III",
+      "title": "King",
+      "from": 1387,
+      "to": 1425,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_14th_century",
+        "quote": "Charles III, King (1387–1425)"
+      }
+    },
     {
       "name": "Catherine",
       "title": "Queen",

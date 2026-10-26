@@ -4,6 +4,16 @@
   "summary": "Holy Roman Empire as drawn in the 1492 border data.",
   "rulers": [
     {
+      "name": "Wenceslaus",
+      "title": "King",
+      "from": 1376,
+      "to": 1400,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_14th_century",
+        "quote": "Wenceslaus, King (1376–1400)"
+      }
+    },
+    {
       "name": "Frederick III",
       "title": "emperor",
       "from": 1452,
@@ -45,6 +55,16 @@
     }
   ],
   "offices": [
+    {
+      "name": "Rupert",
+      "title": "King",
+      "from": 1400,
+      "to": 1410,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_14th_century",
+        "quote": "Rupert, King (1400–1410)"
+      }
+    },
     {
       "name": "Rudolf Coraduz von und zu Nußdorf",
       "title": "Vice Chancellor",

@@ -4,6 +4,16 @@
   "summary": "Kingdom of Portugal as drawn in the 1492 border data.",
   "rulers": [
     {
+      "name": "John I",
+      "title": "King",
+      "from": 1385,
+      "to": 1433,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_14th_century",
+        "quote": "John I, King (1385–1433)"
+      }
+    },
+    {
       "name": "John II",
       "title": "king",
       "from": 1481,

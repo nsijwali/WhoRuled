@@ -1,8 +1,18 @@
 {
   "qid": "Q841364",
   "name": "Ayutthaya Kingdom",
-  "summary": "Ayutthaya Kingdom: office-holders in 1500, 1600, 1700, from Wikipedia's lists of state leaders.",
+  "summary": "Ayutthaya Kingdom: office-holders in 1400, 1500, 1600, 1700, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Ramrachathirat",
+      "title": "King",
+      "from": 1395,
+      "to": 1409,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_14th_century",
+        "quote": "Ramrachathirat, King (1395–1409)"
+      }
+    },
     {
       "name": "Ramathibodi II",
       "title": "King",

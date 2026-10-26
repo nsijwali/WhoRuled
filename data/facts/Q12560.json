@@ -4,6 +4,16 @@
   "summary": "Ottoman Empire as drawn in the border data.",
   "rulers": [
     {
+      "name": "Bayezid I",
+      "title": "Sultan",
+      "from": 1389,
+      "to": 1402,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_14th_century",
+        "quote": "Bayezid I, Sultan (1389–1402)"
+      }
+    },
+    {
       "name": "Bayezid II",
       "title": "sultan",
       "from": 1481,

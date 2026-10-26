@@ -4,6 +4,16 @@
   "summary": "Republic of Venice as drawn in the 1492 border data.",
   "rulers": [
     {
+      "name": "Antonio Venier",
+      "title": "Doge",
+      "from": 1382,
+      "to": 1400,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_14th_century",
+        "quote": "Antonio Venier, Doge (1382–1400)"
+      }
+    },
+    {
       "name": "Agostino Barbarigo",
       "title": "doge",
       "from": 1486,
@@ -35,6 +45,16 @@
     }
   ],
   "offices": [
+    {
+      "name": "Michele Steno",
+      "title": "Doge",
+      "from": 1400,
+      "to": 1413,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_14th_century",
+        "quote": "Michele Steno, Doge (1400–1413)"
+      }
+    },
     {
       "name": "Alvise II Mocenigo",
       "title": "Doge",
