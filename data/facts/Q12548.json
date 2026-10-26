@@ -4,6 +4,16 @@
   "summary": "Holy Roman Empire as drawn in the 1492 border data.",
   "rulers": [
     {
+      "name": "Henry IV",
+      "title": "Holy Roman Emperor",
+      "from": 1084,
+      "to": 1105,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_11th_century",
+        "quote": "Henry IV, Holy Roman Emperor (1084–1105), King (1053–1087)"
+      }
+    },
+    {
       "name": "Philip",
       "title": "King",
       "from": 1198,
@@ -75,6 +85,16 @@
     }
   ],
   "offices": [
+    {
+      "name": "Henry V",
+      "title": "King",
+      "from": 1099,
+      "to": 1125,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_11th_century",
+        "quote": "Henry V, Holy Roman Emperor (1111–1125), King (1099–1125)"
+      }
+    },
     {
       "name": "Otto IV",
       "title": "King",

@@ -1,8 +1,18 @@
 {
   "qid": "Q216786",
   "name": "Champa",
-  "summary": "Champa: office-holders in 1200, 1300, 1400, from Wikipedia's lists of state leaders.",
+  "summary": "Champa: office-holders in 1100, 1200, 1300, 1400, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Jaya Indravarman II",
+      "title": "King",
+      "from": 1086,
+      "to": 1114,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_11th_century",
+        "quote": "Jaya Indravarman II, King (1080–1081, 1086–1114)"
+      }
+    },
     {
       "name": "Vidyanandana",
       "title": "King",

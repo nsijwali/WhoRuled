@@ -1,0 +1,19 @@
+{
+  "qid": "Q160307",
+  "name": "Fatimid Caliphate",
+  "summary": "Fatimid Caliphate: office-holders in 1100, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "al-Musta'li",
+      "title": "Caliph",
+      "from": 1094,
+      "to": 1101,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_11th_century",
+        "quote": "al-Musta'li, Caliph (1094–1101)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

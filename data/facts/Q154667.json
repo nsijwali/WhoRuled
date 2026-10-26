@@ -1,8 +1,18 @@
 {
   "qid": "Q154667",
   "name": "Kingdom of Georgia",
-  "summary": "Kingdom of Georgia: office-holders in 1200, 1300, 1400, from Wikipedia's lists of state leaders.",
+  "summary": "Kingdom of Georgia: office-holders in 1100, 1200, 1300, 1400, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "David IV",
+      "title": "King",
+      "from": 1089,
+      "to": 1125,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_11th_century",
+        "quote": "David IV, King (1089–1125)"
+      }
+    },
     {
       "name": "Tamar the Great",
       "title": "Queen",

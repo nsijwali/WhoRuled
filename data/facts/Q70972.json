@@ -4,6 +4,16 @@
   "summary": "Kingdom of France as drawn in the 1492 border data.",
   "rulers": [
     {
+      "name": "Philip I",
+      "title": "King",
+      "from": 1059,
+      "to": 1108,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_11th_century",
+        "quote": "Philip I, King (1059–1108)"
+      }
+    },
+    {
       "name": "Philip II Augustus",
       "title": "King",
       "from": 1180,
