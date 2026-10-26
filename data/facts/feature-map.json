@@ -1495,7 +1495,8 @@
     "Wey": "Q1147897",
     "Wu": "Q912068",
     "Macedonia: Argead dynasty": "Q83958",
-    "Sparta": "Q5690"
+    "Sparta": "Q5690",
+    "Athens": "Q1524"
   },
   "-200": {
     "Bosporan Kingdom": "Q321371",
@@ -1531,5 +1532,12 @@
     "Kush": "Q241790",
     "Carthaginian Empire": "Q2429397",
     "Epirus": "Q11266977"
+  },
+  "-1000": {
+    "Twenty-first Dynasty of the Third Intermediate Period": "Q748151",
+    "Kush": "Q241790",
+    "Zhou, China: Western Zhou": "Q35216",
+    "Kingdom of David and Solomon": "Q3185305",
+    "Athens": "Q1524"
   }
 }
