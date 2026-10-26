@@ -40,24 +40,23 @@ export class CanvasMap {
   private height = 0;
   private dpr = 1;
   private readonly ctx: CanvasRenderingContext2D;
-  private readonly hitCtx: CanvasRenderingContext2D;
-  private fills: (RealmFill | null)[];
+  private fills: (RealmFill | null)[] = [];
   private readonly patterns = new Map<RealmFill, CanvasPattern | string>();
   private ocean: CanvasPattern | string = '#000000';
   private wild: CanvasPattern | string = '#808080';
   private glint: CanvasPattern | string = 'rgba(255,255,255,0.4)';
   private dissolveSteps: (CanvasPattern | null)[] = [];
   /** Indices of named features that can carry a label, largest first. */
-  private readonly labelOrder: number[];
+  private labelOrder: number[] = [];
   private readonly textWidth = new Map<string, number>();
   private ghost: HTMLCanvasElement | null = null;
   private scratch: HTMLCanvasElement | null = null;
+  private readonly hitCtx: CanvasRenderingContext2D;
+  private features: readonly BorderFeature[];
 
   constructor(
     private readonly canvas: HTMLCanvasElement,
-    private readonly features: readonly BorderFeature[],
-    /** Keep what the canvas shows now, to dissolve from it into this snapshot. */
-    keepPrevious = false,
+    features: readonly BorderFeature[],
     private theme: EraTheme = themeOf(Number.POSITIVE_INFINITY),
   ) {
     const ctx = canvas.getContext('2d');
@@ -65,13 +64,29 @@ export class CanvasMap {
     if (!ctx || !hit) throw new Error('Canvas 2D is not available');
     this.ctx = ctx;
     this.hitCtx = hit;
+    this.features = features;
+    this.indexFeatures();
+  }
+
+  /**
+   * Swaps in another snapshot's borders without rebuilding the canvas, its patterns or its observers.
+   * Keeps the current picture so it can dissolve into the new one, unless motion is reduced.
+   */
+  setFeatures(features: readonly BorderFeature[], dissolve: boolean): void {
+    if (features === this.features) return;
+    if (dissolve) this.captureGhost();
+    this.features = features;
+    this.indexFeatures();
+  }
+
+  private indexFeatures(): void {
+    const { features, theme } = this;
     this.fills = features.map((f) => realmFill(f.name, f.overlord, theme.map.realms));
     this.labelOrder = features
       .map((f, i) => ({ f, i }))
-      .filter(({ f }) => f.name !== null && f.label !== null && hit.isPointInPath(f.path, f.label.x, f.label.y, 'evenodd'))
+      .filter(({ f }) => f.name !== null && f.label !== null && this.hitCtx.isPointInPath(f.path, f.label.x, f.label.y, 'evenodd'))
       .sort((p, q) => q.f.area - p.f.area)
       .map(({ i }) => i);
-    if (keepPrevious) this.captureGhost();
   }
 
   /** Keeps what the canvas shows now, to dissolve from it into whatever is drawn next. */

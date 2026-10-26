@@ -332,11 +332,14 @@ function MapView({
     schedule();
   }, [theme, schedule]);
 
+  // The renderer, zoom and resize observer live for the whole mount; a new year only swaps features into them.
+  const featuresRef = useRef(features);
+  featuresRef.current = features;
   useEffect(() => {
     const container = containerRef.current;
     const canvas = canvasRef.current;
     if (!container || !canvas) return;
-    const renderer = new CanvasMap(canvas, features, rendererRef.current !== null && !prefersLessMotion(), themeRef.current);
+    const renderer = new CanvasMap(canvas, featuresRef.current, themeRef.current);
     rendererRef.current = renderer;
     dissolveStartRef.current = performance.now();
 
@@ -428,9 +431,18 @@ function MapView({
       cancelAnimationFrame(hoverFrame);
       frameRef.current = 0;
     };
-  }, [features, schedule, select_]);
+  }, [schedule, select_]);
 
-  // Feature ids are only stable within one snapshot, so carry the chosen state over by name.
+  // A new snapshot dissolves in place. Feature ids are only stable within one snapshot, so the chosen state is carried over by name.
+  useEffect(() => {
+    const renderer = rendererRef.current;
+    if (!renderer) return;
+    const dissolve = !prefersLessMotion();
+    if (dissolve) dissolveStartRef.current = performance.now();
+    renderer.setFeatures(features, dissolve);
+    schedule();
+  }, [features, schedule]);
+
   useEffect(() => {
     const name = selectedNameRef.current;
     select_(name === null ? null : (features.find((f) => f.name === name) ?? null));
