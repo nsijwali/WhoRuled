@@ -1,0 +1,13 @@
+# source: https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_7th_century
+# Read 2026-10-26, revision 1347974317. QIDs come from each state's linked article and were checked against its Wikidata inception/dissolution dates. Silla and Dumnonia have no 600 border feature, so they are ruler-only rows.
+# Skipped for 600: Byzantine Empire, Kingdom of Wessex, Kingdom of Kent, Kingdom of East Anglia, Kingdom of Essex, Frankish Empire, Lombard, Bavaria and other states whose rows the list page does not give a ruler for 600 (their rows were not extracted), and all states with no 600 border feature. The page lists only five rulers for 600, so this snapshot has the fewest rows of any so far.
+# wikidata-description Q28456: kingdom on the Korean Peninsula (c.57 BCE-935 CE)
+Silla|Q28456|Jinpyeong, King (579–632)
+# wikidata-description Q1194765: kingdom based around Assam (350-1140)
+Kamarupa: Varman dynasty|Q1194765|Bhaskaravarman, King (600–650)|Kamarupa
+# wikidata-description Q83891: last pre-Islamic Iranian empire (224–651 AD)
+Persia: Sasanian Empire|Q83891|Khosrow II, Shahanshah, King of Kings (591–628)|Sasanian Empire
+# wikidata-description Q313136: kingdom in southwestern Britain
+Dumnonia|Q313136|Bledric ap Custennin, King (c.598–c.613)
+# wikidata-description Q106577: western part of the Kingdom of the Franks
+Neustria of the Franks|Q106577|Clotaire II, King (584–629)|Neustria

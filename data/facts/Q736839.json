@@ -1,0 +1,40 @@
+{
+  "qid": "Q736839",
+  "name": "Kamakura shogunate of Japan",
+  "summary": "Kamakura shogunate of Japan: office-holders in 1300, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Go-Fushimi",
+      "title": "Emperor",
+      "from": 1298,
+      "to": 1301,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_13th_century",
+        "quote": "Go-Fushimi, Emperor (1298–1301)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Prince Hisaaki",
+      "title": "Shōgun",
+      "from": 1289,
+      "to": 1308,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_13th_century",
+        "quote": "Prince Hisaaki, Shōgun (1289–1308)"
+      }
+    },
+    {
+      "name": "Hōjō Sadatoki",
+      "title": "Shikken",
+      "from": 1284,
+      "to": 1301,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_13th_century",
+        "quote": "Hōjō Sadatoki, Shikken (1284–1301)"
+      }
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,60 @@
+# source: https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_12th_century
+# Read 2026-10-26, revision 1374784596. QIDs come from each state's linked article and were checked against its Wikidata inception/dissolution dates. Kingdom of France uses Q70972, not the "France in the Middle Ages" article; Poland uses Q8890160 (the 1025–1385 kingdom), not the district principality.
+# Skipped for 1200: Kingdom of Benin, Jin dynasty, Kamakura shogunate, Kediri, Ghurid dynasty, Polonnaruwa, Abbasid Caliphate (no 1200 border name fits), Seljuk Sultanate of Rum, Second Bulgarian Empire, Grand Principality of Serbia, Kingdom of England (the 1200 border is not England), Kievan Rus' (no 1200 border name fits), Kingdom of Sicily, Duchy of Spoleto, Zagwe dynasty, Sultanate of Ifat, and states with no 1200 border feature.
+# wikidata-description Q1139762: former country in Africa
+Kanem Empire (Kanem–Bornu)|Q1139762|Salmama I, Mai (1176–1203)|Kanem
+# wikidata-description Q199688: 1121–1269 Berber empire in North Africa and Iberia
+Almohad Caliphate of Morocco|Q199688|Muhammad al-Nasir, Caliph (1199–1213)|Almohad Caliphate
+# wikidata-description Q862304: former country in Central Asia
+Qara Khitai / Western Liao|Q862304|Yelü Zhilugu, Sovereign (1178–1211)|Kara Khitai Khaganate
+# wikidata-description Q3875016: Mongolic tribal confederation (khanlig) on the Mongolian Plateau in the 12th century
+Khamag Mongol|Q3875016|Genghis, Khan (1189–1206)|Mongol Empire
+# wikidata-description Q7427: kingdom or empire in ancient China (1038–1227)
+Western Xia|Q7427|Huánzōng, Emperor (1193–1206)|Xixia
+# wikidata-description Q7462: former imperial dynasty of China (960–1279)
+Song dynasty|Q7462|Ningzong, Emperor (1194–1224)|Song Empire
+# wikidata-description Q28208: ancient kingdom in the Korean peninsula (918–1392)
+Goryeo|Q28208|Sinjong, King (1197–1204)
+# wikidata-description Q201705: 802–1431 empire in Southeast Asia
+Khmer Empire|Q201705|Jayavarman VII, King (1181–1218)
+# wikidata-description Q888574: former country
+Pagan Kingdom|Q888574|Narapatisithu (Sithu II), King (1174–1211)|Bagan
+# wikidata-description Q430309: Name of Vietnamese monarchy (1054 - 1400; 1428 - 1804)
+Đại Việt: Later Lý dynasty|Q430309|Lý Cao Tông, Emperor (1176–1210)|Đại Việt
+# wikidata-description Q216786: Civilization, comprised of multiple kingdoms, sometimes unified, sometimes not, in South-East Asia
+Champa|Q216786|Vidyanandana, (Khmer vassal in Pandurang) King (1190–1203)|Champa City States
+# wikidata-description Q151148: dynasty of southern India
+Chola dynasty|Q151148|Kulothunga Chola III, King (1178–1218)|Chola Empire
+Byzantine Empire|Q12544|Alexios III Angelos, Emperor (1195–1203)
+# wikidata-description Q230791: historic sovereign kingdom on the British Isles from the 9th century and up to 1707
+Kingdom of Scotland/ Kingdom of Alba|Q230791|William I the Lion, King (1165–1214)|Scotland
+# wikidata-description Q12548: multi-ethnic complex of territories in Western and Central Europe (800/962–1806)
+Holy Roman Empire, Kingdom of Germany|Q12548|Philip, King (1198–1208);Otto IV, Holy Roman Emperor (1209–1215), King (1198–1209)|Holy Roman Empire
+# wikidata-description Q1470101: former Central European monarchy (1000–1301)
+Kingdom of Hungary (1000–1301)|Q1470101|Emeric, King (1196–1204)|Hungary
+# wikidata-description Q8890160: Kingdom of Poland (1025–1385), the medieval Polish kingdom
+Seniorate Province in the Fragmentation of Poland|Q8890160|Leszek the White, High Duke (1194–1198, 1199–1202, 1206–1210, 1211–1227)|Poland
+# wikidata-description Q83546: Russian duchy in 12th-14th century
+Vladimir-Suzdal|Q83546|Vsevolod the Big Nest, Grand Duke (1176–1212)|Principality of Vladimir-Suzdal
+# wikidata-description Q35: country in Northern Europe
+Denmark|Q35|Canute VI, King (1182–1202)
+# wikidata-description Q2196956: former Kingdom from 872 to 1397
+Kingdom of Norway (872–1397)|Q2196956|Sverre, King (1184–1202)|Norway
+# wikidata-description Q170174: territories mostly in the Appenine Peninsula under the sovereign direct rule of the pope between 756–1870
+Papal States|Q170174|Innocent III, Pope (1198–1216)
+# wikidata-description Q4948: former state (697–1797) controlling, at various times, parts of northeastern Italy, the Balkans, and Mediterranean islands
+Republic of Venice|Q4948|Enrico Dandolo, Doge (1192–1205)|Venice
+# wikidata-description Q204920: composite monarchy which existed between 1162–1716
+Kingdom / Crown of Aragon|Q204920|Peter II, King (1196–1213)|Aragón
+# wikidata-description Q179293: European sovereign state (1065–1230)
+Kingdom of Castile|Q179293|Alfonso VIII the Noble, King (1158–1214)|Castilla
+# wikidata-description Q200262: Basque medieval kingdom that occupied lands on either side of the western Pyrenees, alongside the Atlantic Ocean (1162–1512)
+Kingdom of Navarre|Q200262|Sancho VII, King (1194–1234)|Navarre
+# wikidata-description Q45670: kingdom in Southwestern Europe (1139–1910)
+Kingdom of Portugal|Q45670|Sancho I, King (1185–1212)|Portugal
+# wikidata-description Q70972: Kingdom of France (medieval and early modern)
+Kingdom of France|Q70972|Philip II Augustus, King (1180–1223)|Kingdom of France
+# wikidata-description Q71747: former European sovereign state 939–1547, then dukedom of the Kingdom of France
+Duchy of Brittany|Q71747|Constance, Duchess (1166–1201);Guy of Thouars, Duke (1199–1201);Arthur I, Duke (1196–1203)|Britany
+# wikidata-description Q154667: medieval state in Eastern Europe
+Kingdom of Georgia|Q154667|Tamar the Great, Queen (1178–1213)|Georgia

@@ -1,8 +1,18 @@
 {
   "qid": "Q10791211",
   "name": "Kingdom of Mrauk U",
-  "summary": "Kingdom of Mrauk U: office-holders in 1500, from Wikipedia's list of state leaders.",
+  "summary": "Kingdom of Mrauk U: office-holders in 1492, 1500, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Min Dawlya",
+      "title": "King",
+      "from": 1482,
+      "to": 1492,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Min Dawlya, King (1482–1492)"
+      }
+    },
     {
       "name": "Salingathu",
       "title": "King",

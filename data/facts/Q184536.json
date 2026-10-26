@@ -1,8 +1,18 @@
 {
   "qid": "Q184536",
   "name": "Mali Empire: Keita dynasty",
-  "summary": "Mali Empire: Keita dynasty: office-holders in 1400, 1500, from Wikipedia's lists of state leaders.",
+  "summary": "Mali Empire: Keita dynasty: office-holders in 1300, 1400, 1492, 1500, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Sakoura",
+      "title": "Mansa",
+      "from": 1285,
+      "to": 1300,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_13th_century",
+        "quote": "Sakoura, Mansa (1285–1300)"
+      }
+    },
     {
       "name": "Maghan III",
       "title": "Mansa",
@@ -11,6 +21,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_14th_century",
         "quote": "Maghan III, Mansa (1390–1400)"
+      }
+    },
+    {
+      "name": "Mahmud II",
+      "title": "Mansa",
+      "from": 1481,
+      "to": 1496,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Mahmud II, Mansa (1481–1496)"
       }
     },
     {
@@ -25,6 +45,16 @@
     }
   ],
   "offices": [
+    {
+      "name": "Gao",
+      "title": "Mansa",
+      "from": 1300,
+      "to": 1305,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_13th_century",
+        "quote": "Gao, Mansa (1300–1305)"
+      }
+    },
     {
       "name": "Musa III",
       "title": "Mansa",

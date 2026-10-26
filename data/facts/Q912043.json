@@ -1,0 +1,19 @@
+{
+  "qid": "Q912043",
+  "name": "Jin",
+  "summary": "Jin: office-holders in 500 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Ding",
+      "title": "Duke",
+      "from": -511,
+      "to": -475,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_6th_century_BC",
+        "quote": "Ding, Duke (511–475 BC)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

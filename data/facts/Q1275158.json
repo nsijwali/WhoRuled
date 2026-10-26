@@ -1,0 +1,19 @@
+{
+  "qid": "Q1275158",
+  "name": "Elymais",
+  "summary": "Elymais: office-holders in 1 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Kamnaskires VII",
+      "title": "client King under Parthia",
+      "from": -28,
+      "to": 1,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_1st_century_BC",
+        "quote": "Kamnaskires VII, client King under Parthia (c.28 BC–c.1 AD)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

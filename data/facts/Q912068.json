@@ -1,0 +1,19 @@
+{
+  "qid": "Q912068",
+  "name": "Wu",
+  "summary": "Wu: office-holders in 500 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Helü",
+      "title": "King",
+      "from": -515,
+      "to": -496,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_6th_century_BC",
+        "quote": "Helü, King (515–496 BC)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

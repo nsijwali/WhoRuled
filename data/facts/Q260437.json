@@ -1,0 +1,19 @@
+{
+  "qid": "Q260437",
+  "name": "Atropatene",
+  "summary": "Atropatene: office-holders in 323 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Atropates",
+      "title": "Satrap",
+      "from": -323,
+      "to": -321,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_4th_century_BC",
+        "quote": "Atropates, Satrap (323–321 BC)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

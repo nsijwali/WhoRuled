@@ -1,0 +1,19 @@
+{
+  "qid": "Q888574",
+  "name": "Pagan Kingdom",
+  "summary": "Pagan Kingdom: office-holders in 1200, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Narapatisithu (Sithu II)",
+      "title": "King",
+      "from": 1174,
+      "to": 1211,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_12th_century",
+        "quote": "Narapatisithu (Sithu II), King (1174–1211)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

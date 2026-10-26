@@ -1,0 +1,26 @@
+# source: https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_1st_century_BC
+# Read 2026-10-26 from the 1st-century-BC list (REV 1378455622), the snapshot for 1 BC. A row is kept only when its ruler is dated to cover 1 BC and its linked Wikidata item's dates cover that year.
+# Skipped for 1 BC: Roman Empire: Principate (linked item Q2277 is a period article), Eastern Buyeo (linked item has an open start and no end), Marcomanni (linked item has no dates), and Judea, Roman Republic, Ptolemaic Kingdom of Egypt and Nabataea, which have no curated QID covering the year in the repo.
+Silla|Q28456|Hyeokgeose, King (57 BC–4 AD)
+Parthian Empire|Q1986139|Musa, Great Queen, Shah (2 BC–4 AD);Phraates V, Great King, Shah (2 BC–4 AD)
+Odrysian kingdom of Thrace|Q870517|Rhoemetalces I, King (12 BC–12 AD)|Odrysian Kingdom
+Dacia|Q173082|Comosicus, King (44 BC–28 AD)
+Armenia|Q208404|Ariobarzanes, client King under Rome (2 BC–4)
+Kingdom of Kush|Q241790|Amanishakheto, Kandake, Queen Regent (c.10 BC–1 AD)
+Mauretania|Q309272|Juba II, client King under Rome (25 BC–23 AD)
+Western Han, China|Q7209|Ping, Emperor (1 BC–5 AD)|Han
+Baekje|Q28428|Onjo, King (18 BC–28 AD)
+Goguryeo|Q28370|Yuri, King (19 BC–18 AD)|Koguryo
+Satavahana dynasty (Purana-based chronology)|Q5257|Satakarni III, King (1 BC–1 AD)
+Apracharajas|Q4781804|Vijayamitra, Raja (12 BC–15 AD)
+Anuradhapura Kingdom|Q1965597|Bhatikabhaya Abhaya, King (20 BC–9 AD)|Simhala
+Cappadocia|Q29654286|Archelaus, client King under Rome (36 BC–17 AD)
+Bosporan Kingdom|Q321371|Aspurgus, client King under Rome (8 BC–38 AD)|Bosporian Kingdom
+Commagene|Q332137|Antiochus III, King (12 BC–17 AD)
+Elymais|Q1275158|Kamnaskires VII, client King under Parthia (c.28 BC–c.1 AD)
+Indo-Greek Kingdom|Q215643|Strato II and Strato III, Kings of Eastern Punjab (25 BC–10 AD)
+Indo-Scythian Kingdom|Q240123|Zeionises, Sub-king (c.10 BC–10 AD)
+Osroene|Q237234|Abgar V, King (4 BC–7 AD, 13–50)
+Pontus|Q7380487|Pythodorida, client Queen under Rome (8 BC–38 AD)
+Catuvellauni|Q1051384|Tasciovanus, King (c.20 BC–9 AD)
+Iberia (Kartli)|Q19083|Arshak II, King (20 BC–1 AD)

@@ -1,0 +1,19 @@
+{
+  "qid": "Q28370",
+  "name": "Goguryeo",
+  "summary": "Goguryeo: office-holders in 1 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Yuri",
+      "title": "King",
+      "from": -19,
+      "to": 18,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_1st_century_BC",
+        "quote": "Yuri, King (19 BC–18 AD)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

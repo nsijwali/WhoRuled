@@ -1,0 +1,19 @@
+{
+  "qid": "Q912052",
+  "name": "Wei",
+  "summary": "Wei: office-holders in 323 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Hui",
+      "title": "King",
+      "from": -370,
+      "to": -319,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_4th_century_BC",
+        "quote": "Hui, King (370–319 BC)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

@@ -1,0 +1,19 @@
+{
+  "qid": "Q3875016",
+  "name": "Khamag Mongol",
+  "summary": "Khamag Mongol: office-holders in 1200, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Genghis",
+      "title": "Khan",
+      "from": 1189,
+      "to": 1206,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_12th_century",
+        "quote": "Genghis, Khan (1189–1206)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

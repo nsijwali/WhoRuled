@@ -1,0 +1,19 @@
+{
+  "qid": "Q83546",
+  "name": "Vladimir-Suzdal",
+  "summary": "Vladimir-Suzdal: office-holders in 1200, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Vsevolod the Big Nest",
+      "title": "Grand Duke",
+      "from": 1176,
+      "to": 1212,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_12th_century",
+        "quote": "Vsevolod the Big Nest, Grand Duke (1176–1212)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

@@ -1,0 +1,39 @@
+{
+  "qid": "Q83958",
+  "name": "Macedonia: Antigonid dynasty",
+  "summary": "Macedonia: Antigonid dynasty: office-holders in 500 BC, 323 BC, 200 BC, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "Amyntas I",
+      "title": "King",
+      "from": -547,
+      "to": -498,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_6th_century_BC",
+        "quote": "Amyntas I, King (547–498 BC)"
+      }
+    },
+    {
+      "name": "Alexander the Great",
+      "title": "King",
+      "from": -336,
+      "to": -323,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_4th_century_BC",
+        "quote": "Alexander the Great, King (336–323 BC)"
+      }
+    },
+    {
+      "name": "Philip V",
+      "title": "King",
+      "from": -221,
+      "to": -179,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_3rd_century_BC",
+        "quote": "Philip V, King (221–179 BC)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

@@ -1,8 +1,58 @@
 {
   "qid": "Q216786",
   "name": "Champa",
-  "summary": "Champa: office-holders in 1400, from Wikipedia's list of state leaders.",
+  "summary": "Champa: office-holders in 800, 1000, 1100, 1200, 1300, 1400, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Indravarman I",
+      "title": "King",
+      "from": 787,
+      "to": 803,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_9th_century",
+        "quote": "Indravarman I, King (c.787–c.803)"
+      }
+    },
+    {
+      "name": "Yang Pu Ku Vijaya",
+      "title": "King",
+      "from": 998,
+      "to": 1007,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_10th_century",
+        "quote": "Yang Pu Ku Vijaya, King (c.998–1007)"
+      }
+    },
+    {
+      "name": "Jaya Indravarman II",
+      "title": "King",
+      "from": 1086,
+      "to": 1114,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_11th_century",
+        "quote": "Jaya Indravarman II, King (1080–1081, 1086–1114)"
+      }
+    },
+    {
+      "name": "Vidyanandana",
+      "title": "King",
+      "from": 1190,
+      "to": 1203,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_12th_century",
+        "quote": "Vidyanandana, (Khmer vassal in Pandurang) King (1190–1203)"
+      }
+    },
+    {
+      "name": "Chế Mân",
+      "title": "King",
+      "from": 1288,
+      "to": 1307,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_13th_century",
+        "quote": "Chế Mân, King (1288–1307)"
+      }
+    },
     {
       "name": "Ko Cheng",
       "title": "King",

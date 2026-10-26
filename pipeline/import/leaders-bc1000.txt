@@ -1,0 +1,8 @@
+# source: https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_11th_century_BC
+# Read 2026-10-26 from the 11th-century-BC list (REV 1263172836), the snapshot for 1000 BC. A row is kept only when its ruler is dated to cover 1000 BC and its linked Wikidata item's dates cover that year.
+# Skipped for 1000 BC: Hồng Bàng dynasty and Assyria: Middle Assyrian Period (linked items have no dates), Middle Babylonian period: Bazi dynasty (linked item ends 1100 BC), Elam, Diauehi and Shang/Zhou states (no curated QID in the repo for these items), Egypt's Psusennes I line (reign ends 1001 BC, one year before the snapshot).
+Twenty-first Dynasty of the Third Intermediate Period|Q748151|Amenemope, Pharaoh (1001–992 BC)
+Kingdom of Kush|Q241790|Kandake Makeda, King (c.1005–950 BC)|Kush
+Zhou, China: Western Zhou|Q35216|Kang, King (c.1020–996 BC)
+Kingdom of united Israel|Q3185305|David, King (1000–962 BC)|Kingdom of David and Solomon
+Athens|Q1524|Archippus, hereditary perpetual Archon (1012–993 BC)

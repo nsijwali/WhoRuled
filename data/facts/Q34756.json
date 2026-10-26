@@ -1,0 +1,19 @@
+{
+  "qid": "Q34756",
+  "name": "Qin",
+  "summary": "Qin: office-holders in 323 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Huiwen",
+      "title": "King",
+      "from": -337,
+      "to": -311,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_4th_century_BC",
+        "quote": "Huiwen, King (337–311 BC)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

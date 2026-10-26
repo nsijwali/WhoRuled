@@ -1,0 +1,19 @@
+{
+  "qid": "Q736936",
+  "name": "Lu",
+  "summary": "Lu: office-holders in 500 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Ding",
+      "title": "Duke",
+      "from": -509,
+      "to": -495,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_6th_century_BC",
+        "quote": "Ding, Duke (509–495 BC)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

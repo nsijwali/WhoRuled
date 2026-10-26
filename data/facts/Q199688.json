@@ -1,0 +1,19 @@
+{
+  "qid": "Q199688",
+  "name": "Almohad Caliphate of Morocco",
+  "summary": "Almohad Caliphate of Morocco: office-holders in 1200, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Muhammad al-Nasir",
+      "title": "Caliph",
+      "from": 1199,
+      "to": 1213,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_12th_century",
+        "quote": "Muhammad al-Nasir, Caliph (1199–1213)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

@@ -4,6 +4,46 @@
   "summary": "Republic of Venice as drawn in the 1492 border data.",
   "rulers": [
     {
+      "name": "Pietro II Orseolo",
+      "title": "Doge",
+      "from": 991,
+      "to": 1009,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_10th_century",
+        "quote": "Pietro II Orseolo, Doge (991–1009)"
+      }
+    },
+    {
+      "name": "Vitale I Michiel",
+      "title": "Doge",
+      "from": 1096,
+      "to": 1102,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_11th_century",
+        "quote": "Vitale I Michiel, Doge (1096–1102)"
+      }
+    },
+    {
+      "name": "Enrico Dandolo",
+      "title": "Doge",
+      "from": 1192,
+      "to": 1205,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_12th_century",
+        "quote": "Enrico Dandolo, Doge (1192–1205)"
+      }
+    },
+    {
+      "name": "Pietro Gradenigo",
+      "title": "Doge",
+      "from": 1289,
+      "to": 1311,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_13th_century",
+        "quote": "Pietro Gradenigo, Doge (1289–1311)"
+      }
+    },
+    {
       "name": "Antonio Venier",
       "title": "Doge",
       "from": 1382,

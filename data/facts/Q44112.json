@@ -1,0 +1,19 @@
+{
+  "qid": "Q44112",
+  "name": "Cyrene",
+  "summary": "Cyrene: office-holders in 500 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Battus IV",
+      "title": "King",
+      "from": -515,
+      "to": -465,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_6th_century_BC",
+        "quote": "Battus IV, King (515–465 BC)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

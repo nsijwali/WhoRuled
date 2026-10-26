@@ -1,0 +1,19 @@
+{
+  "qid": "Q183150",
+  "name": "Colchis",
+  "summary": "Colchis: office-holders in 323 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Kuji",
+      "title": "King",
+      "from": -325,
+      "to": -280,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_4th_century_BC",
+        "quote": "Kuji, King (325–280 BC)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

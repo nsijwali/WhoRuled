@@ -1,0 +1,19 @@
+{
+  "qid": "Q1337854",
+  "name": "Emirate of Córdoba",
+  "summary": "Emirate of Córdoba: office-holders in 800, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "al-Hakam I",
+      "title": "Emir",
+      "from": 796,
+      "to": 822,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_9th_century",
+        "quote": "al-Hakam I, Emir (796–822)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

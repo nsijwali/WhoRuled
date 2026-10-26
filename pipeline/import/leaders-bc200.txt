@@ -1,0 +1,19 @@
+# source: https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_3rd_century_BC
+# Read 2026-10-26 from the 3rd-century-BC list (REV 1214271286), the snapshot for 200 BC. Only a few rows have a usable Wikidata QID; most states on the page are ruler-only here because the list names no border for them in this year.
+# Skipped for 200 BC: Ptolemaic Kingdom of Egypt (linked item Q2320005 is a period article), Indo-Greek Kingdom (linked item starts 180 BC), Kingdom of Cappadocia and Triệu dynasty (linked items have no dates), Dacia (linked item does not cover 200 BC), Kingdom of Pergamon (page gives the Attalus I line without a title), Western Han/Han Empire is kept because its dates cover the year.
+# wikidata-description Q321371: Greco-Scythian state near Sea of Azov (c.438 BC–c.527 AD)
+Bosporan Kingdom|Q321371|Hygiainon, King (c.220–c.200 BC);Spartacus V, King (c.200–c.180 BC)
+Western Han, China|Q7209|Gaozu, Emperor (202–195 BC)|Han Empire
+Maurya Empire|Q62943|Shalishuka, Emperor (215–202 BC);Devavarman, Emperor (202–195 BC)|Mauryan Empire
+Satavahana dynasty (Purana-based chronology)|Q5257|Krishna, King (205–187 BC)
+Anuradhapura Kingdom|Q1965597|Ellalan, King (205–161 BC)
+Kingdom of Bithynia|Q373189|Prusias I Cholus, King (228–182 BC)
+Greco-Bactrian Kingdom|Q488880|Euthydemus I, King (c.230–c.200 BC)|Bactria
+Parthian Empire|Q1986139|Arsaces II, King (211–191 BC)|Parthia
+Kingdom of Pontus|Q7380487|Mithridates III, King (c.210–c.190 BC)
+Seleucid Empire|Q93180|Antiochus III, the Great, King (223–187 BC)|Seleucid Kingdom
+Macedonia: Antigonid dynasty|Q83958|Philip V, King (221–179 BC)|Macedon and Hellenic League
+Odrysian kingdom of Thrace|Q870517|Seuthes IV, King (215–190 BC)
+Kingdom of Iberia (Kartli)|Q19083|Sauromaces I, King (234–159 BC)
+Numidia|Q102679|Massinissa, King (202–148 BC)
+Kingdom of Armenia|Q208404|Orontes IV, King (c.212–200 BC)

@@ -1,0 +1,19 @@
+{
+  "qid": "Q1574130",
+  "name": "Han",
+  "summary": "Han: office-holders in 323 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Xuanhui",
+      "title": "King",
+      "from": -332,
+      "to": -312,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_4th_century_BC",
+        "quote": "Xuanhui, King (332–312 BC)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

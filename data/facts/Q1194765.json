@@ -1,0 +1,19 @@
+{
+  "qid": "Q1194765",
+  "name": "Kamarupa: Varman dynasty",
+  "summary": "Kamarupa: Varman dynasty: office-holders in 600, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Bhaskaravarman",
+      "title": "King",
+      "from": 600,
+      "to": 650,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_7th_century",
+        "quote": "Bhaskaravarman, King (600–650)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

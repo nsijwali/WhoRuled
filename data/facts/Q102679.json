@@ -1,0 +1,19 @@
+{
+  "qid": "Q102679",
+  "name": "Numidia",
+  "summary": "Numidia: office-holders in 200 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Massinissa",
+      "title": "King",
+      "from": -202,
+      "to": -148,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_3rd_century_BC",
+        "quote": "Massinissa, King (202–148 BC)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

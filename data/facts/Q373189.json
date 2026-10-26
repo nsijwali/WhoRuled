@@ -1,0 +1,19 @@
+{
+  "qid": "Q373189",
+  "name": "Kingdom of Bithynia",
+  "summary": "Kingdom of Bithynia: office-holders in 200 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Prusias I Cholus",
+      "title": "King",
+      "from": -228,
+      "to": -182,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_3rd_century_BC",
+        "quote": "Prusias I Cholus, King (228–182 BC)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

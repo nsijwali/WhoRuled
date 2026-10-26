@@ -1,0 +1,50 @@
+{
+  "qid": "Q321371",
+  "name": "Bosporan Kingdom",
+  "summary": "Bosporan Kingdom: office-holders in 323 BC, 200 BC, 1 BC, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "Pairisades I",
+      "title": "King",
+      "from": -349,
+      "to": -311,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_4th_century_BC",
+        "quote": "Pairisades I, King (349–311 BC)"
+      }
+    },
+    {
+      "name": "Hygiainon",
+      "title": "King",
+      "from": -220,
+      "to": -200,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_3rd_century_BC",
+        "quote": "Hygiainon, King (c.220–c.200 BC)"
+      }
+    },
+    {
+      "name": "Aspurgus",
+      "title": "client King under Rome",
+      "from": -8,
+      "to": 38,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_1st_century_BC",
+        "quote": "Aspurgus, client King under Rome (8 BC–38 AD)"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "name": "Spartacus V",
+      "title": "King",
+      "from": -200,
+      "to": -180,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_3rd_century_BC",
+        "quote": "Spartacus V, King (c.200–c.180 BC)"
+      }
+    }
+  ],
+  "events": []
+}

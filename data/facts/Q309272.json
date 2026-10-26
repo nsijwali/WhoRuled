@@ -1,0 +1,19 @@
+{
+  "qid": "Q309272",
+  "name": "Mauretania",
+  "summary": "Mauretania: office-holders in 1 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Juba II",
+      "title": "client King under Rome",
+      "from": -25,
+      "to": 23,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_1st_century_BC",
+        "quote": "Juba II, client King under Rome (25 BC–23 AD)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

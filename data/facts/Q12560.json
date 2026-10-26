@@ -96,6 +96,16 @@
   ],
   "offices": [
     {
+      "name": "Koca Davud Pasha",
+      "title": "Grand Vizier",
+      "from": 1482,
+      "to": 1497,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Koca Davud Pasha, Grand Vizier (1482–1497)"
+      }
+    },
+    {
       "name": "Yakub Pasha",
       "title": "Grand Vizier",
       "from": 1499,

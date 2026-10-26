@@ -1,0 +1,19 @@
+{
+  "qid": "Q1250763",
+  "name": "Emirate of Sicily",
+  "summary": "Emirate of Sicily: office-holders in 1000, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Ja'far al-Kalbi",
+      "title": "Emir",
+      "from": 998,
+      "to": 1019,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_10th_century",
+        "quote": "Ja'far al-Kalbi, Emir (998–1019)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

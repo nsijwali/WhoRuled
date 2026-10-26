@@ -1,0 +1,5 @@
+# source: https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_3rd_century
+# Read 2026-10-26, revision 1308997578. QIDs come from each state's linked article and were checked against its Wikidata inception/dissolution dates. Silla is ruler-only: no 200 border feature.
+# Skipped for 200: Roman Empire (the linked item Q2277 is the "period of Ancient Rome" article, not a state), and all states with no 200 border feature. The list page gives one extractable ruler row for 200, so this snapshot is the thinnest so far.
+# wikidata-description Q28456: kingdom on the Korean Peninsula (c.57 BCE-935 CE)
+Silla|Q28456|Naehae, King (196–230)

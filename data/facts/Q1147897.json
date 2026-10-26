@@ -1,0 +1,19 @@
+{
+  "qid": "Q1147897",
+  "name": "Wey",
+  "summary": "Wey: office-holders in 500 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Ling",
+      "title": "Duke",
+      "from": -534,
+      "to": -493,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_6th_century_BC",
+        "quote": "Ling, Duke (534–493 BC)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

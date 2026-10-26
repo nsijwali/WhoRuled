@@ -4,6 +4,16 @@
   "summary": "Kingdom of England as drawn in the 1492 border data.",
   "rulers": [
     {
+      "name": "William II",
+      "title": "King",
+      "from": 1087,
+      "to": 1100,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_11th_century",
+        "quote": "William II, King (1087–1100)"
+      }
+    },
+    {
       "name": "Henry VII",
       "title": "king",
       "from": 1485,
@@ -24,7 +34,18 @@
       }
     }
   ],
-  "offices": [],
+  "offices": [
+    {
+      "name": "Henry I",
+      "title": "King",
+      "from": 1100,
+      "to": 1135,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_11th_century",
+        "quote": "Henry I, King (1100–1135)"
+      }
+    }
+  ],
   "events": [
     {
       "year": 1485,

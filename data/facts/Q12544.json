@@ -1,8 +1,58 @@
 {
   "qid": "Q12544",
   "name": "Byzantine Empire",
-  "summary": "Byzantine Empire: office-holders in 1400, from Wikipedia's list of state leaders.",
+  "summary": "Byzantine Empire: office-holders in 800, 1000, 1100, 1200, 1300, 1400, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Irene",
+      "title": "Empress",
+      "from": 797,
+      "to": 802,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_9th_century",
+        "quote": "Irene, Regent (780–790, 792–797), Empress (797–802)"
+      }
+    },
+    {
+      "name": "Basil II",
+      "title": "Emperor",
+      "from": 976,
+      "to": 1025,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_10th_century",
+        "quote": "Basil II, Junior Co-Emperor (960–976), Emperor (976–1025)"
+      }
+    },
+    {
+      "name": "Alexios I Komnenos",
+      "title": "Emperor",
+      "from": 1081,
+      "to": 1118,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_11th_century",
+        "quote": "Alexios I Komnenos, Emperor (1081–1118)"
+      }
+    },
+    {
+      "name": "Alexios III Angelos",
+      "title": "Emperor",
+      "from": 1195,
+      "to": 1203,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_12th_century",
+        "quote": "Alexios III Angelos, Emperor (1195–1203)"
+      }
+    },
+    {
+      "name": "Andronikos II Palaiologos",
+      "title": "Emperor",
+      "from": 1282,
+      "to": 1328,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_13th_century",
+        "quote": "Andronikos II Palaiologos, Emperor (1282–1328)"
+      }
+    },
     {
       "name": "Manuel II Palaiologos",
       "title": "Emperor",
@@ -14,6 +64,17 @@
       }
     }
   ],
-  "offices": [],
+  "offices": [
+    {
+      "name": "Michael IX Palaiologos",
+      "title": "co-Emperor",
+      "from": 1294,
+      "to": 1320,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_13th_century",
+        "quote": "Michael IX Palaiologos, co-Emperor (1294–1320)"
+      }
+    }
+  ],
   "events": []
 }

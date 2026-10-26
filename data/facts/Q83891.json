@@ -1,0 +1,19 @@
+{
+  "qid": "Q83891",
+  "name": "Persia: Sasanian Empire",
+  "summary": "Persia: Sasanian Empire: office-holders in 600, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Khosrow II",
+      "title": "Shahanshah, King of Kings",
+      "from": 591,
+      "to": 628,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_7th_century",
+        "quote": "Khosrow II, Shahanshah, King of Kings (591–628)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

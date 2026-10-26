@@ -1,0 +1,19 @@
+{
+  "qid": "Q1065073",
+  "name": "Song",
+  "summary": "Song: office-holders in 500 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Jing",
+      "title": "Duke",
+      "from": -516,
+      "to": -451,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_6th_century_BC",
+        "quote": "Jing, Duke (516–451 BC)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

@@ -1,0 +1,39 @@
+{
+  "qid": "Q2196956",
+  "name": "Kingdom of Norway (872–1397)",
+  "summary": "Kingdom of Norway (872–1397): office-holders in 1100, 1200, 1300, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "Magnus III Barefoot",
+      "title": "King",
+      "from": 1093,
+      "to": 1103,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_11th_century",
+        "quote": "Magnus III Barefoot, King (1093–1103)"
+      }
+    },
+    {
+      "name": "Sverre",
+      "title": "King",
+      "from": 1184,
+      "to": 1202,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_12th_century",
+        "quote": "Sverre, King (1184–1202)"
+      }
+    },
+    {
+      "name": "Haakon V",
+      "title": "King",
+      "from": 1299,
+      "to": 1319,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_13th_century",
+        "quote": "Haakon V, King (1299–1319)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

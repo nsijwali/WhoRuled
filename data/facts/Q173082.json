@@ -1,0 +1,19 @@
+{
+  "qid": "Q173082",
+  "name": "Dacia",
+  "summary": "Dacia: office-holders in 1 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Comosicus",
+      "title": "King",
+      "from": -44,
+      "to": 28,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_1st_century_BC",
+        "quote": "Comosicus, King (44 BC–28 AD)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

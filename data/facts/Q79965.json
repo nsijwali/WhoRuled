@@ -1,0 +1,19 @@
+{
+  "qid": "Q79965",
+  "name": "Golden Horde",
+  "summary": "Golden Horde: office-holders in 1300, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Toqta",
+      "title": "Khan",
+      "from": 1291,
+      "to": 1312,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_13th_century",
+        "quote": "Toqta, Khan (1291–1312)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

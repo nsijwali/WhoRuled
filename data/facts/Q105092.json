@@ -1,0 +1,19 @@
+{
+  "qid": "Q105092",
+  "name": "Mercia",
+  "summary": "Mercia: office-holders in 800, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Coenwulf",
+      "title": "King",
+      "from": 796,
+      "to": 821,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_9th_century",
+        "quote": "Coenwulf, King (796–821), also King of Kent and of East Anglia"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

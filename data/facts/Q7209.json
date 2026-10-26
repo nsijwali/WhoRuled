@@ -1,0 +1,29 @@
+{
+  "qid": "Q7209",
+  "name": "Western Han, China",
+  "summary": "Western Han, China: office-holders in 200 BC, 1 BC, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "Gaozu",
+      "title": "Emperor",
+      "from": -202,
+      "to": -195,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_3rd_century_BC",
+        "quote": "Gaozu, Emperor (202–195 BC)"
+      }
+    },
+    {
+      "name": "Ping",
+      "title": "Emperor",
+      "from": -1,
+      "to": 5,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_1st_century_BC",
+        "quote": "Ping, Emperor (1 BC–5 AD)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

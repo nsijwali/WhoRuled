@@ -1,0 +1,39 @@
+{
+  "qid": "Q870517",
+  "name": "Odrysian kingdom of Thrace",
+  "summary": "Odrysian kingdom of Thrace: office-holders in 323 BC, 200 BC, 1 BC, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "Seuthes III",
+      "title": "King",
+      "from": -331,
+      "to": -300,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_4th_century_BC",
+        "quote": "Seuthes III, King (331–300 BC)"
+      }
+    },
+    {
+      "name": "Seuthes IV",
+      "title": "King",
+      "from": -215,
+      "to": -190,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_3rd_century_BC",
+        "quote": "Seuthes IV, King (215–190 BC)"
+      }
+    },
+    {
+      "name": "Rhoemetalces I",
+      "title": "King",
+      "from": -12,
+      "to": 12,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_1st_century_BC",
+        "quote": "Rhoemetalces I, King (12 BC–12 AD)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

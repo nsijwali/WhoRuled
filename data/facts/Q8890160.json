@@ -1,0 +1,29 @@
+{
+  "qid": "Q8890160",
+  "name": "Kingdom of Poland",
+  "summary": "Kingdom of Poland: office-holders in 1200, 1300, from Wikipedia's lists of state leaders.",
+  "rulers": [
+    {
+      "name": "Leszek the White",
+      "title": "High Duke",
+      "from": 1199,
+      "to": 1202,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_12th_century",
+        "quote": "Leszek the White, High Duke (1194–1198, 1199–1202, 1206–1210, 1211–1227)"
+      }
+    },
+    {
+      "name": "Wenceslaus II",
+      "title": "High Duke",
+      "from": 1291,
+      "to": 1300,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_13th_century",
+        "quote": "Wenceslaus II, High Duke (1291–1300), King (1300–1305)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

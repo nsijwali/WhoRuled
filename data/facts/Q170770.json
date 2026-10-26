@@ -4,6 +4,16 @@
   "summary": "Grand Duchy of Moscow as drawn in the 1492 border data.",
   "rulers": [
     {
+      "name": "Daniel of Moscow",
+      "title": "Grand prince",
+      "from": 1283,
+      "to": 1303,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_13th_century",
+        "quote": "Daniel of Moscow, Grand prince (1283–1303)"
+      }
+    },
+    {
       "name": "Ivan III",
       "title": "grand prince",
       "from": 1462,

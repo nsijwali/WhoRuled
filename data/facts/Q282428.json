@@ -4,6 +4,16 @@
   "summary": "Mamluk Sultanate as drawn in the 1492 border data.",
   "rulers": [
     {
+      "name": "Al-Nasir Muhammad",
+      "title": "Sultan",
+      "from": 1299,
+      "to": 1309,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_13th_century",
+        "quote": "Al-Nasir Muhammad, Sultan (1299–1309)"
+      }
+    },
+    {
       "name": "An-Nasir Faraj",
       "title": "Sultan",
       "from": 1399,
