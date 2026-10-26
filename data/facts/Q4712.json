@@ -1,8 +1,18 @@
 {
   "qid": "Q4712",
   "name": "Duchy of Burgundy",
-  "summary": "Duchy of Burgundy: office-holders in 1100, from Wikipedia's list of state leaders.",
+  "summary": "Duchy of Burgundy: office-holders in 1000, 1100, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Eudes Henry",
+      "title": "Duke",
+      "from": 965,
+      "to": 1002,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_10th_century",
+        "quote": "Eudes Henry, Duke (965–1002)"
+      }
+    },
     {
       "name": "Odo I",
       "title": "Duke",

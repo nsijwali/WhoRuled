@@ -1,8 +1,18 @@
 {
   "qid": "Q7462",
   "name": "Song dynasty",
-  "summary": "Song dynasty: office-holders in 1100, 1200, from Wikipedia's lists of state leaders.",
+  "summary": "Song dynasty: office-holders in 1000, 1100, 1200, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Zhenzong",
+      "title": "Emperor",
+      "from": 997,
+      "to": 1022,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_10th_century",
+        "quote": "Zhenzong, Emperor (997–1022)"
+      }
+    },
     {
       "name": "Zhezong",
       "title": "Emperor",

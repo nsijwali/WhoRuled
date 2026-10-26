@@ -1,8 +1,18 @@
 {
   "qid": "Q71747",
   "name": "Duchy of Brittany",
-  "summary": "Duchy of Brittany: office-holders in 1100, 1200, 1300, 1400, 1500, from Wikipedia's lists of state leaders.",
+  "summary": "Duchy of Brittany: office-holders in 1000, 1100, 1200, 1300, 1400, 1500, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Geoffrey I",
+      "title": "Duke",
+      "from": 992,
+      "to": 1008,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_10th_century",
+        "quote": "Geoffrey I, Duke (992–1008)"
+      }
+    },
     {
       "name": "Alan IV",
       "title": "Duke",

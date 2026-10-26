@@ -4,6 +4,16 @@
   "summary": "Holy Roman Empire as drawn in the 1492 border data.",
   "rulers": [
     {
+      "name": "Otto III",
+      "title": "King",
+      "from": 983,
+      "to": 1002,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_10th_century",
+        "quote": "Otto III, King (983–1002), Holy Roman Emperor (996–1002)"
+      }
+    },
+    {
       "name": "Henry IV",
       "title": "Holy Roman Emperor",
       "from": 1084,

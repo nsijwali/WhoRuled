@@ -1,0 +1,37 @@
+# source: https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_10th_century
+# Read 2026-10-26, revision 1348925628. QIDs come from each state's linked article and were checked against its Wikidata inception/dissolution dates. Principality of Hungary (Q2899771) is the predecessor of the Kingdom of Hungary, so its border is Magyars.
+# Skipped for 1000: Đại Việt Early Lê dynasty (its QID is dated 1054–1400, which starts after this snapshot), Kingdom of Wessex / Kingdom of England (QID ends 927), Kingdom of Poland (QID starts 1025), Emirate of Córdoba and West Frankish Kingdom (QIDs end before 1000), Denmark, Kingdom of Norway, Kingdom of Italy, Civitas Schinesghe, and all states with no 1000 border feature.
+# wikidata-description Q160307: Egyptian Shia Islamic caliphate (909–1171)
+Fatimid Caliphate|Q160307|al-Hakim bi-Amr Allah, Caliph (996–1021)
+# wikidata-description Q249578: former country
+Ghaznavid dynasty|Q249578|Mahmud, Emir (998–1002), Sultan (1002–1030)|Ghaznavid Emirate
+# wikidata-description Q4958: Khitan imperial dynasty in East Asia (916-1125), controlling northern and northeastern China, Mongolia, Russian Far East and North Korea
+Liao dynasty|Q4958|Shengzong, Emperor (982–1031)|Liao
+# wikidata-description Q7462: former imperial dynasty of China (960–1279)
+Song dynasty|Q7462|Zhenzong, Emperor (997–1022)|Song Empire
+# wikidata-description Q28208: ancient kingdom in the Korean peninsula (918–1392)
+Goryeo|Q28208|Mokjong, King (997–1009)|Korea
+# wikidata-description Q201705: 802–1431 empire in Southeast Asia
+Khmer Empire|Q201705|Jayavarman V, King (968–1001)
+# wikidata-description Q216786: Civilization, comprised of multiple kingdoms, sometimes unified, sometimes not, in South-East Asia
+Champa|Q216786|Yang Pu Ku Vijaya, King (c.998–1007)|Champa
+# wikidata-description Q151148: dynasty of southern India
+Chola dynasty|Q151148|Rajaraja I, King (c.985–1014)|Chola Empire
+# wikidata-description Q12544: Roman Empire during Late Antiquity and the Middle Ages
+Byzantine Empire|Q12544|Basil II, Junior Co-Emperor (960–976), Emperor (976–1025)
+# wikidata-description Q230791: historic sovereign kingdom on the British Isles from the 9th century and up to 1707
+Kingdom of Scotland/ Kingdom of Alba|Q230791|Kenneth III, King (997–1005)|Scotland
+# wikidata-description Q12548: multi-ethnic complex of territories in Western and Central Europe (800/962–1806)
+Holy Roman Empire, Kingdom of Germany|Q12548|Otto III, King (983–1002), Holy Roman Emperor (996–1002)|Holy Roman Empire
+# wikidata-description Q2899771: predecessor of the Kingdom of Hungary
+Principality of Hungary|Q2899771|Stephen I, Grand Prince (997–1000), King (1000–1038)|Magyars
+# wikidata-description Q1108445: former federation of East Slavic tribes
+Kievan Rus'|Q1108445|Vladimir I the Great, Grand Prince (980–1015)|Kyivan Rus
+# wikidata-description Q4948: former state (697–1797) controlling, at various times, parts of northeastern Italy, the Balkans, and Mediterranean islands
+Republic of Venice|Q4948|Pietro II Orseolo, Doge (991–1009)|Venice
+# wikidata-description Q1250763: history of Islam in medieval Sicily (827-1091)
+Emirate of Sicily|Q1250763|Ja'far al-Kalbi, Emir (998–1019)
+# wikidata-description Q71747: former European sovereign state 939–1547, then dukedom of the Kingdom of France
+Duchy of Brittany|Q71747|Geoffrey I, Duke (992–1008)|Britany
+# wikidata-description Q4712: vassal territory of France, 918–1482
+Duchy of Burgundy|Q4712|Eudes Henry, Duke (965–1002)|Burgandy
