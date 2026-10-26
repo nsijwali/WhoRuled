@@ -1,0 +1,19 @@
+{
+  "qid": "Q5690",
+  "name": "Sparta",
+  "summary": "Sparta: office-holders in 323 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Eudamidas I",
+      "title": "King",
+      "from": -331,
+      "to": -305,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_4th_century_BC",
+        "quote": "Eudamidas I, King (c.331–305 BC)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

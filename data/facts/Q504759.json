@@ -1,0 +1,19 @@
+{
+  "qid": "Q504759",
+  "name": "Chu",
+  "summary": "Chu: office-holders in 323 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Huai",
+      "title": "King",
+      "from": -328,
+      "to": -299,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_4th_century_BC",
+        "quote": "Huai, King (328–299 BC)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

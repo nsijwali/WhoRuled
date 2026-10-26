@@ -1,0 +1,19 @@
+{
+  "qid": "Q197430",
+  "name": "Zhao",
+  "summary": "Zhao: office-holders in 323 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Wuling",
+      "title": "King",
+      "from": -326,
+      "to": -299,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_4th_century_BC",
+        "quote": "Wuling, King (326–299 BC)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

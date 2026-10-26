@@ -1,0 +1,19 @@
+{
+  "qid": "Q2429397",
+  "name": "Carthage",
+  "summary": "Carthage: office-holders in 323 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Hamilcar II",
+      "title": "King",
+      "from": -330,
+      "to": -309,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_4th_century_BC",
+        "quote": "Hamilcar II, King (330–309 BC)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

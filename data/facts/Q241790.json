@@ -1,0 +1,19 @@
+{
+  "qid": "Q241790",
+  "name": "Kush",
+  "summary": "Kush: office-holders in 323 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Nastasen",
+      "title": "King",
+      "from": -335,
+      "to": -315,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_4th_century_BC",
+        "quote": "Nastasen, King (335–315 BC)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

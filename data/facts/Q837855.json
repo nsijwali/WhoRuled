@@ -1,0 +1,19 @@
+{
+  "qid": "Q837855",
+  "name": "Qi: House of Tian",
+  "summary": "Qi: House of Tian: office-holders in 323 BC, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Wei",
+      "title": "King",
+      "from": -356,
+      "to": -320,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_4th_century_BC",
+        "quote": "Wei, King (356–320 BC)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

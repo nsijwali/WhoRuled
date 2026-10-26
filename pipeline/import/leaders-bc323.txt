@@ -1,0 +1,20 @@
+# source: https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_4th_century_BC
+# Read 2026-10-26 from the 4th-century-BC list (REV 1378460772), the snapshot for 323 BC (Alexander's death year). A row is kept only when its ruler is dated to cover 323 BC and its linked Wikidata item's dates cover that year.
+# Skipped for 323 BC: Maurya Empire and Magadha (linked items end before 323 BC or start after it), Bithynia and Seleucid Empire (linked items start after 323 BC), Kingdom of Armenia (linked item dates end before 323 BC), Paeonia, Dacia, Hồng Bàng dynasty and Kingdom of Cappadocia (linked items have no dates or the page gives no named ruler), Numidia (linked item starts later), Athens (page lists archons only up to 338 BC), Roman Republic (no curated QID in the repo for this year), Achaemenid Empire (last ruler ends 330 BC).
+Qin|Q34756|Huiwen, King (337–311 BC)
+Atropatene|Q260437|Atropates, Satrap (323–321 BC)
+Bosporan Kingdom|Q321371|Pairisades I, King (349–311 BC)
+Colchis|Q183150|Kuji, King (325–280 BC)
+Zhou, China: Eastern Zhou|Q35216|Xian, King (368–321 BC)
+Chu|Q504759|Huai, King (328–299 BC)
+Han|Q1574130|Xuanhui, King (332–312 BC)
+Qi: House of Tian|Q837855|Wei, King (356–320 BC)
+Wei|Q912052|Hui, King (370–319 BC)
+Zhao|Q197430|Wuling, King (326–299 BC)
+Anuradhapura Kingdom|Q1965597|Mutasiva, King (367–307 BC)
+Odrysian kingdom of Thrace|Q870517|Seuthes III, King (331–300 BC)
+Macedonia: Argead dynasty|Q83958|Alexander the Great, King (336–323 BC)
+Sparta|Q5690|Eudamidas I, King (c.331–305 BC)
+Kush|Q241790|Nastasen, King (335–315 BC)
+Carthage|Q2429397|Hamilcar II, King (330–309 BC)|Carthaginian Empire
+Epirus|Q11266977|Aeacides, King (330–317 BC)
