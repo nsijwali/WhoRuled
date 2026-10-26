@@ -1,8 +1,18 @@
 {
   "qid": "Q202687",
   "name": "Songhai Empire",
-  "summary": "Songhai Empire: office-holders in 1500, from Wikipedia's list of state leaders.",
+  "summary": "Songhai Empire: office-holders in 1492, 1500, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Sonni Ali",
+      "title": "King",
+      "from": 1464,
+      "to": 1492,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Sonni Ali, King (1464–1492)"
+      }
+    },
     {
       "name": "Askia Mohammad I",
       "title": "King",

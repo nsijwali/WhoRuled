@@ -1,8 +1,18 @@
 {
   "qid": "Q171348",
   "name": "Kingdom of Poland (1385–1569)",
-  "summary": "Kingdom of Poland (1385–1569): office-holders in 1500, from Wikipedia's list of state leaders.",
+  "summary": "Kingdom of Poland (1385–1569): office-holders in 1492, 1500, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Casimir IV",
+      "title": "King",
+      "from": 1447,
+      "to": 1492,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Casimir IV, King (1447–1492)"
+      }
+    },
     {
       "name": "John I Albert",
       "title": "King",

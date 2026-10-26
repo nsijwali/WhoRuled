@@ -64,7 +64,18 @@
       }
     }
   ],
-  "offices": [],
+  "offices": [
+    {
+      "name": "Charles VIII the Affable",
+      "title": "King",
+      "from": 1483,
+      "to": 1498,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Charles VIII the Affable, King (1483–1498)"
+      }
+    }
+  ],
   "events": [
     {
       "year": 1494,

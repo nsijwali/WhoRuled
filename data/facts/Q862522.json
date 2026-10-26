@@ -1,0 +1,19 @@
+{
+  "qid": "Q862522",
+  "name": "Mossi Kingdom of Nungu",
+  "summary": "Mossi Kingdom of Nungu: office-holders in 1492, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Gima",
+      "title": "Nunbado",
+      "from": 1470,
+      "to": 1520,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Gima, Nunbado (1470–1520)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

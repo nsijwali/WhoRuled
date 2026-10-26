@@ -64,16 +64,6 @@
       }
     },
     {
-      "name": "Maximilian I",
-      "title": "King",
-      "from": 1486,
-      "to": 1519,
-      "source": {
-        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
-        "quote": "Maximilian I, Emperor Elect (1508–1519), King (1486–1519)"
-      }
-    },
-    {
       "name": "Rudolph II",
       "title": "Emperor Elect",
       "from": 1576,
@@ -123,6 +113,16 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_14th_century",
         "quote": "Rupert, King (1400–1410)"
+      }
+    },
+    {
+      "name": "Maximilian I",
+      "title": "King",
+      "from": 1486,
+      "to": 1519,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Maximilian I, Emperor Elect (1508–1519), King (1486–1519)"
       }
     },
     {

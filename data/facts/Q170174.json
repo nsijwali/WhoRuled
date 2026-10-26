@@ -1,7 +1,7 @@
 {
   "qid": "Q170174",
   "name": "Papal States",
-  "summary": "Papal States: office-holders in 800, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1815, from Wikipedia's lists of state leaders.",
+  "summary": "Papal States: office-holders in 800, 1100, 1200, 1300, 1400, 1492, 1500, 1600, 1700, 1800, 1815, from Wikipedia's lists of state leaders.",
   "rulers": [
     {
       "name": "Leo III",
@@ -54,13 +54,13 @@
       }
     },
     {
-      "name": "Alexander VI",
+      "name": "Innocent VIII",
       "title": "Pope",
-      "from": 1492,
-      "to": 1503,
+      "from": 1484,
+      "to": 1492,
       "source": {
         "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
-        "quote": "Alexander VI, Pope (1492–1503)"
+        "quote": "Innocent VIII, Pope (1484–1492)"
       }
     },
     {
@@ -95,6 +95,16 @@
     }
   ],
   "offices": [
+    {
+      "name": "Alexander VI",
+      "title": "Pope",
+      "from": 1492,
+      "to": 1503,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Alexander VI, Pope (1492–1503)"
+      }
+    },
     {
       "name": "Clement XI",
       "title": "Pope",

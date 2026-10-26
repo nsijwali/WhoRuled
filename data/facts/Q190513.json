@@ -1,8 +1,18 @@
 {
   "qid": "Q190513",
   "name": "Khanate of Sibir",
-  "summary": "Khanate of Sibir: office-holders in 1500, from Wikipedia's list of state leaders.",
+  "summary": "Khanate of Sibir: office-holders in 1492, 1500, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Ibak",
+      "title": "Khan",
+      "from": 1468,
+      "to": 1495,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_15th_century",
+        "quote": "Ibak, Khan (1468–1495)"
+      }
+    },
     {
       "name": "Abalak of Sibir",
       "title": "Khan",
