@@ -4,6 +4,16 @@
   "summary": "Kingdom of Portugal as drawn in the 1492 border data.",
   "rulers": [
     {
+      "name": "Denis I",
+      "title": "King",
+      "from": 1279,
+      "to": 1325,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_13th_century",
+        "quote": "Denis I, King (1279–1325)"
+      }
+    },
+    {
       "name": "John I",
       "title": "King",
       "from": 1385,

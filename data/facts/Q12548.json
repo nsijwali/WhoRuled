@@ -4,6 +4,16 @@
   "summary": "Holy Roman Empire as drawn in the 1492 border data.",
   "rulers": [
     {
+      "name": "Albert I",
+      "title": "King",
+      "from": 1298,
+      "to": 1308,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_13th_century",
+        "quote": "Albert I, King (1298–1308)"
+      }
+    },
+    {
       "name": "Wenceslaus",
       "title": "King",
       "from": 1376,

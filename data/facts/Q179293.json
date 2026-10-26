@@ -1,0 +1,19 @@
+{
+  "qid": "Q179293",
+  "name": "Kingdom / Crown of Castile",
+  "summary": "Kingdom / Crown of Castile: office-holders in 1300, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Ferdinand IV the Summoned",
+      "title": "King",
+      "from": 1295,
+      "to": 1312,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_13th_century",
+        "quote": "Ferdinand IV the Summoned, King (1295–1312)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

@@ -1,0 +1,19 @@
+{
+  "qid": "Q1470101",
+  "name": "Kingdom of Hungary (1000–1301)",
+  "summary": "Kingdom of Hungary (1000–1301): office-holders in 1300, from Wikipedia's list of state leaders.",
+  "rulers": [
+    {
+      "name": "Andrew III",
+      "title": "King",
+      "from": 1290,
+      "to": 1301,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_13th_century",
+        "quote": "Andrew III, King (1290–1301)"
+      }
+    }
+  ],
+  "offices": [],
+  "events": []
+}

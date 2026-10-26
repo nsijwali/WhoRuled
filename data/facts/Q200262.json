@@ -1,8 +1,18 @@
 {
   "qid": "Q200262",
   "name": "Kingdom of Navarre",
-  "summary": "Kingdom of Navarre: office-holders in 1400, 1500, from Wikipedia's lists of state leaders.",
+  "summary": "Kingdom of Navarre: office-holders in 1300, 1400, 1500, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Joan I",
+      "title": "Queen",
+      "from": 1274,
+      "to": 1305,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_13th_century",
+        "quote": "Joan I, Queen (1274–1305)"
+      }
+    },
     {
       "name": "Charles III",
       "title": "King",
@@ -24,6 +34,17 @@
       }
     }
   ],
-  "offices": [],
+  "offices": [
+    {
+      "name": "Philip I",
+      "title": "King",
+      "from": 1284,
+      "to": 1305,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_13th_century",
+        "quote": "Philip I, King (1284–1305)"
+      }
+    }
+  ],
   "events": []
 }

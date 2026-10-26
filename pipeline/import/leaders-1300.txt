@@ -1,0 +1,69 @@
+# source: https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_13th_century
+# Read 2026-10-26, revision 1330691892. QIDs come from each state's linked article and were checked against its Wikidata inception/dissolution dates. Kingdom of France uses Q70972 (the QID the France border uses in other years), not the "period of France" article.
+# Skipped for 1300: Yuan dynasty (two rows, no 1300 border name fits), Mongol Empire, Goryeo (no Korea border for 1300), Ottoman Empire (starts 1302), Second Bulgarian Empire (no 1300 border), Kingdom of England (the 1300 border is "English territory"), Kingdom of Naples (no 1300 border), and all states with no 1300 border feature.
+# wikidata-description Q1139762: former country in Africa
+Kanem Empire (Kanem–Bornu)|Q1139762|Ibrahim I, Mai (1290–1310)|Kanem-Bornu
+# wikidata-description Q282428: Egyptian state spanning in Hejaz and the Levant (1250–1517)
+Mamluk Sultanate|Q282428|Al-Nasir Muhammad, Sultan (1299–1309)|Mamluke Sultanate
+# wikidata-description Q752662: Sunni Muslim dynasty of Amazigh (Berber) descent
+Hafsid dynasty|Q752662|Muhammad I, Khalif (1295–1309)|Hafsid Caliphate
+# wikidata-description Q582861: Muslim Berber dynasty (1244–1465)
+Marinid dynasty of Morocco|Q582861|Abu Yaqub Yusuf an-Nasr, Sultan (1286–1307)|Morocco
+# wikidata-description Q171203: West African kingdom (1180–1897)
+Kingdom of Benin|Q171203|Udagbedo, Oba (1292–1329)|Benin
+# wikidata-description Q184536: empire in West Africa from c.1230 to 1670
+Mali Empire: Keita dynasty|Q184536|Sakoura, Mansa (1285–1300);Gao, Mansa (1300–1305)|Mali
+# wikidata-description Q487829: 1226–1347 Turkicized Mongol khanate in Central Asia
+Chagatai Khanate|Q487829|Duwa, Khan (1287–1307)
+# wikidata-description Q79965: medieval state in Eurasia
+Golden Horde|Q79965|Toqta, Khan (1291–1312)|Khanate of the Golden Horde
+# wikidata-description Q736839: feudal military government of Japan
+Kamakura shogunate of Japan|Q736839|Go-Fushimi, Emperor (1298–1301);Prince Hisaaki, Shōgun (1289–1308);Hōjō Sadatoki, Shikken (1284–1301)|Shogun Japan (Kamakura)
+# wikidata-description Q201705: 802–1431 empire in Southeast Asia
+Khmer Empire|Q201705|Indravarman III, King (1295–1307)
+# wikidata-description Q863279: early kingdom in the area around the city Sukhothai, in north central Thailand
+Sukhothai Kingdom|Q863279|Loe Thai, King (1298–1323)|Sukhothai
+# wikidata-description Q216786: Civilization, comprised of multiple kingdoms, sometimes unified, sometimes not, in South-East Asia
+Champa|Q216786|Chế Mân, King (1288–1307)
+# wikidata-description Q430309: Name of Vietnamese monarchy (1054 - 1400; 1428 - 1804)
+Đại Việt: Trần dynasty|Q430309|Trần Anh Tông, Emperor (1293–1314)|Đại Việt
+# wikidata-description Q229411: 1206–1526 empire in the Indian subcontinent
+Delhi Sultanate: Khalji dynasty|Q229411|Alauddin Khilji, Sultan (1296–1316)|Sultanate of Delhi
+# wikidata-description Q12544: Roman Empire during Late Antiquity and the Middle Ages
+Byzantine Empire|Q12544|Andronikos II Palaiologos, Emperor (1282–1328);Michael IX Palaiologos, co-Emperor (1294–1320)
+# wikidata-description Q12548: multi-ethnic complex of territories in Western and Central Europe (800/962–1806)
+Holy Roman Empire, Kingdom of Germany|Q12548|Albert I, King (1298–1308)|Holy Roman Empire
+# wikidata-description Q1470101: former Central European monarchy (1000–1301)
+Kingdom of Hungary (1000–1301)|Q1470101|Andrew III, King (1290–1301)|Hungary
+# wikidata-description Q8890160: Kingdom of Poland (1025–1385), the medieval Polish kingdom
+Kingdom of Poland|Q8890160|Wenceslaus II, High Duke (1291–1300), King (1300–1305)|Poland
+# wikidata-description Q156020: crusader state formed by the Teutonic Order during the 13th century Northern Crusades
+State of the Teutonic Order|Q156020|Gottfried von Hohenlohe, Grand Master (1297–1303)|Teutonic Knights
+# wikidata-description Q49683: Eastern European monarchical state that existed from 1236 to 1795
+Grand Duchy of Lithuania|Q49683|Vytenis, Grand Duke (1295–1316)|Lithuania
+# wikidata-description Q170770: Russian principality (1263–1547)
+Grand Duchy of Moscow|Q170770|Daniel of Moscow, Grand prince (1283–1303)
+# wikidata-description Q35: country in Northern Europe
+Denmark|Q35|Eric VI, King (1286–1319)
+# wikidata-description Q2196956: former Kingdom from 872 to 1397
+Kingdom of Norway (872–1397)|Q2196956|Haakon V, King (1299–1319)|Norway
+# wikidata-description Q2460755: 800–1521 historical period of Sweden
+Sweden (800–1521)|Q2460755|Birger, King (1290–1318)|Sweden
+# wikidata-description Q170174: territories mostly in the Appenine Peninsula under the sovereign direct rule of the pope between 756–1870
+Papal States|Q170174|Boniface VIII, Pope (1294–1303)
+# wikidata-description Q4948: former state (697–1797) controlling, at various times, parts of northeastern Italy, the Balkans, and Mediterranean islands
+Republic of Venice|Q4948|Pietro Gradenigo, Doge (1289–1311)|Venice
+# wikidata-description Q188586: former state in southern Italy, 1130–1816
+Kingdom of Trinacria: Sicily|Q188586|Frederick II, King (1295–1337)|Sicily
+# wikidata-description Q179293: European sovereign state (1065–1230)
+Kingdom / Crown of Castile|Q179293|Ferdinand IV the Summoned, King (1295–1312)|Castile
+# wikidata-description Q200262: Basque medieval kingdom that occupied lands on either side of the western Pyrenees, alongside the Atlantic Ocean (1162–1512)
+Kingdom of Navarre|Q200262|Joan I, Queen (1274–1305);Philip I, King (1284–1305)|Navarre
+# wikidata-description Q45670: kingdom in Southwestern Europe (1139–1910)
+Kingdom of Portugal|Q45670|Denis I, King (1279–1325)|Portugal
+# wikidata-description Q70972: Kingdom of France (medieval and early modern)
+Kingdom of France|Q70972|Philip IV, King (1285–1314)|France
+# wikidata-description Q71747: former European sovereign state 939–1547, then dukedom of the Kingdom of France
+Duchy of Brittany|Q71747|John II, Duke (1286–1305)|Britany
+# wikidata-description Q154667: medieval state in Eastern Europe
+Eastern Georgia|Q154667|David VIII, King (1292–1302, 1308–1311);George V, King (1299–1302, 1314–1346)|Georgia

@@ -1,8 +1,18 @@
 {
   "qid": "Q752662",
   "name": "Hafsid dynasty",
-  "summary": "Hafsid dynasty: office-holders in 1400, 1500, from Wikipedia's lists of state leaders.",
+  "summary": "Hafsid dynasty: office-holders in 1300, 1400, 1500, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Muhammad I",
+      "title": "Khalif",
+      "from": 1295,
+      "to": 1309,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_13th_century",
+        "quote": "Muhammad I, Khalif (1295–1309)"
+      }
+    },
     {
       "name": "Abd al-Aziz II",
       "title": "Khalif",

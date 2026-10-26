@@ -4,6 +4,16 @@
   "summary": "Kingdom of France as drawn in the 1492 border data.",
   "rulers": [
     {
+      "name": "Philip IV",
+      "title": "King",
+      "from": 1285,
+      "to": 1314,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_13th_century",
+        "quote": "Philip IV, King (1285–1314)"
+      }
+    },
+    {
       "name": "Charles VI",
       "title": "King",
       "from": 1380,

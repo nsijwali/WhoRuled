@@ -1,8 +1,18 @@
 {
   "qid": "Q35",
   "name": "Denmark",
-  "summary": "Denmark: office-holders in 1815, 1914, 1920, 1938, 1945, 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
+  "summary": "Denmark: office-holders in 1300, 1815, 1914, 1920, 1938, 1945, 1960, 1994, 2010, 2026, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Eric VI",
+      "title": "King",
+      "from": 1286,
+      "to": 1319,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_13th_century",
+        "quote": "Eric VI, King (1286–1319)"
+      }
+    },
     {
       "name": "Frederick VI",
       "title": "King",

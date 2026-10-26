@@ -1,8 +1,18 @@
 {
   "qid": "Q188586",
   "name": "Kingdom of Sicily",
-  "summary": "Kingdom of Sicily: office-holders in 1400, 1600, 1700, from Wikipedia's lists of state leaders.",
+  "summary": "Kingdom of Sicily: office-holders in 1300, 1400, 1600, 1700, from Wikipedia's lists of state leaders.",
   "rulers": [
+    {
+      "name": "Frederick II",
+      "title": "King",
+      "from": 1295,
+      "to": 1337,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/List_of_state_leaders_in_the_13th_century",
+        "quote": "Frederick II, King (1295–1337)"
+      }
+    },
     {
       "name": "Maria",
       "title": "Queen",
