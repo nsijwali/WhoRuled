@@ -5,6 +5,8 @@ Every ruler on the map links to a source.
 
 Live site: https://whoruled.nitinsijwali.com
 
+[![20-second tour of WhoRuled (click to play)](public/demo/whoruled-demo.jpg)](public/demo/whoruled-demo.mp4)
+
 - Drag the slider to a year; borders and the look of the page change with the era (cave wall, manuscript, atlas, newspaper, modern).
 - Click a state to see its rulers, government below the ruler, and events, each with a source link.
 - Static pages for search: `/year/<year>/`, `/state/<qid>/` and `/state/<qid>/<year>/` ("Who ruled France in 1960?").
