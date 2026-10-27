@@ -15,7 +15,7 @@ Anuradhapura Kingdom|Q1965597|Mutasiva, King (367–307 BC)
 Odrysian kingdom of Thrace|Q870517|Seuthes III, King (331–300 BC)
 Macedonia: Argead dynasty|Q83958|Alexander the Great, King (336–323 BC)
 Sparta|Q5690|Eudamidas I, King (c.331–305 BC)
-Kush|Q241790|Nastasen, King (335–315 BC)
+Kush|Q241790|Nastasen, King (335–315 BC)|Meroe
 Carthage|Q2429397|Hamilcar II, King (330–309 BC)|Carthaginian Empire
 Epirus|Q11266977|Aeacides, King (330–317 BC)
 Kingdom of Armenia|Q208404|Neoptolemus, Satrap (323–321 BC)

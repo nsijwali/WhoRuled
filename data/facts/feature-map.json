@@ -1515,7 +1515,6 @@
     "Achaemenid Empire": "Q389688",
     "Carthaginian Empire": "Q2429397",
     "Cyrene": "Q44112",
-    "Kingdom of Kush": "Q241790",
     "Zhou, China: Eastern Zhou": "Q35216",
     "Cai": "Q1025803",
     "Cao": "Q284964",
@@ -1528,7 +1527,8 @@
     "Wu": "Q912068",
     "Macedonia: Argead dynasty": "Q83958",
     "Sparta": "Q5690",
-    "Athens": "Q1524"
+    "Athens": "Q1524",
+    "Meroe": "Q241790"
   },
   "-200": {
     "Bosporan Kingdom": "Q321371",
@@ -1562,10 +1562,10 @@
     "Odrysian kingdom of Thrace": "Q870517",
     "Macedonia: Argead dynasty": "Q83958",
     "Sparta": "Q5690",
-    "Kush": "Q241790",
     "Carthaginian Empire": "Q2429397",
     "Epirus": "Q11266977",
-    "Kingdom of Armenia": "Q208404"
+    "Kingdom of Armenia": "Q208404",
+    "Meroe": "Q241790"
   },
   "-1000": {
     "Twenty-first Dynasty of the Third Intermediate Period": "Q748151",
@@ -1580,7 +1580,6 @@
     "Odrysian Kingdom": "Q870517",
     "Dacia": "Q173082",
     "Armenia": "Q208404",
-    "Kingdom of Kush": "Q241790",
     "Mauretania": "Q309272",
     "Han": "Q7209",
     "Baekje": "Q28428",
@@ -1597,6 +1596,7 @@
     "Osroene": "Q237234",
     "Pontus": "Q7380487",
     "Catuvellauni": "Q1051384",
-    "Iberia (Kartli)": "Q19083"
+    "Iberia (Kartli)": "Q19083",
+    "Meroe": "Q241790"
   }
 }
