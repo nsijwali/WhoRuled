@@ -6,7 +6,7 @@ Parthian Empire|Q1986139|Musa, Great Queen, Shah (2 BC–4 AD);Phraates V, Great
 Odrysian kingdom of Thrace|Q870517|Rhoemetalces I, King (12 BC–12 AD)|Odrysian Kingdom
 Dacia|Q173082|Comosicus, King (44 BC–28 AD)
 Armenia|Q208404|Ariobarzanes, client King under Rome (2 BC–4)
-Kingdom of Kush|Q241790|Amanishakheto, Kandake, Queen Regent (c.10 BC–1 AD)
+Kingdom of Kush|Q241790|Amanishakheto, Kandake, Queen Regent (c.10 BC–1 AD)|Meroe
 Mauretania|Q309272|Juba II, client King under Rome (25 BC–23 AD)
 Western Han, China|Q7209|Ping, Emperor (1 BC–5 AD)|Han
 Baekje|Q28428|Onjo, King (18 BC–28 AD)
