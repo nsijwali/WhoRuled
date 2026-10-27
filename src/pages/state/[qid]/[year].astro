@@ -26,7 +26,9 @@ const first = ordered.findIndex((r) => rulers.includes(r));
 const before = first > 0 ? ordered[first - 1] : undefined;
 const last = ordered.findLastIndex((r) => rulers.includes(r));
 const after = last < ordered.length - 1 ? ordered[last + 1] : undefined;
-const events = polity.events.filter((e) => Math.abs(e.year - year) <= 25);
+// Events within 25 years of this page's year; if there are none, the two nearest, so each page has year-specific sourced context.
+const nearEvents = polity.events.filter((e) => Math.abs(e.year - year) <= 25);
+const events = nearEvents.length > 0 ? nearEvents : [...polity.events].sort((a, b) => Math.abs(a.year - year) - Math.abs(b.year - year)).slice(0, 2);
 const title = `Who ruled ${polity.name} in ${label}? | WhoRuled`;
 const description = `In ${label}, ${polity.name} was ruled by ${names.join(' and ')}. Sourced rulers and government for ${polity.name} in the ${era.toLowerCase()}.`.slice(0, 300);
 ---
@@ -49,7 +51,6 @@ const description = `In ${label}, ${polity.name} was ruled by ${names.join(' and
     <h2 style="margin-top:0">Who ruled {polity.name} in {label}?</h2>
     <p>
       In {label} ({era.toLowerCase()}), {polity.name} was ruled by {names.join(' and ')}.{' '}
-      {polity.summary}
     </p>
     <h2>{rulers.length > 1 ? 'Rulers' : 'Ruler'} in {label}</h2>
     <table>
@@ -75,7 +76,7 @@ const description = `In ${label}, ${polity.name} was ruled by ${names.join(' and
     )}
     {events.length > 0 && (
       <>
-        <h2>Around {label}</h2>
+        <h2>Recorded events near {label}</h2>
         <ul>
           {events.map((e) => (
             <li>{formatYear(e.year)}: {e.summary} <a href={e.source.url} target="_blank" rel="noopener noreferrer">source</a></li>
