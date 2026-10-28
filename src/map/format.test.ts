@@ -35,4 +35,27 @@ describe('inYear', () => {
     expect(inYear({ from: 1000, to: null }, 2026)).toBe(true);
     expect(inYear({ from: 1000, to: null }, 999)).toBe(false);
   });
+
+  // Year-only dates are inclusive, so these cases pin the current behaviour: a year matches
+  // any ruler who held office at any point in it. Changing that rule needs a schema decision.
+  it('matches a ruler who starts and ends in the same year, and no other year', () => {
+    expect(inYear({ from: 1500, to: 1500 }, 1500)).toBe(true);
+    expect(inYear({ from: 1500, to: 1500 }, 1499)).toBe(false);
+    expect(inYear({ from: 1500, to: 1500 }, 1501)).toBe(false);
+  });
+
+  it('matches both rulers when two periods overlap', () => {
+    const a = { from: 1480, to: 1510 };
+    const b = { from: 1500, to: 1520 };
+    expect(inYear(a, 1505) && inYear(b, 1505)).toBe(true);
+    expect(inYear(a, 1499) && inYear(b, 1499)).toBe(false);
+  });
+
+  it('matches both rulers in a handover year, and one ruler either side of it', () => {
+    const outgoing = { from: 1490, to: 1500 };
+    const incoming = { from: 1500, to: 1510 };
+    expect(inYear(outgoing, 1500) && inYear(incoming, 1500)).toBe(true);
+    expect(inYear(outgoing, 1499) && inYear(incoming, 1499)).toBe(false);
+    expect(inYear(outgoing, 1501) && inYear(incoming, 1501)).toBe(false);
+  });
 });
