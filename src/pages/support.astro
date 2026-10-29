@@ -41,7 +41,7 @@ const upiApps = [
           ))}
           <a class="tip" href={`https://www.paypal.me/${PAYPAL_ME}`} target="_blank" rel="noopener noreferrer">Any amount</a>
         </p>
-        <p>Payment happens on PayPal's own site. PayPal.Me tips are personal payments and are not tax-deductible donations.</p>
+        <p>Payment happens on PayPal’s own site. PayPal.Me tips are personal payments and are not tax-deductible donations.</p>
       </>
     )}
     {!PAYPAL_ME && !UPI_ID && <p>Tipping is not switched on yet.</p>}
@@ -56,7 +56,7 @@ const upiApps = [
 <style>
   .tip { display: inline-block; margin: 0 4px 6px 0; padding: 4px 14px 5px; color: var(--black); background: var(--yellow); border: 2px solid; border-color: var(--hi) var(--lo) var(--lo) var(--hi); box-shadow: 1px 1px 0 var(--black); text-decoration: none; }
   .tip:hover { background: var(--white); }
-  .qr { display: block; padding: 8px; background: #fff; image-rendering: pixelated; border: 2px solid var(--black); }
+  .qr { display: block; padding: 8px; background: var(--white); image-rendering: pixelated; border: 2px solid var(--black); }
   .phone-only { display: none; }
   @media (pointer: coarse), (max-width: 760px) { .phone-only { display: block; } }
 </style>
