@@ -56,15 +56,15 @@ const description = `${rows.length} states in ${label} (${era}) and who led them
         {rows.map(({ polity, leaders }) => (
           <tr>
             <td><a href={`/state/${polity.qid}/`}>{polity.name}</a></td>
-            <td>{leaders.length > 0 ? leaders.map((l) => `${l.name} (${l.title})`).join('; ') : '—'}{polity.rulers.some((r) => inYear(r, year)) && <>{' '}<a href={`/state/${polity.qid}/${year}/`}>details</a></>}</td>
+            <td>{leaders.length > 0 ? leaders.map((l) => `${l.name} (${l.title})`).join('; ') : 'None recorded'}{polity.rulers.some((r) => inYear(r, year)) && <>{' '}<a href={`/state/${polity.qid}/${year}/`}>details</a></>}</td>
           </tr>
         ))}
       </tbody>
     </table>
     <p>
-      {prev !== undefined && <a href={`/year/${prev}/`}>← {formatYear(prev)}</a>}
+      {prev !== undefined && <a href={`/year/${prev}/`}>Earlier: {formatYear(prev)}</a>}
       {prev !== undefined && next !== undefined && ' · '}
-      {next !== undefined && <a href={`/year/${next}/`}>{formatYear(next)} →</a>}
+      {next !== undefined && <a href={`/year/${next}/`}>Later: {formatYear(next)}</a>}
     </p>
   </main>
 </Base>

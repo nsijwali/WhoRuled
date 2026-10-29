@@ -103,7 +103,7 @@ const description = (
     )}
     {onMap.some((y) => pageYears.has(y)) && (
       <p>
-        See it among the world's states in:{' '}
+        See it among the world’s states in:{' '}
         {onMap.filter((y) => pageYears.has(y)).map((y, i) => <>{i > 0 && ', '}<a href={`/year/${y}/`}>{formatYear(y)}</a></>)}.
       </p>
     )}
