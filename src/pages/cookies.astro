@@ -1,0 +1,30 @@
+---
+import { ADS_CLIENT, ANALYTICS_TOKEN } from '../config/site';
+import Base from '../layouts/Base.astro';
+---
+<Base
+  title="Cookies – WhoRuled"
+  description="Which cookies and browser storage WhoRuled uses."
+  path="/cookies/"
+>
+  <main class="page">
+    <h2 style="margin-top:0">Cookies</h2>
+    <p>WhoRuled sets no cookies of its own. Cloudflare, which hosts the site, may set technical cookies to protect it against abuse. WhoRuled does not control those.</p>
+    {ANALYTICS_TOKEN && (
+      <>
+        <h2>Analytics</h2>
+        <p>Cloudflare Web Analytics counts page views without cookies.</p>
+      </>
+    )}
+    {ADS_CLIENT && (
+      <>
+        <h2>Advertising</h2>
+        <p>Ads load only after you accept them in the banner. Google AdSense may then set advertising cookies. If you decline, no ads or ad cookies load.</p>
+        <p>Your choice is saved in this browser’s local storage under the key <code>whoruled-ads-consent</code>. Clear it to be asked again.</p>
+      </>
+    )}
+    <h2>Payments</h2>
+    <p>Tips are paid on PayPal or in a UPI app. Those services set their own cookies under their own policies.</p>
+    <p>More: <a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a></p>
+  </main>
+</Base>
