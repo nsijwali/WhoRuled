@@ -560,6 +560,7 @@ function MapView({
       </div>
       {timeline}
       <aside className="map-side" data-view={selected ? 'detail' : 'list'}>
+        <h2 className="sr-only">States in {formatYear(year)}</h2>
         <div className="side-tools">
           <label>
             <span className="sr-only">Search states</span>
