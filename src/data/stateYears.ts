@@ -4,6 +4,9 @@ import { loadFacts } from './browseYears.ts';
 
 type Ruler = Polity['rulers'][number];
 
+/** Events within this many years of a page's year count as year-specific context. */
+export const NEAR_EVENT_YEARS = 25;
+
 export interface StateYear {
   polity: Polity;
   year: number;
@@ -11,7 +14,17 @@ export interface StateYear {
   rulers: Ruler[];
   /** Other office holders in `year`. */
   offices: Ruler[];
+  /**
+   * Whether search engines may index this page. False when the page is only a template around a
+   * single ruler with no office holders and no nearby events, which Google treats as thin content.
+   */
   indexable: boolean;
+}
+
+/** A page with one name and nothing else says little that the state's own page does not. */
+export function isThinStateYear(polity: Pick<Polity, 'events'>, year: number, rulers: Ruler[], offices: Ruler[]): boolean {
+  const nearEvents = polity.events.some((e) => Math.abs(e.year - year) <= NEAR_EVENT_YEARS);
+  return rulers.length + offices.length <= 1 && !nearEvents;
 }
 
 /**
@@ -29,7 +42,9 @@ export function stateYears(): StateYear[] {
       if (!polity) continue;
       const rulers = polity.rulers.filter((r) => inYear(r, year));
       if (rulers.length === 0) continue;
-      out.push({ polity, year, rulers, offices: polity.offices.filter((o) => inYear(o, year)), indexable: isIndexable(polity) });
+      const offices = polity.offices.filter((o) => inYear(o, year));
+      const indexable = isIndexable(polity) && !isThinStateYear(polity, year, rulers, offices);
+      out.push({ polity, year, rulers, offices, indexable });
     }
   }
   return out.sort((a, b) => a.polity.qid.localeCompare(b.polity.qid) || a.year - b.year);

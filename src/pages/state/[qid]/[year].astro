@@ -1,7 +1,7 @@
 ---
 import type { GetStaticPaths } from 'astro';
 import { browseYears } from '../../../data/browseYears';
-import { stateYears, type StateYear } from '../../../data/stateYears';
+import { NEAR_EVENT_YEARS, stateYears, type StateYear } from '../../../data/stateYears';
 import { AFFILIATE_DISCLOSURE, AMAZON_TAG, SITE_URL, booksUrl } from '../../../config/site';
 import { eraOf } from '../../../map/eras';
 import { correctionUrl, formatYear } from '../../../map/format';
@@ -27,7 +27,7 @@ const before = first > 0 ? ordered[first - 1] : undefined;
 const last = ordered.findLastIndex((r) => rulers.includes(r));
 const after = last < ordered.length - 1 ? ordered[last + 1] : undefined;
 // Events within 25 years of this page's year; if there are none, the two nearest, so each page has year-specific sourced context.
-const nearEvents = polity.events.filter((e) => Math.abs(e.year - year) <= 25);
+const nearEvents = polity.events.filter((e) => Math.abs(e.year - year) <= NEAR_EVENT_YEARS);
 const events = nearEvents.length > 0 ? nearEvents : [...polity.events].sort((a, b) => Math.abs(a.year - year) - Math.abs(b.year - year)).slice(0, 2);
 const title = `Who ruled ${polity.name} in ${label}? | WhoRuled`;
 const description = `In ${label}, ${polity.name} was ruled by ${names.join(' and ')}. Sourced rulers and government for ${polity.name} in the ${era.toLowerCase()}.`.slice(0, 300);
