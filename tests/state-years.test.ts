@@ -3,8 +3,8 @@ import { isThinStateYear, stateYears } from '../src/data/stateYears.ts';
 import { inYear } from '../src/map/format.ts';
 const source = { url: 'https://en.wikipedia.org/wiki/Example', quote: 'Example' };
 const ruler = { name: 'R', title: 'King', from: 1000, to: 1100, source };
-const near = { year: 1050, summary: 'Nearby', source };
-const far = { year: 1500, summary: 'Far', source };
+const near = { year: 1050, kind: 'other' as const, summary: 'Nearby', source };
+const far = { year: 1500, kind: 'other' as const, summary: 'Far', source };
 
 describe('isThinStateYear', () => {
   it('is thin when one ruler, no office holders and no event within the window', () => {
