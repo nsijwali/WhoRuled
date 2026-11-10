@@ -40,6 +40,13 @@ function prefersLessMotion(): boolean {
   return typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 }
 
+/** The year in the `?year=` query when it is on the map, otherwise the default year (or the earliest). */
+function initialYear(list: number[]): number | null {
+  const requested = Number(new URLSearchParams(window.location.search).get('year'));
+  if (Number.isInteger(requested) && list.includes(requested)) return requested;
+  return list.includes(DEFAULT_YEAR) ? DEFAULT_YEAR : (list[0] ?? null);
+}
+
 export default function MapIsland({ dataBase = '/data/' }: { dataBase?: string }) {
   const [years, setYears] = useState<number[]>([]);
   const [year, setYear] = useState<number | null>(null);
@@ -60,7 +67,7 @@ export default function MapIsland({ dataBase = '/data/' }: { dataBase?: string }
       .then((list) => {
         if (cancelled) return;
         setYears(list);
-        setYear(list.includes(DEFAULT_YEAR) ? DEFAULT_YEAR : (list[0] ?? null));
+        setYear(initialYear(list));
       })
       .catch((e: unknown) => {
         if (!cancelled) setState({ status: 'error', message: e instanceof Error ? e.message : 'Unknown error' });
