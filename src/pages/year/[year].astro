@@ -48,7 +48,7 @@ const description = `${rows.length} states in ${label} (${era}) and who led them
     <h2 style="margin-top:0">Who ruled the world in {label}?</h2>
     <p>
       The {era.toLowerCase()}: {rows.length} states on the map for {label}, {withLeaders} with a known leader.{' '}
-      <a href="/">Open the interactive map</a> and move the slider to {label} to see their borders.
+      <a href={`/?year=${year}`}>Open the interactive map</a> and move the slider to {label} to see their borders.
     </p>
     <table>
       <thead><tr><th>State</th><th>Led by in {label}</th></tr></thead>
