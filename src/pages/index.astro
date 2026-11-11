@@ -8,7 +8,7 @@ import { formatYear } from '../map/format';
 const years = browseYears();
 ---
 <Base
-  title="WhoRuled – interactive map of who ruled where, from 1000 BC to the present day"
+  title="WhoRuled – Interactive Map of Who Ruled Where"
   description="Slide through 3,000 years of history, from 1000 BC to today (2026). Click any state to see its rulers, government and sources."
   path="/"
   fullHeight
@@ -21,6 +21,11 @@ const years = browseYears();
   }}
 >
   <MapIsland client:load />
+  <p slot="footer" class="intro">
+    WhoRuled is a free interactive map of the world's states and rulers from 1000 BC to today.
+    Drag the year slider, click any state, and see who led it, how it was governed and the
+    sources behind every claim. Pick a year below for a plain-text list of the states that existed then.
+  </p>
   <nav slot="footer" class="browse" aria-label="Browse by year">
     Browse by year:{' '}
     {years.map((y) => <><a href={`/year/${y}/`}>{formatYear(y)}</a>{' '}</>)}
