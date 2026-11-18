@@ -36,8 +36,11 @@ export const UPI_ID: string = upiId(env.PUBLIC_UPI_ID ?? '');
 /** The support link in the menu: an explicit URL, else the support page when any way to tip is set up. Empty = none. */
 export const SUPPORT_URL: string = env.PUBLIC_SUPPORT_URL ?? (PAYPAL_ME || UPI_ID ? '/support/' : '');
 
-/** Cloudflare Web Analytics token (cookie-free page views). Empty = no analytics script. */
-export const ANALYTICS_TOKEN: string = env.PUBLIC_CF_ANALYTICS_TOKEN ?? '';
+/**
+ * Cloudflare Web Analytics token for whoruled.nitinsijwali.com (cookie-free page views). It is not a secret:
+ * it is visible in every page's source. PUBLIC_CF_ANALYTICS_TOKEN overrides it; set it to an empty string to turn analytics off.
+ */
+export const ANALYTICS_TOKEN: string = env.PUBLIC_CF_ANALYTICS_TOKEN ?? '5ecf36e29d9144a195685002110cbf4c';
 
 /** AdSense publisher id such as ca-pub-1234567890123456. Empty = no ads, no ad script, no consent banner. */
 export const ADS_CLIENT: string = env.PUBLIC_ADS_CLIENT ?? '';

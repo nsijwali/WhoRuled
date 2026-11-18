@@ -19,6 +19,9 @@ const port = srv.address().port;
 const browser = await chromium.launch({ executablePath: process.env.CHROMIUM_PATH ?? '/opt/pw-browsers/chromium' });
 const page = await browser.newPage({ viewport: { width: 1200, height: 700 } });
 const problems = [];
+// The test must not depend on third-party hosts: answer Cloudflare Web Analytics locally. Cloudflare rejects cross-origin
+// reports from http://localhost, which would otherwise show up as a console error.
+await page.route(/cloudflareinsights\.com/, (r) => r.fulfill({ status: 200, headers: { 'access-control-allow-origin': '*', 'content-type': 'application/javascript' }, body: '' }));
 page.on('pageerror', (e) => problems.push(`pageerror: ${e.message}`));
 page.on('console', (m) => { if (m.type() === 'error') problems.push(`console: ${m.text()}`); });
 await page.goto(`http://localhost:${port}/`);
